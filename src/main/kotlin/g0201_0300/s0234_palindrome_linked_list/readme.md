@@ -44,40 +44,37 @@ import com_github_leetcode.ListNode
  *     var next: ListNode? = null
  * }
  */
-@Suppress("NAME_SHADOWING")
 class Solution {
     fun isPalindrome(head: ListNode?): Boolean {
-        var head = head
-        var len = 0
-        var right = head
-        // Calculate the length
-        while (right != null) {
-            right = right.next
-            len++
+        var fast = head
+        var slow = head
+        while (fast?.next != null) {
+            fast = fast.next?.next
+            slow = slow?.next
         }
-        // Reverse the right half of the list
-        len = len / 2
-        right = head
-        for (i in 0 until len) {
-            right = right!!.next
-        }
-        var prev: ListNode? = null
-        while (right != null) {
-            val next = right.next
-            right.next = prev
-            prev = right
-            right = next
-        }
-        // Compare left half and right half
-        for (i in 0 until len) {
-            if (prev != null && head!!.`val` == prev.`val`) {
-                head = head.next
-                prev = prev.next
-            } else {
+        var right = reverse(slow)
+        var left = head
+        while (right != null && left != null) {
+            if (right.`val` != left.`val`) {
                 return false
             }
+            left = left.next
+            right = right.next
         }
         return true
+    }
+
+    fun reverse(head: ListNode?): ListNode? {
+        var prev: ListNode? = null
+        var current = head
+        while (current != null) {
+            val next = current.next
+            current.next = prev
+            prev = current
+            current = next
+        }
+        head?.next = null
+        return prev
     }
 }
 ```
