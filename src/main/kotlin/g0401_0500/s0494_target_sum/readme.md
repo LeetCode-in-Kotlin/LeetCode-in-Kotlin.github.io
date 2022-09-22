@@ -47,6 +47,7 @@ Return the number of different **expressions** that you can build, which evaluat
 ## Solution
 
 ```kotlin
+@Suppress("NAME_SHADOWING")
 class Solution {
     fun findTargetSumWays(nums: IntArray, s: Int): Int {
         var s = s

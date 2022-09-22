@@ -54,19 +54,28 @@ Return `true` _if there is a cycle in the linked list_. Otherwise, return `false
 ```kotlin
 import com_github_leetcode.ListNode
 
+/*
+ * Example:
+ * var li = ListNode(5)
+ * var v = li.`val`
+ * Definition for singly-linked list.
+ * class ListNode(var `val`: Int) {
+ *     var next: ListNode? = null
+ * }
+ */
 class Solution {
     fun hasCycle(head: ListNode?): Boolean {
         if (head == null) {
             return false
         }
-        var fast = head.next
         var slow = head
-        while (fast?.next != null) {
-            if (fast == slow) {
+        var faster = head
+        while (slow?.next != null && faster?.next?.next != null) {
+            slow = slow.next
+            faster = faster.next?.next
+            if (slow == faster) {
                 return true
             }
-            fast = fast.next!!.next
-            slow = slow!!.next
         }
         return false
     }
