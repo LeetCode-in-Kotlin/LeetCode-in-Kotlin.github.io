@@ -77,6 +77,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0047 |[Permutations II](src/main/kotlin/g0001_0100/s0047_permutations_ii)| Medium | Array, Backtracking | 406 | 76.36
 | 0039 |[Combination Sum](src/main/kotlin/g0001_0100/s0039_combination_sum)| Medium | Top_100_Liked_Questions, Array, Backtracking | 317 | 86.85
 | 0040 |[Combination Sum II](src/main/kotlin/g0001_0100/s0040_combination_sum_ii)| Medium | Array, Backtracking | 348 | 80.92
 
@@ -529,6 +530,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0043 |[Multiply Strings](src/main/kotlin/g0001_0100/s0043_multiply_strings)| Medium | String, Math, Simulation | 390 | 56.25
 
 #### Day 5
 
@@ -540,6 +542,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0739 |[Daily Temperatures](src/main/kotlin/g0701_0800/s0739_daily_temperatures)| Medium | Top_100_Liked_Questions, Array, Stack, Monotonic_Stack | 936 | 80.54
+| 0058 |[Length of Last Word](src/main/kotlin/g0001_0100/s0058_length_of_last_word)| Easy | String | 243 | 63.33
 
 #### Day 7
 
@@ -845,6 +848,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0014 |[Longest Common Prefix](src/main/kotlin/g0001_0100/s0014_longest_common_prefix)| Easy | Top_Interview_Questions, String | 269 | 48.51
+| 0043 |[Multiply Strings](src/main/kotlin/g0001_0100/s0043_multiply_strings)| Medium | String, Math, Simulation | 390 | 56.25
 
 #### Day 3 Linked List
 
@@ -941,6 +945,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0057 |[Insert Interval](src/main/kotlin/g0001_0100/s0057_insert_interval)| Medium | Array | 257 | 99.52
 | 0056 |[Merge Intervals](src/main/kotlin/g0001_0100/s0056_merge_intervals)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting | 323 | 99.68
 
 #### Day 18 Stack
@@ -969,6 +974,7 @@
 | 0136 |[Single Number](src/main/kotlin/g0101_0200/s0136_single_number)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation | 344 | 83.63
 | 0007 |[Reverse Integer](src/main/kotlin/g0001_0100/s0007_reverse_integer)| Medium | Top_Interview_Questions, Math | 230 | 57.36
 | 0009 |[Palindrome Number](src/main/kotlin/g0001_0100/s0009_palindrome_number)| Easy | Math | 208 | 94.88
+| 0050 |[Pow(x, n)](src/main/kotlin/g0001_0100/s0050_powx_n)| Medium | Top_Interview_Questions, Math, Recursion | 307 | 17.33
 
 #### Udemy Strings
 
@@ -995,6 +1001,7 @@
 | 0121 |[Best Time to Buy and Sell Stock](src/main/kotlin/g0101_0200/s0121_best_time_to_buy_and_sell_stock)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming | 609 | 94.06
 | 0283 |[Move Zeroes](src/main/kotlin/g0201_0300/s0283_move_zeroes)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Two_Pointers | 516 | 79.07
 | 0001 |[Two Sum](src/main/kotlin/g0001_0100/s0001_two_sum)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table | 234 | 92.75
+| 0058 |[Length of Last Word](src/main/kotlin/g0001_0100/s0058_length_of_last_word)| Easy | String | 243 | 63.33
 | 0189 |[Rotate Array](src/main/kotlin/g0101_0200/s0189_rotate_array)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Math, Two_Pointers | 483 | 86.95
 | 0055 |[Jump Game](src/main/kotlin/g0001_0100/s0055_jump_game)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Greedy | 670 | 66.67
 | 0075 |[Sort Colors](src/main/kotlin/g0001_0100/s0075_sort_colors)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers | 198 | 85.66
@@ -1037,9 +1044,9 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0114 |[Flatten Binary Tree to Linked List](src/main/kotlin/g0101_0200/s0114_flatten_binary_tree_to_linked_list)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Stack, Linked_List | 305 | 26.30
-| 0024 |[Swap Nodes in Pairs](src/main/kotlin/g0001_0100/s0024_swap_nodes_in_pairs)| Medium | Linked_List, Recursion | 173 | 83.13
+| 0024 |[Swap Nodes in Pairs](src/main/kotlin/g0001_0100/s0024_swap_nodes_in_pairs)| Medium | Top_100_Liked_Questions, Linked_List, Recursion | 149 | 99.39
 | 0142 |[Linked List Cycle II](src/main/kotlin/g0101_0200/s0142_linked_list_cycle_ii)| Medium | Top_100_Liked_Questions, Hash_Table, Two_Pointers, Linked_List | 192 | 63.39
-| 0141 |[Linked List Cycle](src/main/kotlin/g0101_0200/s0141_linked_list_cycle)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List | 425 | 10.15
+| 0141 |[Linked List Cycle](src/main/kotlin/g0101_0200/s0141_linked_list_cycle)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List | 223 | 91.85
 | 0206 |[Reverse Linked List](src/main/kotlin/g0201_0300/s0206_reverse_linked_list)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion | 309 | 15.90
 | 0021 |[Merge Two Sorted Lists](src/main/kotlin/g0001_0100/s0021_merge_two_sorted_lists)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion | 148 | 99.90
 | 0160 |[Intersection of Two Linked Lists](src/main/kotlin/g0101_0200/s0160_intersection_of_two_linked_lists)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List | 262 | 83.50
@@ -1084,6 +1091,7 @@
 | 0300 |[Longest Increasing Subsequence](src/main/kotlin/g0201_0300/s0300_longest_increasing_subsequence)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Binary_Search | 318 | 82.28
 | 1143 |[Longest Common Subsequence](src/main/kotlin/g1101_1200/s1143_longest_common_subsequence)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming | 307 | 38.36
 | 0072 |[Edit Distance](src/main/kotlin/g0001_0100/s0072_edit_distance)| Hard | Top_100_Liked_Questions, String, Dynamic_Programming | 320 | 63.53
+| 0044 |[Wildcard Matching](src/main/kotlin/g0001_0100/s0044_wildcard_matching)| Hard | Top_Interview_Questions, String, Dynamic_Programming, Greedy, Recursion | 401 | 86.11
 | 0010 |[Regular Expression Matching](src/main/kotlin/g0001_0100/s0010_regular_expression_matching)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming, Recursion | 234 | 85.18
 
 #### Udemy Backtracking/Recursion
@@ -1150,7 +1158,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0141 |[Linked List Cycle](src/main/kotlin/g0101_0200/s0141_linked_list_cycle)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List | 425 | 10.15
+| 0141 |[Linked List Cycle](src/main/kotlin/g0101_0200/s0141_linked_list_cycle)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List | 223 | 91.85
 | 0021 |[Merge Two Sorted Lists](src/main/kotlin/g0001_0100/s0021_merge_two_sorted_lists)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion | 148 | 99.90
 
 #### Day 8 Linked List
@@ -1247,6 +1255,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0049 |[Group Anagrams](src/main/kotlin/g0001_0100/s0049_group_anagrams)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, String, Hash_Table, Sorting | 506 | 86.55
+| 0043 |[Multiply Strings](src/main/kotlin/g0001_0100/s0043_multiply_strings)| Medium | String, Math, Simulation | 390 | 56.25
 
 #### Day 9 String
 
@@ -1271,7 +1280,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0024 |[Swap Nodes in Pairs](src/main/kotlin/g0001_0100/s0024_swap_nodes_in_pairs)| Medium | Linked_List, Recursion | 173 | 83.13
+| 0024 |[Swap Nodes in Pairs](src/main/kotlin/g0001_0100/s0024_swap_nodes_in_pairs)| Medium | Top_100_Liked_Questions, Linked_List, Recursion | 149 | 99.39
 
 #### Day 13 Linked List
 
@@ -1459,7 +1468,7 @@
 | 0148 |[Sort List](src/main/kotlin/g0101_0200/s0148_sort_list)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Sorting, Two_Pointers, Linked_List, Divide_and_Conquer, Merge_Sort, Level_2_Day_4_Linked_List | 820 | 61.70
 | 0146 |[LRU Cache](src/main/kotlin/g0101_0200/s0146_lru_cache)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Design, Linked_List, Doubly_Linked_List, Udemy_Linked_List | 1116 | 97.93
 | 0142 |[Linked List Cycle II](src/main/kotlin/g0101_0200/s0142_linked_list_cycle_ii)| Medium | Top_100_Liked_Questions, Hash_Table, Two_Pointers, Linked_List, Data_Structure_II_Day_10_Linked_List, Level_1_Day_4_Linked_List, Udemy_Linked_List | 192 | 63.39
-| 0141 |[Linked List Cycle](src/main/kotlin/g0101_0200/s0141_linked_list_cycle)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List, Data_Structure_I_Day_7_Linked_List, Udemy_Linked_List | 425 | 10.15
+| 0141 |[Linked List Cycle](src/main/kotlin/g0101_0200/s0141_linked_list_cycle)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List, Data_Structure_I_Day_7_Linked_List, Udemy_Linked_List | 223 | 91.85
 | 0139 |[Word Break](src/main/kotlin/g0101_0200/s0139_word_break)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Dynamic_Programming, Trie, Memoization, Algorithm_II_Day_15_Dynamic_Programming, Dynamic_Programming_I_Day_9, Udemy_Dynamic_Programming | 197 | 87.17
 | 0138 |[Copy List with Random Pointer](src/main/kotlin/g0101_0200/s0138_copy_list_with_random_pointer)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Linked_List, Programming_Skills_II_Day_14, Udemy_Linked_List | 274 | 80.58
 | 0136 |[Single Number](src/main/kotlin/g0101_0200/s0136_single_number)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Data_Structure_II_Day_1_Array, Algorithm_I_Day_14_Bit_Manipulation, Udemy_Integers | 344 | 83.63
@@ -1485,20 +1494,27 @@
 | 0070 |[Climbing Stairs](src/main/kotlin/g0001_0100/s0070_climbing_stairs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Memoization, Algorithm_I_Day_12_Dynamic_Programming, Dynamic_Programming_I_Day_2, Level_1_Day_10_Dynamic_Programming, Udemy_Dynamic_Programming | 127 | 97.06
 | 0064 |[Minimum Path Sum](src/main/kotlin/g0001_0100/s0064_minimum_path_sum)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Matrix, Dynamic_Programming_I_Day_16, Udemy_Dynamic_Programming | 222 | 95.70
 | 0062 |[Unique Paths](src/main/kotlin/g0001_0100/s0062_unique_paths)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Combinatorics, Algorithm_II_Day_13_Dynamic_Programming, Dynamic_Programming_I_Day_15, Level_1_Day_11_Dynamic_Programming | 209 | 49.18
+| 0058 |[Length of Last Word](src/main/kotlin/g0001_0100/s0058_length_of_last_word)| Easy | String, Programming_Skills_II_Day_6, Udemy_Arrays | 243 | 63.33
+| 0057 |[Insert Interval](src/main/kotlin/g0001_0100/s0057_insert_interval)| Medium | Array, Level_2_Day_17_Interval | 257 | 99.52
 | 0056 |[Merge Intervals](src/main/kotlin/g0001_0100/s0056_merge_intervals)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Data_Structure_II_Day_2_Array, Level_2_Day_17_Interval, Udemy_2D_Arrays/Matrix | 323 | 99.68
 | 0055 |[Jump Game](src/main/kotlin/g0001_0100/s0055_jump_game)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Greedy, Algorithm_II_Day_12_Dynamic_Programming, Dynamic_Programming_I_Day_4, Udemy_Arrays | 670 | 66.67
 | 0054 |[Spiral Matrix](src/main/kotlin/g0001_0100/s0054_spiral_matrix)| Medium | Top_Interview_Questions, Array, Matrix, Simulation, Programming_Skills_II_Day_8, Level_2_Day_1_Implementation/Simulation, Udemy_2D_Arrays/Matrix | 224 | 62.50
 | 0053 |[Maximum Subarray](src/main/kotlin/g0001_0100/s0053_maximum_subarray)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Divide_and_Conquer, Data_Structure_I_Day_1_Array, Dynamic_Programming_I_Day_5, Udemy_Famous_Algorithm | 662 | 82.48
+| 0052 |[N-Queens II](src/main/kotlin/g0001_0100/s0052_n_queens_ii)| Hard | Backtracking | 231 | 80.00
 | 0051 |[N-Queens](src/main/kotlin/g0001_0100/s0051_n_queens)| Hard | Top_100_Liked_Questions, Array, Backtracking | 243 | 95.10
+| 0050 |[Pow(x, n)](src/main/kotlin/g0001_0100/s0050_powx_n)| Medium | Top_Interview_Questions, Math, Recursion, Udemy_Integers | 307 | 17.33
 | 0049 |[Group Anagrams](src/main/kotlin/g0001_0100/s0049_group_anagrams)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, String, Hash_Table, Sorting, Data_Structure_II_Day_8_String, Programming_Skills_II_Day_11, Udemy_Strings | 506 | 86.55
 | 0048 |[Rotate Image](src/main/kotlin/g0001_0100/s0048_rotate_image)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Math, Matrix, Data_Structure_II_Day_3_Array, Programming_Skills_II_Day_7, Udemy_2D_Arrays/Matrix | 287 | 46.50
+| 0047 |[Permutations II](src/main/kotlin/g0001_0100/s0047_permutations_ii)| Medium | Array, Backtracking, Algorithm_II_Day_10_Recursion_Backtracking | 406 | 76.36
 | 0046 |[Permutations](src/main/kotlin/g0001_0100/s0046_permutations)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Backtracking, Algorithm_I_Day_11_Recursion_Backtracking, Level_2_Day_20_Brute_Force/Backtracking, Udemy_Backtracking/Recursion | 186 | 100.00
 | 0045 |[Jump Game II](src/main/kotlin/g0001_0100/s0045_jump_game_ii)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Greedy, Algorithm_II_Day_13_Dynamic_Programming, Dynamic_Programming_I_Day_4 | 227 | 98.14
+| 0044 |[Wildcard Matching](src/main/kotlin/g0001_0100/s0044_wildcard_matching)| Hard | Top_Interview_Questions, String, Dynamic_Programming, Greedy, Recursion, Udemy_Dynamic_Programming | 401 | 86.11
+| 0043 |[Multiply Strings](src/main/kotlin/g0001_0100/s0043_multiply_strings)| Medium | String, Math, Simulation, Data_Structure_II_Day_8_String, Programming_Skills_II_Day_4, Level_2_Day_2_String | 390 | 56.25
 | 0042 |[Trapping Rain Water](src/main/kotlin/g0001_0100/s0042_trapping_rain_water)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Two_Pointers, Stack, Monotonic_Stack, Dynamic_Programming_I_Day_9, Udemy_Two_Pointers | 196 | 100.00
 | 0041 |[First Missing Positive](src/main/kotlin/g0001_0100/s0041_first_missing_positive)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Udemy_Arrays | 345 | 100.00
 | 0040 |[Combination Sum II](src/main/kotlin/g0001_0100/s0040_combination_sum_ii)| Medium | Array, Backtracking, Algorithm_II_Day_10_Recursion_Backtracking | 348 | 80.92
 | 0039 |[Combination Sum](src/main/kotlin/g0001_0100/s0039_combination_sum)| Medium | Top_100_Liked_Questions, Array, Backtracking, Algorithm_II_Day_10_Recursion_Backtracking, Level_2_Day_20_Brute_Force/Backtracking, Udemy_Backtracking/Recursion | 317 | 86.85
-| 0038 |[Count and Say](src/main/kotlin/g0001_0100/s0038_count_and_say)| |||
+| 0038 |[Count and Say](src/main/kotlin/g0001_0100/s0038_count_and_say)| Medium | Top_Interview_Questions, String | 317 | 41.11
 | 0037 |[Sudoku Solver](src/main/kotlin/g0001_0100/s0037_sudoku_solver)| Hard | Array, Matrix, Backtracking | 294 | 79.69
 | 0036 |[Valid Sudoku](src/main/kotlin/g0001_0100/s0036_valid_sudoku)| Medium | Top_Interview_Questions, Array, Hash_Table, Matrix, Data_Structure_I_Day_5_Array | 346 | 65.03
 | 0035 |[Search Insert Position](src/main/kotlin/g0001_0100/s0035_search_insert_position)| Easy | Top_100_Liked_Questions, Array, Binary_Search, Algorithm_I_Day_1_Binary_Search, Binary_Search_I_Day_2 | 267 | 50.32
@@ -1512,7 +1528,7 @@
 | 0027 |[Remove Element](src/main/kotlin/g0001_0100/s0027_remove_element)| Easy | Array, Two_Pointers | 293 | 32.19
 | 0026 |[Remove Duplicates from Sorted Array](src/main/kotlin/g0001_0100/s0026_remove_duplicates_from_sorted_array)| Easy | Top_Interview_Questions, Array, Two_Pointers | 361 | 77.19
 | 0025 |[Reverse Nodes in k-Group](src/main/kotlin/g0001_0100/s0025_reverse_nodes_in_k_group)| Hard | Top_100_Liked_Questions, Linked_List, Recursion, Data_Structure_II_Day_13_Linked_List | 194 | 87.72
-| 0024 |[Swap Nodes in Pairs](src/main/kotlin/g0001_0100/s0024_swap_nodes_in_pairs)| Medium | Linked_List, Recursion, Data_Structure_II_Day_12_Linked_List | 173 | 83.13
+| 0024 |[Swap Nodes in Pairs](src/main/kotlin/g0001_0100/s0024_swap_nodes_in_pairs)| Medium | Top_100_Liked_Questions, Linked_List, Recursion, Data_Structure_II_Day_12_Linked_List, Udemy_Linked_List | 149 | 99.39
 | 0023 |[Merge k Sorted Lists](src/main/kotlin/g0001_0100/s0023_merge_k_sorted_lists)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Heap_Priority_Queue, Linked_List, Divide_and_Conquer, Merge_Sort | 323 | 75.14
 | 0022 |[Generate Parentheses](src/main/kotlin/g0001_0100/s0022_generate_parentheses)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming, Backtracking, Algorithm_II_Day_11_Recursion_Backtracking | 210 | 78.51
 | 0021 |[Merge Two Sorted Lists](src/main/kotlin/g0001_0100/s0021_merge_two_sorted_lists)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Data_Structure_I_Day_7_Linked_List, Algorithm_I_Day_10_Recursion_Backtracking | 148 | 99.90
