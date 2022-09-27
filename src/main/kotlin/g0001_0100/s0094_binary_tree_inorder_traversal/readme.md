@@ -37,6 +37,16 @@ The largest rectangle is shown in the red area, which has an area = 10 units.
 ```kotlin
 import com_github_leetcode.TreeNode
 
+/*
+ * Example:
+ * var ti = TreeNode(5)
+ * var v = ti.`val`
+ * Definition for a binary tree node.
+ * class TreeNode(var `val`: Int) {
+ *     var left: TreeNode? = null
+ *     var right: TreeNode? = null
+ * }
+ */
 class Solution {
     fun inorderTraversal(root: TreeNode?): List<Int> {
         if (root == null) {

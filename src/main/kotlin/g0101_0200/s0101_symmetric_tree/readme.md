@@ -35,6 +35,16 @@ Given the `root` of a binary tree, _check whether it is a mirror of itself_ (i.e
 ```kotlin
 import com_github_leetcode.TreeNode
 
+/*
+ * Example:
+ * var ti = TreeNode(5)
+ * var v = ti.`val`
+ * Definition for a binary tree node.
+ * class TreeNode(var `val`: Int) {
+ *     var left: TreeNode? = null
+ *     var right: TreeNode? = null
+ * }
+ */
 class Solution {
     fun isSymmetric(root: TreeNode?): Boolean {
         return if (root == null) {

@@ -43,11 +43,12 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 import com_github_leetcode.ListNode
 
 /*
+ * Example:
+ * var li = ListNode(5)
+ * var v = li.`val`
  * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
+ * class ListNode(var `val`: Int) {
+ *     var next: ListNode? = null
  * }
  */
 class Solution {

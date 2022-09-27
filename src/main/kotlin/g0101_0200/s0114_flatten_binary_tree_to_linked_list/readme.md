@@ -42,6 +42,16 @@ Given the `root` of a binary tree, flatten the tree into a "linked list":
 ```kotlin
 import com_github_leetcode.TreeNode
 
+/*
+ * Example:
+ * var ti = TreeNode(5)
+ * var v = ti.`val`
+ * Definition for a binary tree node.
+ * class TreeNode(var `val`: Int) {
+ *     var left: TreeNode? = null
+ *     var right: TreeNode? = null
+ * }
+ */
 class Solution {
     fun flatten(root: TreeNode?) {
         if (root != null) {
