@@ -34,7 +34,7 @@ Given the `head` of a linked list, rotate the list to the right by `k` places.
 ```kotlin
 import com_github_leetcode.ListNode
 
-/**
+/*
  * Example:
  * var li = ListNode(5)
  * var v = li.`val`
