@@ -41,6 +41,16 @@ Given the `root` of a binary tree, return _the maximum **path sum** of any **non
 ```kotlin
 import com_github_leetcode.TreeNode
 
+/*
+ * Example:
+ * var ti = TreeNode(5)
+ * var v = ti.`val`
+ * Definition for a binary tree node.
+ * class TreeNode(var `val`: Int) {
+ *     var left: TreeNode? = null
+ *     var right: TreeNode? = null
+ * }
+ */
 class Solution {
     private var max = Int.MIN_VALUE
     private fun helper(root: TreeNode?): Int {

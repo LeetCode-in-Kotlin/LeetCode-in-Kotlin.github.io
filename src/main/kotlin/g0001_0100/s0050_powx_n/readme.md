@@ -37,6 +37,7 @@ Implement [pow(x, n)](http://www.cplusplus.com/reference/valarray/pow/), which c
 ## Solution
 
 ```kotlin
+@Suppress("NAME_SHADOWING")
 class Solution {
     fun myPow(x: Double, n: Int): Double {
         var x = x
