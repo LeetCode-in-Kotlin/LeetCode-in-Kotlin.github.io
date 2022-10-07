@@ -47,7 +47,6 @@ class Solution {
             chars.append(res[index].toString())
             index++
         }
-        System.out.println(chars)
         return chars.toString()
     }
 
