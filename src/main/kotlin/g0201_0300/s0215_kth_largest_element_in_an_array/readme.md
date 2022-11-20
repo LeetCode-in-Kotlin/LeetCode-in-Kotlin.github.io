@@ -31,12 +31,10 @@ You must solve it in `O(n)` time complexity.
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun findKthLargest(nums: IntArray, k: Int): Int {
         val n = nums.size
-        Arrays.sort(nums)
+        nums.sort()
         return nums[n - k]
     }
 }

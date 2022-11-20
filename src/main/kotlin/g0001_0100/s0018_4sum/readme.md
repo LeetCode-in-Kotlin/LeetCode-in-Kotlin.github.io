@@ -34,8 +34,6 @@ You may return the answer in **any order**.
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun fourSum(nums: IntArray, target: Int): List<List<Int>> {
         val ret: MutableList<List<Int>> = ArrayList()
@@ -45,7 +43,7 @@ class Solution {
         if (nums[0] == 1000000000 && nums[1] == 1000000000) {
             return ret
         }
-        Arrays.sort(nums)
+        nums.sort()
         for (i in 0 until nums.size - 3) {
             if (i != 0 && nums[i] == nums[i - 1]) {
                 continue

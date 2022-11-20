@@ -32,13 +32,9 @@ Given an array of `intervals` where <code>intervals[i] = [start<sub>i</sub>, end
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun merge(intervals: Array<IntArray>): Array<IntArray> {
-        Arrays.sort(
-            intervals
-        ) { a: IntArray, b: IntArray ->
+        intervals.sortWith { a: IntArray, b: IntArray ->
             Integer.compare(
                 a[0],
                 b[0]
