@@ -34,11 +34,9 @@ You may assume the input array always has a valid answer.
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun wiggleSort(nums: IntArray) {
-        Arrays.sort(nums)
+        nums.sort()
         val result = IntArray(nums.size)
         var index = nums.size - 1
         var i = 1

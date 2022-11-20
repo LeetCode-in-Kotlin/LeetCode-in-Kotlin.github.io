@@ -29,8 +29,6 @@ Since the result may be very large, so you need to return a string instead of an
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun largestNumber(nums: IntArray): String {
         val n = nums.size
@@ -38,7 +36,7 @@ class Solution {
         for (i in 0 until n) {
             s[i] = nums[i].toString()
         }
-        Arrays.sort(s) { a: String?, b: String? ->
+        s.sortWith { a: String?, b: String? ->
             (b + a).compareTo(
                 a + b
             )

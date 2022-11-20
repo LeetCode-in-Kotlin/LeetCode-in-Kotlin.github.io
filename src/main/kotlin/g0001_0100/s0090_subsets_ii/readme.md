@@ -29,14 +29,12 @@ The solution set **must not** contain duplicate subsets. Return the solution in 
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     var allComb: MutableList<List<Int>> = ArrayList()
     var comb: MutableList<Int> = ArrayList()
     lateinit var nums: IntArray
     fun subsetsWithDup(nums: IntArray): List<List<Int>> {
-        Arrays.sort(nums)
+        nums.sort()
         this.nums = nums
         dfs(0)
         allComb.add(ArrayList())

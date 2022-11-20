@@ -35,12 +35,11 @@ Notice that the solution set must not contain duplicate triplets.
 ## Solution
 
 ```kotlin
-import java.util.Arrays
 import kotlin.collections.ArrayList
 
 class Solution {
     fun threeSum(nums: IntArray): List<List<Int>> {
-        Arrays.sort(nums)
+        nums.sort()
         val len = nums.size
         val result: MutableList<List<Int>> = ArrayList()
         var l: Int

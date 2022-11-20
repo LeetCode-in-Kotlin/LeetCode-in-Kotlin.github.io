@@ -32,14 +32,13 @@ Each number in `candidates` may only be used **once** in the combination.
 ## Solution
 
 ```kotlin
-import java.util.Arrays
 import java.util.LinkedList
 
 class Solution {
     fun combinationSum2(candidates: IntArray, target: Int): List<List<Int>> {
         val sums: MutableList<List<Int>> = ArrayList()
         // optimize
-        Arrays.sort(candidates)
+        candidates.sort()
         combinationSum(candidates, target, 0, sums, LinkedList())
         return sums
     }

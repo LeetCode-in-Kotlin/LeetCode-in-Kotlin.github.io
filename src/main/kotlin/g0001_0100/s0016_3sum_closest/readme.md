@@ -34,8 +34,6 @@ You may assume that each input would have exactly one solution.
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun threeSumClosest(nums: IntArray?, target: Int): Int {
         if (nums == null || nums.size < 3) {
@@ -44,7 +42,7 @@ class Solution {
         if (nums.size == 3) {
             return nums[0] + nums[1] + nums[2]
         }
-        Arrays.sort(nums)
+        nums.sort()
         val n = nums.size
         var sum = nums[0] + nums[1] + nums[2]
         for (i in 0 until n - 2) {

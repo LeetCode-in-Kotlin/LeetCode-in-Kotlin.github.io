@@ -36,14 +36,12 @@ An **Anagram** is a word or phrase formed by rearranging the letters of a differ
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun groupAnagrams(strs: Array<String>): List<List<String>> {
         val hm: MutableMap<String, MutableList<String>> = HashMap()
         for (s in strs) {
             val ch = s.toCharArray()
-            Arrays.sort(ch)
+            ch.sort()
             val temp = String(ch)
             hm.computeIfAbsent(
                 temp

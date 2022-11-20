@@ -31,13 +31,12 @@ Given an integer array `nums` and an integer `k`, return _the_ `k` _most frequen
 ## Solution
 
 ```kotlin
-import java.util.Arrays
 import java.util.PriorityQueue
 import java.util.Queue
 
 class Solution {
     fun topKFrequent(nums: IntArray, k: Int): IntArray {
-        Arrays.sort(nums)
+        nums.sort()
         // Min heap of <number, frequency>
         val queue: Queue<IntArray> = PriorityQueue(k + 1) { a: IntArray, b: IntArray -> a[1] - b[1] }
         // Filter with min heap
