@@ -72,6 +72,7 @@ import com_github_leetcode.TreeNode
  */
 class Solution {
     private var sum = 0
+
     fun sumNumbers(root: TreeNode): Int {
         recurseSum(root, 0)
         return sum
