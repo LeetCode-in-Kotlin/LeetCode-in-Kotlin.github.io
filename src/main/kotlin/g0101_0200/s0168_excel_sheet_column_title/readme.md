@@ -37,8 +37,8 @@ A -> 1 B -> 2 C -> 3 ... Z -> 26 AA -> 27 AB -> 28 ...
 
 ```kotlin
 class Solution {
-    fun convertToTitle(n: Int): String {
-        var num = n
+    fun convertToTitle(columnNumber: Int): String {
+        var num = columnNumber
         val sb = StringBuilder()
         while (num != 0) {
             var remainder = num % 26
