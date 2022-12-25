@@ -53,7 +53,7 @@ Your code will **only** be given the `head` of the original linked list.
 ## Solution
 
 ```kotlin
-import com_github_leetcode.Node
+import com_github_leetcode.random.Node
 
 class Solution {
     fun copyRandomList(head: Node?): Node? {
