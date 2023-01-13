@@ -65,8 +65,6 @@ Merging the serialization of each level and removing trailing nulls we obtain:
 ## Solution
 
 ```kotlin
-import com_github_leetcode.prev_next.Node
-
 /*
  * Definition for a Node.
  * class Node(var `val`: Int) {
