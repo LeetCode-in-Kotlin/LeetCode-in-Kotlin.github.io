@@ -33,36 +33,22 @@ Given a **non-empty** array `nums` containing **only positive integers**, find i
 ```kotlin
 class Solution {
     fun canPartition(nums: IntArray): Boolean {
-        var sum = 0
+        var sums = 0
         for (num in nums) {
-            sum += num
+            sums += num
         }
-        if (sum % 2 != 0) {
+        if (sums % 2 == 1) {
             return false
         }
-        sum /= 2
-        // if use primitive boolean array will make default value to false
-        // we need the default value "null" to help us to do the memo
-        val dp = arrayOfNulls<Boolean>(sum + 1)
-        return sumTo(nums, sum, 0, dp)
-    }
-
-    private fun sumTo(nums: IntArray, sum: Int, index: Int, dp: Array<Boolean?>): Boolean {
-        if (sum == 0) {
-            return true
+        sums /= 2
+        val dp = BooleanArray(sums + 1)
+        dp[0] = true
+        for (num in nums) {
+            for (sum in sums downTo num) {
+                dp[sum] = dp[sum] || dp[sum - num]
+            }
         }
-        if (sum < 0) {
-            return false
-        }
-        if (index == nums.size) {
-            return false
-        }
-        if (dp[sum] != null) {
-            return dp[sum]!!
-        }
-        // use the number or not use the number
-        dp[sum] = sumTo(nums, sum - nums[index], index + 1, dp) || sumTo(nums, sum, index + 1, dp)
-        return dp[sum]!!
+        return dp[sums]
     }
 }
 ```
