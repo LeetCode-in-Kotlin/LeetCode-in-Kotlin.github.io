@@ -1571,6 +1571,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0005 |[Longest Palindromic Substring](src/main/kotlin/g0001_0100/s0005_longest_palindromic_substring)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming | 323 | 75.48
+| 0516 |[Longest Palindromic Subsequence](src/main/kotlin/g0501_0600/s0516_longest_palindromic_subsequence)| Medium | String, Dynamic_Programming | 243 | 87.50
 
 #### Day 18
 
@@ -1592,6 +1593,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0322 |[Coin Change](src/main/kotlin/g0301_0400/s0322_coin_change)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Breadth_First_Search | 332 | 50.68
+| 0518 |[Coin Change II](src/main/kotlin/g0501_0600/s0518_coin_change_2)| Medium | Array, Dynamic_Programming | 139 | 100.00
 
 #### Day 21
 
@@ -1613,6 +1615,18 @@
 | 0647 |[Palindromic Substrings](src/main/kotlin/g0601_0700/s0647_palindromic_substrings)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming | 266 | 67.83
 | 0560 |[Subarray Sum Equals K](src/main/kotlin/g0501_0600/s0560_subarray_sum_equals_k)| Medium | Top_100_Liked_Questions, Array, Hash_Table, Prefix_Sum, Data_Structure_II_Day_5_Array | 692 | 53.27
 | 0543 |[Diameter of Binary Tree](src/main/kotlin/g0501_0600/s0543_diameter_of_binary_tree)| Easy | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Level_2_Day_7_Tree, Udemy_Tree_Stack_Queue | 307 | 43.93
+| 0525 |[Contiguous Array](src/main/kotlin/g0501_0600/s0525_contiguous_array)| Medium | Array, Hash_Table, Prefix_Sum | 471 | 100.00
+| 0524 |[Longest Word in Dictionary through Deleting](src/main/kotlin/g0501_0600/s0524_longest_word_in_dictionary_through_deleting)| Medium | Array, String, Sorting, Two_Pointers | 307 | 100.00
+| 0523 |[Continuous Subarray Sum](src/main/kotlin/g0501_0600/s0523_continuous_subarray_sum)| Medium | Array, Hash_Table, Math, Prefix_Sum | 682 | 95.45
+| 0522 |[Longest Uncommon Subsequence II](src/main/kotlin/g0501_0600/s0522_longest_uncommon_subsequence_ii)| Medium | Array, String, Hash_Table, Sorting, Two_Pointers | 163 | 100.00
+| 0521 |[Longest Uncommon Subsequence I](src/main/kotlin/g0501_0600/s0521_longest_uncommon_subsequence_i)| Easy | String | 146 | 88.89
+| 0520 |[Detect Capital](src/main/kotlin/g0501_0600/s0520_detect_capital)| Easy | String | 161 | 84.54
+| 0519 |[Random Flip Matrix](src/main/kotlin/g0501_0600/s0519_random_flip_matrix)| Medium | Hash_Table, Math, Randomized, Reservoir_Sampling | 270 | 100.00
+| 0518 |[Coin Change II](src/main/kotlin/g0501_0600/s0518_coin_change_2)| Medium | Array, Dynamic_Programming, Dynamic_Programming_I_Day_20 | 139 | 100.00
+| 0517 |[Super Washing Machines](src/main/kotlin/g0501_0600/s0517_super_washing_machines)| Hard | Array, Greedy | 210 | 100.00
+| 0516 |[Longest Palindromic Subsequence](src/main/kotlin/g0501_0600/s0516_longest_palindromic_subsequence)| Medium | String, Dynamic_Programming, Dynamic_Programming_I_Day_17 | 243 | 87.50
+| 0515 |[Find Largest Value in Each Tree Row](src/main/kotlin/g0501_0600/s0515_find_largest_value_in_each_tree_row)| Medium | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 238 | 73.33
+| 0514 |[Freedom Trail](src/main/kotlin/g0501_0600/s0514_freedom_trail)| Hard | String, Dynamic_Programming, Depth_First_Search, Breadth_First_Search | 182 | 100.00
 | 0513 |[Find Bottom Left Tree Value](src/main/kotlin/g0501_0600/s0513_find_bottom_left_tree_value)| Medium | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 190 | 88.24
 | 0511 |[Game Play Analysis I](src/main/kotlin/g0501_0600/s0511_game_play_analysis_i)| Easy | LeetCode_Curated_SQL_70, Database, SQL_I_Day_8_Function | 790 | 45.04
 | 0509 |[Fibonacci Number](src/main/kotlin/g0501_0600/s0509_fibonacci_number)| Easy | Dynamic_Programming, Math, Recursion, Memoization, Dynamic_Programming_I_Day_1, Level_1_Day_10_Dynamic_Programming, Udemy_Dynamic_Programming | 139 | 82.72
