@@ -35,7 +35,6 @@ Given the `root` of a Binary Search Tree (BST), return _the minimum absolute dif
 ```kotlin
 import com_github_leetcode.TreeNode
 
-
 /*
  * Example:
  * var ti = TreeNode(5)
