@@ -37,7 +37,6 @@ A subtree of a binary tree `tree` is a tree that consists of a node in `tree` an
 ```kotlin
 import com_github_leetcode.TreeNode
 
-
 /*
  * Example:
  * var ti = TreeNode(5)
