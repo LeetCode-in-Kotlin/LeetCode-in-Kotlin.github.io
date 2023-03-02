@@ -76,7 +76,6 @@ import com_github_leetcode.neighbors.Node
  *     var neighbors: ArrayList<Node?> = ArrayList<Node?>()
  * }
  */
-
 class Solution {
     fun cloneGraph(node: Node?): Node? {
         return cloneGraph(node, HashMap())

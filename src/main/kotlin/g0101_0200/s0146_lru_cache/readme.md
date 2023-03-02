@@ -54,11 +54,10 @@ lRUCache.get(4); // return 4
 
 ```kotlin
 class LRUCache(capacity: Int) {
-
     private val nodeMap = HashMap<Int, Node>()
-    val head = Node()
+    private val head = Node()
     private val tail = Node()
-    var cacheCapacity = 0
+    private var cacheCapacity = 0
 
     init {
         head.next = tail
@@ -116,4 +115,11 @@ class LRUCache(capacity: Int) {
 
     data class Node(var key: Int = -1, var value: Int = -1, var next: Node? = null, var prev: Node? = null)
 }
+
+/*
+ * Your LRUCache object will be instantiated and called as such:
+ * var obj = LRUCache(capacity)
+ * var param_1 = obj.get(key)
+ * obj.put(key,value)
+ */
 ```
