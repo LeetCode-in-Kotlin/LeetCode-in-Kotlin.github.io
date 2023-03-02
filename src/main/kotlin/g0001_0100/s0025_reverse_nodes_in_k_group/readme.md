@@ -53,6 +53,15 @@ You may not alter the values in the list's nodes, only nodes themselves may be c
 ```kotlin
 import com_github_leetcode.ListNode
 
+/*
+ * Example:
+ * var li = ListNode(5)
+ * var v = li.`val`
+ * Definition for singly-linked list.
+ * class ListNode(var `val`: Int) {
+ *     var next: ListNode? = null
+ * }
+ */
 class Solution {
     fun reverseKGroup(head: ListNode?, k: Int): ListNode? {
         if (head?.next == null || k == 1) {

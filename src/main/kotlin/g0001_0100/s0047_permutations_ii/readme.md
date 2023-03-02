@@ -29,6 +29,7 @@ Given a collection of numbers, `nums`, that might contain duplicates, return _al
 ```kotlin
 class Solution {
     private var ans: MutableList<List<Int>>? = null
+
     fun permuteUnique(nums: IntArray): List<List<Int>> {
         ans = ArrayList()
         permute(nums, 0)
