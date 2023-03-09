@@ -37,13 +37,11 @@ The distance between two adjacent cells is `1`.
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun updateMatrix(mat: Array<IntArray>): Array<IntArray> {
         val dist = Array(mat.size) { IntArray(mat[0].size) }
         for (i in mat.indices) {
-            Arrays.fill(dist[i], Int.MAX_VALUE - 100000)
+            dist[i].fill(Int.MAX_VALUE - 100000)
         }
         for (i in mat.indices) {
             for (j in mat[0].indices) {

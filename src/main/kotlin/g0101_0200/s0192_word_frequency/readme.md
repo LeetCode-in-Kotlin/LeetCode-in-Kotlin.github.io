@@ -36,5 +36,5 @@ Your script should output the following, sorted by descending frequency:
 
 ```bash
 # Read from the file words.txt and output the word frequency list to stdout.
-sed -e '/^$/d' | sort | uniq -c | sort -r | awk '{print $2" "$1}'
+echo -e "$(cat words.txt)" | awk '{for(i=1;i<=NF;i++){if(arr[$i]==0){arr[$i]=1}else{arr[$i]=arr[$i]+1}}}END{for(i in arr) print i, arr[i]}' | sort -k2 -n -r
 ```

@@ -82,16 +82,14 @@ If the value of `isLeaf` or `val` is True we represent it as **1** in the list `
  *     var bottomRight: Node? = null
  * }
  */
-
 class Solution {
     fun construct(grid: Array<IntArray>): Node? {
         return construct(grid, 0, 0, grid.size)
     }
 
-    fun construct(grid: Array<IntArray>, x: Int, y: Int, len: Int): Node? {
+    private fun construct(grid: Array<IntArray>, x: Int, y: Int, len: Int): Node? {
         val value: Int = grid[x][y]
         if (len == 1) { return Node(value == 1, true) }
-
         var isLeaf = true
         for (i in 0 until len) {
             for (p in 0 until len) {
@@ -101,7 +99,6 @@ class Solution {
             }
         }
         if (isLeaf) { return Node(value == 1, true) }
-
         return Node(true, false).apply {
             val halfLength: Int = len / 2
             topLeft = construct(grid, x, y, halfLength)

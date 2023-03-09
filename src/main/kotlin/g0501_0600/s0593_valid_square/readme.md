@@ -37,8 +37,6 @@ A **valid square** has four equal sides with positive length and four equal angl
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun validSquare(p1: IntArray, p2: IntArray, p3: IntArray, p4: IntArray): Boolean {
         val distancesSquared = IntArray(6)
@@ -48,7 +46,7 @@ class Solution {
         distancesSquared[3] = getDistanceSquared(p2, p3)
         distancesSquared[4] = getDistanceSquared(p2, p4)
         distancesSquared[5] = getDistanceSquared(p3, p4)
-        Arrays.sort(distancesSquared)
+        distancesSquared.sort()
         if (distancesSquared[0] == 0) {
             return false
         }

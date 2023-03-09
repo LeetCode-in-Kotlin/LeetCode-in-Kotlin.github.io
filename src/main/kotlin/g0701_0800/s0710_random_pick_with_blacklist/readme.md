@@ -47,17 +47,14 @@ Implement the `Solution` class:
 ## Solution
 
 ```kotlin
-import java.util.Random
+import kotlin.random.Random
 
-@Suppress("kotlin:S2245")
 class Solution(n: Int, blacklist: IntArray) {
     private val map: MutableMap<Int, Int>
-    private val r: Random
     private val upperLimit: Int
 
     init {
         map = HashMap()
-        r = Random()
         upperLimit = n - blacklist.size
         for (`val` in blacklist) {
             map[`val`] = -1
@@ -75,7 +72,7 @@ class Solution(n: Int, blacklist: IntArray) {
     }
 
     fun pick(): Int {
-        val `val`: Int = r.nextInt(upperLimit)
+        val `val`: Int = Random.nextInt(upperLimit)
         return if (map.containsKey(`val`)) {
             map[`val`]!!
         } else `val`

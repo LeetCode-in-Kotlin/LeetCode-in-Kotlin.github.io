@@ -43,7 +43,6 @@ Implement the `MyCalendar` class:
 ```kotlin
 import java.util.TreeSet
 
-
 class MyCalendar {
     internal class Meeting(val start: Int, val end: Int) : Comparable<Meeting?> {
         override operator fun compareTo(other: Meeting?): Int {

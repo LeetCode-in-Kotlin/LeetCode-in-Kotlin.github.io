@@ -45,14 +45,12 @@ The test cases are generated so that the answer can fit in a **32-bit** integer.
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     private lateinit var storage: IntArray
 
     fun combinationSum4(nums: IntArray, target: Int): Int {
         storage = IntArray(target + 1)
-        Arrays.fill(storage, -1)
+        storage.fill(-1)
         return result(nums, target)
     }
 

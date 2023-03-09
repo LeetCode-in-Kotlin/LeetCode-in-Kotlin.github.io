@@ -34,8 +34,6 @@ Each solution contains a distinct board configuration of the n-queens' placement
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun solveNQueens(n: Int): List<List<String>> {
         val pos = BooleanArray(n + 2 * n - 1 + 2 * n - 1)
@@ -70,7 +68,7 @@ class Solution {
         val sol: MutableList<String> = ArrayList()
         for (r in 0 until n) {
             val queenRow = CharArray(n)
-            Arrays.fill(queenRow, '.')
+            queenRow.fill('.')
             queenRow[pos[r]] = 'Q'
             sol.add(String(queenRow))
         }

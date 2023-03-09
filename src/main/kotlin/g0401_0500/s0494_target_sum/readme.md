@@ -49,18 +49,18 @@ Return the number of different **expressions** that you can build, which evaluat
 ```kotlin
 @Suppress("NAME_SHADOWING")
 class Solution {
-    fun findTargetSumWays(nums: IntArray, s: Int): Int {
-        var s = s
+    fun findTargetSumWays(nums: IntArray, target: Int): Int {
+        var target = target
         var sum = 0
-        s = Math.abs(s)
+        target = Math.abs(target)
         for (num in nums) {
             sum += num
         }
-        // Invalid s, just return 0
-        if (s > sum || (sum + s) % 2 != 0) {
+        // Invalid target, just return 0
+        if (target > sum || (sum + target) % 2 != 0) {
             return 0
         }
-        val dp = Array((sum + s) / 2 + 1) { IntArray(nums.size + 1) }
+        val dp = Array((sum + target) / 2 + 1) { IntArray(nums.size + 1) }
         dp[0][0] = 1
         // empty knapsack must be processed specially
         for (i in nums.indices) {
@@ -78,7 +78,7 @@ class Solution {
                 }
             }
         }
-        return dp[(sum + s) / 2][nums.size]
+        return dp[(sum + target) / 2][nums.size]
     }
 }
 ```
