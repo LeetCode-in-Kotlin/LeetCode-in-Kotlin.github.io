@@ -37,15 +37,13 @@ Return _the minimum cuts needed_ for a palindrome partitioning of `s`.
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 @Suppress("NAME_SHADOWING")
 class Solution {
     fun minCut(s: String): Int {
         val n = s.length
         val t = s.toCharArray()
         val dp = IntArray(n + 1)
-        Arrays.fill(dp, Int.MAX_VALUE)
+        dp.fill(Int.MAX_VALUE)
         dp[0] = -1
         var i = 0
         while (i < n) {

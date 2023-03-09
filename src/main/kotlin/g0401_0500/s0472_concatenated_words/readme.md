@@ -34,20 +34,13 @@ A **concatenated word** is defined as a string that is comprised entirely of at 
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     private val ans: MutableList<String> = ArrayList()
     private var root: Trie? = null
     fun findAllConcatenatedWordsInADict(words: Array<String>): List<String> {
         root = Trie()
-        Arrays.sort(
-            words
-        ) { a: String, b: String ->
-            Integer.compare(
-                a.length,
-                b.length
-            )
+        words.sortWith { a: String, b: String ->
+            a.length.compareTo(b.length)
         }
         for (word in words) {
             var ptr = root

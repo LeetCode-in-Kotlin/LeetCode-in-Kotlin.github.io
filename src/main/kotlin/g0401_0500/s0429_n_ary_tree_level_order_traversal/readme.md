@@ -34,6 +34,8 @@ _Nary-Tree input serialization is represented in their level order traversal, ea
 
 ```kotlin
 import com_github_leetcode.Node
+import java.util.LinkedList
+import java.util.Queue
 
 /*
  * Definition for a Node.
@@ -41,14 +43,27 @@ import com_github_leetcode.Node
  *     var neighbors: List<Node?> = listOf()
  * }
  */
-
 class Solution {
-    fun levelOrder(root: Node?) = go(listOfNotNull(root), mutableListOf())
-
-    private tailrec fun go(level: List<Node>, acc: MutableList<List<Int>>): List<List<Int>> =
-        if (level.isEmpty()) acc else go(
-            level = level.flatMap(Node::neighbors).filterNotNull(),
-            acc = acc.apply { level.map(Node::`val`).also { add(it) } }
-        )
+    fun levelOrder(root: Node?): List<List<Int>> {
+        val result: MutableList<List<Int>> = ArrayList()
+        if (root == null) {
+            return result
+        }
+        val queue: Queue<Node> = LinkedList<Node>()
+        queue.offer(root)
+        while (!queue.isEmpty()) {
+            val size: Int = queue.size
+            val level: MutableList<Int> = ArrayList()
+            for (i in 0 until size) {
+                val currentNode: Node = queue.poll()
+                level.add(currentNode.`val`)
+                for (child in currentNode.neighbors) {
+                    queue.offer(child)
+                }
+            }
+            result.add(level)
+        }
+        return result
+    }
 }
 ```

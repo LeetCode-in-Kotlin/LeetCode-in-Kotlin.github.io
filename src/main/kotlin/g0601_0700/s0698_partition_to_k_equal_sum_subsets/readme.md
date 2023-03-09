@@ -30,8 +30,6 @@ Given an integer array `nums` and an integer `k`, return `true` if it is possibl
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun canPartitionKSubsets(nums: IntArray, k: Int): Boolean {
         if (nums.isEmpty()) {
@@ -48,7 +46,7 @@ class Solution {
         // sum of each subset = sum / k
         sum /= k
         val dp = IntArray(1 shl n)
-        Arrays.fill(dp, -1)
+        dp.fill(-1)
         dp[0] = 0
         for (i in 0 until (1 shl n)) {
             if (dp[i] == -1) {

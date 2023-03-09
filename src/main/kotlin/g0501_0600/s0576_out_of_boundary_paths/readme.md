@@ -35,8 +35,6 @@ Given the five integers `m`, `n`, `maxMove`, `startRow`, `startColumn`, return t
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     private val dRowCol = arrayOf(intArrayOf(1, 0), intArrayOf(-1, 0), intArrayOf(0, 1), intArrayOf(0, -1))
     private fun dfs(
@@ -76,7 +74,7 @@ class Solution {
         }
         for (c1 in cache) {
             for (c2 in c1) {
-                Arrays.fill(c2, -1)
+                c2.fill(-1)
             }
         }
         return dfs(m, n, maxMoves, startRow, startCol, cache)

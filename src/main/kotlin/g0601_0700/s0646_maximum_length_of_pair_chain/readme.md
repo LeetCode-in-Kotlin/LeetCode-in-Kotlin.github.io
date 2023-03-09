@@ -38,14 +38,12 @@ You do not need to use up all the given intervals. You can select pairs in any o
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun findLongestChain(pairs: Array<IntArray>): Int {
         if (pairs.size == 1) {
             return 1
         }
-        Arrays.sort(pairs) { a: IntArray, b: IntArray ->
+        pairs.sortWith { a: IntArray, b: IntArray ->
             a[1] - b[1]
         }
         var min = pairs[0][1]

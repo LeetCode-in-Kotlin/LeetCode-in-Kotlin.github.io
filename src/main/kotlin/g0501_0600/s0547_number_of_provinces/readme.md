@@ -41,12 +41,10 @@ Return _the total number of **provinces**_.
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun findCircleNum(arr: Array<IntArray>): Int {
         val parent = IntArray(arr.size)
-        Arrays.fill(parent, -1)
+        parent.fill(-1)
         var ans = 0
         for (i in 0 until arr.size - 1) {
             for (j in i + 1 until arr[i].size) {

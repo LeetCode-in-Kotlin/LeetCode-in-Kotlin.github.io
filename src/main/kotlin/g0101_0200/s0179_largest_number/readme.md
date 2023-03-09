@@ -36,11 +36,7 @@ class Solution {
         for (i in 0 until n) {
             s[i] = nums[i].toString()
         }
-        s.sortWith { a: String?, b: String? ->
-            (b + a).compareTo(
-                a + b
-            )
-        }
+        s.sortWith { a, b -> (b + a).compareTo(a + b) }
         val sb = StringBuilder()
         for (str in s) {
             sb.append(str)

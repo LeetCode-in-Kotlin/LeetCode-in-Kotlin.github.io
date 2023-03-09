@@ -39,11 +39,9 @@ A **subsequence** of array is a sequence that can be derived from the array by d
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun findLHS(nums: IntArray): Int {
-        Arrays.sort(nums)
+        nums.sort()
         var max = 0
         var lastN = 0
         var curN = 1

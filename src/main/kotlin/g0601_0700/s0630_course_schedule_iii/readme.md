@@ -37,13 +37,12 @@ Return _the maximum number of courses that you can take_.
 ## Solution
 
 ```kotlin
-import java.util.Arrays
 import java.util.PriorityQueue
 
 class Solution {
     fun scheduleCourse(courses: Array<IntArray>): Int {
         // Sort the courses based on their deadline date.
-        Arrays.sort(courses) { a: IntArray, b: IntArray ->
+        courses.sortWith { a: IntArray, b: IntArray ->
             a[1] - b[1]
         }
         // Only the duration is stored. We don't care which course

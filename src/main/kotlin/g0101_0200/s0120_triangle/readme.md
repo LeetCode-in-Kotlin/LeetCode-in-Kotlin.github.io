@@ -45,8 +45,6 @@ The minimum path sum from top to bottom is 2 + 3 + 5 + 1 = 11 (underlined above)
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun minimumTotal(triangle: List<List<Int>>): Int {
         if (triangle.isEmpty()) {
@@ -54,7 +52,7 @@ class Solution {
         }
         val dp = Array(triangle.size) { IntArray(triangle[triangle.size - 1].size) }
         for (temp in dp) {
-            Arrays.fill(temp, -10001)
+            temp.fill(-10001)
         }
         return dfs(triangle, dp, 0, 0)
     }

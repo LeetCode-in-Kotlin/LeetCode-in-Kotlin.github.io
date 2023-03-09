@@ -46,7 +46,6 @@ Implement the NumMatrix class:
 
 ```kotlin
 class NumMatrix(matrix: Array<IntArray>) {
-
     private val M = matrix.size
     private val N = if (M > 0) matrix[0].size else 0
 
