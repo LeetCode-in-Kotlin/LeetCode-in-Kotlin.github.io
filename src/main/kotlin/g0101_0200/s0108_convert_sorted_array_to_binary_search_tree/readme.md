@@ -40,7 +40,7 @@ A **height-balanced** binary tree is a binary tree in which the depth of the two
 ```kotlin
 import com_github_leetcode.TreeNode
 
-/**
+/*
  * Example:
  * var ti = TreeNode(5)
  * var v = ti.`val`

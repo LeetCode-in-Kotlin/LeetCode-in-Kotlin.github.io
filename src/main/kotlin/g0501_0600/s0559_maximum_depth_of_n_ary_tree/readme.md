@@ -43,7 +43,6 @@ import com_github_leetcode.Node
  *     var neighbors: List<Node?> = listOf()
  * }
  */
-
 class Solution {
     private var max = 0
 

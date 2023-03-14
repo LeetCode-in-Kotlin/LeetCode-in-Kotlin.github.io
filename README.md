@@ -98,6 +98,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0785 |[Is Graph Bipartite?](src/main/kotlin/g0701_0800/s0785_is_graph_bipartite)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Union_Find | 215 | 82.35
 
 ### SQL I
 
@@ -946,6 +947,7 @@
 |-|-|-|-|-|-
 | 0077 |[Combinations](src/main/kotlin/g0001_0100/s0077_combinations)| Medium | Backtracking | 244 | 100.00
 | 0046 |[Permutations](src/main/kotlin/g0001_0100/s0046_permutations)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Backtracking | 186 | 100.00
+| 0784 |[Letter Case Permutation](src/main/kotlin/g0701_0800/s0784_letter_case_permutation)| Medium | String, Bit_Manipulation, Backtracking | 219 | 84.62
 
 #### Day 12 Dynamic Programming
 
@@ -1674,6 +1676,34 @@
 | 1143 |[Longest Common Subsequence](src/main/kotlin/g1101_1200/s1143_longest_common_subsequence)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming, Algorithm_II_Day_17_Dynamic_Programming, Dynamic_Programming_I_Day_19, Udemy_Dynamic_Programming | 307 | 38.36
 | 0994 |[Rotting Oranges](src/main/kotlin/g0901_1000/s0994_rotting_oranges)| Medium | Array, Breadth_First_Search, Matrix, Algorithm_I_Day_9_Breadth_First_Search_Depth_First_Search, Level_2_Day_10_Graph/BFS/DFS | 308 | 57.93
 | 0864 |[Shortest Path to Get All Keys](src/main/kotlin/g0801_0900/s0864_shortest_path_to_get_all_keys)| Hard | Breadth_First_Search, Bit_Manipulation | 176 | 100.00
+| 0796 |[Rotate String](src/main/kotlin/g0701_0800/s0796_rotate_string)| Easy | String, String_Matching | 134 | 100.00
+| 0795 |[Number of Subarrays with Bounded Maximum](src/main/kotlin/g0701_0800/s0795_number_of_subarrays_with_bounded_maximum)| Medium | Array, Two_Pointers | 361 | 66.67
+| 0794 |[Valid Tic-Tac-Toe State](src/main/kotlin/g0701_0800/s0794_valid_tic_tac_toe_state)| Medium | Array, String | 138 | 100.00
+| 0793 |[Preimage Size of Factorial Zeroes Function](src/main/kotlin/g0701_0800/s0793_preimage_size_of_factorial_zeroes_function)| Hard | Math, Binary_Search | 114 | 100.00
+| 0792 |[Number of Matching Subsequences](src/main/kotlin/g0701_0800/s0792_number_of_matching_subsequences)| Medium | String, Hash_Table, Sorting, Trie | 346 | 100.00
+| 0791 |[Custom Sort String](src/main/kotlin/g0701_0800/s0791_custom_sort_string)| Medium | String, Hash_Table, Sorting | 133 | 90.00
+| 0790 |[Domino and Tromino Tiling](src/main/kotlin/g0701_0800/s0790_domino_and_tromino_tiling)| Medium | Dynamic_Programming | 116 | 100.00
+| 0789 |[Escape The Ghosts](src/main/kotlin/g0701_0800/s0789_escape_the_ghosts)| Medium | Array, Math | 187 | 100.00
+| 0788 |[Rotated Digits](src/main/kotlin/g0701_0800/s0788_rotated_digits)| Medium | Dynamic_Programming, Math | 137 | 80.00
+| 0787 |[Cheapest Flights Within K Stops](src/main/kotlin/g0701_0800/s0787_cheapest_flights_within_k_stops)| Medium | Dynamic_Programming, Depth_First_Search, Breadth_First_Search, Heap_Priority_Queue, Graph, Shortest_Path | 185 | 99.20
+| 0786 |[K-th Smallest Prime Fraction](src/main/kotlin/g0701_0800/s0786_k_th_smallest_prime_fraction)| Medium | Array, Binary_Search, Heap_Priority_Queue | 165 | 100.00
+| 0785 |[Is Graph Bipartite?](src/main/kotlin/g0701_0800/s0785_is_graph_bipartite)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Union_Find, Graph_Theory_I_Day_14_Graph_Theory | 215 | 82.35
+| 0784 |[Letter Case Permutation](src/main/kotlin/g0701_0800/s0784_letter_case_permutation)| Medium | String, Bit_Manipulation, Backtracking, Algorithm_I_Day_11_Recursion_Backtracking | 219 | 84.62
+| 0783 |[Minimum Distance Between BST Nodes](src/main/kotlin/g0701_0800/s0783_minimum_distance_between_bst_nodes)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 144 | 96.35
+| 0782 |[Transform to Chessboard](src/main/kotlin/g0701_0800/s0782_transform_to_chessboard)| Hard | Array, Math, Matrix, Bit_Manipulation | 188 | 100.00
+| 0781 |[Rabbits in Forest](src/main/kotlin/g0701_0800/s0781_rabbits_in_forest)| Medium | Array, Hash_Table, Math, Greedy | 132 | 100.00
+| 0780 |[Reaching Points](src/main/kotlin/g0701_0800/s0780_reaching_points)| Hard | Math | 139 | 100.00
+| 0779 |[K-th Symbol in Grammar](src/main/kotlin/g0701_0800/s0779_k_th_symbol_in_grammar)| Medium | Math, Bit_Manipulation, Recursion | 114 | 100.00
+| 0778 |[Swim in Rising Water](src/main/kotlin/g0701_0800/s0778_swim_in_rising_water)| Hard | Array, Depth_First_Search, Breadth_First_Search, Binary_Search, Matrix, Heap_Priority_Queue, Union_Find | 190 | 100.00
+| 0777 |[Swap Adjacent in LR String](src/main/kotlin/g0701_0800/s0777_swap_adjacent_in_lr_string)| Medium | String, Two_Pointers | 188 | 100.00
+| 0775 |[Global and Local Inversions](src/main/kotlin/g0701_0800/s0775_global_and_local_inversions)| Medium | Array, Math | 495 | 100.00
+| 0773 |[Sliding Puzzle](src/main/kotlin/g0701_0800/s0773_sliding_puzzle)| Hard | Array, Breadth_First_Search, Matrix | 166 | 100.00
+| 0771 |[Jewels and Stones](src/main/kotlin/g0701_0800/s0771_jewels_and_stones)| Easy | String, Hash_Table | 143 | 99.08
+| 0770 |[Basic Calculator IV](src/main/kotlin/g0701_0800/s0770_basic_calculator_iv)| Hard | String, Hash_Table, Math, Stack, Recursion | 222 | 100.00
+| 0769 |[Max Chunks To Make Sorted](src/main/kotlin/g0701_0800/s0769_max_chunks_to_make_sorted)| Medium | Array, Sorting, Greedy, Stack, Monotonic_Stack | 136 | 90.00
+| 0768 |[Max Chunks To Make Sorted II](src/main/kotlin/g0701_0800/s0768_max_chunks_to_make_sorted_ii)| Hard | Array, Sorting, Greedy, Stack, Monotonic_Stack | 202 | 100.00
+| 0767 |[Reorganize String](src/main/kotlin/g0701_0800/s0767_reorganize_string)| Medium | String, Hash_Table, Sorting, Greedy, Heap_Priority_Queue, Counting | 148 | 100.00
+| 0766 |[Toeplitz Matrix](src/main/kotlin/g0701_0800/s0766_toeplitz_matrix)| Easy | Array, Matrix | 174 | 100.00
 | 0765 |[Couples Holding Hands](src/main/kotlin/g0701_0800/s0765_couples_holding_hands)| Hard | Depth_First_Search, Greedy, Breadth_First_Search, Graph, Union_Find | 131 | 100.00
 | 0764 |[Largest Plus Sign](src/main/kotlin/g0701_0800/s0764_largest_plus_sign)| Medium | Array, Dynamic_Programming | 415 | 100.00
 | 0763 |[Partition Labels](src/main/kotlin/g0701_0800/s0763_partition_labels)| Medium | Top_100_Liked_Questions, String, Hash_Table, Greedy, Two_Pointers, Data_Structure_II_Day_7_String | 235 | 84.75

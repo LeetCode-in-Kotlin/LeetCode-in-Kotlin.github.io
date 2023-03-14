@@ -42,6 +42,7 @@ Return _an edge that can be removed so that the resulting graph is a tree of_ `n
 ```kotlin
 class Solution {
     private lateinit var par: IntArray
+
     fun findRedundantConnection(edges: Array<IntArray>): IntArray {
         val ans = IntArray(2)
         val n = edges.size

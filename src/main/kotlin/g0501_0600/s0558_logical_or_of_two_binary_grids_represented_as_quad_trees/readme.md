@@ -80,7 +80,6 @@ If the value of `isLeaf` or `val` is True we represent it as **1** in the list `
  *     var bottomRight: Node? = null
  * }
  */
-
 class Solution {
     fun intersect(quadTree1: Node?, quadTree2: Node?): Node? {
         if (quadTree1!!.isLeaf) {

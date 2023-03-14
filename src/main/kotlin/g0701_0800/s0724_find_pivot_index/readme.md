@@ -48,8 +48,8 @@ Return _the **leftmost pivot index**_. If no such index exists, return `-1`.
 
 ```kotlin
 class Solution {
-    fun pivotIndex(nums: IntArray?): Int {
-        if (nums == null || nums.isEmpty()) {
+    fun pivotIndex(nums: IntArray): Int {
+        if (nums.isEmpty()) {
             return -1
         }
         val sums = IntArray(nums.size)
