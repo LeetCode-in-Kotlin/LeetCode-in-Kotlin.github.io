@@ -57,7 +57,6 @@ import com_github_leetcode.Employee
  *		var subordinates:List<Int> = listOf()
  *	}
  */
-
 class Solution {
     fun getImportance(employees: List<Employee?>, id: Int): Int {
         val map: MutableMap<Int, Employee> = HashMap()

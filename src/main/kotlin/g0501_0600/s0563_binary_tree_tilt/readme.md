@@ -72,6 +72,7 @@ import com_github_leetcode.TreeNode
  */
 class Solution {
     private var sum = 0
+
     private fun sumTilt(root: TreeNode?): Int {
         if (root == null) {
             return 0

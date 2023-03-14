@@ -45,7 +45,7 @@ Given the integer array `candyType` of length `n`, return _the **maximum** numbe
 ## Solution
 
 ```kotlin
-internal class Solution {
+class Solution {
     fun distributeCandies(candyType: IntArray): Int {
         val s: MutableSet<Int> = HashSet()
         for (i in candyType) {

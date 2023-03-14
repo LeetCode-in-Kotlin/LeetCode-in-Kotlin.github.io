@@ -34,8 +34,8 @@ Given a string `word`, return `true` if the usage of capitals in it is right.
 
 ```kotlin
 class Solution {
-    fun detectCapitalUse(word: String?): Boolean {
-        if (word == null || word.length == 0) {
+    fun detectCapitalUse(word: String): Boolean {
+        if (word.isEmpty()) {
             return false
         }
         var upper = 0

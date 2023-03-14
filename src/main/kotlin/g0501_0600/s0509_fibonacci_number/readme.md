@@ -44,6 +44,7 @@ Given `n`, calculate `F(n)`.
 ```kotlin
 class Solution {
     private val memo = IntArray(31)
+
     fun fib(n: Int): Int {
         if (n == 0) {
             return 0

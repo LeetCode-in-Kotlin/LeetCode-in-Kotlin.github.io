@@ -36,7 +36,7 @@ Given two integer arrays `inorder` and `postorder` where `inorder` is the inorde
 ```kotlin
 import com_github_leetcode.TreeNode
 
-/**
+/*
  * Example:
  * var ti = TreeNode(5)
  * var v = ti.`val`
