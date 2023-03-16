@@ -58,6 +58,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0797 |[All Paths From Source to Target](src/main/kotlin/g0701_0800/s0797_all_paths_from_source_to_target)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Backtracking | 232 | 100.00
 
 #### Day 8 Standard Traversal
 
@@ -69,6 +70,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0802 |[Find Eventual Safe States](src/main/kotlin/g0801_0900/s0802_find_eventual_safe_states)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Topological_Sort | 511 | 100.00
 
 #### Day 10 Standard Traversal
 
@@ -1028,6 +1030,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0130 |[Surrounded Regions](src/main/kotlin/g0101_0200/s0130_surrounded_regions)| Medium | Top_Interview_Questions, Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find | 355 | 84.42
+| 0797 |[All Paths From Source to Target](src/main/kotlin/g0701_0800/s0797_all_paths_from_source_to_target)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Backtracking | 232 | 100.00
 
 #### Day 9 Recursion Backtracking
 
@@ -1676,6 +1679,14 @@
 | 1143 |[Longest Common Subsequence](src/main/kotlin/g1101_1200/s1143_longest_common_subsequence)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming, Algorithm_II_Day_17_Dynamic_Programming, Dynamic_Programming_I_Day_19, Udemy_Dynamic_Programming | 307 | 38.36
 | 0994 |[Rotting Oranges](src/main/kotlin/g0901_1000/s0994_rotting_oranges)| Medium | Array, Breadth_First_Search, Matrix, Algorithm_I_Day_9_Breadth_First_Search_Depth_First_Search, Level_2_Day_10_Graph/BFS/DFS | 308 | 57.93
 | 0864 |[Shortest Path to Get All Keys](src/main/kotlin/g0801_0900/s0864_shortest_path_to_get_all_keys)| Hard | Breadth_First_Search, Bit_Manipulation | 176 | 100.00
+| 0805 |[Split Array With Same Average](src/main/kotlin/g0801_0900/s0805_split_array_with_same_average)| Hard | Array, Dynamic_Programming, Math, Bit_Manipulation, Bitmask | 142 | 100.00
+| 0804 |[Unique Morse Code Words](src/main/kotlin/g0801_0900/s0804_unique_morse_code_words)| Easy | Array, String, Hash_Table | 158 | 80.00
+| 0803 |[Bricks Falling When Hit](src/main/kotlin/g0801_0900/s0803_bricks_falling_when_hit)| Hard | Array, Matrix, Union_Find | 742 | 100.00
+| 0802 |[Find Eventual Safe States](src/main/kotlin/g0801_0900/s0802_find_eventual_safe_states)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Topological_Sort, Graph_Theory_I_Day_9_Standard_Traversal | 511 | 100.00
+| 0801 |[Minimum Swaps To Make Sequences Increasing](src/main/kotlin/g0801_0900/s0801_minimum_swaps_to_make_sequences_increasing)| Hard | Array, Dynamic_Programming | 617 | 83.33
+| 0799 |[Champagne Tower](src/main/kotlin/g0701_0800/s0799_champagne_tower)| Medium | Dynamic_Programming | 153 | 100.00
+| 0798 |[Smallest Rotation with Highest Score](src/main/kotlin/g0701_0800/s0798_smallest_rotation_with_highest_score)| Hard | Array, Prefix_Sum | 470 | 100.00
+| 0797 |[All Paths From Source to Target](src/main/kotlin/g0701_0800/s0797_all_paths_from_source_to_target)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Backtracking, Algorithm_II_Day_8_Breadth_First_Search_Depth_First_Search, Graph_Theory_I_Day_7_Standard_Traversal | 232 | 100.00
 | 0796 |[Rotate String](src/main/kotlin/g0701_0800/s0796_rotate_string)| Easy | String, String_Matching | 134 | 100.00
 | 0795 |[Number of Subarrays with Bounded Maximum](src/main/kotlin/g0701_0800/s0795_number_of_subarrays_with_bounded_maximum)| Medium | Array, Two_Pointers | 361 | 66.67
 | 0794 |[Valid Tic-Tac-Toe State](src/main/kotlin/g0701_0800/s0794_valid_tic_tac_toe_state)| Medium | Array, String | 138 | 100.00

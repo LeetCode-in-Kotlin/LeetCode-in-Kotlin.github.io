@@ -68,15 +68,13 @@ The optimal path with no stops from city 0 to 2 is marked in red and has cost 50
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun findCheapestPrice(n: Int, flights: Array<IntArray>, src: Int, dst: Int, k: Int): Int {
         // k + 2 becase there are total of k(intermediate stops) + 1(src) + 1(dst)
         // dp[i][j] = cost to reach j using atmost i edges from src
         val dp = Array(k + 2) { IntArray(n) }
         for (row in dp) {
-            Arrays.fill(row, Int.MAX_VALUE)
+            row.fill(Int.MAX_VALUE)
         }
         // cost to reach src is always 0
         for (i in 0..k + 1) {
