@@ -347,6 +347,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0210 |[Course Schedule II](src/main/kotlin/g0201_0300/s0210_course_schedule_ii)| Medium | Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Graph, Topological_Sort | 266 | 96.32
+| 0815 |[Bus Routes](src/main/kotlin/g0801_0900/s0815_bus_routes)| Hard | Array, Hash_Table, Breadth_First_Search | 429 | 100.00
 
 #### Day 12 Dynamic Programming
 
@@ -1679,6 +1680,22 @@
 | 1143 |[Longest Common Subsequence](src/main/kotlin/g1101_1200/s1143_longest_common_subsequence)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming, Algorithm_II_Day_17_Dynamic_Programming, Dynamic_Programming_I_Day_19, Udemy_Dynamic_Programming | 307 | 38.36
 | 0994 |[Rotting Oranges](src/main/kotlin/g0901_1000/s0994_rotting_oranges)| Medium | Array, Breadth_First_Search, Matrix, Algorithm_I_Day_9_Breadth_First_Search_Depth_First_Search, Level_2_Day_10_Graph/BFS/DFS | 308 | 57.93
 | 0864 |[Shortest Path to Get All Keys](src/main/kotlin/g0801_0900/s0864_shortest_path_to_get_all_keys)| Hard | Breadth_First_Search, Bit_Manipulation | 176 | 100.00
+| 0821 |[Shortest Distance to a Character](src/main/kotlin/g0801_0900/s0821_shortest_distance_to_a_character)| Easy | Array, String, Two_Pointers | 168 | 88.00
+| 0820 |[Short Encoding of Words](src/main/kotlin/g0801_0900/s0820_short_encoding_of_words)| Medium | Array, String, Hash_Table, Trie | 231 | 100.00
+| 0819 |[Most Common Word](src/main/kotlin/g0801_0900/s0819_most_common_word)| Easy | String, Hash_Table, Counting | 211 | 83.33
+| 0818 |[Race Car](src/main/kotlin/g0801_0900/s0818_race_car)| Hard | Dynamic_Programming | 123 | 100.00
+| 0817 |[Linked List Components](src/main/kotlin/g0801_0900/s0817_linked_list_components)| Medium | Hash_Table, Linked_List | 239 | 100.00
+| 0816 |[Ambiguous Coordinates](src/main/kotlin/g0801_0900/s0816_ambiguous_coordinates)| Medium | String, Backtracking | 231 | 100.00
+| 0815 |[Bus Routes](src/main/kotlin/g0801_0900/s0815_bus_routes)| Hard | Array, Hash_Table, Breadth_First_Search, Level_2_Day_11_Graph/BFS/DFS | 429 | 100.00
+| 0814 |[Binary Tree Pruning](src/main/kotlin/g0801_0900/s0814_binary_tree_pruning)| Medium | Depth_First_Search, Tree, Binary_Tree | 127 | 100.00
+| 0813 |[Largest Sum of Averages](src/main/kotlin/g0801_0900/s0813_largest_sum_of_averages)| Medium | Array, Dynamic_Programming | 160 | 100.00
+| 0812 |[Largest Triangle Area](src/main/kotlin/g0801_0900/s0812_largest_triangle_area)| Easy | Array, Math, Geometry | 156 | 71.43
+| 0811 |[Subdomain Visit Count](src/main/kotlin/g0801_0900/s0811_subdomain_visit_count)| Medium | Array, String, Hash_Table, Counting | 220 | 100.00
+| 0810 |[Chalkboard XOR Game](src/main/kotlin/g0801_0900/s0810_chalkboard_xor_game)| Hard | Array, Math, Bit_Manipulation, Game_Theory, Brainteaser | 172 | 100.00
+| 0809 |[Expressive Words](src/main/kotlin/g0801_0900/s0809_expressive_words)| Medium | Array, String, Two_Pointers | 158 | 100.00
+| 0808 |[Soup Servings](src/main/kotlin/g0801_0900/s0808_soup_servings)| Medium | Dynamic_Programming, Math, Probability_and_Statistics | 112 | 100.00
+| 0807 |[Max Increase to Keep City Skyline](src/main/kotlin/g0801_0900/s0807_max_increase_to_keep_city_skyline)| Medium | Array, Greedy, Matrix | 158 | 100.00
+| 0806 |[Number of Lines To Write String](src/main/kotlin/g0801_0900/s0806_number_of_lines_to_write_string)| Easy | Array, String | 134 | 100.00
 | 0805 |[Split Array With Same Average](src/main/kotlin/g0801_0900/s0805_split_array_with_same_average)| Hard | Array, Dynamic_Programming, Math, Bit_Manipulation, Bitmask | 142 | 100.00
 | 0804 |[Unique Morse Code Words](src/main/kotlin/g0801_0900/s0804_unique_morse_code_words)| Easy | Array, String, Hash_Table | 158 | 80.00
 | 0803 |[Bricks Falling When Hit](src/main/kotlin/g0801_0900/s0803_bricks_falling_when_hit)| Hard | Array, Matrix, Union_Find | 742 | 100.00
