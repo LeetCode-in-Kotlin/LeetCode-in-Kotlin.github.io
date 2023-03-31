@@ -39,7 +39,6 @@ Return _the least number of buses you must take to travel from_ `source` _to_ `t
 ## Solution
 
 ```kotlin
-import java.util.Arrays
 import java.util.LinkedList
 import java.util.Queue
 import kotlin.collections.ArrayList
@@ -89,14 +88,14 @@ class Solution {
         val len = routes.size
         val graph: Array<ArrayList<Int>?> = arrayOfNulls(len)
         for (i in 0 until len) {
-            Arrays.sort(routes[i])
+            routes[i].sort()
             graph[i] = ArrayList()
-            var id = Arrays.binarySearch(routes[i], source)
+            var id = routes[i].binarySearch(source)
             if (id >= 0) {
                 queue.offer(i)
                 taken[i] = true
             }
-            id = Arrays.binarySearch(routes[i], target)
+            id = routes[i].binarySearch(target)
             if (id >= 0) {
                 targetRoutes.add(i)
             }
