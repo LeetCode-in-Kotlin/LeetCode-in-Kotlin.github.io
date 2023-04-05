@@ -39,8 +39,8 @@ Return _the maximum **area** of an island in_ `grid`. If there is no island, ret
 ```kotlin
 @Suppress("NAME_SHADOWING")
 class Solution {
-    fun maxAreaOfIsland(grid: Array<IntArray>?): Int {
-        if (grid.isNullOrEmpty()) {
+    fun maxAreaOfIsland(grid: Array<IntArray>): Int {
+        if (grid.isEmpty()) {
             return 0
         }
         val m = grid.size
