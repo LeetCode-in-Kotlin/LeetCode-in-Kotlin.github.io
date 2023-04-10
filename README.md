@@ -108,6 +108,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0876 |[Middle of the Linked List](src/main/kotlin/g0801_0900/s0876_middle_of_the_linked_list)| Easy | Two_Pointers, Linked_List | 136 | 76.52
 | 0142 |[Linked List Cycle II](src/main/kotlin/g0101_0200/s0142_linked_list_cycle_ii)| Medium | Top_100_Liked_Questions, Hash_Table, Two_Pointers, Linked_List | 192 | 63.39
 
 #### Day 5 Greedy
@@ -435,6 +436,7 @@
 | 0328 |[Odd Even Linked List](src/main/kotlin/g0301_0400/s0328_odd_even_linked_list)| Medium | Top_Interview_Questions, Linked_List | 216 | 86.96
 | 0061 |[Rotate List](src/main/kotlin/g0001_0100/s0061_rotate_list)| Medium | Two_Pointers, Linked_List | 193 | 92.16
 | 0024 |[Swap Nodes in Pairs](src/main/kotlin/g0001_0100/s0024_swap_nodes_in_pairs)| Medium | Top_100_Liked_Questions, Linked_List, Recursion | 149 | 99.39
+| 0876 |[Middle of the Linked List](src/main/kotlin/g0801_0900/s0876_middle_of_the_linked_list)| Easy | Two_Pointers, Linked_List | 136 | 76.52
 | 0142 |[Linked List Cycle II](src/main/kotlin/g0101_0200/s0142_linked_list_cycle_ii)| Medium | Top_100_Liked_Questions, Hash_Table, Two_Pointers, Linked_List | 192 | 63.39
 | 0141 |[Linked List Cycle](src/main/kotlin/g0101_0200/s0141_linked_list_cycle)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List | 223 | 91.85
 | 0206 |[Reverse Linked List](src/main/kotlin/g0201_0300/s0206_reverse_linked_list)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion | 279 | 45.78
@@ -824,6 +826,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0876 |[Middle of the Linked List](src/main/kotlin/g0801_0900/s0876_middle_of_the_linked_list)| Easy | Two_Pointers, Linked_List | 136 | 76.52
 | 0019 |[Remove Nth Node From End of List](src/main/kotlin/g0001_0100/s0019_remove_nth_node_from_end_of_list)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Two_Pointers, Linked_List | 180 | 91.58
 
 #### Day 6 Sliding Window
@@ -1146,6 +1149,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0875 |[Koko Eating Bananas](src/main/kotlin/g0801_0900/s0875_koko_eating_bananas)| Medium | Array, Binary_Search | 267 | 93.85
 
 #### Day 5
 
@@ -1444,6 +1448,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0876 |[Middle of the Linked List](src/main/kotlin/g0801_0900/s0876_middle_of_the_linked_list)| Easy | Two_Pointers, Linked_List | 136 | 76.52
 | 0104 |[Maximum Depth of Binary Tree](src/main/kotlin/g0101_0200/s0104_maximum_depth_of_binary_tree)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 236 | 83.39
 | 0404 |[Sum of Left Leaves](src/main/kotlin/g0401_0500/s0404_sum_of_left_leaves)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 173 | 86.05
 
@@ -1679,6 +1684,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0886 |[Possible Bipartition](src/main/kotlin/g0801_0900/s0886_possible_bipartition)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Union_Find | 397 | 100.00
 | 0785 |[Is Graph Bipartite?](src/main/kotlin/g0701_0800/s0785_is_graph_bipartite)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Union_Find | 215 | 82.35
 
 ## Algorithms
@@ -1687,6 +1693,27 @@
 |------|----------------|-------------|-------------|----------|--------
 | 1143 |[Longest Common Subsequence](src/main/kotlin/g1101_1200/s1143_longest_common_subsequence)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming, Algorithm_II_Day_17_Dynamic_Programming, Dynamic_Programming_I_Day_19, Udemy_Dynamic_Programming | 307 | 38.36
 | 0994 |[Rotting Oranges](src/main/kotlin/g0901_1000/s0994_rotting_oranges)| Medium | Array, Breadth_First_Search, Matrix, Algorithm_I_Day_9_Breadth_First_Search_Depth_First_Search, Level_2_Day_10_Graph/BFS/DFS | 308 | 57.93
+| 0891 |[Sum of Subsequence Widths](src/main/kotlin/g0801_0900/s0891_sum_of_subsequence_widths)| Hard | Array, Math, Sorting | 481 | 100.00
+| 0890 |[Find and Replace Pattern](src/main/kotlin/g0801_0900/s0890_find_and_replace_pattern)| Medium | Array, String, Hash_Table | 150 | 100.00
+| 0889 |[Construct Binary Tree from Preorder and Postorder Traversal](src/main/kotlin/g0801_0900/s0889_construct_binary_tree_from_preorder_and_postorder_traversal)| Medium | Array, Hash_Table, Tree, Binary_Tree, Divide_and_Conquer | 168 | 100.00
+| 0888 |[Fair Candy Swap](src/main/kotlin/g0801_0900/s0888_fair_candy_swap)| Easy | Array, Hash_Table, Sorting, Binary_Search | 318 | 100.00
+| 0887 |[Super Egg Drop](src/main/kotlin/g0801_0900/s0887_super_egg_drop)| Hard | Dynamic_Programming, Math, Binary_Search | 119 | 100.00
+| 0886 |[Possible Bipartition](src/main/kotlin/g0801_0900/s0886_possible_bipartition)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Union_Find, Graph_Theory_I_Day_14_Graph_Theory | 397 | 100.00
+| 0885 |[Spiral Matrix III](src/main/kotlin/g0801_0900/s0885_spiral_matrix_iii)| Medium | Array, Matrix, Simulation | 265 | 100.00
+| 0884 |[Uncommon Words from Two Sentences](src/main/kotlin/g0801_0900/s0884_uncommon_words_from_two_sentences)| Easy | String, Hash_Table | 171 | 100.00
+| 0883 |[Projection Area of 3D Shapes](src/main/kotlin/g0801_0900/s0883_projection_area_of_3d_shapes)| Easy | Array, Math, Matrix, Geometry | 173 | 100.00
+| 0882 |[Reachable Nodes In Subdivided Graph](src/main/kotlin/g0801_0900/s0882_reachable_nodes_in_subdivided_graph)| Hard | Heap_Priority_Queue, Graph, Shortest_Path | 434 | 100.00
+| 0881 |[Boats to Save People](src/main/kotlin/g0801_0900/s0881_boats_to_save_people)| Medium | Array, Sorting, Greedy, Two_Pointers | 370 | 96.07
+| 0880 |[Decoded String at Index](src/main/kotlin/g0801_0900/s0880_decoded_string_at_index)| Medium | String, Stack | 134 | 100.00
+| 0879 |[Profitable Schemes](src/main/kotlin/g0801_0900/s0879_profitable_schemes)| Hard | Array, Dynamic_Programming | 198 | 75.00
+| 0878 |[Nth Magical Number](src/main/kotlin/g0801_0900/s0878_nth_magical_number)| Hard | Math, Binary_Search | 124 | 100.00
+| 0877 |[Stone Game](src/main/kotlin/g0801_0900/s0877_stone_game)| Medium | Array, Dynamic_Programming, Math, Game_Theory | 136 | 88.24
+| 0876 |[Middle of the Linked List](src/main/kotlin/g0801_0900/s0876_middle_of_the_linked_list)| Easy | Two_Pointers, Linked_List, Algorithm_I_Day_5_Two_Pointers, Programming_Skills_I_Day_10_Linked_List_and_Tree, Level_1_Day_4_Linked_List, Udemy_Linked_List | 136 | 76.52
+| 0875 |[Koko Eating Bananas](src/main/kotlin/g0801_0900/s0875_koko_eating_bananas)| Medium | Array, Binary_Search, Binary_Search_II_Day_4 | 267 | 93.85
+| 0874 |[Walking Robot Simulation](src/main/kotlin/g0801_0900/s0874_walking_robot_simulation)| Medium | Array, Simulation | 274 | 100.00
+| 0873 |[Length of Longest Fibonacci Subsequence](src/main/kotlin/g0801_0900/s0873_length_of_longest_fibonacci_subsequence)| Medium | Array, Hash_Table, Dynamic_Programming | 341 | 90.00
+| 0872 |[Leaf-Similar Trees](src/main/kotlin/g0801_0900/s0872_leaf_similar_trees)| Easy | Depth_First_Search, Tree, Binary_Tree | 140 | 100.00
+| 0871 |[Minimum Number of Refueling Stops](src/main/kotlin/g0801_0900/s0871_minimum_number_of_refueling_stops)| Hard | Array, Dynamic_Programming, Greedy, Heap_Priority_Queue | 203 | 92.86
 | 0870 |[Advantage Shuffle](src/main/kotlin/g0801_0900/s0870_advantage_shuffle)| Medium | Array, Sorting, Greedy | 698 | 100.00
 | 0869 |[Reordered Power of 2](src/main/kotlin/g0801_0900/s0869_reordered_power_of_2)| Medium | Math, Sorting, Counting, Enumeration | 145 | 87.50
 | 0868 |[Binary Gap](src/main/kotlin/g0801_0900/s0868_binary_gap)| Easy | Bit_Manipulation | 142 | 100.00

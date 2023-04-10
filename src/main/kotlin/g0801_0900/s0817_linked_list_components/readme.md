@@ -44,7 +44,7 @@ Return _the number of connected components in_ `nums` _where two values are conn
 ```kotlin
 import com_github_leetcode.ListNode
 
-/**
+/*
  * Example:
  * var li = ListNode(5)
  * var v = li.`val`
@@ -53,7 +53,6 @@ import com_github_leetcode.ListNode
  *     var next: ListNode? = null
  * }
  */
-
 @Suppress("NAME_SHADOWING")
 class Solution {
     fun numComponents(head: ListNode?, nums: IntArray): Int {

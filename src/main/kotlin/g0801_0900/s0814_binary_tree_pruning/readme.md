@@ -49,7 +49,7 @@ The diagram on the right represents the answer.
 ```kotlin
 import com_github_leetcode.TreeNode
 
-/**
+/*
  * Example:
  * var ti = TreeNode(5)
  * var v = ti.`val`
