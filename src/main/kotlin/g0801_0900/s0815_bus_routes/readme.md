@@ -41,9 +41,6 @@ Return _the least number of buses you must take to travel from_ `source` _to_ `t
 ```kotlin
 import java.util.LinkedList
 import java.util.Queue
-import kotlin.collections.ArrayList
-import kotlin.collections.HashSet
-import kotlin.collections.MutableSet
 
 class Solution {
     fun numBusesToDestination(routes: Array<IntArray>, source: Int, target: Int): Int {
