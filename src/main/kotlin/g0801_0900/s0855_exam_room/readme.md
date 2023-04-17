@@ -42,8 +42,6 @@ Implement the `ExamRoom` class:
 ## Solution
 
 ```kotlin
-import java.util.Objects
-
 class ExamRoom() {
     private class Node(var `val`: Int, map: MutableMap<Int?, Node>) {
         var pre: Node? = null
@@ -107,7 +105,7 @@ class ExamRoom() {
         }
         return if (right > max) {
             Node(n - 1, map).insert(tail.pre)
-        } else Node(maxAt, map).insert(Objects.requireNonNull(maxAtLeft))
+        } else Node(maxAt, map).insert(maxAtLeft)
     }
 
     fun leave(p: Int) {

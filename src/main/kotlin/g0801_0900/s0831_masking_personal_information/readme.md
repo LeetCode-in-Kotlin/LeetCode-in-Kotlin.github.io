@@ -86,15 +86,13 @@ Thus, the resulting masked number is "\*\*\*-\*\*\*-7890".
 ## Solution
 
 ```kotlin
-import java.util.Locale
-
 class Solution {
     fun maskPII(s: String): String {
         val masked = StringBuilder()
         return if (Character.isAlphabetic(s[0].code)) {
             val locationOfAtSymbol = s.indexOf("@") - 1
             masked.append(s[0]).append("*****").append(s.substring(locationOfAtSymbol))
-            masked.toString().lowercase(Locale.getDefault())
+            masked.toString().lowercase()
         } else {
             val allDigits = StringBuilder()
             var pointer = -1
