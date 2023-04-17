@@ -35,13 +35,11 @@ Recall that a permutation of letters is a bijection from letters to letters: eve
 ## Solution
 
 ```kotlin
-import java.util.Collections
-
 class Solution {
     fun findAndReplacePattern(words: Array<String>, pattern: String): List<String> {
         val finalans: MutableList<String> = ArrayList()
         if (pattern.length == 1) {
-            Collections.addAll(finalans, *words)
+            finalans.addAll(words)
             return finalans
         }
         for (word in words) {

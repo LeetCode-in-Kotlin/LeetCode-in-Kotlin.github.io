@@ -34,16 +34,14 @@ The words in `paragraph` are **case-insensitive** and the answer should be retur
 ## Solution
 
 ```kotlin
-import java.util.Locale
-
 @Suppress("NAME_SHADOWING")
 class Solution {
     fun mostCommonWord(paragraph: String, banned: Array<String>): String {
         var paragraph = paragraph
-        paragraph = paragraph.replace("\\p{Punct}".toRegex(), " ").lowercase(Locale.getDefault())
+        paragraph = paragraph.replace("\\p{Punct}".toRegex(), " ").lowercase()
         val a = paragraph.split(" ".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
         for (i in banned.indices) {
-            banned[i] = banned[i].lowercase(Locale.getDefault())
+            banned[i] = banned[i].lowercase()
         }
         val map: MutableMap<String, Int> = HashMap()
         for (s in a) {
