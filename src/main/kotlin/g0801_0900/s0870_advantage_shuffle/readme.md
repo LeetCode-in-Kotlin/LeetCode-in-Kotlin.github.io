@@ -30,13 +30,12 @@ Return _any permutation of_ `nums1` _that maximizes its **advantage** with respe
 ## Solution
 
 ```kotlin
-import java.util.Arrays
 import java.util.PriorityQueue
 
 class Solution {
     fun advantageCount(nums1: IntArray, nums2: IntArray): IntArray {
         val n = nums1.size
-        Arrays.sort(nums1)
+        nums1.sort()
         val maxpq = PriorityQueue { pair1: IntArray, pair2: IntArray ->
             pair2[1] - pair1[1]
         }

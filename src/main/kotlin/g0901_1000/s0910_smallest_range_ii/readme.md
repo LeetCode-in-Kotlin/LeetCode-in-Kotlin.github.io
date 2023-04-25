@@ -46,11 +46,9 @@ Return _the minimum **score** of_ `nums` _after changing the values at each inde
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun smallestRangeII(nums: IntArray, k: Int): Int {
-        Arrays.sort(nums)
+        nums.sort()
         val n = nums.size
         var ans = nums[n - 1] - nums[0]
         val min = nums[0] + k
