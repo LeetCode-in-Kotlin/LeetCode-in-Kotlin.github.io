@@ -60,6 +60,7 @@ myCircularDeque.getFront(); // return 4
 ## Solution
 
 ```kotlin
+@Suppress("kotlin:S6512")
 class MyCircularDeque(k: Int) {
     private val data: IntArray
     private var front: Int

@@ -34,6 +34,7 @@ Given an integer array `nums` and an integer `k`, return _the_ `k` _most frequen
 import java.util.PriorityQueue
 import java.util.Queue
 
+@Suppress("kotlin:S6518")
 class Solution {
     fun topKFrequent(nums: IntArray, k: Int): IntArray {
         nums.sort()

@@ -2,7 +2,6 @@
 [![](https://img.shields.io/github/forks/javadev/LeetCode-in-Kotlin?label=Fork%20me%20on%20GitHub%20&style=flat-square)](https://github.com/javadev/LeetCode-in-Kotlin/fork)
 > ["For coding interview preparation, LeetCode is one of the best online resource providing a rich library of more than 300 real coding interview questions for you to practice from using one of the 7 supported languages - C, C++, Java, Python, C#, JavaScript, Ruby."](https://www.quora.com/How-effective-is-Leetcode-for-preparing-for-technical-interviews)
 
-* [SQL I](#sql-i)
 * [Level 1](#level-1)
 * [Level 2](#level-2)
 * [Udemy](#udemy)
@@ -16,71 +15,7 @@
 * [Programming Skills I](#programming-skills-i)
 * [Programming Skills II](#programming-skills-ii)
 * [Graph Theory I](#graph-theory-i)
-
-### SQL I
-
-#### Day 1 Select
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0595 |[Big Countries](src/main/kotlin/g0501_0600/s0595_big_countries)| Easy | Database | 417 | 56.09
-| 0584 |[Find Customer Referee](src/main/kotlin/g0501_0600/s0584_find_customer_referee)| Easy | Database | 779 | 43.48
-| 0183 |[Customers Who Never Order](src/main/kotlin/g0101_0200/s0183_customers_who_never_order)| Easy | Database | 712 | 33.67
-
-#### Day 2 Select and Order
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0627 |[Swap Salary](src/main/kotlin/g0601_0700/s0627_swap_salary)| Easy | Database | 400 | 51.04
-| 0196 |[Delete Duplicate Emails](src/main/kotlin/g0101_0200/s0196_delete_duplicate_emails)| Easy | Database | 593 | 94.17
-
-#### Day 3 String Processing Functions
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 4 Union and Select
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0608 |[Tree Node](src/main/kotlin/g0601_0700/s0608_tree_node)| Medium | LeetCode_Curated_SQL_70, Database | 794 | 48.38
-| 0176 |[Second Highest Salary](src/main/kotlin/g0101_0200/s0176_second_highest_salary)| Medium | Database | 219 | 92.54
-
-#### Day 5 Union
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0175 |[Combine Two Tables](src/main/kotlin/g0101_0200/s0175_combine_two_tables)| Easy | Database | 473 | 54.97
-
-#### Day 6 Union
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0197 |[Rising Temperature](src/main/kotlin/g0101_0200/s0197_rising_temperature)| Easy | Database | 394 | 94.15
-| 0607 |[Sales Person](src/main/kotlin/g0601_0700/s0607_sales_person)| Easy | LeetCode_Curated_SQL_70, Database | 2142 | 44.56
-
-#### Day 7 Function
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 8 Function
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0586 |[Customer Placing the Largest Number of Orders](src/main/kotlin/g0501_0600/s0586_customer_placing_the_largest_number_of_orders)| Easy | LeetCode_Curated_SQL_70, Database | 768 | 44.85
-| 0511 |[Game Play Analysis I](src/main/kotlin/g0501_0600/s0511_game_play_analysis_i)| Easy | LeetCode_Curated_SQL_70, Database | 790 | 45.04
-
-#### Day 9 Control of Flow
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-
-#### Day 10 Where
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0182 |[Duplicate Emails](src/main/kotlin/g0101_0200/s0182_duplicate_emails)| Easy | Database | 396 | 68.40
+* [SQL I](#sql-i)
 
 ### Level 1
 
@@ -323,6 +258,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0547 |[Number of Provinces](src/main/kotlin/g0501_0600/s0547_number_of_provinces)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Union_Find | 229 | 79.73
+| 0947 |[Most Stones Removed with Same Row or Column](src/main/kotlin/g0901_1000/s0947_most_stones_removed_with_same_row_or_column)| Medium | Depth_First_Search, Graph, Union_Find | 200 | 100.00
 
 #### Day 20 Brute Force/Backtracking
 
@@ -460,6 +396,7 @@
 | 0103 |[Binary Tree Zigzag Level Order Traversal](src/main/kotlin/g0101_0200/s0103_binary_tree_zigzag_level_order_traversal)| Medium | Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree | 316 | 34.25
 | 0108 |[Convert Sorted Array to Binary Search Tree](src/main/kotlin/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree)| Easy | Top_Interview_Questions, Array, Tree, Binary_Tree, Binary_Search_Tree, Divide_and_Conquer | 334 | 35.39
 | 0543 |[Diameter of Binary Tree](src/main/kotlin/g0501_0600/s0543_diameter_of_binary_tree)| Easy | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree | 307 | 43.93
+| 0938 |[Range Sum of BST](src/main/kotlin/g0901_1000/s0938_range_sum_of_bst)| Easy | Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 356 | 55.36
 | 0100 |[Same Tree](src/main/kotlin/g0001_0100/s0100_same_tree)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 208 | 72.24
 | 0226 |[Invert Binary Tree](src/main/kotlin/g0201_0300/s0226_invert_binary_tree)| Easy | Top_100_Liked_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 233 | 54.90
 | 0111 |[Minimum Depth of Binary Tree](src/main/kotlin/g0101_0200/s0111_minimum_depth_of_binary_tree)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 525 | 90.51
@@ -1333,6 +1270,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0931 |[Minimum Falling Path Sum](src/main/kotlin/g0901_1000/s0931_minimum_falling_path_sum)| Medium | Array, Dynamic_Programming, Matrix | 201 | 84.21
 | 0120 |[Triangle](src/main/kotlin/g0101_0200/s0120_triangle)| Medium | Array, Dynamic_Programming | 194 | 97.87
 
 #### Day 14
@@ -1446,6 +1384,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0709 |[To Lower Case](src/main/kotlin/g0701_0800/s0709_to_lower_case)| Easy | String | 142 | 98.68
+| 0953 |[Verifying an Alien Dictionary](src/main/kotlin/g0901_1000/s0953_verifying_an_alien_dictionary)| Easy | Array, String, Hash_Table | 137 | 100.00
 
 #### Day 10 Linked List and Tree
 
@@ -1640,6 +1579,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0934 |[Shortest Bridge](src/main/kotlin/g0901_1000/s0934_shortest_bridge)| Medium | Array, Depth_First_Search, Breadth_First_Search, Matrix | 301 | 80.95
 
 #### Day 7 Standard Traversal
 
@@ -1692,12 +1632,109 @@
 | 0886 |[Possible Bipartition](src/main/kotlin/g0801_0900/s0886_possible_bipartition)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Union_Find | 397 | 100.00
 | 0785 |[Is Graph Bipartite?](src/main/kotlin/g0701_0800/s0785_is_graph_bipartite)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Union_Find | 215 | 82.35
 
+### SQL I
+
+#### Day 1 Select
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0595 |[Big Countries](src/main/kotlin/g0501_0600/s0595_big_countries)| Easy | Database | 417 | 56.09
+| 0584 |[Find Customer Referee](src/main/kotlin/g0501_0600/s0584_find_customer_referee)| Easy | Database | 779 | 43.48
+| 0183 |[Customers Who Never Order](src/main/kotlin/g0101_0200/s0183_customers_who_never_order)| Easy | Database | 712 | 33.67
+
+#### Day 2 Select and Order
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0627 |[Swap Salary](src/main/kotlin/g0601_0700/s0627_swap_salary)| Easy | Database | 400 | 51.04
+| 0196 |[Delete Duplicate Emails](src/main/kotlin/g0101_0200/s0196_delete_duplicate_emails)| Easy | Database | 593 | 94.17
+
+#### Day 3 String Processing Functions
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 4 Union and Select
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0608 |[Tree Node](src/main/kotlin/g0601_0700/s0608_tree_node)| Medium | LeetCode_Curated_SQL_70, Database | 794 | 48.38
+| 0176 |[Second Highest Salary](src/main/kotlin/g0101_0200/s0176_second_highest_salary)| Medium | Database | 219 | 92.54
+
+#### Day 5 Union
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0175 |[Combine Two Tables](src/main/kotlin/g0101_0200/s0175_combine_two_tables)| Easy | Database | 473 | 54.97
+
+#### Day 6 Union
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0197 |[Rising Temperature](src/main/kotlin/g0101_0200/s0197_rising_temperature)| Easy | Database | 394 | 94.15
+| 0607 |[Sales Person](src/main/kotlin/g0601_0700/s0607_sales_person)| Easy | LeetCode_Curated_SQL_70, Database | 2142 | 44.56
+
+#### Day 7 Function
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 8 Function
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0586 |[Customer Placing the Largest Number of Orders](src/main/kotlin/g0501_0600/s0586_customer_placing_the_largest_number_of_orders)| Easy | LeetCode_Curated_SQL_70, Database | 768 | 44.85
+| 0511 |[Game Play Analysis I](src/main/kotlin/g0501_0600/s0511_game_play_analysis_i)| Easy | LeetCode_Curated_SQL_70, Database | 790 | 45.04
+
+#### Day 9 Control of Flow
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+
+#### Day 10 Where
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0182 |[Duplicate Emails](src/main/kotlin/g0101_0200/s0182_duplicate_emails)| Easy | Database | 396 | 68.40
+
 ## Algorithms
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
 | 1143 |[Longest Common Subsequence](src/main/kotlin/g1101_1200/s1143_longest_common_subsequence)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming, Algorithm_II_Day_17_Dynamic_Programming, Dynamic_Programming_I_Day_19, Udemy_Dynamic_Programming | 307 | 38.36
 | 0994 |[Rotting Oranges](src/main/kotlin/g0901_1000/s0994_rotting_oranges)| Medium | Array, Breadth_First_Search, Matrix, Algorithm_I_Day_9_Breadth_First_Search_Depth_First_Search, Level_2_Day_10_Graph/BFS/DFS | 308 | 57.93
+| 0959 |[Regions Cut By Slashes](src/main/kotlin/g0901_1000/s0959_regions_cut_by_slashes)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Union_Find | 180 | 100.00
+| 0958 |[Check Completeness of a Binary Tree](src/main/kotlin/g0901_1000/s0958_check_completeness_of_a_binary_tree)| Medium | Breadth_First_Search, Tree, Binary_Tree | 142 | 96.04
+| 0957 |[Prison Cells After N Days](src/main/kotlin/g0901_1000/s0957_prison_cells_after_n_days)| Medium | Array, Hash_Table, Math, Bit_Manipulation | 172 | 100.00
+| 0956 |[Tallest Billboard](src/main/kotlin/g0901_1000/s0956_tallest_billboard)| Hard | Array, Dynamic_Programming | 182 | 100.00
+| 0955 |[Delete Columns to Make Sorted II](src/main/kotlin/g0901_1000/s0955_delete_columns_to_make_sorted_ii)| Medium | Array, String, Greedy | 190 | 100.00
+| 0954 |[Array of Doubled Pairs](src/main/kotlin/g0901_1000/s0954_array_of_doubled_pairs)| Medium | Array, Hash_Table, Sorting, Greedy | 462 | 100.00
+| 0953 |[Verifying an Alien Dictionary](src/main/kotlin/g0901_1000/s0953_verifying_an_alien_dictionary)| Easy | Array, String, Hash_Table, Programming_Skills_I_Day_9_String | 137 | 100.00
+| 0952 |[Largest Component Size by Common Factor](src/main/kotlin/g0901_1000/s0952_largest_component_size_by_common_factor)| Hard | Array, Math, Union_Find | 538 | 100.00
+| 0951 |[Flip Equivalent Binary Trees](src/main/kotlin/g0901_1000/s0951_flip_equivalent_binary_trees)| Medium | Depth_First_Search, Tree, Binary_Tree | 150 | 100.00
+| 0950 |[Reveal Cards In Increasing Order](src/main/kotlin/g0901_1000/s0950_reveal_cards_in_increasing_order)| Medium | Array, Sorting, Simulation, Queue | 176 | 100.00
+| 0949 |[Largest Time for Given Digits](src/main/kotlin/g0901_1000/s0949_largest_time_for_given_digits)| Medium | String, Enumeration | 171 | 100.00
+| 0948 |[Bag of Tokens](src/main/kotlin/g0901_1000/s0948_bag_of_tokens)| Medium | Array, Sorting, Greedy, Two_Pointers | 161 | 100.00
+| 0947 |[Most Stones Removed with Same Row or Column](src/main/kotlin/g0901_1000/s0947_most_stones_removed_with_same_row_or_column)| Medium | Depth_First_Search, Graph, Union_Find, Level_2_Day_19_Union_Find | 200 | 100.00
+| 0946 |[Validate Stack Sequences](src/main/kotlin/g0901_1000/s0946_validate_stack_sequences)| Medium | Array, Stack, Simulation | 180 | 74.91
+| 0945 |[Minimum Increment to Make Array Unique](src/main/kotlin/g0901_1000/s0945_minimum_increment_to_make_array_unique)| Medium | Array, Sorting, Greedy, Counting | 427 | 100.00
+| 0944 |[Delete Columns to Make Sorted](src/main/kotlin/g0901_1000/s0944_delete_columns_to_make_sorted)| Easy | Array, String | 221 | 75.00
+| 0943 |[Find the Shortest Superstring](src/main/kotlin/g0901_1000/s0943_find_the_shortest_superstring)| Hard | Array, String, Dynamic_Programming, Bit_Manipulation, Bitmask | 1290 | 100.00
+| 0942 |[DI String Match](src/main/kotlin/g0901_1000/s0942_di_string_match)| Easy | Array, String, Math, Greedy, Two_Pointers | 202 | 80.00
+| 0941 |[Valid Mountain Array](src/main/kotlin/g0901_1000/s0941_valid_mountain_array)| Easy | Array | 251 | 51.94
+| 0940 |[Distinct Subsequences II](src/main/kotlin/g0901_1000/s0940_distinct_subsequences_ii)| Hard | String, Dynamic_Programming | 177 | 100.00
+| 0939 |[Minimum Area Rectangle](src/main/kotlin/g0901_1000/s0939_minimum_area_rectangle)| Medium | Array, Hash_Table, Math, Sorting, Geometry | 461 | 100.00
+| 0938 |[Range Sum of BST](src/main/kotlin/g0901_1000/s0938_range_sum_of_bst)| Easy | Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree, Udemy_Tree_Stack_Queue | 356 | 55.36
+| 0937 |[Reorder Data in Log Files](src/main/kotlin/g0901_1000/s0937_reorder_data_in_log_files)| Easy | Array, String, Sorting | 205 | 81.82
+| 0936 |[Stamping The Sequence](src/main/kotlin/g0901_1000/s0936_stamping_the_sequence)| Hard | String, Greedy, Stack, Queue | 196 | 100.00
+| 0935 |[Knight Dialer](src/main/kotlin/g0901_1000/s0935_knight_dialer)| Medium | Dynamic_Programming | 160 | 100.00
+| 0934 |[Shortest Bridge](src/main/kotlin/g0901_1000/s0934_shortest_bridge)| Medium | Array, Depth_First_Search, Breadth_First_Search, Matrix, Graph_Theory_I_Day_6_Matrix_Related_Problems | 301 | 80.95
+| 0933 |[Number of Recent Calls](src/main/kotlin/g0901_1000/s0933_number_of_recent_calls)| Easy | Design, Queue, Data_Stream | 476 | 82.50
+| 0932 |[Beautiful Array](src/main/kotlin/g0901_1000/s0932_beautiful_array)| Medium | Array, Math, Divide_and_Conquer | 145 | 100.00
+| 0931 |[Minimum Falling Path Sum](src/main/kotlin/g0901_1000/s0931_minimum_falling_path_sum)| Medium | Array, Dynamic_Programming, Matrix, Dynamic_Programming_I_Day_13 | 201 | 84.21
+| 0930 |[Binary Subarrays With Sum](src/main/kotlin/g0901_1000/s0930_binary_subarrays_with_sum)| Medium | Array, Hash_Table, Prefix_Sum, Sliding_Window | 250 | 93.75
+| 0929 |[Unique Email Addresses](src/main/kotlin/g0901_1000/s0929_unique_email_addresses)| Easy | Array, String, Hash_Table | 207 | 89.29
+| 0928 |[Minimize Malware Spread II](src/main/kotlin/g0901_1000/s0928_minimize_malware_spread_ii)| Hard | Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find | 716 | 100.00
 | 0927 |[Three Equal Parts](src/main/kotlin/g0901_1000/s0927_three_equal_parts)| Hard | Array, Math | 303 | 100.00
 | 0926 |[Flip String to Monotone Increasing](src/main/kotlin/g0901_1000/s0926_flip_string_to_monotone_increasing)| Medium | String, Dynamic_Programming | 199 | 100.00
 | 0925 |[Long Pressed Name](src/main/kotlin/g0901_1000/s0925_long_pressed_name)| Easy | String, Two_Pointers | 126 | 92.31
