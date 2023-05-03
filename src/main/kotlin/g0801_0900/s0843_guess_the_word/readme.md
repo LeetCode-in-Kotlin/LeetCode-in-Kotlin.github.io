@@ -56,7 +56,7 @@ For each test case, you have exactly `10` guesses to guess the word. At the end 
  * }
  */
 class Solution {
-    interface Master {
+    fun interface Master {
         fun guess(word: String): Int
     }
 

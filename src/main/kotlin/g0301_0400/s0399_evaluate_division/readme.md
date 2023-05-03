@@ -48,9 +48,11 @@ Return _the answers to all queries_. If a single answer cannot be determined, re
 ## Solution
 
 ```kotlin
+@Suppress("kotlin:S6518")
 class Solution {
     private var root: MutableMap<String?, String?>? = null
     private var rate: MutableMap<String?, Double>? = null
+
     fun calcEquation(
         equations: List<List<String?>>,
         values: DoubleArray,
