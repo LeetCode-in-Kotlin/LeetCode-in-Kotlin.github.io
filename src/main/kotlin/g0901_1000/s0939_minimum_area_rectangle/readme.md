@@ -46,7 +46,7 @@ class Solution {
         val map: MutableMap<Int, MutableSet<Int>> = HashMap()
         for (p in points) {
             map.putIfAbsent(p[0], HashSet())
-            map[p[0]]!!.add(p[1])
+            map.getValue(p[0]).add(p[1])
         }
         Arrays.sort(
             points
@@ -65,7 +65,7 @@ class Solution {
                 if (area >= min || area == 0) {
                     continue
                 }
-                if (map[p1[0]]!!.contains(p2[1]) && map[p2[0]]!!.contains(p1[1])) {
+                if (map.getValue(p1[0]).contains(p2[1]) && map.getValue(p2[0]).contains(p1[1])) {
                     min = area
                 }
             }
