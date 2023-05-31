@@ -68,7 +68,7 @@ class Solution {
             }
             val s = path.substring(start, end)
             if (s == "..") {
-                if (!stk.isEmpty()) {
+                if (stk.isNotEmpty()) {
                     stk.pop()
                 }
             } else if (s != "." && s != "") {
@@ -77,7 +77,7 @@ class Solution {
             start = end + 1
         }
         val ans = StringBuilder()
-        while (!stk.isEmpty()) {
+        while (stk.isNotEmpty()) {
             ans.insert(0, stk.pop())
             ans.insert(0, "/")
         }

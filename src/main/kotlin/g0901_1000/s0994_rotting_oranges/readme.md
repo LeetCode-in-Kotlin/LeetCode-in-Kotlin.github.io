@@ -49,12 +49,9 @@ Return _the minimum number of minutes that must elapse until no cell has a fresh
 ## Solution
 
 ```kotlin
-import java.util.LinkedList
-import java.util.Queue
-
 class Solution {
     fun orangesRotting(grid: Array<IntArray>): Int {
-        val queue: Queue<IntArray> = LinkedList()
+        val queue = ArrayDeque<IntArray>()
         val row = grid.size
         val col: Int = grid[0].size
         var countActive = 0
@@ -79,7 +76,7 @@ class Solution {
             val size: Int = queue.size
             count += size
             for (i in 0 until size) {
-                val arr: IntArray = queue.poll()
+                val arr: IntArray = queue.removeFirst()
                 for (j in 0..3) {
                     val x = arr[0] + dx[j]
                     val y = arr[1] + dy[j]

@@ -70,7 +70,7 @@ class Solution {
             }
         }
         val ans = StringBuilder()
-        while (!pq.isEmpty()) {
+        while (pq.isNotEmpty()) {
             ans.append(pq.poll())
         }
         if (ans.isEmpty()) {
