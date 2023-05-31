@@ -49,7 +49,7 @@ class Solution {
             }
         }
         var value = 0
-        if (gapMap.size > 0) {
+        if (gapMap.isNotEmpty()) {
             value = gapMap.values.max()
         }
         return wall.size - value

@@ -46,7 +46,7 @@ Note that operands in the returned expressions **should not** contain leading ze
 class Solution {
     fun addOperators(num: String, target: Int): List<String> {
         val res: MutableList<String> = ArrayList()
-        if (num.length == 0 || java.lang.Long.valueOf(num) > Int.MAX_VALUE) {
+        if (num.isEmpty() || java.lang.Long.valueOf(num) > Int.MAX_VALUE) {
             return res
         }
         val list = num.toCharArray()
