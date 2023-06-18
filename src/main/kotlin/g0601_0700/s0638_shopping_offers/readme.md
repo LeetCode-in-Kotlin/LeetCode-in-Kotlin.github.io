@@ -51,7 +51,7 @@ You cannot add more items, though only $9 for 2A ,2B and 1C.
 ## Solution
 
 ```kotlin
-class Solution() {
+class Solution {
     fun shoppingOffers(
         price: List<Int>,
         special: List<List<Int>>,

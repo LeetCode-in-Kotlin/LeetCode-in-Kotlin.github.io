@@ -37,7 +37,7 @@ Given a string `s` containing only digits, return _all possible valid IP address
 ## Solution
 
 ```kotlin
-class Solution() {
+class Solution {
     fun restoreIpAddresses(s: String): List<String> {
         val results: MutableList<String> = ArrayList()
         step(s, 0, IntArray(4), 0, results)

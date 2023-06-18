@@ -50,7 +50,7 @@ Return _the smallest possible total score that you can achieve with some triangu
 ## Solution
 
 ```kotlin
-class Solution() {
+class Solution {
     private val dp = Array(101) { IntArray(101) }
     fun minScoreTriangulation(values: IntArray): Int {
         val n = values.size
