@@ -35,8 +35,6 @@ Notice that the solution set must not contain duplicate triplets.
 ## Solution
 
 ```kotlin
-import kotlin.collections.ArrayList
-
 class Solution {
     fun threeSum(nums: IntArray): List<List<Int>> {
         nums.sort()

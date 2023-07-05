@@ -35,8 +35,8 @@ You may assume that each input would have exactly one solution.
 
 ```kotlin
 class Solution {
-    fun threeSumClosest(nums: IntArray?, target: Int): Int {
-        if (nums == null || nums.size < 3) {
+    fun threeSumClosest(nums: IntArray, target: Int): Int {
+        if (nums.size < 3) {
             return 0
         }
         if (nums.size == 3) {
