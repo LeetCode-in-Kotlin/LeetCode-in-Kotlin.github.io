@@ -55,8 +55,6 @@ The overall run time complexity should be `O(log (m+n))`.
 ## Solution
 
 ```kotlin
-import kotlin.collections.ArrayList
-
 class Solution {
     fun findMedianSortedArrays(nums1: IntArray, nums2: IntArray): Double {
         val l: MutableList<Int> = ArrayList()

@@ -68,7 +68,7 @@ Given an integer, convert it to a roman numeral.
 
 ```kotlin
 class Solution {
-    fun intToRoman(num: Int): String? {
+    fun intToRoman(num: Int): String {
         var localNum = num
         val sb = StringBuilder()
         val m = 1000

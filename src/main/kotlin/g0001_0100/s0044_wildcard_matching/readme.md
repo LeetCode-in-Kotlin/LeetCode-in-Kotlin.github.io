@@ -46,18 +46,18 @@ The matching should cover the **entire** input string (not partial).
 
 ```kotlin
 class Solution {
-    fun isMatch(inputString: String, pattern: String): Boolean {
+    fun isMatch(s: String, p: String): Boolean {
         var i = 0
         var j = 0
         var starIdx = -1
         var lastMatch = -1
-        while (i < inputString.length) {
-            if (j < pattern.length &&
-                (inputString[i] == pattern[j] || pattern[j] == '?')
+        while (i < s.length) {
+            if (j < p.length &&
+                (s[i] == p[j] || p[j] == '?')
             ) {
                 i++
                 j++
-            } else if (j < pattern.length && pattern[j] == '*') {
+            } else if (j < p.length && p[j] == '*') {
                 starIdx = j
                 lastMatch = i
                 j++
@@ -76,10 +76,10 @@ class Solution {
             }
         }
         var isMatch = true
-        while (j < pattern.length && pattern[j] == '*') {
+        while (j < p.length && p[j] == '*') {
             j++
         }
-        if (i != inputString.length || j != pattern.length) {
+        if (i != s.length || j != p.length) {
             isMatch = false
         }
         return isMatch

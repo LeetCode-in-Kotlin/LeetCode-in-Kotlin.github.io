@@ -119,8 +119,8 @@ Since -91283472332 is less than the lower bound of the range [-2<sup>31</sup>, 2
 
 ```kotlin
 class Solution {
-    fun myAtoi(str: String?): Int {
-        if (str.isNullOrEmpty()) {
+    fun myAtoi(str: String): Int {
+        if (str.isEmpty()) {
             return 0
         }
         var i = 0

@@ -54,7 +54,8 @@ class Solution {
             while (j >= i + 1 && nums[i] >= nums[j]) { j-- }
             nums[i] = nums[j].also { nums[j] = nums[i] }
         }
-        var l = i + 1; var r = nums.size - 1
+        var l = i + 1
+        var r = nums.size - 1
         while (l < r) {
             nums[l] = nums[r].also { nums[r] = nums[l] }
             l++

@@ -51,6 +51,7 @@ You may not alter the values in the list's nodes, only nodes themselves may be c
 ## Solution
 
 ```kotlin
+9
 import com_github_leetcode.ListNode
 
 /*
