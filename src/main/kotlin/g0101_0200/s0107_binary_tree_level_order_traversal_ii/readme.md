@@ -51,6 +51,7 @@ import kotlin.collections.ArrayList
  */
 class Solution {
     private val order: MutableList<MutableList<Int>> = ArrayList()
+
     fun levelOrderBottom(root: TreeNode?): List<MutableList<Int>> {
         getOrder(root, 0)
         Collections.reverse(order)

@@ -54,11 +54,11 @@ exection -> execution (insert 'u')
 
 ```kotlin
 class Solution {
-    fun minDistance(w1: String, w2: String): Int {
-        val n1 = w1.length
-        val n2 = w2.length
+    fun minDistance(word1: String, word2: String): Int {
+        val n1 = word1.length
+        val n2 = word2.length
         if (n2 > n1) {
-            return minDistance(w2, w1)
+            return minDistance(word2, word1)
         }
         val dp = IntArray(n2 + 1)
         for (j in 0..n2) {
@@ -69,7 +69,7 @@ class Solution {
             dp[0] = i
             for (j in 1..n2) {
                 val tmp = dp[j]
-                dp[j] = if (w1[i - 1] != w2[j - 1]) 1 + Math.min(pre, Math.min(dp[j], dp[j - 1])) else pre
+                dp[j] = if (word1[i - 1] != word2[j - 1]) 1 + Math.min(pre, Math.min(dp[j], dp[j - 1])) else pre
                 pre = tmp
             }
         }
