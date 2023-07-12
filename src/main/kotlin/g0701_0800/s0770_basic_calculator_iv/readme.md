@@ -64,7 +64,7 @@ The format of the output is as follows:
 import java.util.Collections
 import java.util.Stack
 
-internal class Solution {
+class Solution {
     internal inner class Node {
         var mem: MutableMap<List<String>, Int> = HashMap()
         fun update(cur: List<String>, cnt: Int) {

@@ -43,10 +43,10 @@ A **word** is a maximal substring consisting of non-space characters only.
 
 ```kotlin
 class Solution {
-    fun lengthOfLastWord(str: String): Int {
+    fun lengthOfLastWord(s: String): Int {
         var len = 0
-        for (i in str.length - 1 downTo 0) {
-            val ch = str[i]
+        for (i in s.length - 1 downTo 0) {
+            val ch = s[i]
             if (ch == ' ' && len > 0) {
                 break
             } else if (ch != ' ') {

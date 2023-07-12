@@ -30,9 +30,10 @@ The solution set **must not** contain duplicate subsets. Return the solution in 
 
 ```kotlin
 class Solution {
-    var allComb: MutableList<List<Int>> = ArrayList()
-    var comb: MutableList<Int> = ArrayList()
-    lateinit var nums: IntArray
+    private var allComb: MutableList<List<Int>> = ArrayList()
+    private var comb: MutableList<Int> = ArrayList()
+    private lateinit var nums: IntArray
+
     fun subsetsWithDup(nums: IntArray): List<List<Int>> {
         nums.sort()
         this.nums = nums

@@ -35,7 +35,6 @@ Given two integer arrays `preorder` and `inorder` where `preorder` is the preord
 
 ```kotlin
 import com_github_leetcode.TreeNode
-import java.util.HashMap
 
 /*
  * Example:

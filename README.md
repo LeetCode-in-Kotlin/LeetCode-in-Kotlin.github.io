@@ -62,14 +62,14 @@
 | 0283 |[Move Zeroes](src/main/kotlin/g0201_0300/s0283_move_zeroes)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Two_Pointers | 516 | 79.07
 | 0001 |[Two Sum](src/main/kotlin/g0001_0100/s0001_two_sum)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table | 202 | 91.18
 | 0217 |[Contains Duplicate](src/main/kotlin/g0201_0300/s0217_contains_duplicate)| Easy | Top_Interview_Questions, Array, Hash_Table, Sorting | 719 | 73.49
-| 0058 |[Length of Last Word](src/main/kotlin/g0001_0100/s0058_length_of_last_word)| Easy | String | 243 | 63.33
+| 0058 |[Length of Last Word](src/main/kotlin/g0001_0100/s0058_length_of_last_word)| Easy | String | 135 | 93.67
 | 0605 |[Can Place Flowers](src/main/kotlin/g0601_0700/s0605_can_place_flowers)| Easy | Array, Greedy | 209 | 85.71
 | 0122 |[Best Time to Buy and Sell Stock II](src/main/kotlin/g0101_0200/s0122_best_time_to_buy_and_sell_stock_ii)| Medium | Top_Interview_Questions, Array, Dynamic_Programming, Greedy | 197 | 95.10
-| 0080 |[Remove Duplicates from Sorted Array II](src/main/kotlin/g0001_0100/s0080_remove_duplicates_from_sorted_array_ii)| Medium | Array, Two_Pointers | 357 | 44.78
+| 0080 |[Remove Duplicates from Sorted Array II](src/main/kotlin/g0001_0100/s0080_remove_duplicates_from_sorted_array_ii)| Medium | Array, Two_Pointers | 192 | 80.67
 | 0189 |[Rotate Array](src/main/kotlin/g0101_0200/s0189_rotate_array)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Math, Two_Pointers | 483 | 86.95
-| 0055 |[Jump Game](src/main/kotlin/g0001_0100/s0055_jump_game)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Greedy | 670 | 66.67
-| 0075 |[Sort Colors](src/main/kotlin/g0001_0100/s0075_sort_colors)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers | 198 | 85.66
-| 0066 |[Plus One](src/main/kotlin/g0001_0100/s0066_plus_one)| Easy | Top_Interview_Questions, Array, Math | 303 | 35.18
+| 0055 |[Jump Game](src/main/kotlin/g0001_0100/s0055_jump_game)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Greedy | 332 | 89.35
+| 0075 |[Sort Colors](src/main/kotlin/g0001_0100/s0075_sort_colors)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers | 164 | 64.43
+| 0066 |[Plus One](src/main/kotlin/g0001_0100/s0066_plus_one)| Easy | Top_Interview_Questions, Array, Math | 148 | 98.75
 | 0238 |[Product of Array Except Self](src/main/kotlin/g0201_0300/s0238_product_of_array_except_self)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Prefix_Sum | 669 | 48.96
 | 1291 |[Sequential Digits](src/main/kotlin/g1201_1300/s1291_sequential_digits)| Medium | Enumeration | 114 | 100.00
 | 0448 |[Find All Numbers Disappeared in an Array](src/main/kotlin/g0401_0500/s0448_find_all_numbers_disappeared_in_an_array)| Easy | Array, Hash_Table | 394 | 100.00
@@ -98,7 +98,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0053 |[Maximum Subarray](src/main/kotlin/g0001_0100/s0053_maximum_subarray)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Divide_and_Conquer | 662 | 82.48
+| 0053 |[Maximum Subarray](src/main/kotlin/g0001_0100/s0053_maximum_subarray)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Divide_and_Conquer | 510 | 78.81
 | 0169 |[Majority Element](src/main/kotlin/g0101_0200/s0169_majority_element)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Sorting, Counting, Divide_and_Conquer | 460 | 51.25
 
 #### Udemy Sorting Algorithms
@@ -112,12 +112,12 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0304 |[Range Sum Query 2D - Immutable](src/main/kotlin/g0301_0400/s0304_range_sum_query_2d_immutable)| Medium | Array, Matrix, Design, Prefix_Sum | 1373 | 85.71
-| 0074 |[Search a 2D Matrix](src/main/kotlin/g0001_0100/s0074_search_a_2d_matrix)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix | 290 | 40.17
-| 0054 |[Spiral Matrix](src/main/kotlin/g0001_0100/s0054_spiral_matrix)| Medium | Top_Interview_Questions, Array, Matrix, Simulation | 224 | 62.50
+| 0074 |[Search a 2D Matrix](src/main/kotlin/g0001_0100/s0074_search_a_2d_matrix)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix | 159 | 74.46
+| 0054 |[Spiral Matrix](src/main/kotlin/g0001_0100/s0054_spiral_matrix)| Medium | Top_Interview_Questions, Array, Matrix, Simulation | 132 | 95.12
 | 0048 |[Rotate Image](src/main/kotlin/g0001_0100/s0048_rotate_image)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Math, Matrix | 160 | 90.11
 | 1572 |[Matrix Diagonal Sum](src/main/kotlin/g1501_1600/s1572_matrix_diagonal_sum)| Easy | Array, Matrix | 221 | 67.61
-| 0073 |[Set Matrix Zeroes](src/main/kotlin/g0001_0100/s0073_set_matrix_zeroes)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Matrix | 255 | 100.00
-| 0056 |[Merge Intervals](src/main/kotlin/g0001_0100/s0056_merge_intervals)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting | 320 | 94.22
+| 0073 |[Set Matrix Zeroes](src/main/kotlin/g0001_0100/s0073_set_matrix_zeroes)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Matrix | 248 | 97.33
+| 0056 |[Merge Intervals](src/main/kotlin/g0001_0100/s0056_merge_intervals)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting | 334 | 80.67
 
 #### Udemy Linked List
 
@@ -126,7 +126,7 @@
 | 0114 |[Flatten Binary Tree to Linked List](src/main/kotlin/g0101_0200/s0114_flatten_binary_tree_to_linked_list)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Stack, Linked_List | 191 | 93.10
 | 0445 |[Add Two Numbers II](src/main/kotlin/g0401_0500/s0445_add_two_numbers_ii)| Medium | Math, Stack, Linked_List | 240 | 82.61
 | 0328 |[Odd Even Linked List](src/main/kotlin/g0301_0400/s0328_odd_even_linked_list)| Medium | Top_Interview_Questions, Linked_List | 216 | 86.96
-| 0061 |[Rotate List](src/main/kotlin/g0001_0100/s0061_rotate_list)| Medium | Two_Pointers, Linked_List | 193 | 92.16
+| 0061 |[Rotate List](src/main/kotlin/g0001_0100/s0061_rotate_list)| Medium | Two_Pointers, Linked_List | 160 | 92.22
 | 0024 |[Swap Nodes in Pairs](src/main/kotlin/g0001_0100/s0024_swap_nodes_in_pairs)| Medium | Top_100_Liked_Questions, Linked_List, Recursion | 149 | 44.20
 | 0876 |[Middle of the Linked List](src/main/kotlin/g0801_0900/s0876_middle_of_the_linked_list)| Easy | Two_Pointers, Linked_List | 136 | 76.52
 | 0142 |[Linked List Cycle II](src/main/kotlin/g0101_0200/s0142_linked_list_cycle_ii)| Medium | Top_100_Liked_Questions, Hash_Table, Two_Pointers, Linked_List | 192 | 63.39
@@ -145,23 +145,23 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0144 |[Binary Tree Preorder Traversal](src/main/kotlin/g0101_0200/s0144_binary_tree_preorder_traversal)| Easy | Depth_First_Search, Tree, Binary_Tree, Stack | 277 | 37.90
-| 0094 |[Binary Tree Inorder Traversal](src/main/kotlin/g0001_0100/s0094_binary_tree_inorder_traversal)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Stack | 269 | 38.80
+| 0094 |[Binary Tree Inorder Traversal](src/main/kotlin/g0001_0100/s0094_binary_tree_inorder_traversal)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Stack | 152 | 66.67
 | 0145 |[Binary Tree Postorder Traversal](src/main/kotlin/g0101_0200/s0145_binary_tree_postorder_traversal)| Easy | Depth_First_Search, Tree, Binary_Tree, Stack | 211 | 80.00
-| 0102 |[Binary Tree Level Order Traversal](src/main/kotlin/g0101_0200/s0102_binary_tree_level_order_traversal)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree | 332 | 67.53
-| 0103 |[Binary Tree Zigzag Level Order Traversal](src/main/kotlin/g0101_0200/s0103_binary_tree_zigzag_level_order_traversal)| Medium | Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree | 316 | 34.25
-| 0108 |[Convert Sorted Array to Binary Search Tree](src/main/kotlin/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree)| Easy | Top_Interview_Questions, Array, Tree, Binary_Tree, Binary_Search_Tree, Divide_and_Conquer | 334 | 35.39
+| 0102 |[Binary Tree Level Order Traversal](src/main/kotlin/g0101_0200/s0102_binary_tree_level_order_traversal)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree | 198 | 95.14
+| 0103 |[Binary Tree Zigzag Level Order Traversal](src/main/kotlin/g0101_0200/s0103_binary_tree_zigzag_level_order_traversal)| Medium | Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree | 176 | 71.62
+| 0108 |[Convert Sorted Array to Binary Search Tree](src/main/kotlin/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree)| Easy | Top_Interview_Questions, Array, Tree, Binary_Tree, Binary_Search_Tree, Divide_and_Conquer | 167 | 80.29
 | 1008 |[Construct Binary Search Tree from Preorder Traversal](src/main/kotlin/g1001_1100/s1008_construct_binary_search_tree_from_preorder_traversal)| Medium | Array, Tree, Binary_Tree, Stack, Monotonic_Stack, Binary_Search_Tree | 145 | 100.00
 | 0543 |[Diameter of Binary Tree](src/main/kotlin/g0501_0600/s0543_diameter_of_binary_tree)| Easy | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree | 307 | 43.93
 | 0938 |[Range Sum of BST](src/main/kotlin/g0901_1000/s0938_range_sum_of_bst)| Easy | Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 356 | 55.36
-| 0100 |[Same Tree](src/main/kotlin/g0001_0100/s0100_same_tree)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 208 | 72.24
+| 0100 |[Same Tree](src/main/kotlin/g0001_0100/s0100_same_tree)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 134 | 86.63
 | 0226 |[Invert Binary Tree](src/main/kotlin/g0201_0300/s0226_invert_binary_tree)| Easy | Top_100_Liked_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 233 | 54.90
 | 0111 |[Minimum Depth of Binary Tree](src/main/kotlin/g0101_0200/s0111_minimum_depth_of_binary_tree)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 525 | 90.51
-| 0104 |[Maximum Depth of Binary Tree](src/main/kotlin/g0101_0200/s0104_maximum_depth_of_binary_tree)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 236 | 83.39
-| 0110 |[Balanced Binary Tree](src/main/kotlin/g0101_0200/s0110_balanced_binary_tree)| Easy | Depth_First_Search, Tree, Binary_Tree | 310 | 63.63
+| 0104 |[Maximum Depth of Binary Tree](src/main/kotlin/g0101_0200/s0104_maximum_depth_of_binary_tree)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 166 | 83.53
+| 0110 |[Balanced Binary Tree](src/main/kotlin/g0101_0200/s0110_balanced_binary_tree)| Easy | Depth_First_Search, Tree, Binary_Tree | 182 | 71.30
 | 0701 |[Insert into a Binary Search Tree](src/main/kotlin/g0701_0800/s0701_insert_into_a_binary_search_tree)| Medium | Tree, Binary_Tree, Binary_Search_Tree | 311 | 79.03
 | 0297 |[Serialize and Deserialize Binary Tree](src/main/kotlin/g0201_0300/s0297_serialize_and_deserialize_binary_tree)| Hard | Top_Interview_Questions, String, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Design | 475 | 78.85
 | 0124 |[Binary Tree Maximum Path Sum](src/main/kotlin/g0101_0200/s0124_binary_tree_maximum_path_sum)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Depth_First_Search, Tree, Binary_Tree | 331 | 74.42
-| 0098 |[Validate Binary Search Tree](src/main/kotlin/g0001_0100/s0098_validate_binary_search_tree)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 330 | 41.38
+| 0098 |[Validate Binary Search Tree](src/main/kotlin/g0001_0100/s0098_validate_binary_search_tree)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 190 | 61.62
 | 0337 |[House Robber III](src/main/kotlin/g0301_0400/s0337_house_robber_iii)| Medium | Dynamic_Programming, Depth_First_Search, Tree, Binary_Tree | 282 | 84.62
 | 0236 |[Lowest Common Ancestor of a Binary Tree](src/main/kotlin/g0201_0300/s0236_lowest_common_ancestor_of_a_binary_tree)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree | 386 | 45.21
 | 0968 |[Binary Tree Cameras](src/main/kotlin/g0901_1000/s0968_binary_tree_cameras)| Hard | Dynamic_Programming, Depth_First_Search, Tree, Binary_Tree | 176 | 100.00
@@ -193,11 +193,11 @@
 | 0198 |[House Robber](src/main/kotlin/g0101_0200/s0198_house_robber)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming | 156 | 92.24
 | 0213 |[House Robber II](src/main/kotlin/g0201_0300/s0213_house_robber_ii)| Medium | Array, Dynamic_Programming | 257 | 59.62
 | 0509 |[Fibonacci Number](src/main/kotlin/g0501_0600/s0509_fibonacci_number)| Easy | Dynamic_Programming, Math, Recursion, Memoization | 139 | 82.72
-| 0070 |[Climbing Stairs](src/main/kotlin/g0001_0100/s0070_climbing_stairs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Memoization | 127 | 97.06
-| 0064 |[Minimum Path Sum](src/main/kotlin/g0001_0100/s0064_minimum_path_sum)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Matrix | 222 | 95.70
+| 0070 |[Climbing Stairs](src/main/kotlin/g0001_0100/s0070_climbing_stairs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Memoization | 124 | 71.98
+| 0064 |[Minimum Path Sum](src/main/kotlin/g0001_0100/s0064_minimum_path_sum)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Matrix | 164 | 100.00
 | 0300 |[Longest Increasing Subsequence](src/main/kotlin/g0201_0300/s0300_longest_increasing_subsequence)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Binary_Search | 318 | 82.28
 | 1143 |[Longest Common Subsequence](src/main/kotlin/g1101_1200/s1143_longest_common_subsequence)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming | 307 | 38.36
-| 0072 |[Edit Distance](src/main/kotlin/g0001_0100/s0072_edit_distance)| Hard | Top_100_Liked_Questions, String, Dynamic_Programming | 320 | 63.53
+| 0072 |[Edit Distance](src/main/kotlin/g0001_0100/s0072_edit_distance)| Hard | Top_100_Liked_Questions, String, Dynamic_Programming | 182 | 92.16
 | 0044 |[Wildcard Matching](src/main/kotlin/g0001_0100/s0044_wildcard_matching)| Hard | Top_Interview_Questions, String, Dynamic_Programming, Greedy, Recursion | 220 | 84.85
 | 0010 |[Regular Expression Matching](src/main/kotlin/g0001_0100/s0010_regular_expression_matching)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming, Recursion | 171 | 85.26
 
@@ -208,7 +208,7 @@
 | 0022 |[Generate Parentheses](src/main/kotlin/g0001_0100/s0022_generate_parentheses)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming, Backtracking | 161 | 85.45
 | 0039 |[Combination Sum](src/main/kotlin/g0001_0100/s0039_combination_sum)| Medium | Top_100_Liked_Questions, Array, Backtracking | 226 | 88.89
 | 0216 |[Combination Sum III](src/main/kotlin/g0201_0300/s0216_combination_sum_iii)| Medium | Array, Backtracking | 175 | 90.91
-| 0078 |[Subsets](src/main/kotlin/g0001_0100/s0078_subsets)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Backtracking | 191 | 97.44
+| 0078 |[Subsets](src/main/kotlin/g0001_0100/s0078_subsets)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Backtracking | 171 | 94.92
 | 0017 |[Letter Combinations of a Phone Number](src/main/kotlin/g0001_0100/s0017_letter_combinations_of_a_phone_number)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Backtracking | 155 | 95.24
 | 0046 |[Permutations](src/main/kotlin/g0001_0100/s0046_permutations)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Backtracking | 188 | 99.00
 
@@ -238,14 +238,14 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0217 |[Contains Duplicate](src/main/kotlin/g0201_0300/s0217_contains_duplicate)| Easy | Top_Interview_Questions, Array, Hash_Table, Sorting | 719 | 73.49
-| 0053 |[Maximum Subarray](src/main/kotlin/g0001_0100/s0053_maximum_subarray)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Divide_and_Conquer | 662 | 82.48
+| 0053 |[Maximum Subarray](src/main/kotlin/g0001_0100/s0053_maximum_subarray)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Divide_and_Conquer | 510 | 78.81
 
 #### Day 2 Array
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0001 |[Two Sum](src/main/kotlin/g0001_0100/s0001_two_sum)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table | 202 | 91.18
-| 0088 |[Merge Sorted Array](src/main/kotlin/g0001_0100/s0088_merge_sorted_array)| Easy | Top_Interview_Questions, Array, Sorting, Two_Pointers | 311 | 33.40
+| 0088 |[Merge Sorted Array](src/main/kotlin/g0001_0100/s0088_merge_sorted_array)| Easy | Top_Interview_Questions, Array, Sorting, Two_Pointers | 170 | 69.74
 
 #### Day 3 Array
 
@@ -266,7 +266,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0036 |[Valid Sudoku](src/main/kotlin/g0001_0100/s0036_valid_sudoku)| Medium | Top_Interview_Questions, Array, Hash_Table, Matrix | 181 | 95.15
-| 0074 |[Search a 2D Matrix](src/main/kotlin/g0001_0100/s0074_search_a_2d_matrix)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix | 290 | 40.17
+| 0074 |[Search a 2D Matrix](src/main/kotlin/g0001_0100/s0074_search_a_2d_matrix)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix | 159 | 74.46
 
 #### Day 6 String
 
@@ -289,7 +289,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0206 |[Reverse Linked List](src/main/kotlin/g0201_0300/s0206_reverse_linked_list)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion | 279 | 45.78
-| 0083 |[Remove Duplicates from Sorted List](src/main/kotlin/g0001_0100/s0083_remove_duplicates_from_sorted_list)| Easy | Linked_List | 274 | 77.82
+| 0083 |[Remove Duplicates from Sorted List](src/main/kotlin/g0001_0100/s0083_remove_duplicates_from_sorted_list)| Easy | Linked_List | 173 | 82.42
 
 #### Day 9 Stack Queue
 
@@ -303,16 +303,16 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0144 |[Binary Tree Preorder Traversal](src/main/kotlin/g0101_0200/s0144_binary_tree_preorder_traversal)| Easy | Depth_First_Search, Tree, Binary_Tree, Stack | 277 | 37.90
-| 0094 |[Binary Tree Inorder Traversal](src/main/kotlin/g0001_0100/s0094_binary_tree_inorder_traversal)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Stack | 269 | 38.80
+| 0094 |[Binary Tree Inorder Traversal](src/main/kotlin/g0001_0100/s0094_binary_tree_inorder_traversal)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Stack | 152 | 66.67
 | 0145 |[Binary Tree Postorder Traversal](src/main/kotlin/g0101_0200/s0145_binary_tree_postorder_traversal)| Easy | Depth_First_Search, Tree, Binary_Tree, Stack | 211 | 80.00
 
 #### Day 11 Tree
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0102 |[Binary Tree Level Order Traversal](src/main/kotlin/g0101_0200/s0102_binary_tree_level_order_traversal)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree | 332 | 67.53
-| 0104 |[Maximum Depth of Binary Tree](src/main/kotlin/g0101_0200/s0104_maximum_depth_of_binary_tree)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 236 | 83.39
-| 0101 |[Symmetric Tree](src/main/kotlin/g0101_0200/s0101_symmetric_tree)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 190 | 91.36
+| 0102 |[Binary Tree Level Order Traversal](src/main/kotlin/g0101_0200/s0102_binary_tree_level_order_traversal)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree | 198 | 95.14
+| 0104 |[Maximum Depth of Binary Tree](src/main/kotlin/g0101_0200/s0104_maximum_depth_of_binary_tree)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 166 | 83.53
+| 0101 |[Symmetric Tree](src/main/kotlin/g0101_0200/s0101_symmetric_tree)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 153 | 82.35
 
 #### Day 12 Tree
 
@@ -332,7 +332,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0098 |[Validate Binary Search Tree](src/main/kotlin/g0001_0100/s0098_validate_binary_search_tree)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 330 | 41.38
+| 0098 |[Validate Binary Search Tree](src/main/kotlin/g0001_0100/s0098_validate_binary_search_tree)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 190 | 61.62
 | 0653 |[Two Sum IV - Input is a BST](src/main/kotlin/g0601_0700/s0653_two_sum_iv_input_is_a_bst)| Easy | Hash_Table, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Two_Pointers, Binary_Search_Tree | 231 | 96.08
 | 0235 |[Lowest Common Ancestor of a Binary Search Tree](src/main/kotlin/g0201_0300/s0235_lowest_common_ancestor_of_a_binary_search_tree)| Easy | Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 404 | 75.59
 
@@ -350,8 +350,8 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0075 |[Sort Colors](src/main/kotlin/g0001_0100/s0075_sort_colors)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers | 198 | 85.66
-| 0056 |[Merge Intervals](src/main/kotlin/g0001_0100/s0056_merge_intervals)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting | 320 | 94.22
+| 0075 |[Sort Colors](src/main/kotlin/g0001_0100/s0075_sort_colors)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers | 164 | 64.43
+| 0056 |[Merge Intervals](src/main/kotlin/g0001_0100/s0056_merge_intervals)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting | 334 | 80.67
 | 0706 |[Design HashMap](src/main/kotlin/g0701_0800/s0706_design_hashmap)| Easy | Array, Hash_Table, Design, Linked_List, Hash_Function | 405 | 92.11
 
 #### Day 3 Array
@@ -360,7 +360,7 @@
 |-|-|-|-|-|-
 | 0119 |[Pascal's Triangle II](src/main/kotlin/g0101_0200/s0119_pascals_triangle_ii)| Easy | Array, Dynamic_Programming | 157 | 97.27
 | 0048 |[Rotate Image](src/main/kotlin/g0001_0100/s0048_rotate_image)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Math, Matrix | 160 | 90.11
-| 0059 |[Spiral Matrix II](src/main/kotlin/g0001_0100/s0059_spiral_matrix_ii)| Medium | Array, Matrix, Simulation | 153 | 100.00
+| 0059 |[Spiral Matrix II](src/main/kotlin/g0001_0100/s0059_spiral_matrix_ii)| Medium | Array, Matrix, Simulation | 153 | 41.70
 
 #### Day 4 Array
 
@@ -417,7 +417,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0160 |[Intersection of Two Linked Lists](src/main/kotlin/g0101_0200/s0160_intersection_of_two_linked_lists)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List | 262 | 83.50
-| 0082 |[Remove Duplicates from Sorted List II](src/main/kotlin/g0001_0100/s0082_remove_duplicates_from_sorted_list_ii)| Medium | Two_Pointers, Linked_List | 241 | 91.04
+| 0082 |[Remove Duplicates from Sorted List II](src/main/kotlin/g0001_0100/s0082_remove_duplicates_from_sorted_list_ii)| Medium | Two_Pointers, Linked_List | 166 | 89.47
 
 #### Day 12 Linked List
 
@@ -445,9 +445,9 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0108 |[Convert Sorted Array to Binary Search Tree](src/main/kotlin/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree)| Easy | Top_Interview_Questions, Array, Tree, Binary_Tree, Binary_Search_Tree, Divide_and_Conquer | 334 | 35.39
-| 0105 |[Construct Binary Tree from Preorder and Inorder Traversal](src/main/kotlin/g0101_0200/s0105_construct_binary_tree_from_preorder_and_inorder_traversal)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Tree, Binary_Tree, Divide_and_Conquer | 370 | 58.31
-| 0103 |[Binary Tree Zigzag Level Order Traversal](src/main/kotlin/g0101_0200/s0103_binary_tree_zigzag_level_order_traversal)| Medium | Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree | 316 | 34.25
+| 0108 |[Convert Sorted Array to Binary Search Tree](src/main/kotlin/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree)| Easy | Top_Interview_Questions, Array, Tree, Binary_Tree, Binary_Search_Tree, Divide_and_Conquer | 167 | 80.29
+| 0105 |[Construct Binary Tree from Preorder and Inorder Traversal](src/main/kotlin/g0101_0200/s0105_construct_binary_tree_from_preorder_and_inorder_traversal)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Tree, Binary_Tree, Divide_and_Conquer | 183 | 95.45
+| 0103 |[Binary Tree Zigzag Level Order Traversal](src/main/kotlin/g0101_0200/s0103_binary_tree_zigzag_level_order_traversal)| Medium | Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree | 176 | 71.62
 
 #### Day 16 Tree
 
@@ -570,7 +570,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0077 |[Combinations](src/main/kotlin/g0001_0100/s0077_combinations)| Medium | Backtracking | 244 | 100.00
+| 0077 |[Combinations](src/main/kotlin/g0001_0100/s0077_combinations)| Medium | Backtracking | 232 | 100.00
 | 0046 |[Permutations](src/main/kotlin/g0001_0100/s0046_permutations)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Backtracking | 188 | 99.00
 | 0784 |[Letter Case Permutation](src/main/kotlin/g0701_0800/s0784_letter_case_permutation)| Medium | String, Bit_Manipulation, Backtracking | 219 | 84.62
 
@@ -578,7 +578,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0070 |[Climbing Stairs](src/main/kotlin/g0001_0100/s0070_climbing_stairs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Memoization | 127 | 97.06
+| 0070 |[Climbing Stairs](src/main/kotlin/g0001_0100/s0070_climbing_stairs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Memoization | 124 | 71.98
 | 0198 |[House Robber](src/main/kotlin/g0101_0200/s0198_house_robber)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming | 156 | 92.24
 | 0120 |[Triangle](src/main/kotlin/g0101_0200/s0120_triangle)| Medium | Array, Dynamic_Programming | 194 | 97.87
 
@@ -604,7 +604,7 @@
 |-|-|-|-|-|-
 | 0034 |[Find First and Last Position of Element in Sorted Array](src/main/kotlin/g0001_0100/s0034_find_first_and_last_position_of_element_in_sorted_array)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Binary_Search | 174 | 100.00
 | 0033 |[Search in Rotated Sorted Array](src/main/kotlin/g0001_0100/s0033_search_in_rotated_sorted_array)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Binary_Search | 151 | 93.77
-| 0074 |[Search a 2D Matrix](src/main/kotlin/g0001_0100/s0074_search_a_2d_matrix)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix | 290 | 40.17
+| 0074 |[Search a 2D Matrix](src/main/kotlin/g0001_0100/s0074_search_a_2d_matrix)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix | 159 | 74.46
 
 #### Day 2 Binary Search
 
@@ -617,7 +617,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0082 |[Remove Duplicates from Sorted List II](src/main/kotlin/g0001_0100/s0082_remove_duplicates_from_sorted_list_ii)| Medium | Two_Pointers, Linked_List | 241 | 91.04
+| 0082 |[Remove Duplicates from Sorted List II](src/main/kotlin/g0001_0100/s0082_remove_duplicates_from_sorted_list_ii)| Medium | Two_Pointers, Linked_List | 166 | 89.47
 | 0015 |[3Sum](src/main/kotlin/g0001_0100/s0015_3sum)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers | 493 | 93.45
 
 #### Day 4 Two Pointers
@@ -662,8 +662,8 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0078 |[Subsets](src/main/kotlin/g0001_0100/s0078_subsets)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Backtracking | 191 | 97.44
-| 0090 |[Subsets II](src/main/kotlin/g0001_0100/s0090_subsets_ii)| Medium | Array, Bit_Manipulation, Backtracking | 366 | 58.09
+| 0078 |[Subsets](src/main/kotlin/g0001_0100/s0078_subsets)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Backtracking | 171 | 94.92
+| 0090 |[Subsets II](src/main/kotlin/g0001_0100/s0090_subsets_ii)| Medium | Array, Bit_Manipulation, Backtracking | 200 | 88.33
 
 #### Day 10 Recursion Backtracking
 
@@ -679,21 +679,21 @@
 |-|-|-|-|-|-
 | 0017 |[Letter Combinations of a Phone Number](src/main/kotlin/g0001_0100/s0017_letter_combinations_of_a_phone_number)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Backtracking | 155 | 95.24
 | 0022 |[Generate Parentheses](src/main/kotlin/g0001_0100/s0022_generate_parentheses)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming, Backtracking | 161 | 85.45
-| 0079 |[Word Search](src/main/kotlin/g0001_0100/s0079_word_search)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Matrix, Backtracking | 463 | 68.49
+| 0079 |[Word Search](src/main/kotlin/g0001_0100/s0079_word_search)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Matrix, Backtracking | 392 | 72.92
 
 #### Day 12 Dynamic Programming
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0213 |[House Robber II](src/main/kotlin/g0201_0300/s0213_house_robber_ii)| Medium | Array, Dynamic_Programming | 257 | 59.62
-| 0055 |[Jump Game](src/main/kotlin/g0001_0100/s0055_jump_game)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Greedy | 670 | 66.67
+| 0055 |[Jump Game](src/main/kotlin/g0001_0100/s0055_jump_game)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Greedy | 332 | 89.35
 
 #### Day 13 Dynamic Programming
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0045 |[Jump Game II](src/main/kotlin/g0001_0100/s0045_jump_game_ii)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Greedy | 208 | 93.37
-| 0062 |[Unique Paths](src/main/kotlin/g0001_0100/s0062_unique_paths)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Combinatorics | 209 | 49.18
+| 0062 |[Unique Paths](src/main/kotlin/g0001_0100/s0062_unique_paths)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Combinatorics | 118 | 94.65
 
 #### Day 14 Dynamic Programming
 
@@ -706,7 +706,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0091 |[Decode Ways](src/main/kotlin/g0001_0100/s0091_decode_ways)| Medium | Top_Interview_Questions, String, Dynamic_Programming | 237 | 76.88
+| 0091 |[Decode Ways](src/main/kotlin/g0001_0100/s0091_decode_ways)| Medium | Top_Interview_Questions, String, Dynamic_Programming | 148 | 79.07
 | 0139 |[Word Break](src/main/kotlin/g0101_0200/s0139_word_break)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Dynamic_Programming, Trie, Memoization | 197 | 87.17
 
 #### Day 16 Dynamic Programming
@@ -727,7 +727,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0072 |[Edit Distance](src/main/kotlin/g0001_0100/s0072_edit_distance)| Hard | Top_100_Liked_Questions, String, Dynamic_Programming | 320 | 63.53
+| 0072 |[Edit Distance](src/main/kotlin/g0001_0100/s0072_edit_distance)| Hard | Top_100_Liked_Questions, String, Dynamic_Programming | 182 | 92.16
 | 0322 |[Coin Change](src/main/kotlin/g0301_0400/s0322_coin_change)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Breadth_First_Search | 332 | 50.68
 | 0343 |[Integer Break](src/main/kotlin/g0301_0400/s0343_integer_break)| Medium | Dynamic_Programming, Math | 218 | 63.89
 
@@ -777,7 +777,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0069 |[Sqrt(x)](src/main/kotlin/g0001_0100/s0069_sqrtx)| Easy | Top_Interview_Questions, Math, Binary_Search | 153 | 95.75
+| 0069 |[Sqrt(x)](src/main/kotlin/g0001_0100/s0069_sqrtx)| Easy | Top_Interview_Questions, Math, Binary_Search | 140 | 94.72
 | 0744 |[Find Smallest Letter Greater Than Target](src/main/kotlin/g0701_0800/s0744_find_smallest_letter_greater_than_target)| Easy | Array, Binary_Search | 162 | 100.00
 
 #### Day 5
@@ -806,7 +806,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 1351 |[Count Negative Numbers in a Sorted Matrix](src/main/kotlin/g1301_1400/s1351_count_negative_numbers_in_a_sorted_matrix)| Easy | Array, Binary_Search, Matrix | 206 | 71.43
-| 0074 |[Search a 2D Matrix](src/main/kotlin/g0001_0100/s0074_search_a_2d_matrix)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix | 290 | 40.17
+| 0074 |[Search a 2D Matrix](src/main/kotlin/g0001_0100/s0074_search_a_2d_matrix)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix | 159 | 74.46
 
 #### Day 9
 
@@ -918,7 +918,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0081 |[Search in Rotated Sorted Array II](src/main/kotlin/g0001_0100/s0081_search_in_rotated_sorted_array_ii)| Medium | Array, Binary_Search | 352 | 42.31
+| 0081 |[Search in Rotated Sorted Array II](src/main/kotlin/g0001_0100/s0081_search_in_rotated_sorted_array_ii)| Medium | Array, Binary_Search | 170 | 96.30
 | 0162 |[Find Peak Element](src/main/kotlin/g0101_0200/s0162_find_peak_element)| Medium | Top_Interview_Questions, Array, Binary_Search | 297 | 53.85
 
 #### Day 13
@@ -990,7 +990,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0070 |[Climbing Stairs](src/main/kotlin/g0001_0100/s0070_climbing_stairs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Memoization | 127 | 97.06
+| 0070 |[Climbing Stairs](src/main/kotlin/g0001_0100/s0070_climbing_stairs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Memoization | 124 | 71.98
 | 0746 |[Min Cost Climbing Stairs](src/main/kotlin/g0701_0800/s0746_min_cost_climbing_stairs)| Easy | Array, Dynamic_Programming | 171 | 96.76
 
 #### Day 3
@@ -1005,14 +1005,14 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0055 |[Jump Game](src/main/kotlin/g0001_0100/s0055_jump_game)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Greedy | 670 | 66.67
+| 0055 |[Jump Game](src/main/kotlin/g0001_0100/s0055_jump_game)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Greedy | 332 | 89.35
 | 0045 |[Jump Game II](src/main/kotlin/g0001_0100/s0045_jump_game_ii)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Greedy | 208 | 93.37
 
 #### Day 5
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0053 |[Maximum Subarray](src/main/kotlin/g0001_0100/s0053_maximum_subarray)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Divide_and_Conquer | 662 | 82.48
+| 0053 |[Maximum Subarray](src/main/kotlin/g0001_0100/s0053_maximum_subarray)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Divide_and_Conquer | 510 | 78.81
 | 0918 |[Maximum Sum Circular Subarray](src/main/kotlin/g0901_1000/s0918_maximum_sum_circular_subarray)| Medium | Array, Dynamic_Programming, Divide_and_Conquer, Queue, Monotonic_Queue | 339 | 86.96
 
 #### Day 6
@@ -1049,14 +1049,14 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0413 |[Arithmetic Slices](src/main/kotlin/g0401_0500/s0413_arithmetic_slices)| Medium | Array, Dynamic_Programming | 156 | 100.00
-| 0091 |[Decode Ways](src/main/kotlin/g0001_0100/s0091_decode_ways)| Medium | Top_Interview_Questions, String, Dynamic_Programming | 237 | 76.88
+| 0091 |[Decode Ways](src/main/kotlin/g0001_0100/s0091_decode_ways)| Medium | Top_Interview_Questions, String, Dynamic_Programming | 148 | 79.07
 
 #### Day 11
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0264 |[Ugly Number II](src/main/kotlin/g0201_0300/s0264_ugly_number_ii)| Medium | Hash_Table, Dynamic_Programming, Math, Heap_Priority_Queue | 182 | 95.45
-| 0096 |[Unique Binary Search Trees](src/main/kotlin/g0001_0100/s0096_unique_binary_search_trees)| Medium | Top_100_Liked_Questions, Dynamic_Programming, Math, Tree, Binary_Tree, Binary_Search_Tree | 147 | 88.52
+| 0096 |[Unique Binary Search Trees](src/main/kotlin/g0001_0100/s0096_unique_binary_search_trees)| Medium | Top_100_Liked_Questions, Dynamic_Programming, Math, Tree, Binary_Tree, Binary_Search_Tree | 116 | 92.31
 
 #### Day 12
 
@@ -1083,14 +1083,14 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0062 |[Unique Paths](src/main/kotlin/g0001_0100/s0062_unique_paths)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Combinatorics | 209 | 49.18
-| 0063 |[Unique Paths II](src/main/kotlin/g0001_0100/s0063_unique_paths_ii)| Medium | Array, Dynamic_Programming, Matrix | 187 | 84.62
+| 0062 |[Unique Paths](src/main/kotlin/g0001_0100/s0062_unique_paths)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Combinatorics | 118 | 94.65
+| 0063 |[Unique Paths II](src/main/kotlin/g0001_0100/s0063_unique_paths_ii)| Medium | Array, Dynamic_Programming, Matrix | 151 | 81.94
 
 #### Day 16
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0064 |[Minimum Path Sum](src/main/kotlin/g0001_0100/s0064_minimum_path_sum)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Matrix | 222 | 95.70
+| 0064 |[Minimum Path Sum](src/main/kotlin/g0001_0100/s0064_minimum_path_sum)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Matrix | 164 | 100.00
 | 0221 |[Maximal Square](src/main/kotlin/g0201_0300/s0221_maximal_square)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Matrix | 614 | 44.00
 
 #### Day 17
@@ -1113,7 +1113,7 @@
 |-|-|-|-|-|-
 | 0392 |[Is Subsequence](src/main/kotlin/g0301_0400/s0392_is_subsequence)| Easy | String, Dynamic_Programming, Two_Pointers | 156 | 87.74
 | 1143 |[Longest Common Subsequence](src/main/kotlin/g1101_1200/s1143_longest_common_subsequence)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming | 307 | 38.36
-| 0072 |[Edit Distance](src/main/kotlin/g0001_0100/s0072_edit_distance)| Hard | Top_100_Liked_Questions, String, Dynamic_Programming | 320 | 63.53
+| 0072 |[Edit Distance](src/main/kotlin/g0001_0100/s0072_edit_distance)| Hard | Top_100_Liked_Questions, String, Dynamic_Programming | 182 | 92.16
 
 #### Day 20
 
@@ -1207,7 +1207,7 @@
 |-|-|-|-|-|-
 | 1290 |[Convert Binary Number in a Linked List to Integer](src/main/kotlin/g1201_1300/s1290_convert_binary_number_in_a_linked_list_to_integer)| Easy | Math, Linked_List | 145 | 25.93
 | 0876 |[Middle of the Linked List](src/main/kotlin/g0801_0900/s0876_middle_of_the_linked_list)| Easy | Two_Pointers, Linked_List | 136 | 76.52
-| 0104 |[Maximum Depth of Binary Tree](src/main/kotlin/g0101_0200/s0104_maximum_depth_of_binary_tree)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 236 | 83.39
+| 0104 |[Maximum Depth of Binary Tree](src/main/kotlin/g0101_0200/s0104_maximum_depth_of_binary_tree)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 166 | 83.53
 | 0404 |[Sum of Left Leaves](src/main/kotlin/g0401_0500/s0404_sum_of_left_leaves)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 173 | 86.05
 
 #### Day 11 Containers and Libraries
@@ -1239,7 +1239,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0110 |[Balanced Binary Tree](src/main/kotlin/g0101_0200/s0110_balanced_binary_tree)| Easy | Depth_First_Search, Tree, Binary_Tree | 310 | 63.63
+| 0110 |[Balanced Binary Tree](src/main/kotlin/g0101_0200/s0110_balanced_binary_tree)| Easy | Depth_First_Search, Tree, Binary_Tree | 182 | 71.30
 | 0459 |[Repeated Substring Pattern](src/main/kotlin/g0401_0500/s0459_repeated_substring_pattern)| Easy | String, String_Matching | 201 | 100.00
 
 #### Day 3
@@ -1247,7 +1247,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0150 |[Evaluate Reverse Polish Notation](src/main/kotlin/g0101_0200/s0150_evaluate_reverse_polish_notation)| Medium | Top_Interview_Questions, Array, Math, Stack | 233 | 88.82
-| 0066 |[Plus One](src/main/kotlin/g0001_0100/s0066_plus_one)| Easy | Top_Interview_Questions, Array, Math | 303 | 35.18
+| 0066 |[Plus One](src/main/kotlin/g0001_0100/s0066_plus_one)| Easy | Top_Interview_Questions, Array, Math | 148 | 98.75
 
 #### Day 4
 
@@ -1260,7 +1260,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0067 |[Add Binary](src/main/kotlin/g0001_0100/s0067_add_binary)| Easy | String, Math, Bit_Manipulation, Simulation | 327 | 32.67
+| 0067 |[Add Binary](src/main/kotlin/g0001_0100/s0067_add_binary)| Easy | String, Math, Bit_Manipulation, Simulation | 164 | 90.60
 | 0989 |[Add to Array-Form of Integer](src/main/kotlin/g0901_1000/s0989_add_to_array_form_of_integer)| Easy | Array, Math | 350 | 70.00
 
 #### Day 6
@@ -1268,7 +1268,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0739 |[Daily Temperatures](src/main/kotlin/g0701_0800/s0739_daily_temperatures)| Medium | Top_100_Liked_Questions, Array, Stack, Monotonic_Stack | 936 | 80.54
-| 0058 |[Length of Last Word](src/main/kotlin/g0001_0100/s0058_length_of_last_word)| Easy | String | 243 | 63.33
+| 0058 |[Length of Last Word](src/main/kotlin/g0001_0100/s0058_length_of_last_word)| Easy | String | 135 | 93.67
 
 #### Day 7
 
@@ -1281,7 +1281,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0054 |[Spiral Matrix](src/main/kotlin/g0001_0100/s0054_spiral_matrix)| Medium | Top_Interview_Questions, Array, Matrix, Simulation | 224 | 62.50
+| 0054 |[Spiral Matrix](src/main/kotlin/g0001_0100/s0054_spiral_matrix)| Medium | Top_Interview_Questions, Array, Matrix, Simulation | 132 | 95.12
 | 0973 |[K Closest Points to Origin](src/main/kotlin/g0901_1000/s0973_k_closest_points_to_origin)| Medium | Array, Math, Sorting, Heap_Priority_Queue, Divide_and_Conquer, Geometry, Quickselect | 800 | 37.89
 
 #### Day 9
@@ -1337,7 +1337,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0061 |[Rotate List](src/main/kotlin/g0001_0100/s0061_rotate_list)| Medium | Two_Pointers, Linked_List | 193 | 92.16
+| 0061 |[Rotate List](src/main/kotlin/g0001_0100/s0061_rotate_list)| Medium | Two_Pointers, Linked_List | 160 | 92.22
 | 0173 |[Binary Search Tree Iterator](src/main/kotlin/g0101_0200/s0173_binary_search_tree_iterator)| Medium | Tree, Binary_Tree, Stack, Design, Binary_Search_Tree, Iterator | 563 | 46.91
 
 #### Day 17
@@ -1600,7 +1600,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0589 |[N-ary Tree Preorder Traversal](src/main/kotlin/g0501_0600/s0589_n_ary_tree_preorder_traversal)| Easy | Depth_First_Search, Tree, Stack | 233 | 84.02
-| 0102 |[Binary Tree Level Order Traversal](src/main/kotlin/g0101_0200/s0102_binary_tree_level_order_traversal)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree | 332 | 67.53
+| 0102 |[Binary Tree Level Order Traversal](src/main/kotlin/g0101_0200/s0102_binary_tree_level_order_traversal)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree | 198 | 95.14
 
 #### Day 7 Binary Search
 
@@ -1613,7 +1613,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0098 |[Validate Binary Search Tree](src/main/kotlin/g0001_0100/s0098_validate_binary_search_tree)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 330 | 41.38
+| 0098 |[Validate Binary Search Tree](src/main/kotlin/g0001_0100/s0098_validate_binary_search_tree)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 190 | 61.62
 | 0235 |[Lowest Common Ancestor of a Binary Search Tree](src/main/kotlin/g0201_0300/s0235_lowest_common_ancestor_of_a_binary_search_tree)| Easy | Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 404 | 75.59
 
 #### Day 9 Graph/BFS/DFS
@@ -1628,14 +1628,14 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0509 |[Fibonacci Number](src/main/kotlin/g0501_0600/s0509_fibonacci_number)| Easy | Dynamic_Programming, Math, Recursion, Memoization | 139 | 82.72
-| 0070 |[Climbing Stairs](src/main/kotlin/g0001_0100/s0070_climbing_stairs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Memoization | 127 | 97.06
+| 0070 |[Climbing Stairs](src/main/kotlin/g0001_0100/s0070_climbing_stairs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Memoization | 124 | 71.98
 
 #### Day 11 Dynamic Programming
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0746 |[Min Cost Climbing Stairs](src/main/kotlin/g0701_0800/s0746_min_cost_climbing_stairs)| Easy | Array, Dynamic_Programming | 171 | 96.76
-| 0062 |[Unique Paths](src/main/kotlin/g0001_0100/s0062_unique_paths)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Combinatorics | 209 | 49.18
+| 0062 |[Unique Paths](src/main/kotlin/g0001_0100/s0062_unique_paths)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Combinatorics | 118 | 94.65
 
 #### Day 12 Sliding Window/Two Pointer
 
@@ -1672,7 +1672,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0202 |[Happy Number](src/main/kotlin/g0201_0300/s0202_happy_number)| Easy | Top_Interview_Questions, Hash_Table, Math, Two_Pointers | 261 | 45.08
-| 0054 |[Spiral Matrix](src/main/kotlin/g0001_0100/s0054_spiral_matrix)| Medium | Top_Interview_Questions, Array, Matrix, Simulation | 224 | 62.50
+| 0054 |[Spiral Matrix](src/main/kotlin/g0001_0100/s0054_spiral_matrix)| Medium | Top_Interview_Questions, Array, Matrix, Simulation | 132 | 95.12
 | 1706 |[Where Will the Ball Fall](src/main/kotlin/g1701_1800/s1706_where_will_the_ball_fall)| Medium | Array, Dynamic_Programming, Depth_First_Search, Matrix, Simulation | 270 | 67.86
 
 #### Day 2 String
@@ -1708,7 +1708,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0226 |[Invert Binary Tree](src/main/kotlin/g0201_0300/s0226_invert_binary_tree)| Easy | Top_100_Liked_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 233 | 54.90
-| 0110 |[Balanced Binary Tree](src/main/kotlin/g0101_0200/s0110_balanced_binary_tree)| Easy | Depth_First_Search, Tree, Binary_Tree | 310 | 63.63
+| 0110 |[Balanced Binary Tree](src/main/kotlin/g0101_0200/s0110_balanced_binary_tree)| Easy | Depth_First_Search, Tree, Binary_Tree | 182 | 71.30
 
 #### Day 7 Tree
 
@@ -1721,14 +1721,14 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0074 |[Search a 2D Matrix](src/main/kotlin/g0001_0100/s0074_search_a_2d_matrix)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix | 290 | 40.17
+| 0074 |[Search a 2D Matrix](src/main/kotlin/g0001_0100/s0074_search_a_2d_matrix)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix | 159 | 74.46
 | 0033 |[Search in Rotated Sorted Array](src/main/kotlin/g0001_0100/s0033_search_in_rotated_sorted_array)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Binary_Search | 151 | 93.77
 
 #### Day 9 Binary Search Tree
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0108 |[Convert Sorted Array to Binary Search Tree](src/main/kotlin/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree)| Easy | Top_Interview_Questions, Array, Tree, Binary_Tree, Binary_Search_Tree, Divide_and_Conquer | 334 | 35.39
+| 0108 |[Convert Sorted Array to Binary Search Tree](src/main/kotlin/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree)| Easy | Top_Interview_Questions, Array, Tree, Binary_Tree, Binary_Search_Tree, Divide_and_Conquer | 167 | 80.29
 | 0230 |[Kth Smallest Element in a BST](src/main/kotlin/g0201_0300/s0230_kth_smallest_element_in_a_bst)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 393 | 33.33
 | 0173 |[Binary Search Tree Iterator](src/main/kotlin/g0101_0200/s0173_binary_search_tree_iterator)| Medium | Tree, Binary_Tree, Stack, Design, Binary_Search_Tree, Iterator | 563 | 46.91
 
@@ -1766,14 +1766,14 @@
 |-|-|-|-|-|-
 | 0003 |[Longest Substring Without Repeating Characters](src/main/kotlin/g0001_0100/s0003_longest_substring_without_repeating_characters)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window | 201 | 87.28
 | 0016 |[3Sum Closest](src/main/kotlin/g0001_0100/s0016_3sum_closest)| Medium | Array, Sorting, Two_Pointers | 163 | 100.00
-| 0076 |[Minimum Window Substring](src/main/kotlin/g0001_0100/s0076_minimum_window_substring)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window | 346 | 85.20
+| 0076 |[Minimum Window Substring](src/main/kotlin/g0001_0100/s0076_minimum_window_substring)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window | 191 | 96.38
 
 #### Day 15 Tree
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0100 |[Same Tree](src/main/kotlin/g0001_0100/s0100_same_tree)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 208 | 72.24
-| 0101 |[Symmetric Tree](src/main/kotlin/g0101_0200/s0101_symmetric_tree)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 190 | 91.36
+| 0100 |[Same Tree](src/main/kotlin/g0001_0100/s0100_same_tree)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 134 | 86.63
+| 0101 |[Symmetric Tree](src/main/kotlin/g0101_0200/s0101_symmetric_tree)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 153 | 82.35
 | 0199 |[Binary Tree Right Side View](src/main/kotlin/g0101_0200/s0199_binary_tree_right_side_view)| Medium | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 194 | 92.89
 
 #### Day 16 Design
@@ -1788,8 +1788,8 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0057 |[Insert Interval](src/main/kotlin/g0001_0100/s0057_insert_interval)| Medium | Array | 257 | 99.52
-| 0056 |[Merge Intervals](src/main/kotlin/g0001_0100/s0056_merge_intervals)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting | 320 | 94.22
+| 0057 |[Insert Interval](src/main/kotlin/g0001_0100/s0057_insert_interval)| Medium | Array | 249 | 75.63
+| 0056 |[Merge Intervals](src/main/kotlin/g0001_0100/s0056_merge_intervals)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting | 334 | 80.67
 
 #### Day 18 Stack
 
@@ -1816,6 +1816,56 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 2598 |[Smallest Missing Non-negative Integer After Operations](src/main/kotlin/g2501_2600/s2598_smallest_missing_non_negative_integer_after_operations)| |||
+| 2597 |[The Number of Beautiful Subsets](src/main/kotlin/g2501_2600/s2597_the_number_of_beautiful_subsets)| Medium | Array, Dynamic_Programming, Backtracking | 194 | 100.00
+| 2596 |[Check Knight Tour Configuration](src/main/kotlin/g2501_2600/s2596_check_knight_tour_configuration)| Medium | Array, Matrix, Simulation, Depth_First_Search, Breadth_First_Search | 179 | 100.00
+| 2595 |[Number of Even and Odd Bits](src/main/kotlin/g2501_2600/s2595_number_of_even_and_odd_bits)| Easy | Bit_Manipulation | 177 | 100.00
+| 2594 |[Minimum Time to Repair Cars](src/main/kotlin/g2501_2600/s2594_minimum_time_to_repair_cars)| |||
+| 2593 |[Find Score of an Array After Marking All Elements](src/main/kotlin/g2501_2600/s2593_find_score_of_an_array_after_marking_all_elements)| Medium | Array, Sorting, Heap_Priority_Queue, Simulation | 738 | 100.00
+| 2592 |[Maximize Greatness of an Array](src/main/kotlin/g2501_2600/s2592_maximize_greatness_of_an_array)| Medium | Array, Sorting, Greedy, Two_Pointers | 748 | 100.00
+| 2591 |[Distribute Money to Maximum Children](src/main/kotlin/g2501_2600/s2591_distribute_money_to_maximum_children)| Easy | Math, Greedy | 155 | 100.00
+| 2589 |[Minimum Time to Complete All Tasks](src/main/kotlin/g2501_2600/s2589_minimum_time_to_complete_all_tasks)| Hard | Array, Sorting, Greedy, Binary_Search, Stack | 422 | 100.00
+| 2588 |[Count the Number of Beautiful Subarrays](src/main/kotlin/g2501_2600/s2588_count_the_number_of_beautiful_subarrays)| Medium | Array, Hash_Table, Bit_Manipulation, Prefix_Sum | 785 | 100.00
+| 2587 |[Rearrange Array to Maximize Prefix Score](src/main/kotlin/g2501_2600/s2587_rearrange_array_to_maximize_prefix_score)| Medium | Array, Sorting, Greedy, Prefix_Sum | 612 | 100.00
+| 2586 |[Count the Number of Vowel Strings in Range](src/main/kotlin/g2501_2600/s2586_count_the_number_of_vowel_strings_in_range)| Easy | Array, String | 195 | 100.00
+| 2585 |[Number of Ways to Earn Points](src/main/kotlin/g2501_2600/s2585_number_of_ways_to_earn_points)| Hard | Array, Dynamic_Programming | 263 | 100.00
+| 2584 |[Split the Array to Make Coprime Products](src/main/kotlin/g2501_2600/s2584_split_the_array_to_make_coprime_products)| Hard | Array, Hash_Table, Math, Number_Theory | 341 | 100.00
+| 2583 |[Kth Largest Sum in a Binary Tree](src/main/kotlin/g2501_2600/s2583_kth_largest_sum_in_a_binary_tree)| Medium | Tree, Binary_Search, Breadth_First_Search | 557 | 83.33
+| 2582 |[Pass the Pillow](src/main/kotlin/g2501_2600/s2582_pass_the_pillow)| Easy | Math, Simulation | 122 | 85.71
+| 2581 |[Count Number of Possible Root Nodes](src/main/kotlin/g2501_2600/s2581_count_number_of_possible_root_nodes)| Hard | Hash_Table, Dynamic_Programming, Tree, Depth_First_Search | 1352 | 100.00
+| 2580 |[Count Ways to Group Overlapping Ranges](src/main/kotlin/g2501_2600/s2580_count_ways_to_group_overlapping_ranges)| Medium | Array, Sorting | 669 | 100.00
+| 2579 |[Count Total Number of Colored Cells](src/main/kotlin/g2501_2600/s2579_count_total_number_of_colored_cells)| Medium | Math | 109 | 100.00
+| 2578 |[Split With Minimum Sum](src/main/kotlin/g2501_2600/s2578_split_with_minimum_sum)| Easy | Math, Sorting, Greedy | 121 | 75.00
+| 2577 |[Minimum Time to Visit a Cell In a Grid](src/main/kotlin/g2501_2600/s2577_minimum_time_to_visit_a_cell_in_a_grid)| Hard | Array, Matrix, Heap_Priority_Queue, Graph, Shortest_Path, Breadth_First_Search | 1446 | 100.00
+| 2576 |[Find the Maximum Number of Marked Indices](src/main/kotlin/g2501_2600/s2576_find_the_maximum_number_of_marked_indices)| Medium | Array, Sorting, Greedy, Binary_Search, Two_Pointers | 610 | 100.00
+| 2575 |[Find the Divisibility Array of a String](src/main/kotlin/g2501_2600/s2575_find_the_divisibility_array_of_a_string)| Medium | Array, String, Math | 507 | 100.00
+| 2574 |[Left and Right Sum Differences](src/main/kotlin/g2501_2600/s2574_left_and_right_sum_differences)| Easy | Array, Prefix_Sum | 203 | 100.00
+| 2573 |[Find the String with LCP](src/main/kotlin/g2501_2600/s2573_find_the_string_with_lcp)| Hard | String, Dynamic_Programming, Greedy, Union_Find | 853 | 100.00
+| 2572 |[Count the Number of Square-Free Subsets](src/main/kotlin/g2501_2600/s2572_count_the_number_of_square_free_subsets)| Medium | Array, Dynamic_Programming, Math, Bit_Manipulation, Bitmask | 218 | 100.00
+| 2571 |[Minimum Operations to Reduce an Integer to 0](src/main/kotlin/g2501_2600/s2571_minimum_operations_to_reduce_an_integer_to_0)| Medium | Dynamic_Programming, Greedy, Bit_Manipulation | 131 | 100.00
+| 2570 |[Merge Two 2D Arrays by Summing Values](src/main/kotlin/g2501_2600/s2570_merge_two_2d_arrays_by_summing_values)| Easy | Array, Hash_Table, Two_Pointers | 221 | 91.67
+| 2569 |[Handling Sum Queries After Update](src/main/kotlin/g2501_2600/s2569_handling_sum_queries_after_update)| Hard | Array, Segment_Tree | 1751 | 100.00
+| 2568 |[Minimum Impossible OR](src/main/kotlin/g2501_2600/s2568_minimum_impossible_or)| Medium | Array, Bit_Manipulation, Brainteaser | 468 | 100.00
+| 2567 |[Minimum Score by Changing Two Elements](src/main/kotlin/g2501_2600/s2567_minimum_score_by_changing_two_elements)| Medium | Array, Sorting, Greedy | 496 | 100.00
+| 2566 |[Maximum Difference by Remapping a Digit](src/main/kotlin/g2501_2600/s2566_maximum_difference_by_remapping_a_digit)| Easy | Math, Greedy | 125 | 100.00
+| 2565 |[Subsequence With the Minimum Score](src/main/kotlin/g2501_2600/s2565_subsequence_with_the_minimum_score)| Hard | String, Binary_Search, Two_Pointers | 204 | 100.00
+| 2564 |[Substring XOR Queries](src/main/kotlin/g2501_2600/s2564_substring_xor_queries)| Medium | Array, String, Hash_Table, Bit_Manipulation | 1603 | 100.00
+| 2563 |[Count the Number of Fair Pairs](src/main/kotlin/g2501_2600/s2563_count_the_number_of_fair_pairs)| Medium | Array, Sorting, Binary_Search, Two_Pointers | 553 | 100.00
+| 2562 |[Find the Array Concatenation Value](src/main/kotlin/g2501_2600/s2562_find_the_array_concatenation_value)| Easy | Array, Two_Pointers, Simulation | 175 | 100.00
+| 2561 |[Rearranging Fruits](src/main/kotlin/g2501_2600/s2561_rearranging_fruits)| Hard | Array, Hash_Table, Greedy | 746 | 100.00
+| 2560 |[House Robber IV](src/main/kotlin/g2501_2600/s2560_house_robber_iv)| Medium | Array, Binary_Search | 467 | 100.00
+| 2559 |[Count Vowel Strings in Ranges](src/main/kotlin/g2501_2600/s2559_count_vowel_strings_in_ranges)| Medium | Array, String, Prefix_Sum | 638 | 100.00
+| 2558 |[Take Gifts From the Richest Pile](src/main/kotlin/g2501_2600/s2558_take_gifts_from_the_richest_pile)| Easy | Array, Heap_Priority_Queue, Simulation | 169 | 100.00
+| 2556 |[Disconnect Path in a Binary Matrix by at Most One Flip](src/main/kotlin/g2501_2600/s2556_disconnect_path_in_a_binary_matrix_by_at_most_one_flip)| Medium | Array, Dynamic_Programming, Matrix, Depth_First_Search, Breadth_First_Search | 571 | 100.00
+| 2555 |[Maximize Win From Two Segments](src/main/kotlin/g2501_2600/s2555_maximize_win_from_two_segments)| Medium | Array, Binary_Search, Sliding_Window | 388 | 100.00
+| 2554 |[Maximum Number of Integers to Choose From a Range I](src/main/kotlin/g2501_2600/s2554_maximum_number_of_integers_to_choose_from_a_range_i)| Medium | Array, Hash_Table, Sorting, Greedy, Binary_Search | 543 | 100.00
+| 2553 |[Separate the Digits in an Array](src/main/kotlin/g2501_2600/s2553_separate_the_digits_in_an_array)| Easy | Array, Simulation | 210 | 100.00
+| 2552 |[Count Increasing Quadruplets](src/main/kotlin/g2501_2600/s2552_count_increasing_quadruplets)| Hard | Array, Dynamic_Programming, Prefix_Sum, Enumeration, Binary_Indexed_Tree | 268 | 66.67
+| 2551 |[Put Marbles in Bags](src/main/kotlin/g2501_2600/s2551_put_marbles_in_bags)| Hard | Array, Sorting, Greedy, Heap_Priority_Queue | 818 | 100.00
+| 2550 |[Count Collisions of Monkeys on a Polygon](src/main/kotlin/g2501_2600/s2550_count_collisions_of_monkeys_on_a_polygon)| Medium | Math, Recursion | 111 | 100.00
+| 2549 |[Count Distinct Numbers on Board](src/main/kotlin/g2501_2600/s2549_count_distinct_numbers_on_board)| Easy | Array, Hash_Table, Math, Simulation | 113 | 100.00
+| 2547 |[Minimum Cost to Split an Array](src/main/kotlin/g2501_2600/s2547_minimum_cost_to_split_an_array)| Hard | Array, Hash_Table, Dynamic_Programming, Counting | 400 | 100.00
+| 2546 |[Apply Bitwise Operations to Make Strings Equal](src/main/kotlin/g2501_2600/s2546_apply_bitwise_operations_to_make_strings_equal)| Medium | String, Bit_Manipulation | 246 | 100.00
 | 2545 |[Sort the Students by Their Kth Score](src/main/kotlin/g2501_2600/s2545_sort_the_students_by_their_kth_score)| Medium | Array, Sorting, Matrix | 442 | 100.00
 | 2544 |[Alternating Digit Sum](src/main/kotlin/g2501_2600/s2544_alternating_digit_sum)| Easy | Math | 122 | 60.00
 | 2543 |[Check if Point Is Reachable](src/main/kotlin/g2501_2600/s2543_check_if_point_is_reachable)| Hard | Math, Number_Theory | 134 | 100.00
@@ -3754,66 +3804,66 @@
 | 0113 |[Path Sum II](src/main/kotlin/g0101_0200/s0113_path_sum_ii)| Medium | Depth_First_Search, Tree, Binary_Tree, Backtracking, Data_Structure_II_Day_16_Tree | 364 | 78.67
 | 0112 |[Path Sum](src/main/kotlin/g0101_0200/s0112_path_sum)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Data_Structure_I_Day_12_Tree | 322 | 36.41
 | 0111 |[Minimum Depth of Binary Tree](src/main/kotlin/g0101_0200/s0111_minimum_depth_of_binary_tree)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Udemy_Tree_Stack_Queue | 525 | 90.51
-| 0110 |[Balanced Binary Tree](src/main/kotlin/g0101_0200/s0110_balanced_binary_tree)| Easy | Depth_First_Search, Tree, Binary_Tree, Programming_Skills_II_Day_2, Level_2_Day_6_Tree, Udemy_Tree_Stack_Queue | 310 | 63.63
-| 0109 |[Convert Sorted List to Binary Search Tree](src/main/kotlin/g0101_0200/s0109_convert_sorted_list_to_binary_search_tree)| Medium | Tree, Binary_Tree, Linked_List, Binary_Search_Tree, Divide_and_Conquer | 376 | 59.26
-| 0108 |[Convert Sorted Array to Binary Search Tree](src/main/kotlin/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree)| Easy | Top_Interview_Questions, Array, Tree, Binary_Tree, Binary_Search_Tree, Divide_and_Conquer, Data_Structure_II_Day_15_Tree, Level_2_Day_9_Binary_Search_Tree, Udemy_Tree_Stack_Queue | 334 | 35.39
-| 0107 |[Binary Tree Level Order Traversal II](src/main/kotlin/g0101_0200/s0107_binary_tree_level_order_traversal_ii)| Medium | Breadth_First_Search, Tree, Binary_Tree | 204 | 98.04
-| 0106 |[Construct Binary Tree from Inorder and Postorder Traversal](src/main/kotlin/g0101_0200/s0106_construct_binary_tree_from_inorder_and_postorder_traversal)| Medium | Array, Hash_Table, Tree, Binary_Tree, Divide_and_Conquer | 358 | 61.29
-| 0105 |[Construct Binary Tree from Preorder and Inorder Traversal](src/main/kotlin/g0101_0200/s0105_construct_binary_tree_from_preorder_and_inorder_traversal)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Tree, Binary_Tree, Divide_and_Conquer, Data_Structure_II_Day_15_Tree | 370 | 58.31
-| 0104 |[Maximum Depth of Binary Tree](src/main/kotlin/g0101_0200/s0104_maximum_depth_of_binary_tree)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Data_Structure_I_Day_11_Tree, Programming_Skills_I_Day_10_Linked_List_and_Tree, Udemy_Tree_Stack_Queue | 236 | 83.39
-| 0103 |[Binary Tree Zigzag Level Order Traversal](src/main/kotlin/g0101_0200/s0103_binary_tree_zigzag_level_order_traversal)| Medium | Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree, Data_Structure_II_Day_15_Tree, Udemy_Tree_Stack_Queue | 316 | 34.25
-| 0102 |[Binary Tree Level Order Traversal](src/main/kotlin/g0101_0200/s0102_binary_tree_level_order_traversal)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree, Data_Structure_I_Day_11_Tree, Level_1_Day_6_Tree, Udemy_Tree_Stack_Queue | 332 | 67.53
-| 0101 |[Symmetric Tree](src/main/kotlin/g0101_0200/s0101_symmetric_tree)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Data_Structure_I_Day_11_Tree, Level_2_Day_15_Tree | 190 | 91.36
-| 0100 |[Same Tree](src/main/kotlin/g0001_0100/s0100_same_tree)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Level_2_Day_15_Tree, Udemy_Tree_Stack_Queue | 208 | 72.24
-| 0099 |[Recover Binary Search Tree](src/main/kotlin/g0001_0100/s0099_recover_binary_search_tree)| Medium | Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 492 | 39.39
-| 0098 |[Validate Binary Search Tree](src/main/kotlin/g0001_0100/s0098_validate_binary_search_tree)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree, Data_Structure_I_Day_14_Tree, Level_1_Day_8_Binary_Search_Tree, Udemy_Tree_Stack_Queue | 330 | 41.38
-| 0097 |[Interleaving String](src/main/kotlin/g0001_0100/s0097_interleaving_string)| Medium | String, Dynamic_Programming | 240 | 57.50
-| 0096 |[Unique Binary Search Trees](src/main/kotlin/g0001_0100/s0096_unique_binary_search_trees)| Medium | Top_100_Liked_Questions, Dynamic_Programming, Math, Tree, Binary_Tree, Binary_Search_Tree, Dynamic_Programming_I_Day_11 | 147 | 88.52
-| 0095 |[Unique Binary Search Trees II](src/main/kotlin/g0001_0100/s0095_unique_binary_search_trees_ii)| Medium | Dynamic_Programming, Tree, Binary_Tree, Backtracking, Binary_Search_Tree | 360 | 41.38
-| 0094 |[Binary Tree Inorder Traversal](src/main/kotlin/g0001_0100/s0094_binary_tree_inorder_traversal)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Stack, Data_Structure_I_Day_10_Tree, Udemy_Tree_Stack_Queue | 269 | 38.80
-| 0093 |[Restore IP Addresses](src/main/kotlin/g0001_0100/s0093_restore_ip_addresses)| Medium | String, Backtracking | 304 | 73.33
-| 0092 |[Reverse Linked List II](src/main/kotlin/g0001_0100/s0092_reverse_linked_list_ii)| Medium | Linked_List | 191 | 82.35
-| 0091 |[Decode Ways](src/main/kotlin/g0001_0100/s0091_decode_ways)| Medium | Top_Interview_Questions, String, Dynamic_Programming, Algorithm_II_Day_15_Dynamic_Programming, Dynamic_Programming_I_Day_10 | 237 | 76.88
-| 0090 |[Subsets II](src/main/kotlin/g0001_0100/s0090_subsets_ii)| Medium | Array, Bit_Manipulation, Backtracking, Algorithm_II_Day_9_Recursion_Backtracking | 366 | 58.09
-| 0089 |[Gray Code](src/main/kotlin/g0001_0100/s0089_gray_code)| Medium | Math, Bit_Manipulation, Backtracking | 273 | 100.00
-| 0088 |[Merge Sorted Array](src/main/kotlin/g0001_0100/s0088_merge_sorted_array)| Easy | Top_Interview_Questions, Array, Sorting, Two_Pointers, Data_Structure_I_Day_2_Array | 311 | 33.40
-| 0087 |[Scramble String](src/main/kotlin/g0001_0100/s0087_scramble_string)| Hard | String, Dynamic_Programming | 366 | 85.00
-| 0086 |[Partition List](src/main/kotlin/g0001_0100/s0086_partition_list)| Medium | Two_Pointers, Linked_List | 172 | 94.00
-| 0085 |[Maximal Rectangle](src/main/kotlin/g0001_0100/s0085_maximal_rectangle)| Hard | Array, Dynamic_Programming, Matrix, Stack, Monotonic_Stack | 463 | 55.17
-| 0084 |[Largest Rectangle in Histogram](src/main/kotlin/g0001_0100/s0084_largest_rectangle_in_histogram)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Array, Stack, Monotonic_Stack | 525 | 100.00
-| 0083 |[Remove Duplicates from Sorted List](src/main/kotlin/g0001_0100/s0083_remove_duplicates_from_sorted_list)| Easy | Linked_List, Data_Structure_I_Day_8_Linked_List | 274 | 77.82
-| 0082 |[Remove Duplicates from Sorted List II](src/main/kotlin/g0001_0100/s0082_remove_duplicates_from_sorted_list_ii)| Medium | Two_Pointers, Linked_List, Data_Structure_II_Day_11_Linked_List, Algorithm_II_Day_3_Two_Pointers | 241 | 91.04
-| 0081 |[Search in Rotated Sorted Array II](src/main/kotlin/g0001_0100/s0081_search_in_rotated_sorted_array_ii)| Medium | Array, Binary_Search, Binary_Search_II_Day_12 | 352 | 42.31
-| 0080 |[Remove Duplicates from Sorted Array II](src/main/kotlin/g0001_0100/s0080_remove_duplicates_from_sorted_array_ii)| Medium | Array, Two_Pointers, Udemy_Arrays | 357 | 44.78
-| 0079 |[Word Search](src/main/kotlin/g0001_0100/s0079_word_search)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Matrix, Backtracking, Algorithm_II_Day_11_Recursion_Backtracking | 463 | 68.49
-| 0078 |[Subsets](src/main/kotlin/g0001_0100/s0078_subsets)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Backtracking, Algorithm_II_Day_9_Recursion_Backtracking, Udemy_Backtracking/Recursion | 191 | 97.44
-| 0077 |[Combinations](src/main/kotlin/g0001_0100/s0077_combinations)| Medium | Backtracking, Algorithm_I_Day_11_Recursion_Backtracking | 244 | 100.00
-| 0076 |[Minimum Window Substring](src/main/kotlin/g0001_0100/s0076_minimum_window_substring)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window, Level_2_Day_14_Sliding_Window/Two_Pointer | 346 | 85.20
-| 0075 |[Sort Colors](src/main/kotlin/g0001_0100/s0075_sort_colors)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Data_Structure_II_Day_2_Array, Udemy_Arrays | 198 | 85.66
-| 0074 |[Search a 2D Matrix](src/main/kotlin/g0001_0100/s0074_search_a_2d_matrix)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix, Data_Structure_I_Day_5_Array, Algorithm_II_Day_1_Binary_Search, Binary_Search_I_Day_8, Level_2_Day_8_Binary_Search, Udemy_2D_Arrays/Matrix | 290 | 40.17
-| 0073 |[Set Matrix Zeroes](src/main/kotlin/g0001_0100/s0073_set_matrix_zeroes)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Matrix, Udemy_2D_Arrays/Matrix | 255 | 100.00
-| 0072 |[Edit Distance](src/main/kotlin/g0001_0100/s0072_edit_distance)| Hard | Top_100_Liked_Questions, String, Dynamic_Programming, Algorithm_II_Day_18_Dynamic_Programming, Dynamic_Programming_I_Day_19, Udemy_Dynamic_Programming | 320 | 63.53
-| 0071 |[Simplify Path](src/main/kotlin/g0001_0100/s0071_simplify_path)| Medium | String, Stack | 318 | 64.44
-| 0070 |[Climbing Stairs](src/main/kotlin/g0001_0100/s0070_climbing_stairs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Memoization, Algorithm_I_Day_12_Dynamic_Programming, Dynamic_Programming_I_Day_2, Level_1_Day_10_Dynamic_Programming, Udemy_Dynamic_Programming | 127 | 97.06
-| 0069 |[Sqrt(x)](src/main/kotlin/g0001_0100/s0069_sqrtx)| Easy | Top_Interview_Questions, Math, Binary_Search, Binary_Search_I_Day_4 | 153 | 95.75
-| 0068 |[Text Justification](src/main/kotlin/g0001_0100/s0068_text_justification)| Hard | Array, String, Simulation | 269 | 50.00
-| 0067 |[Add Binary](src/main/kotlin/g0001_0100/s0067_add_binary)| Easy | String, Math, Bit_Manipulation, Simulation, Programming_Skills_II_Day_5 | 327 | 32.67
-| 0066 |[Plus One](src/main/kotlin/g0001_0100/s0066_plus_one)| Easy | Top_Interview_Questions, Array, Math, Programming_Skills_II_Day_3, Udemy_Arrays | 303 | 35.18
-| 0065 |[Valid Number](src/main/kotlin/g0001_0100/s0065_valid_number)| Hard | String | 310 | 81.82
-| 0064 |[Minimum Path Sum](src/main/kotlin/g0001_0100/s0064_minimum_path_sum)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Matrix, Dynamic_Programming_I_Day_16, Udemy_Dynamic_Programming | 222 | 95.70
-| 0063 |[Unique Paths II](src/main/kotlin/g0001_0100/s0063_unique_paths_ii)| Medium | Array, Dynamic_Programming, Matrix, Dynamic_Programming_I_Day_15 | 187 | 84.62
-| 0062 |[Unique Paths](src/main/kotlin/g0001_0100/s0062_unique_paths)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Combinatorics, Algorithm_II_Day_13_Dynamic_Programming, Dynamic_Programming_I_Day_15, Level_1_Day_11_Dynamic_Programming | 209 | 49.18
-| 0061 |[Rotate List](src/main/kotlin/g0001_0100/s0061_rotate_list)| Medium | Two_Pointers, Linked_List, Programming_Skills_II_Day_16, Udemy_Linked_List | 193 | 92.16
-| 0060 |[Permutation Sequence](src/main/kotlin/g0001_0100/s0060_permutation_sequence)| Hard | Math, Recursion | 146 | 100.00
-| 0059 |[Spiral Matrix II](src/main/kotlin/g0001_0100/s0059_spiral_matrix_ii)| Medium | Array, Matrix, Simulation, Data_Structure_II_Day_3_Array | 153 | 100.00
-| 0058 |[Length of Last Word](src/main/kotlin/g0001_0100/s0058_length_of_last_word)| Easy | String, Programming_Skills_II_Day_6, Udemy_Arrays | 243 | 63.33
-| 0057 |[Insert Interval](src/main/kotlin/g0001_0100/s0057_insert_interval)| Medium | Array, Level_2_Day_17_Interval | 257 | 99.52
-| 0056 |[Merge Intervals](src/main/kotlin/g0001_0100/s0056_merge_intervals)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Data_Structure_II_Day_2_Array, Level_2_Day_17_Interval, Udemy_2D_Arrays/Matrix | 320 | 94.22
-| 0055 |[Jump Game](src/main/kotlin/g0001_0100/s0055_jump_game)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Greedy, Algorithm_II_Day_12_Dynamic_Programming, Dynamic_Programming_I_Day_4, Udemy_Arrays | 670 | 66.67
-| 0054 |[Spiral Matrix](src/main/kotlin/g0001_0100/s0054_spiral_matrix)| Medium | Top_Interview_Questions, Array, Matrix, Simulation, Programming_Skills_II_Day_8, Level_2_Day_1_Implementation/Simulation, Udemy_2D_Arrays/Matrix | 224 | 62.50
-| 0053 |[Maximum Subarray](src/main/kotlin/g0001_0100/s0053_maximum_subarray)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Divide_and_Conquer, Data_Structure_I_Day_1_Array, Dynamic_Programming_I_Day_5, Udemy_Famous_Algorithm | 662 | 82.48
-| 0052 |[N-Queens II](src/main/kotlin/g0001_0100/s0052_n_queens_ii)| Hard | Backtracking | 231 | 80.00
-| 0051 |[N-Queens](src/main/kotlin/g0001_0100/s0051_n_queens)| Hard | Top_100_Liked_Questions, Array, Backtracking | 243 | 95.10
+| 0110 |[Balanced Binary Tree](src/main/kotlin/g0101_0200/s0110_balanced_binary_tree)| Easy | Depth_First_Search, Tree, Binary_Tree, Programming_Skills_II_Day_2, Level_2_Day_6_Tree, Udemy_Tree_Stack_Queue | 182 | 71.30
+| 0109 |[Convert Sorted List to Binary Search Tree](src/main/kotlin/g0101_0200/s0109_convert_sorted_list_to_binary_search_tree)| Medium | Tree, Binary_Tree, Linked_List, Binary_Search_Tree, Divide_and_Conquer | 191 | 100.00
+| 0108 |[Convert Sorted Array to Binary Search Tree](src/main/kotlin/g0101_0200/s0108_convert_sorted_array_to_binary_search_tree)| Easy | Top_Interview_Questions, Array, Tree, Binary_Tree, Binary_Search_Tree, Divide_and_Conquer, Data_Structure_II_Day_15_Tree, Level_2_Day_9_Binary_Search_Tree, Udemy_Tree_Stack_Queue | 167 | 80.29
+| 0107 |[Binary Tree Level Order Traversal II](src/main/kotlin/g0101_0200/s0107_binary_tree_level_order_traversal_ii)| Medium | Breadth_First_Search, Tree, Binary_Tree | 187 | 87.50
+| 0106 |[Construct Binary Tree from Inorder and Postorder Traversal](src/main/kotlin/g0101_0200/s0106_construct_binary_tree_from_inorder_and_postorder_traversal)| Medium | Array, Hash_Table, Tree, Binary_Tree, Divide_and_Conquer | 167 | 100.00
+| 0105 |[Construct Binary Tree from Preorder and Inorder Traversal](src/main/kotlin/g0101_0200/s0105_construct_binary_tree_from_preorder_and_inorder_traversal)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Tree, Binary_Tree, Divide_and_Conquer, Data_Structure_II_Day_15_Tree | 183 | 95.45
+| 0104 |[Maximum Depth of Binary Tree](src/main/kotlin/g0101_0200/s0104_maximum_depth_of_binary_tree)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Data_Structure_I_Day_11_Tree, Programming_Skills_I_Day_10_Linked_List_and_Tree, Udemy_Tree_Stack_Queue | 166 | 83.53
+| 0103 |[Binary Tree Zigzag Level Order Traversal](src/main/kotlin/g0101_0200/s0103_binary_tree_zigzag_level_order_traversal)| Medium | Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree, Data_Structure_II_Day_15_Tree, Udemy_Tree_Stack_Queue | 176 | 71.62
+| 0102 |[Binary Tree Level Order Traversal](src/main/kotlin/g0101_0200/s0102_binary_tree_level_order_traversal)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree, Data_Structure_I_Day_11_Tree, Level_1_Day_6_Tree, Udemy_Tree_Stack_Queue | 198 | 95.14
+| 0101 |[Symmetric Tree](src/main/kotlin/g0101_0200/s0101_symmetric_tree)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Data_Structure_I_Day_11_Tree, Level_2_Day_15_Tree | 153 | 82.35
+| 0100 |[Same Tree](src/main/kotlin/g0001_0100/s0100_same_tree)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Level_2_Day_15_Tree, Udemy_Tree_Stack_Queue | 134 | 86.63
+| 0099 |[Recover Binary Search Tree](src/main/kotlin/g0001_0100/s0099_recover_binary_search_tree)| Medium | Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 221 | 90.00
+| 0098 |[Validate Binary Search Tree](src/main/kotlin/g0001_0100/s0098_validate_binary_search_tree)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree, Data_Structure_I_Day_14_Tree, Level_1_Day_8_Binary_Search_Tree, Udemy_Tree_Stack_Queue | 190 | 61.62
+| 0097 |[Interleaving String](src/main/kotlin/g0001_0100/s0097_interleaving_string)| Medium | String, Dynamic_Programming | 149 | 81.58
+| 0096 |[Unique Binary Search Trees](src/main/kotlin/g0001_0100/s0096_unique_binary_search_trees)| Medium | Top_100_Liked_Questions, Dynamic_Programming, Math, Tree, Binary_Tree, Binary_Search_Tree, Dynamic_Programming_I_Day_11 | 116 | 92.31
+| 0095 |[Unique Binary Search Trees II](src/main/kotlin/g0001_0100/s0095_unique_binary_search_trees_ii)| Medium | Dynamic_Programming, Tree, Binary_Tree, Backtracking, Binary_Search_Tree | 167 | 100.00
+| 0094 |[Binary Tree Inorder Traversal](src/main/kotlin/g0001_0100/s0094_binary_tree_inorder_traversal)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Stack, Data_Structure_I_Day_10_Tree, Udemy_Tree_Stack_Queue | 152 | 66.67
+| 0093 |[Restore IP Addresses](src/main/kotlin/g0001_0100/s0093_restore_ip_addresses)| Medium | String, Backtracking | 152 | 100.00
+| 0092 |[Reverse Linked List II](src/main/kotlin/g0001_0100/s0092_reverse_linked_list_ii)| Medium | Linked_List | 144 | 75.00
+| 0091 |[Decode Ways](src/main/kotlin/g0001_0100/s0091_decode_ways)| Medium | Top_Interview_Questions, String, Dynamic_Programming, Algorithm_II_Day_15_Dynamic_Programming, Dynamic_Programming_I_Day_10 | 148 | 79.07
+| 0090 |[Subsets II](src/main/kotlin/g0001_0100/s0090_subsets_ii)| Medium | Array, Bit_Manipulation, Backtracking, Algorithm_II_Day_9_Recursion_Backtracking | 200 | 88.33
+| 0089 |[Gray Code](src/main/kotlin/g0001_0100/s0089_gray_code)| Medium | Math, Bit_Manipulation, Backtracking | 271 | 69.23
+| 0088 |[Merge Sorted Array](src/main/kotlin/g0001_0100/s0088_merge_sorted_array)| Easy | Top_Interview_Questions, Array, Sorting, Two_Pointers, Data_Structure_I_Day_2_Array | 170 | 69.74
+| 0087 |[Scramble String](src/main/kotlin/g0001_0100/s0087_scramble_string)| Hard | String, Dynamic_Programming | 174 | 87.50
+| 0086 |[Partition List](src/main/kotlin/g0001_0100/s0086_partition_list)| Medium | Two_Pointers, Linked_List | 160 | 70.73
+| 0085 |[Maximal Rectangle](src/main/kotlin/g0001_0100/s0085_maximal_rectangle)| Hard | Array, Dynamic_Programming, Matrix, Stack, Monotonic_Stack | 209 | 100.00
+| 0084 |[Largest Rectangle in Histogram](src/main/kotlin/g0001_0100/s0084_largest_rectangle_in_histogram)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Array, Stack, Monotonic_Stack | 476 | 90.79
+| 0083 |[Remove Duplicates from Sorted List](src/main/kotlin/g0001_0100/s0083_remove_duplicates_from_sorted_list)| Easy | Linked_List, Data_Structure_I_Day_8_Linked_List | 173 | 82.42
+| 0082 |[Remove Duplicates from Sorted List II](src/main/kotlin/g0001_0100/s0082_remove_duplicates_from_sorted_list_ii)| Medium | Two_Pointers, Linked_List, Data_Structure_II_Day_11_Linked_List, Algorithm_II_Day_3_Two_Pointers | 166 | 89.47
+| 0081 |[Search in Rotated Sorted Array II](src/main/kotlin/g0001_0100/s0081_search_in_rotated_sorted_array_ii)| Medium | Array, Binary_Search, Binary_Search_II_Day_12 | 170 | 96.30
+| 0080 |[Remove Duplicates from Sorted Array II](src/main/kotlin/g0001_0100/s0080_remove_duplicates_from_sorted_array_ii)| Medium | Array, Two_Pointers, Udemy_Arrays | 192 | 80.67
+| 0079 |[Word Search](src/main/kotlin/g0001_0100/s0079_word_search)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Matrix, Backtracking, Algorithm_II_Day_11_Recursion_Backtracking | 392 | 72.92
+| 0078 |[Subsets](src/main/kotlin/g0001_0100/s0078_subsets)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Backtracking, Algorithm_II_Day_9_Recursion_Backtracking, Udemy_Backtracking/Recursion | 171 | 94.92
+| 0077 |[Combinations](src/main/kotlin/g0001_0100/s0077_combinations)| Medium | Backtracking, Algorithm_I_Day_11_Recursion_Backtracking | 232 | 100.00
+| 0076 |[Minimum Window Substring](src/main/kotlin/g0001_0100/s0076_minimum_window_substring)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window, Level_2_Day_14_Sliding_Window/Two_Pointer | 191 | 96.38
+| 0075 |[Sort Colors](src/main/kotlin/g0001_0100/s0075_sort_colors)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Data_Structure_II_Day_2_Array, Udemy_Arrays | 164 | 64.43
+| 0074 |[Search a 2D Matrix](src/main/kotlin/g0001_0100/s0074_search_a_2d_matrix)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Matrix, Data_Structure_I_Day_5_Array, Algorithm_II_Day_1_Binary_Search, Binary_Search_I_Day_8, Level_2_Day_8_Binary_Search, Udemy_2D_Arrays/Matrix | 159 | 74.46
+| 0073 |[Set Matrix Zeroes](src/main/kotlin/g0001_0100/s0073_set_matrix_zeroes)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Matrix, Udemy_2D_Arrays/Matrix | 248 | 97.33
+| 0072 |[Edit Distance](src/main/kotlin/g0001_0100/s0072_edit_distance)| Hard | Top_100_Liked_Questions, String, Dynamic_Programming, Algorithm_II_Day_18_Dynamic_Programming, Dynamic_Programming_I_Day_19, Udemy_Dynamic_Programming | 182 | 92.16
+| 0071 |[Simplify Path](src/main/kotlin/g0001_0100/s0071_simplify_path)| Medium | String, Stack | 185 | 92.86
+| 0070 |[Climbing Stairs](src/main/kotlin/g0001_0100/s0070_climbing_stairs)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Memoization, Algorithm_I_Day_12_Dynamic_Programming, Dynamic_Programming_I_Day_2, Level_1_Day_10_Dynamic_Programming, Udemy_Dynamic_Programming | 124 | 71.98
+| 0069 |[Sqrt(x)](src/main/kotlin/g0001_0100/s0069_sqrtx)| Easy | Top_Interview_Questions, Math, Binary_Search, Binary_Search_I_Day_4 | 140 | 94.72
+| 0068 |[Text Justification](src/main/kotlin/g0001_0100/s0068_text_justification)| Hard | Array, String, Simulation | 153 | 92.96
+| 0067 |[Add Binary](src/main/kotlin/g0001_0100/s0067_add_binary)| Easy | String, Math, Bit_Manipulation, Simulation, Programming_Skills_II_Day_5 | 164 | 90.60
+| 0066 |[Plus One](src/main/kotlin/g0001_0100/s0066_plus_one)| Easy | Top_Interview_Questions, Array, Math, Programming_Skills_II_Day_3, Udemy_Arrays | 148 | 98.75
+| 0065 |[Valid Number](src/main/kotlin/g0001_0100/s0065_valid_number)| Hard | String | 151 | 100.00
+| 0064 |[Minimum Path Sum](src/main/kotlin/g0001_0100/s0064_minimum_path_sum)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Matrix, Dynamic_Programming_I_Day_16, Udemy_Dynamic_Programming | 164 | 100.00
+| 0063 |[Unique Paths II](src/main/kotlin/g0001_0100/s0063_unique_paths_ii)| Medium | Array, Dynamic_Programming, Matrix, Dynamic_Programming_I_Day_15 | 151 | 81.94
+| 0062 |[Unique Paths](src/main/kotlin/g0001_0100/s0062_unique_paths)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Combinatorics, Algorithm_II_Day_13_Dynamic_Programming, Dynamic_Programming_I_Day_15, Level_1_Day_11_Dynamic_Programming | 118 | 94.65
+| 0061 |[Rotate List](src/main/kotlin/g0001_0100/s0061_rotate_list)| Medium | Two_Pointers, Linked_List, Programming_Skills_II_Day_16, Udemy_Linked_List | 160 | 92.22
+| 0060 |[Permutation Sequence](src/main/kotlin/g0001_0100/s0060_permutation_sequence)| Hard | Math, Recursion | 132 | 100.00
+| 0059 |[Spiral Matrix II](src/main/kotlin/g0001_0100/s0059_spiral_matrix_ii)| Medium | Array, Matrix, Simulation, Data_Structure_II_Day_3_Array | 153 | 41.70
+| 0058 |[Length of Last Word](src/main/kotlin/g0001_0100/s0058_length_of_last_word)| Easy | String, Programming_Skills_II_Day_6, Udemy_Arrays | 135 | 93.67
+| 0057 |[Insert Interval](src/main/kotlin/g0001_0100/s0057_insert_interval)| Medium | Array, Level_2_Day_17_Interval | 249 | 75.63
+| 0056 |[Merge Intervals](src/main/kotlin/g0001_0100/s0056_merge_intervals)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Data_Structure_II_Day_2_Array, Level_2_Day_17_Interval, Udemy_2D_Arrays/Matrix | 334 | 80.67
+| 0055 |[Jump Game](src/main/kotlin/g0001_0100/s0055_jump_game)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Greedy, Algorithm_II_Day_12_Dynamic_Programming, Dynamic_Programming_I_Day_4, Udemy_Arrays | 332 | 89.35
+| 0054 |[Spiral Matrix](src/main/kotlin/g0001_0100/s0054_spiral_matrix)| Medium | Top_Interview_Questions, Array, Matrix, Simulation, Programming_Skills_II_Day_8, Level_2_Day_1_Implementation/Simulation, Udemy_2D_Arrays/Matrix | 132 | 95.12
+| 0053 |[Maximum Subarray](src/main/kotlin/g0001_0100/s0053_maximum_subarray)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Divide_and_Conquer, Data_Structure_I_Day_1_Array, Dynamic_Programming_I_Day_5, Udemy_Famous_Algorithm | 510 | 78.81
+| 0052 |[N-Queens II](src/main/kotlin/g0001_0100/s0052_n_queens_ii)| Hard | Backtracking | 128 | 97.56
+| 0051 |[N-Queens](src/main/kotlin/g0001_0100/s0051_n_queens)| Hard | Top_100_Liked_Questions, Array, Backtracking | 192 | 90.74
 | 0050 |[Pow(x, n)](src/main/kotlin/g0001_0100/s0050_powx_n)| Medium | Top_Interview_Questions, Math, Recursion, Udemy_Integers | 172 | 38.68
 | 0049 |[Group Anagrams](src/main/kotlin/g0001_0100/s0049_group_anagrams)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, String, Hash_Table, Sorting, Data_Structure_II_Day_8_String, Programming_Skills_II_Day_11, Udemy_Strings | 308 | 96.34
 | 0048 |[Rotate Image](src/main/kotlin/g0001_0100/s0048_rotate_image)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Math, Matrix, Data_Structure_II_Day_3_Array, Programming_Skills_II_Day_7, Udemy_2D_Arrays/Matrix | 160 | 90.11
