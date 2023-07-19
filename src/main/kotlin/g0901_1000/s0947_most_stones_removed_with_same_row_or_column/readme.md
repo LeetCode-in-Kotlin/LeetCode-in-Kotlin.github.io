@@ -62,6 +62,7 @@ Stones [0,0] and [1,1] cannot be removed since they do not share a row/column wi
 ```kotlin
 class Solution {
     private val roots = IntArray(20002)
+
     fun removeStones(stones: Array<IntArray>): Int {
         for (stone in stones) {
             init(stone[0] + 1, roots)
