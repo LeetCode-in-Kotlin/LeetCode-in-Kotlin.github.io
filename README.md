@@ -1816,11 +1816,48 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
-| 2598 |[Smallest Missing Non-negative Integer After Operations](src/main/kotlin/g2501_2600/s2598_smallest_missing_non_negative_integer_after_operations)| |||
+| 2643 |[Row With Maximum Ones](src/main/kotlin/g2601_2700/s2643_row_with_maximum_ones)| Easy | Array, Matrix | 530 | 100.00
+| 2642 |[Design Graph With Shortest Path Calculator](src/main/kotlin/g2601_2700/s2642_design_graph_with_shortest_path_calculator)| Hard | Design, Heap_Priority_Queue, Graph, Shortest_Path | 789 | 100.00
+| 2641 |[Cousins in Binary Tree II](src/main/kotlin/g2601_2700/s2641_cousins_in_binary_tree_ii)| Medium | Hash_Table, Tree, Binary_Tree, Depth_First_Search, Breadth_First_Search | 922 | 90.91
+| 2640 |[Find the Score of All Prefixes of an Array](src/main/kotlin/g2601_2700/s2640_find_the_score_of_all_prefixes_of_an_array)| Medium | Array, Prefix_Sum | 587 | 100.00
+| 2639 |[Find the Width of Columns of a Grid](src/main/kotlin/g2601_2700/s2639_find_the_width_of_columns_of_a_grid)| Easy | Array, Matrix | 222 | 100.00
+| 2637 |[Promise Time Limit](src/main/kotlin/g2601_2700/s2637_promise_time_limit)| Easy || 64 | 75.36
+| 2635 |[Apply Transform Over Each Element in Array](src/main/kotlin/g2601_2700/s2635_apply_transform_over_each_element_in_array)| Easy || 47 | 99.33
+| 2634 |[Filter Elements from Array](src/main/kotlin/g2601_2700/s2634_filter_elements_from_array)| Easy || 55 | 90.38
+| 2631 |[Group By](src/main/kotlin/g2601_2700/s2631_group_by)| Medium || 131 | 95.95
+| 2630 |[Memoize II](src/main/kotlin/g2601_2700/s2630_memoize_ii)| Hard || 314 | 99.39
+| 2629 |[Function Composition](src/main/kotlin/g2601_2700/s2629_function_composition)| Easy || 68 | 92.25
+| 2627 |[Debounce](src/main/kotlin/g2601_2700/s2627_debounce)| Medium || 64 | 73.92
+| 2626 |[Array Reduce Transformation](src/main/kotlin/g2601_2700/s2626_array_reduce_transformation)| Easy || 54 | 95.99
+| 2625 |[Flatten Deeply Nested Array](src/main/kotlin/g2601_2700/s2625_flatten_deeply_nested_array)| Medium || 107 | 88.76
+| 2624 |[Snail Traversal](src/main/kotlin/g2601_2700/s2624_snail_traversal)| Medium || 215 | 83.48
+| 2623 |[Memoize](src/main/kotlin/g2601_2700/s2623_memoize)| Medium || 326 | 92.92
+| 2622 |[Cache With Time Limit](src/main/kotlin/g2601_2700/s2622_cache_with_time_limit)| Medium || 59 | 86.77
+| 2621 |[Sleep](src/main/kotlin/g2601_2700/s2621_sleep)| Easy || 49 | 97.92
+| 2620 |[Counter](src/main/kotlin/g2601_2700/s2620_counter)| Easy || 53 | 91.77
+| 2619 |[Array Prototype Last](src/main/kotlin/g2601_2700/s2619_array_prototype_last)| Easy || 51 | 94.69
+| 2618 |[Check if Object Instance of Class](src/main/kotlin/g2601_2700/s2618_check_if_object_instance_of_class)| Medium || 100 | 91.86
+| 2617 |[Minimum Number of Visited Cells in a Grid](src/main/kotlin/g2601_2700/s2617_minimum_number_of_visited_cells_in_a_grid)| Hard | Array, Dynamic_Programming, Binary_Search, Stack, Union_Find, Segment_Tree, Binary_Indexed_Tree | 1255 | 100.00
+| 2616 |[Minimize the Maximum Difference of Pairs](src/main/kotlin/g2601_2700/s2616_minimize_the_maximum_difference_of_pairs)| Medium | Array, Greedy, Binary_Search | 556 | 100.00
+| 2615 |[Sum of Distances](src/main/kotlin/g2601_2700/s2615_sum_of_distances)| Medium | Array, Hash_Table, Prefix_Sum | 902 | 100.00
+| 2614 |[Prime In Diagonal](src/main/kotlin/g2601_2700/s2614_prime_in_diagonal)| Easy | Array, Math, Matrix, Number_Theory | 465 | 100.00
+| 2612 |[Minimum Reverse Operations](src/main/kotlin/g2601_2700/s2612_minimum_reverse_operations)| Hard | Array, Ordered_Set, Breadth_First_Search | 923 | 100.00
+| 2611 |[Mice and Cheese](src/main/kotlin/g2601_2700/s2611_mice_and_cheese)| Medium | Array, Sorting, Greedy, Heap_Priority_Queue | 554 | 100.00
+| 2610 |[Convert an Array Into a 2D Array With Conditions](src/main/kotlin/g2601_2700/s2610_convert_an_array_into_a_2d_array_with_conditions)| Medium | Array, Hash_Table | 240 | 88.24
+| 2609 |[Find the Longest Balanced Substring of a Binary String](src/main/kotlin/g2601_2700/s2609_find_the_longest_balanced_substring_of_a_binary_string)| Easy | String | 174 | 100.00
+| 2608 |[Shortest Cycle in a Graph](src/main/kotlin/g2601_2700/s2608_shortest_cycle_in_a_graph)| Hard | Graph, Breadth_First_Search | 1061 | 100.00
+| 2607 |[Make K-Subarray Sums Equal](src/main/kotlin/g2601_2700/s2607_make_k_subarray_sums_equal)| Medium | Array, Math, Sorting, Number_Theory | 1062 | 100.00
+| 2606 |[Find the Substring With Maximum Cost](src/main/kotlin/g2601_2700/s2606_find_the_substring_with_maximum_cost)| Medium | Array, String, Hash_Table, Dynamic_Programming | 238 | 100.00
+| 2605 |[Form Smallest Number From Two Digit Arrays](src/main/kotlin/g2601_2700/s2605_form_smallest_number_from_two_digit_arrays)| Easy | Array, Hash_Table, Enumeration | 161 | 100.00
+| 2603 |[Collect Coins in a Tree](src/main/kotlin/g2601_2700/s2603_collect_coins_in_a_tree)| Hard | Array, Tree, Graph, Topological_Sort | 986 | 100.00
+| 2602 |[Minimum Operations to Make All Array Elements Equal](src/main/kotlin/g2601_2700/s2602_minimum_operations_to_make_all_array_elements_equal)| Medium | Array, Sorting, Binary_Search, Prefix_Sum | 790 | 100.00
+| 2601 |[Prime Subtraction Operation](src/main/kotlin/g2601_2700/s2601_prime_subtraction_operation)| Medium | Array, Math, Greedy, Binary_Search, Number_Theory | 233 | 100.00
+| 2600 |[K Items With the Maximum Sum](src/main/kotlin/g2501_2600/s2600_k_items_with_the_maximum_sum)| Easy | Math, Greedy | 145 | 100.00
+| 2598 |[Smallest Missing Non-negative Integer After Operations](src/main/kotlin/g2501_2600/s2598_smallest_missing_non_negative_integer_after_operations)| Medium | Array, Hash_Table, Math, Greedy | 594 | 100.00
 | 2597 |[The Number of Beautiful Subsets](src/main/kotlin/g2501_2600/s2597_the_number_of_beautiful_subsets)| Medium | Array, Dynamic_Programming, Backtracking | 194 | 100.00
-| 2596 |[Check Knight Tour Configuration](src/main/kotlin/g2501_2600/s2596_check_knight_tour_configuration)| Medium | Array, Matrix, Simulation, Depth_First_Search, Breadth_First_Search | 179 | 100.00
+| 2596 |[Check Knight Tour Configuration](src/main/kotlin/g2501_2600/s2596_check_knight_tour_configuration)| Medium | Array, Depth_First_Search, Breadth_First_Search, Matrix, Simulation | 179 | 100.00
 | 2595 |[Number of Even and Odd Bits](src/main/kotlin/g2501_2600/s2595_number_of_even_and_odd_bits)| Easy | Bit_Manipulation | 177 | 100.00
-| 2594 |[Minimum Time to Repair Cars](src/main/kotlin/g2501_2600/s2594_minimum_time_to_repair_cars)| |||
+| 2594 |[Minimum Time to Repair Cars](src/main/kotlin/g2501_2600/s2594_minimum_time_to_repair_cars)| Medium | Array, Binary_Search | 416 | 100.00
 | 2593 |[Find Score of an Array After Marking All Elements](src/main/kotlin/g2501_2600/s2593_find_score_of_an_array_after_marking_all_elements)| Medium | Array, Sorting, Heap_Priority_Queue, Simulation | 738 | 100.00
 | 2592 |[Maximize Greatness of an Array](src/main/kotlin/g2501_2600/s2592_maximize_greatness_of_an_array)| Medium | Array, Sorting, Greedy, Two_Pointers | 748 | 100.00
 | 2591 |[Distribute Money to Maximum Children](src/main/kotlin/g2501_2600/s2591_distribute_money_to_maximum_children)| Easy | Math, Greedy | 155 | 100.00
@@ -1830,13 +1867,13 @@
 | 2586 |[Count the Number of Vowel Strings in Range](src/main/kotlin/g2501_2600/s2586_count_the_number_of_vowel_strings_in_range)| Easy | Array, String | 195 | 100.00
 | 2585 |[Number of Ways to Earn Points](src/main/kotlin/g2501_2600/s2585_number_of_ways_to_earn_points)| Hard | Array, Dynamic_Programming | 263 | 100.00
 | 2584 |[Split the Array to Make Coprime Products](src/main/kotlin/g2501_2600/s2584_split_the_array_to_make_coprime_products)| Hard | Array, Hash_Table, Math, Number_Theory | 341 | 100.00
-| 2583 |[Kth Largest Sum in a Binary Tree](src/main/kotlin/g2501_2600/s2583_kth_largest_sum_in_a_binary_tree)| Medium | Tree, Binary_Search, Breadth_First_Search | 557 | 83.33
+| 2583 |[Kth Largest Sum in a Binary Tree](src/main/kotlin/g2501_2600/s2583_kth_largest_sum_in_a_binary_tree)| Medium | Breadth_First_Search, Tree, Binary_Search | 557 | 83.33
 | 2582 |[Pass the Pillow](src/main/kotlin/g2501_2600/s2582_pass_the_pillow)| Easy | Math, Simulation | 122 | 85.71
-| 2581 |[Count Number of Possible Root Nodes](src/main/kotlin/g2501_2600/s2581_count_number_of_possible_root_nodes)| Hard | Hash_Table, Dynamic_Programming, Tree, Depth_First_Search | 1352 | 100.00
+| 2581 |[Count Number of Possible Root Nodes](src/main/kotlin/g2501_2600/s2581_count_number_of_possible_root_nodes)| Hard | Hash_Table, Dynamic_Programming, Depth_First_Search, Tree | 1352 | 100.00
 | 2580 |[Count Ways to Group Overlapping Ranges](src/main/kotlin/g2501_2600/s2580_count_ways_to_group_overlapping_ranges)| Medium | Array, Sorting | 669 | 100.00
 | 2579 |[Count Total Number of Colored Cells](src/main/kotlin/g2501_2600/s2579_count_total_number_of_colored_cells)| Medium | Math | 109 | 100.00
 | 2578 |[Split With Minimum Sum](src/main/kotlin/g2501_2600/s2578_split_with_minimum_sum)| Easy | Math, Sorting, Greedy | 121 | 75.00
-| 2577 |[Minimum Time to Visit a Cell In a Grid](src/main/kotlin/g2501_2600/s2577_minimum_time_to_visit_a_cell_in_a_grid)| Hard | Array, Matrix, Heap_Priority_Queue, Graph, Shortest_Path, Breadth_First_Search | 1446 | 100.00
+| 2577 |[Minimum Time to Visit a Cell In a Grid](src/main/kotlin/g2501_2600/s2577_minimum_time_to_visit_a_cell_in_a_grid)| Hard | Array, Breadth_First_Search, Matrix, Heap_Priority_Queue, Graph, Shortest_Path | 1446 | 100.00
 | 2576 |[Find the Maximum Number of Marked Indices](src/main/kotlin/g2501_2600/s2576_find_the_maximum_number_of_marked_indices)| Medium | Array, Sorting, Greedy, Binary_Search, Two_Pointers | 610 | 100.00
 | 2575 |[Find the Divisibility Array of a String](src/main/kotlin/g2501_2600/s2575_find_the_divisibility_array_of_a_string)| Medium | Array, String, Math | 507 | 100.00
 | 2574 |[Left and Right Sum Differences](src/main/kotlin/g2501_2600/s2574_left_and_right_sum_differences)| Easy | Array, Prefix_Sum | 203 | 100.00
@@ -1856,7 +1893,7 @@
 | 2560 |[House Robber IV](src/main/kotlin/g2501_2600/s2560_house_robber_iv)| Medium | Array, Binary_Search | 467 | 100.00
 | 2559 |[Count Vowel Strings in Ranges](src/main/kotlin/g2501_2600/s2559_count_vowel_strings_in_ranges)| Medium | Array, String, Prefix_Sum | 638 | 100.00
 | 2558 |[Take Gifts From the Richest Pile](src/main/kotlin/g2501_2600/s2558_take_gifts_from_the_richest_pile)| Easy | Array, Heap_Priority_Queue, Simulation | 169 | 100.00
-| 2556 |[Disconnect Path in a Binary Matrix by at Most One Flip](src/main/kotlin/g2501_2600/s2556_disconnect_path_in_a_binary_matrix_by_at_most_one_flip)| Medium | Array, Dynamic_Programming, Matrix, Depth_First_Search, Breadth_First_Search | 571 | 100.00
+| 2556 |[Disconnect Path in a Binary Matrix by at Most One Flip](src/main/kotlin/g2501_2600/s2556_disconnect_path_in_a_binary_matrix_by_at_most_one_flip)| Medium | Array, Dynamic_Programming, Depth_First_Search, Breadth_First_Search, Matrix | 571 | 100.00
 | 2555 |[Maximize Win From Two Segments](src/main/kotlin/g2501_2600/s2555_maximize_win_from_two_segments)| Medium | Array, Binary_Search, Sliding_Window | 388 | 100.00
 | 2554 |[Maximum Number of Integers to Choose From a Range I](src/main/kotlin/g2501_2600/s2554_maximum_number_of_integers_to_choose_from_a_range_i)| Medium | Array, Hash_Table, Sorting, Greedy, Binary_Search | 543 | 100.00
 | 2553 |[Separate the Digits in an Array](src/main/kotlin/g2501_2600/s2553_separate_the_digits_in_an_array)| Easy | Array, Simulation | 210 | 100.00
@@ -1869,7 +1906,7 @@
 | 2545 |[Sort the Students by Their Kth Score](src/main/kotlin/g2501_2600/s2545_sort_the_students_by_their_kth_score)| Medium | Array, Sorting, Matrix | 442 | 100.00
 | 2544 |[Alternating Digit Sum](src/main/kotlin/g2501_2600/s2544_alternating_digit_sum)| Easy | Math | 122 | 60.00
 | 2543 |[Check if Point Is Reachable](src/main/kotlin/g2501_2600/s2543_check_if_point_is_reachable)| Hard | Math, Number_Theory | 134 | 100.00
-| 2542 |[Maximum Subsequence Score](src/main/kotlin/g2501_2600/s2542_maximum_subsequence_score)| Medium | Array, Sorting, Greedy, Heap_(Priority_Queue) | 780 | 81.97
+| 2542 |[Maximum Subsequence Score](src/main/kotlin/g2501_2600/s2542_maximum_subsequence_score)| Medium | Array, Sorting, Greedy, Heap_Priority_Queue | 780 | 81.97
 | 2541 |[Minimum Operations to Make Array Equal II](src/main/kotlin/g2501_2600/s2541_minimum_operations_to_make_array_equal_ii)| Medium | Array, Math, Greedy | 521 | 100.00
 | 2540 |[Minimum Common Value](src/main/kotlin/g2501_2600/s2540_minimum_common_value)| Easy | Array, Hash_Table, Binary_Search, Two_Pointers | 412 | 100.00
 | 2538 |[Difference Between Maximum and Minimum Price Sum](src/main/kotlin/g2501_2600/s2538_difference_between_maximum_and_minimum_price_sum)| Hard | Array, Dynamic_Programming, Depth_First_Search, Tree | 1054 | 100.00
@@ -2725,7 +2762,7 @@
 | 1465 |[Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](src/main/kotlin/g1401_1500/s1465_maximum_area_of_a_piece_of_cake_after_horizontal_and_vertical_cuts)| Medium | Array, Sorting, Greedy | 418 | 50.00
 | 1464 |[Maximum Product of Two Elements in an Array](src/main/kotlin/g1401_1500/s1464_maximum_product_of_two_elements_in_an_array)| Easy | Array, Sorting, Heap_Priority_Queue | 190 | 64.71
 | 1463 |[Cherry Pickup II](src/main/kotlin/g1401_1500/s1463_cherry_pickup_ii)| Hard | Array, Dynamic_Programming, Matrix | 198 | 100.00
-| 1462 |[Course Schedule IV](src/main/kotlin/g1401_1500/s1462_course_schedule_iv)| Medium | Depth_First_Search, Breadth_First_Search, Graph |  Sort |  Sort
+| 1462 |[Course Schedule IV](src/main/kotlin/g1401_1500/s1462_course_schedule_iv)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Topological_Sort | 512 | 100.00
 | 1461 |[Check If a String Contains All Binary Codes of Size K](src/main/kotlin/g1401_1500/s1461_check_if_a_string_contains_all_binary_codes_of_size_k)| Medium | String, Hash_Table, Bit_Manipulation, Hash_Function, Rolling_Hash | 578 | 20.00
 | 1460 |[Make Two Arrays Equal by Reversing Sub-arrays](src/main/kotlin/g1401_1500/s1460_make_two_arrays_equal_by_reversing_subarrays)| Easy | Array, Hash_Table, Sorting | 231 | 66.67
 | 1458 |[Max Dot Product of Two Subsequences](src/main/kotlin/g1401_1500/s1458_max_dot_product_of_two_subsequences)| Hard | Array, Dynamic_Programming | 215 | 100.00
