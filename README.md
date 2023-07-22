@@ -1816,6 +1816,21 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 2660 |[Determine the Winner of a Bowling Game](src/main/kotlin/g2601_2700/s2660_determine_the_winner_of_a_bowling_game)| Easy | Array, Simulation | 263 | 85.71
+| 2659 |[Make Array Empty](src/main/kotlin/g2601_2700/s2659_make_array_empty)| Hard | Array, Sorting, Greedy, Binary_Search, Ordered_Set, Segment_Tree, Binary_Indexed_Tree | 728 | 100.00
+| 2658 |[Maximum Number of Fish in a Grid](src/main/kotlin/g2601_2700/s2658_maximum_number_of_fish_in_a_grid)| Medium | Array, Matrix, Union_Find, Depth_First_Search, Breadth_First_Search | 269 | 80.00
+| 2657 |[Find the Prefix Common Array of Two Arrays](src/main/kotlin/g2601_2700/s2657_find_the_prefix_common_array_of_two_arrays)| Medium | Array, Hash_Table | 288 | 88.89
+| 2656 |[Maximum Sum With Exactly K Elements](src/main/kotlin/g2601_2700/s2656_maximum_sum_with_exactly_k_elements)| Easy | Array, Greedy | 241 | 93.94
+| 2654 |[Minimum Number of Operations to Make All Array Elements Equal to 1](src/main/kotlin/g2601_2700/s2654_minimum_number_of_operations_to_make_all_array_elements_equal_to_1)| Medium | Array, Math, Number_Theory | 172 | 100.00
+| 2653 |[Sliding Subarray Beauty](src/main/kotlin/g2601_2700/s2653_sliding_subarray_beauty)| Medium | Array, Hash_Table, Sliding_Window | 1264 | 66.67
+| 2652 |[Sum Multiples](src/main/kotlin/g2601_2700/s2652_sum_multiples)| Easy | Array, Math, Number_Theory | 136 | 97.53
+| 2651 |[Calculate Delayed Arrival Time](src/main/kotlin/g2601_2700/s2651_calculate_delayed_arrival_time)| Easy | Math | 129 | 88.00
+| 2650 |[Design Cancellable Function](src/main/kotlin/g2601_2700/s2650_design_cancellable_function)| Hard || 58 | 95.56
+| 2649 |[Nested Array Generator](src/main/kotlin/g2601_2700/s2649_nested_array_generator)| Medium || 192 | 70.11
+| 2648 |[Generate Fibonacci Sequence](src/main/kotlin/g2601_2700/s2648_generate_fibonacci_sequence)| Easy || 53 | 93.66
+| 2646 |[Minimize the Total Price of the Trips](src/main/kotlin/g2601_2700/s2646_minimize_the_total_price_of_the_trips)| Hard | Array, Dynamic_Programming, Tree, Graph, Depth_First_Search | 264 | 100.00
+| 2645 |[Minimum Additions to Make Valid String](src/main/kotlin/g2601_2700/s2645_minimum_additions_to_make_valid_string)| Medium | String, Dynamic_Programming, Greedy, Stack | 154 | 100.00
+| 2644 |[Find the Maximum Divisibility Score](src/main/kotlin/g2601_2700/s2644_find_the_maximum_divisibility_score)| Easy | Array | 585 | 100.00
 | 2643 |[Row With Maximum Ones](src/main/kotlin/g2601_2700/s2643_row_with_maximum_ones)| Easy | Array, Matrix | 530 | 100.00
 | 2642 |[Design Graph With Shortest Path Calculator](src/main/kotlin/g2601_2700/s2642_design_graph_with_shortest_path_calculator)| Hard | Design, Heap_Priority_Queue, Graph, Shortest_Path | 789 | 100.00
 | 2641 |[Cousins in Binary Tree II](src/main/kotlin/g2601_2700/s2641_cousins_in_binary_tree_ii)| Medium | Hash_Table, Tree, Binary_Tree, Depth_First_Search, Breadth_First_Search | 922 | 90.91
