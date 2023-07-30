@@ -37,14 +37,12 @@ Return `true` _if the path crosses itself at any point, that is, if at any time 
 ## Solution
 
 ```kotlin
-import java.util.Stack
-
 class Solution {
     fun isPathCrossing(path: String): Boolean {
-        val visited = Stack<Coord>()
+        val visited = ArrayDeque<Coord>()
         visited.add(Coord(0, 0))
         for (c in path.toCharArray()) {
-            val last = visited.peek()
+            val last = visited.last()
             if (c == 'N') {
                 val nextStep = Coord(last.x, last.y + 1)
                 if (visited.contains(nextStep)) {

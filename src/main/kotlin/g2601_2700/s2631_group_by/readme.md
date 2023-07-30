@@ -116,7 +116,7 @@ Array.prototype.groupBy = function <T>(fn: (item: T) => string) { //NOSONAR
     return returnObject
 }
 
-/**
+/*
  * [1,2,3].groupBy(String) // {"1":[1],"2":[2],"3":[3]}
  */
 

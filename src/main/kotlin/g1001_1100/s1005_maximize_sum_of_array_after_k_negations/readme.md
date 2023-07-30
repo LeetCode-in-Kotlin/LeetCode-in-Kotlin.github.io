@@ -46,8 +46,6 @@ Return _the largest possible sum of the array after modifying it in this way_.
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 @Suppress("NAME_SHADOWING")
 class Solution {
     fun largestSumAfterKNegations(nums: IntArray, k: Int): Int {
@@ -68,7 +66,7 @@ class Solution {
         if (k and 1 == 1) {
             nums[minIndex] *= -1
         }
-        return Arrays.stream(nums).sum()
+        return nums.sum()
     }
 }
 ```

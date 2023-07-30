@@ -38,7 +38,6 @@ Given the `root` of a binary tree, return _the preorder traversal of its nodes' 
 
 ```kotlin
 import com_github_leetcode.TreeNode
-import java.util.Stack
 
 /*
  * Example:
@@ -56,15 +55,15 @@ class Solution {
         if (root == null) {
             return result
         }
-        val stack: Stack<TreeNode> = Stack<TreeNode>()
+        val stack: ArrayDeque<TreeNode?> = ArrayDeque()
         var current: TreeNode? = root
         while (current != null || stack.isNotEmpty()) {
             while (current != null) {
                 result.add(current.`val`)
-                stack.push(current.right)
+                stack.addLast(current.right)
                 current = current.left
             }
-            current = stack.pop()
+            current = stack.removeLast()
         }
         return result
     }

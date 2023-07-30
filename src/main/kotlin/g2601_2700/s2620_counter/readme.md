@@ -45,7 +45,7 @@ function createCounter(n: number): () => number {
     return fun
 }
 
-/**
+/*
  * const counter = createCounter(10)
  * counter() // 10
  * counter() // 11

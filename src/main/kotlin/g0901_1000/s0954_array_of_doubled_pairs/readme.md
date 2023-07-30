@@ -36,12 +36,10 @@ Given an integer array of even length `arr`, return `true` _if it is possible to
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun canReorderDoubled(arr: IntArray): Boolean {
-        val max = 0.coerceAtLeast(Arrays.stream(arr).max().asInt)
-        val min = 0.coerceAtMost(Arrays.stream(arr).min().asInt)
+        val max = 0.coerceAtLeast(arr.max())
+        val min = 0.coerceAtMost(arr.min())
         val positive = IntArray(max + 1)
         val negative = IntArray(-min + 1)
         for (a in arr) {
