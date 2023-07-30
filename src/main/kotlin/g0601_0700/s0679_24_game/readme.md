@@ -40,11 +40,10 @@ Return `true` if you can get such expression that evaluates to `24`, and `false`
 ## Solution
 
 ```kotlin
-import java.util.Arrays
 import kotlin.math.abs
 
 class Solution {
-    private fun backtrack(list: DoubleArray, n: Int): Boolean {
+    private fun backtrack(list: Array<Double>, n: Int): Boolean {
         if (n == 1) {
             return abs(list[0] - 24) < EPS
         }
@@ -89,7 +88,7 @@ class Solution {
     }
 
     fun judgePoint24(nums: IntArray): Boolean {
-        val a = Arrays.stream(nums).asDoubleStream().toArray()
+        val a = nums.map { it.toDouble() }.toTypedArray()
         return backtrack(a, a.size)
     }
 

@@ -45,8 +45,6 @@ Given an integer `n`, return _the **number** of possible attendance records of l
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 @Suppress("NAME_SHADOWING")
 class Solution {
     fun checkRecord(n: Int): Int {
@@ -64,7 +62,7 @@ class Solution {
         )
         val e = quickPower(matrix, n - 1)
         return (
-            (Arrays.stream(e[0]).sum() + Arrays.stream(e[1]).sum() + Arrays.stream(e[3]).sum()) %
+            (e[0].sum() + e[1].sum() + e[3].sum()) %
                 mod
             ).toInt()
     }

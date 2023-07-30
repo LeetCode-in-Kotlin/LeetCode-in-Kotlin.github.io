@@ -48,20 +48,18 @@ Return _the string_ after making it good. The answer is guaranteed to be unique 
 ## Solution
 
 ```kotlin
-import java.util.Stack
-
 class Solution {
     fun makeGood(s: String): String {
-        val stack = Stack<Char>()
+        val stack = ArrayDeque<Char>()
         for (element in s) {
             if (stack.isEmpty()) {
                 stack.add(element)
             } else {
-                if (stack.peek().lowercaseChar() == element.lowercaseChar()) {
-                    if (Character.isLowerCase(stack.peek()) && Character.isUpperCase(element)) {
-                        stack.pop()
-                    } else if (Character.isUpperCase(stack.peek()) && Character.isLowerCase(element)) {
-                        stack.pop()
+                if (stack.last().lowercaseChar() == element.lowercaseChar()) {
+                    if (Character.isLowerCase(stack.last()) && Character.isUpperCase(element)) {
+                        stack.removeLast()
+                    } else if (Character.isUpperCase(stack.last()) && Character.isLowerCase(element)) {
+                        stack.removeLast()
                     } else {
                         stack.add(element)
                     }
@@ -72,7 +70,7 @@ class Solution {
         }
         val sb = StringBuilder()
         while (stack.isNotEmpty()) {
-            sb.append(stack.pop())
+            sb.append(stack.removeLast())
         }
         return sb.reverse().toString()
     }

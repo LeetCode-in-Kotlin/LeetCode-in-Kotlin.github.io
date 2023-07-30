@@ -93,7 +93,7 @@ class TimeLimitedCache {
     }
 }
 
-/**
+/*
  * Your TimeLimitedCache object will be instantiated and called as such:
  * var obj = new TimeLimitedCache()
  * obj.set(1, 42, 1000); // false

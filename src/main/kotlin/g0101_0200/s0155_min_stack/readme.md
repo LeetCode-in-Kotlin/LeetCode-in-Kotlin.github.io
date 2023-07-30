@@ -44,31 +44,28 @@ Implement the `MinStack` class:
 ## Solution
 
 ```kotlin
-import java.util.Stack
-
 class MinStack() {
-    private val stack: Stack<Pair<Int, Int>> = Stack()
+    private val stack: ArrayDeque<Pair<Int, Int>> = ArrayDeque()
 
     fun push(x: Int) {
         val min: Int = if (stack.isEmpty()) x
         else getMin()
-
-        stack.push(x to minOf(min, x))
+        stack.addLast(x to minOf(min, x))
     }
 
     fun pop() {
-        stack.pop()
+        stack.removeLast()
     }
 
     fun top(): Int {
         return stack
-            .peek()
+            .last()
             .first
     }
 
     fun getMin(): Int {
         return stack
-            .peek()
+            .last()
             .second
     }
 }

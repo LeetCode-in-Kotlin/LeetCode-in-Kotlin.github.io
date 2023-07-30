@@ -1816,9 +1816,39 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 2706 |[Buy Two Chocolates](src/main/kotlin/g2701_2800/s2706_buy_two_chocolates)| Easy | Array, Sorting | 187 | 96.43
+| 2705 |[Compact Object](src/main/kotlin/g2701_2800/s2705_compact_object)| Medium || 78 | 99.38
+| 2704 |[To Be Or Not To Be](src/main/kotlin/g2701_2800/s2704_to_be_or_not_to_be)| Easy || 49 | 97.88
+| 2703 |[Return Length of Arguments Passed](src/main/kotlin/g2701_2800/s2703_return_length_of_arguments_passed)| Easy || 47 | 98.59
+| 2699 |[Modify Graph Edge Weights](src/main/kotlin/g2601_2700/s2699_modify_graph_edge_weights)| Hard | Heap_Priority_Queue, Graph, Shortest_Path | 1592 | 40.00
+| 2698 |[Find the Punishment Number of an Integer](src/main/kotlin/g2601_2700/s2698_find_the_punishment_number_of_an_integer)| Medium | Math, Backtracking | 133 | 100.00
+| 2697 |[Lexicographically Smallest Palindrome](src/main/kotlin/g2601_2700/s2697_lexicographically_smallest_palindrome)| Easy | String, Two_Pointers | 267 | 100.00
+| 2696 |[Minimum String Length After Removing Substrings](src/main/kotlin/g2601_2700/s2696_minimum_string_length_after_removing_substrings)| Easy | String, Stack, Simulation | 185 | 100.00
+| 2695 |[Array Wrapper](src/main/kotlin/g2601_2700/s2695_array_wrapper)| Easy || 40 | 100.00
+| 2694 |[Event Emitter](src/main/kotlin/g2601_2700/s2694_event_emitter)| Medium || 45 | 99.58
+| 2693 |[Call Function with Custom Context](src/main/kotlin/g2601_2700/s2693_call_function_with_custom_context)| Medium | Array, Dynamic_Programming, Matrix | 51 | 97.92
+| 2685 |[Count the Number of Complete Components](src/main/kotlin/g2601_2700/s2685_count_the_number_of_complete_components)| Medium | Array, Dynamic_Programming, Depth_First_Search, Breadth_First_Search, Matrix, Graph | 436 | 100.00
+| 2684 |[Maximum Number of Moves in a Grid](src/main/kotlin/g2601_2700/s2684_maximum_number_of_moves_in_a_grid)| Medium | Array, Dynamic_Programming, Matrix | 542 | 100.00
+| 2683 |[Neighboring Bitwise XOR](src/main/kotlin/g2601_2700/s2683_neighboring_bitwise_xor)| Medium | Array, Bit_Manipulation | 988 | 100.00
+| 2682 |[Find the Losers of the Circular Game](src/main/kotlin/g2601_2700/s2682_find_the_losers_of_the_circular_game)| Easy | Array, Hash_Table, Simulation | 186 | 100.00
+| 2681 |[Power of Heroes](src/main/kotlin/g2601_2700/s2681_power_of_heroes)| Hard | Array, Math, Sorting, Prefix_Sum | 454 | 85.71
+| 2680 |[Maximum OR](src/main/kotlin/g2601_2700/s2680_maximum_or)| Medium | Array, Greedy, Bit_Manipulation, Prefix_Sum | 592 | 90.91
+| 2679 |[Sum in a Matrix](src/main/kotlin/g2601_2700/s2679_sum_in_a_matrix)| Medium | Array, Sorting, Matrix, Heap_Priority_Queue, Simulation | 581 | 100.00
+| 2678 |[Number of Senior Citizens](src/main/kotlin/g2601_2700/s2678_number_of_senior_citizens)| Easy | Array, String | 163 | 96.30
+| 2677 |[Chunk Array](src/main/kotlin/g2601_2700/s2677_chunk_array)| Easy || 55 | 96.89
+| 2673 |[Make Costs of Paths Equal in a Binary Tree](src/main/kotlin/g2601_2700/s2673_make_costs_of_paths_equal_in_a_binary_tree)| Medium | Array, Dynamic_Programming, Greedy, Tree, Binary_Tree | 645 | 75.00
+| 2672 |[Number of Adjacent Elements With the Same Color](src/main/kotlin/g2601_2700/s2672_number_of_adjacent_elements_with_the_same_color)| Medium | Array | 1208 | 100.00
+| 2671 |[Frequency Tracker](src/main/kotlin/g2601_2700/s2671_frequency_tracker)| Medium | Hash_Table, Design | 1109 | 80.00
+| 2670 |[Find the Distinct Difference Array](src/main/kotlin/g2601_2700/s2670_find_the_distinct_difference_array)| Easy | Array, Hash_Table | 320 | 94.74
+| 2667 |[Create Hello World Function](src/main/kotlin/g2601_2700/s2667_create_hello_world_function)| Easy || 52 | 92.72
+| 2666 |[Allow One Function Call](src/main/kotlin/g2601_2700/s2666_allow_one_function_call)| Easy || 53 | 93.29
+| 2665 |[Counter II](src/main/kotlin/g2601_2700/s2665_counter_ii)| Easy || 65 | 86.59
+| 2663 |[Lexicographically Smallest Beautiful String](src/main/kotlin/g2601_2700/s2663_lexicographically_smallest_beautiful_string)| Hard | String, Greedy | 324 | 100.00
+| 2662 |[Minimum Cost of a Path With Special Roads](src/main/kotlin/g2601_2700/s2662_minimum_cost_of_a_path_with_special_roads)| Medium | Array, Heap_Priority_Queue, Graph, Shortest_Path | 690 | 100.00
+| 2661 |[First Completely Painted Row or Column](src/main/kotlin/g2601_2700/s2661_first_completely_painted_row_or_column)| Medium | Array, Hash_Table, Matrix | 901 | 100.00
 | 2660 |[Determine the Winner of a Bowling Game](src/main/kotlin/g2601_2700/s2660_determine_the_winner_of_a_bowling_game)| Easy | Array, Simulation | 263 | 85.71
 | 2659 |[Make Array Empty](src/main/kotlin/g2601_2700/s2659_make_array_empty)| Hard | Array, Sorting, Greedy, Binary_Search, Ordered_Set, Segment_Tree, Binary_Indexed_Tree | 728 | 100.00
-| 2658 |[Maximum Number of Fish in a Grid](src/main/kotlin/g2601_2700/s2658_maximum_number_of_fish_in_a_grid)| Medium | Array, Matrix, Union_Find, Depth_First_Search, Breadth_First_Search | 269 | 80.00
+| 2658 |[Maximum Number of Fish in a Grid](src/main/kotlin/g2601_2700/s2658_maximum_number_of_fish_in_a_grid)| Medium | Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find | 269 | 80.00
 | 2657 |[Find the Prefix Common Array of Two Arrays](src/main/kotlin/g2601_2700/s2657_find_the_prefix_common_array_of_two_arrays)| Medium | Array, Hash_Table | 288 | 88.89
 | 2656 |[Maximum Sum With Exactly K Elements](src/main/kotlin/g2601_2700/s2656_maximum_sum_with_exactly_k_elements)| Easy | Array, Greedy | 241 | 93.94
 | 2654 |[Minimum Number of Operations to Make All Array Elements Equal to 1](src/main/kotlin/g2601_2700/s2654_minimum_number_of_operations_to_make_all_array_elements_equal_to_1)| Medium | Array, Math, Number_Theory | 172 | 100.00
@@ -1828,12 +1858,12 @@
 | 2650 |[Design Cancellable Function](src/main/kotlin/g2601_2700/s2650_design_cancellable_function)| Hard || 58 | 95.56
 | 2649 |[Nested Array Generator](src/main/kotlin/g2601_2700/s2649_nested_array_generator)| Medium || 192 | 70.11
 | 2648 |[Generate Fibonacci Sequence](src/main/kotlin/g2601_2700/s2648_generate_fibonacci_sequence)| Easy || 53 | 93.66
-| 2646 |[Minimize the Total Price of the Trips](src/main/kotlin/g2601_2700/s2646_minimize_the_total_price_of_the_trips)| Hard | Array, Dynamic_Programming, Tree, Graph, Depth_First_Search | 264 | 100.00
+| 2646 |[Minimize the Total Price of the Trips](src/main/kotlin/g2601_2700/s2646_minimize_the_total_price_of_the_trips)| Hard | Array, Dynamic_Programming, Depth_First_Search, Tree, Graph | 264 | 100.00
 | 2645 |[Minimum Additions to Make Valid String](src/main/kotlin/g2601_2700/s2645_minimum_additions_to_make_valid_string)| Medium | String, Dynamic_Programming, Greedy, Stack | 154 | 100.00
 | 2644 |[Find the Maximum Divisibility Score](src/main/kotlin/g2601_2700/s2644_find_the_maximum_divisibility_score)| Easy | Array | 585 | 100.00
 | 2643 |[Row With Maximum Ones](src/main/kotlin/g2601_2700/s2643_row_with_maximum_ones)| Easy | Array, Matrix | 530 | 100.00
 | 2642 |[Design Graph With Shortest Path Calculator](src/main/kotlin/g2601_2700/s2642_design_graph_with_shortest_path_calculator)| Hard | Design, Heap_Priority_Queue, Graph, Shortest_Path | 789 | 100.00
-| 2641 |[Cousins in Binary Tree II](src/main/kotlin/g2601_2700/s2641_cousins_in_binary_tree_ii)| Medium | Hash_Table, Tree, Binary_Tree, Depth_First_Search, Breadth_First_Search | 922 | 90.91
+| 2641 |[Cousins in Binary Tree II](src/main/kotlin/g2601_2700/s2641_cousins_in_binary_tree_ii)| Medium | Hash_Table, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 922 | 90.91
 | 2640 |[Find the Score of All Prefixes of an Array](src/main/kotlin/g2601_2700/s2640_find_the_score_of_all_prefixes_of_an_array)| Medium | Array, Prefix_Sum | 587 | 100.00
 | 2639 |[Find the Width of Columns of a Grid](src/main/kotlin/g2601_2700/s2639_find_the_width_of_columns_of_a_grid)| Easy | Array, Matrix | 222 | 100.00
 | 2637 |[Promise Time Limit](src/main/kotlin/g2601_2700/s2637_promise_time_limit)| Easy || 64 | 75.36
@@ -1856,11 +1886,11 @@
 | 2616 |[Minimize the Maximum Difference of Pairs](src/main/kotlin/g2601_2700/s2616_minimize_the_maximum_difference_of_pairs)| Medium | Array, Greedy, Binary_Search | 556 | 100.00
 | 2615 |[Sum of Distances](src/main/kotlin/g2601_2700/s2615_sum_of_distances)| Medium | Array, Hash_Table, Prefix_Sum | 902 | 100.00
 | 2614 |[Prime In Diagonal](src/main/kotlin/g2601_2700/s2614_prime_in_diagonal)| Easy | Array, Math, Matrix, Number_Theory | 465 | 100.00
-| 2612 |[Minimum Reverse Operations](src/main/kotlin/g2601_2700/s2612_minimum_reverse_operations)| Hard | Array, Ordered_Set, Breadth_First_Search | 923 | 100.00
+| 2612 |[Minimum Reverse Operations](src/main/kotlin/g2601_2700/s2612_minimum_reverse_operations)| Hard | Array, Breadth_First_Search, Ordered_Set | 923 | 100.00
 | 2611 |[Mice and Cheese](src/main/kotlin/g2601_2700/s2611_mice_and_cheese)| Medium | Array, Sorting, Greedy, Heap_Priority_Queue | 554 | 100.00
 | 2610 |[Convert an Array Into a 2D Array With Conditions](src/main/kotlin/g2601_2700/s2610_convert_an_array_into_a_2d_array_with_conditions)| Medium | Array, Hash_Table | 240 | 88.24
 | 2609 |[Find the Longest Balanced Substring of a Binary String](src/main/kotlin/g2601_2700/s2609_find_the_longest_balanced_substring_of_a_binary_string)| Easy | String | 174 | 100.00
-| 2608 |[Shortest Cycle in a Graph](src/main/kotlin/g2601_2700/s2608_shortest_cycle_in_a_graph)| Hard | Graph, Breadth_First_Search | 1061 | 100.00
+| 2608 |[Shortest Cycle in a Graph](src/main/kotlin/g2601_2700/s2608_shortest_cycle_in_a_graph)| Hard | Breadth_First_Search, Graph | 1061 | 100.00
 | 2607 |[Make K-Subarray Sums Equal](src/main/kotlin/g2601_2700/s2607_make_k_subarray_sums_equal)| Medium | Array, Math, Sorting, Number_Theory | 1062 | 100.00
 | 2606 |[Find the Substring With Maximum Cost](src/main/kotlin/g2601_2700/s2606_find_the_substring_with_maximum_cost)| Medium | Array, String, Hash_Table, Dynamic_Programming | 238 | 100.00
 | 2605 |[Form Smallest Number From Two Digit Arrays](src/main/kotlin/g2601_2700/s2605_form_smallest_number_from_two_digit_arrays)| Easy | Array, Hash_Table, Enumeration | 161 | 100.00

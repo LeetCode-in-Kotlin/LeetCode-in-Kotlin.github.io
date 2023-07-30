@@ -111,7 +111,7 @@ function memoize(fn: Fn): Fn {
     }
 }
 
-/**
+/*
  * let callCount = 0;
  * const memoizedFn = memoize(function (a, b) {
  *	 callCount += 1;
