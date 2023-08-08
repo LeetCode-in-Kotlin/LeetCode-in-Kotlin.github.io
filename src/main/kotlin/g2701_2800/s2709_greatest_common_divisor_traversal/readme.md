@@ -46,8 +46,8 @@ Return `true` _if it is possible to traverse between all such pairs of indices,_
 @Suppress("NAME_SHADOWING")
 class Solution {
     private var map: MutableMap<Int, Int>? = null
-
     private lateinit var set: IntArray
+
     private fun findParent(u: Int): Int {
         return if (u == set[u]) u else findParent(set[u]).also { set[u] = it }
     }
