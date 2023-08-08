@@ -1816,6 +1816,43 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 2800 |[Shortest String That Contains Three Strings](src/main/kotlin/g2701_2800/s2800_shortest_string_that_contains_three_strings)| Medium | String, Greedy, Enumeration | 259 | 100.00
+| 2799 |[Count Complete Subarrays in an Array](src/main/kotlin/g2701_2800/s2799_count_complete_subarrays_in_an_array)| Medium | Array, Hash_Table, Sliding_Window | 206 | 96.97
+| 2798 |[Number of Employees Who Met the Target](src/main/kotlin/g2701_2800/s2798_number_of_employees_who_met_the_target)| Easy | Array, Enumeration | 153 | 92.50
+| 2791 |[Count Paths That Can Form a Palindrome in a Tree](src/main/kotlin/g2701_2800/s2791_count_paths_that_can_form_a_palindrome_in_a_tree)| Hard | Dynamic_Programming, Tree, Bit_Manipulation, Bitmask, Depth_First_Search | 683 | 100.00
+| 2790 |[Maximum Number of Groups With Increasing Length](src/main/kotlin/g2701_2800/s2790_maximum_number_of_groups_with_increasing_length)| Hard | Array, Math, Sorting, Greedy, Binary_Search | 545 | 100.00
+| 2749 |[Minimum Operations to Make the Integer Zero](src/main/kotlin/g2701_2800/s2749_minimum_operations_to_make_the_integer_zero)| Medium | Bit_Manipulation, Brainteaser | 132 | 91.67
+| 2748 |[Number of Beautiful Pairs](src/main/kotlin/g2701_2800/s2748_number_of_beautiful_pairs)| Easy | Array, Math, Number_Theory | 227 | 100.00
+| 2747 |[Count Zero Request Servers](src/main/kotlin/g2701_2800/s2747_count_zero_request_servers)| Medium | Array, Hash_Table, Sorting, Sliding_Window | 991 | 100.00
+| 2746 |[Decremental String Concatenation](src/main/kotlin/g2701_2800/s2746_decremental_string_concatenation)| Medium | Array, String, Dynamic_Programming | 264 | 100.00
+| 2745 |[Construct the Longest New String](src/main/kotlin/g2701_2800/s2745_construct_the_longest_new_string)| Medium | Math, Greedy, Brainteaser | 146 | 97.37
+| 2744 |[Find Maximum Number of String Pairs](src/main/kotlin/g2701_2800/s2744_find_maximum_number_of_string_pairs)| Easy | Array, String, Hash_Table, Simulation | 162 | 96.81
+| 2742 |[Painting the Walls](src/main/kotlin/g2701_2800/s2742_painting_the_walls)| Hard | Array, Dynamic_Programming | 268 | 100.00
+| 2741 |[Special Permutations](src/main/kotlin/g2701_2800/s2741_special_permutations)| Medium | Array, Dynamic_Programming, Bit_Manipulation, Bitmask | 623 | 82.35
+| 2740 |[Find the Value of the Partition](src/main/kotlin/g2701_2800/s2740_find_the_value_of_the_partition)| Medium | Array, Sorting | 431 | 100.00
+| 2739 |[Total Distance Traveled](src/main/kotlin/g2701_2800/s2739_total_distance_traveled)| Easy | Math, Simulation | 177 | 100.00
+| 2736 |[Maximum Sum Queries](src/main/kotlin/g2701_2800/s2736_maximum_sum_queries)| Hard | Array, Sorting, Binary_Search, Stack, Monotonic_Stack, Segment_Tree, Binary_Indexed_Tree | 1043 | 100.00
+| 2735 |[Collecting Chocolates](src/main/kotlin/g2701_2800/s2735_collecting_chocolates)| Medium | Array, Enumeration | 237 | 100.00
+| 2734 |[Lexicographically Smallest String After Substring Operation](src/main/kotlin/g2701_2800/s2734_lexicographically_smallest_string_after_substring_operation)| Medium | String, Greedy | 384 | 100.00
+| 2733 |[Neither Minimum nor Maximum](src/main/kotlin/g2701_2800/s2733_neither_minimum_nor_maximum)| Easy | Array, Sorting | 286 | 100.00
+| 2732 |[Find a Good Subset of the Matrix](src/main/kotlin/g2701_2800/s2732_find_a_good_subset_of_the_matrix)| Hard | Array, Greedy, Matrix, Bit_Manipulation | 760 | 98.36
+| 2731 |[Movement of Robots](src/main/kotlin/g2701_2800/s2731_movement_of_robots)| Medium | Array, Sorting, Prefix_Sum, Brainteaser | 414 | 100.00
+| 2730 |[Find the Longest Semi-Repetitive Substring](src/main/kotlin/g2701_2800/s2730_find_the_longest_semi_repetitive_substring)| Medium | String, Sliding_Window | 251 | 84.62
+| 2729 |[Check if The Number is Fascinating](src/main/kotlin/g2701_2800/s2729_check_if_the_number_is_fascinating)| Easy | Hash_Table, Math | 131 | 100.00
+| 2727 |[Is Object Empty](src/main/kotlin/g2701_2800/s2727_is_object_empty)| Easy || 49 | 98.24
+| 2726 |[Calculator with Method Chaining](src/main/kotlin/g2701_2800/s2726_calculator_with_method_chaining)| Easy || 43 | 99.15
+| 2725 |[Interval Cancellation](src/main/kotlin/g2701_2800/s2725_interval_cancellation)| Easy || 52 | 99.60
+| 2724 |[Sort By](src/main/kotlin/g2701_2800/s2724_sort_by)| Easy || 132 | 96.70
+| 2723 |[Add Two Promises](src/main/kotlin/g2701_2800/s2723_add_two_promises)| Easy || 56 | 97.63
+| 2722 |[Join Two Arrays by ID](src/main/kotlin/g2701_2800/s2722_join_two_arrays_by_id)| Medium || 280 | 98.29
+| 2721 |[Execute Asynchronous Functions in Parallel](src/main/kotlin/g2701_2800/s2721_execute_asynchronous_functions_in_parallel)| Medium || 63 | 99.09
+| 2719 |[Count of Integers](src/main/kotlin/g2701_2800/s2719_count_of_integers)| Hard | String, Dynamic_Programming, Math | 208 | 100.00
+| 2718 |[Sum of Matrix After Queries](src/main/kotlin/g2701_2800/s2718_sum_of_matrix_after_queries)| Medium | Array, Hash_Table | 668 | 100.00
+| 2717 |[Semi-Ordered Permutation](src/main/kotlin/g2701_2800/s2717_semi_ordered_permutation)| Easy | Array, Simulation | 186 | 100.00
+| 2716 |[Minimize String Length](src/main/kotlin/g2701_2800/s2716_minimize_string_length)| Easy | String, Hash_Table | 204 | 97.62
+| 2715 |[Timeout Cancellation](src/main/kotlin/g2701_2800/s2715_execute_cancellable_function_with_delay)| Easy || 64 | 91.95
+| 2713 |[Maximum Strictly Increasing Cells in a Matrix](src/main/kotlin/g2701_2800/s2713_maximum_strictly_increasing_cells_in_a_matrix)| Hard | Array, Dynamic_Programming, Sorting, Binary_Search, Matrix, Memoization | 1141 | 100.00
+| 2712 |[Minimum Cost to Make All Characters Equal](src/main/kotlin/g2701_2800/s2712_minimum_cost_to_make_all_characters_equal)| Medium | String, Dynamic_Programming, Greedy | 200 | 100.00
 | 2711 |[Difference of Number of Distinct Values on Diagonals](src/main/kotlin/g2701_2800/s2711_difference_of_number_of_distinct_values_on_diagonals)| Medium | Array, Hash_Table, Matrix | 281 | 100.00
 | 2710 |[Remove Trailing Zeros From a String](src/main/kotlin/g2701_2800/s2710_remove_trailing_zeros_from_a_string)| Easy | String | 191 | 93.02
 | 2709 |[Greatest Common Divisor Traversal](src/main/kotlin/g2701_2800/s2709_greatest_common_divisor_traversal)| Hard | Array, Math, Union_Find, Number_Theory | 892 | 81.82
