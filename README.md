@@ -1821,6 +1821,30 @@
 | 2798 |[Number of Employees Who Met the Target](src/main/kotlin/g2701_2800/s2798_number_of_employees_who_met_the_target)| Easy | Array, Enumeration | 153 | 92.50
 | 2791 |[Count Paths That Can Form a Palindrome in a Tree](src/main/kotlin/g2701_2800/s2791_count_paths_that_can_form_a_palindrome_in_a_tree)| Hard | Dynamic_Programming, Tree, Bit_Manipulation, Bitmask, Depth_First_Search | 683 | 100.00
 | 2790 |[Maximum Number of Groups With Increasing Length](src/main/kotlin/g2701_2800/s2790_maximum_number_of_groups_with_increasing_length)| Hard | Array, Math, Sorting, Greedy, Binary_Search | 545 | 100.00
+| 2789 |[Largest Element in an Array after Merge Operations](src/main/kotlin/g2701_2800/s2789_largest_element_in_an_array_after_merge_operations)| Medium | Array, Greedy, Prefix_Sum | 683 | 73.68
+| 2788 |[Split Strings by Separator](src/main/kotlin/g2701_2800/s2788_split_strings_by_separator)| Easy | Array, String | 314 | 85.45
+| 2787 |[Ways to Express an Integer as Sum of Powers](src/main/kotlin/g2701_2800/s2787_ways_to_express_an_integer_as_sum_of_powers)| Medium | Dynamic_Programming | 152 | 100.00
+| 2786 |[Visit Array Positions to Maximize Score](src/main/kotlin/g2701_2800/s2786_visit_array_positions_to_maximize_score)| Medium | Array, Dynamic_Programming | 625 | 84.00
+| 2785 |[Sort Vowels in a String](src/main/kotlin/g2701_2800/s2785_sort_vowels_in_a_string)| Medium | String, Sorting | 233 | 100.00
+| 2784 |[Check if Array is Good](src/main/kotlin/g2701_2800/s2784_check_if_array_is_good)| Easy | Array, Hash_Table, Sorting | 177 | 88.89
+| 2781 |[Length of the Longest Valid Substring](src/main/kotlin/g2701_2800/s2781_length_of_the_longest_valid_substring)| Hard | Array, String, Hash_Table, Sliding_Window | 647 | 100.00
+| 2780 |[Minimum Index of a Valid Split](src/main/kotlin/g2701_2800/s2780_minimum_index_of_a_valid_split)| Medium | Array, Hash_Table, Sorting | 640 | 91.67
+| 2779 |[Maximum Beauty of an Array After Applying Operation](src/main/kotlin/g2701_2800/s2779_maximum_beauty_of_an_array_after_applying_operation)| Medium | Array, Sorting, Binary_Search, Sliding_Window | 649 | 96.97
+| 2778 |[Sum of Squares of Special Elements](src/main/kotlin/g2701_2800/s2778_sum_of_squares_of_special_elements)| Easy | Array, Simulation | 183 | 86.44
+| 2772 |[Apply Operations to Make All Array Elements Equal to Zero](src/main/kotlin/g2701_2800/s2772_apply_operations_to_make_all_array_elements_equal_to_zero)| Medium | Array, Prefix_Sum | 578 | 97.06
+| 2771 |[Longest Non-decreasing Subarray From Two Arrays](src/main/kotlin/g2701_2800/s2771_longest_non_decreasing_subarray_from_two_arrays)| Medium | Array, Dynamic_Programming | 665 | 96.88
+| 2770 |[Maximum Number of Jumps to Reach the Last Index](src/main/kotlin/g2701_2800/s2770_maximum_number_of_jumps_to_reach_the_last_index)| Medium | Array, Dynamic_Programming | 325 | 51.16
+| 2769 |[Find the Maximum Achievable Number](src/main/kotlin/g2701_2800/s2769_find_the_maximum_achievable_number)| Easy | Math | 134 | 97.89
+| 2768 |[Number of Black Blocks](src/main/kotlin/g2701_2800/s2768_number_of_black_blocks)| Medium | Array, Hash_Table, Enumeration | 719 | 100.00
+| 2767 |[Partition String Into Minimum Beautiful Substrings](src/main/kotlin/g2701_2800/s2767_partition_string_into_minimum_beautiful_substrings)| Medium | String, Hash_Table, Dynamic_Programming, Backtracking | 162 | 96.00
+| 2766 |[Relocate Marbles](src/main/kotlin/g2701_2800/s2766_relocate_marbles)| Medium | Array, Hash_Table, Sorting, Simulation | 1038 | 100.00
+| 2765 |[Longest Alternating Subarray](src/main/kotlin/g2701_2800/s2765_longest_alternating_subarray)| Easy | Array, Enumeration | 191 | 97.92
+| 2763 |[Sum of Imbalance Numbers of All Subarrays](src/main/kotlin/g2701_2800/s2763_sum_of_imbalance_numbers_of_all_subarrays)| Hard | Array, Hash_Table, Ordered_Set | 417 | 95.24
+| 2762 |[Continuous Subarrays](src/main/kotlin/g2701_2800/s2762_continuous_subarrays)| Medium | Array, Heap_Priority_Queue, Sliding_Window, Ordered_Set, Queue, Monotonic_Queue | 492 | 100.00
+| 2761 |[Prime Pairs With Target Sum](src/main/kotlin/g2701_2800/s2761_prime_pairs_with_target_sum)| Medium | Array, Math, Enumeration, Number_Theory | 537 | 100.00
+| 2760 |[Longest Even Odd Subarray With Threshold](src/main/kotlin/g2701_2800/s2760_longest_even_odd_subarray_with_threshold)| Easy | Array, Sliding_Window | 285 | 95.45
+| 2751 |[Robot Collisions](src/main/kotlin/g2701_2800/s2751_robot_collisions)| Hard | Array, Sorting, Stack, Simulation | 1049 | 100.00
+| 2750 |[Ways to Split Array Into Good Subarrays](src/main/kotlin/g2701_2800/s2750_ways_to_split_array_into_good_subarrays)| Medium | Array, Dynamic_Programming, Math | 916 | 100.00
 | 2749 |[Minimum Operations to Make the Integer Zero](src/main/kotlin/g2701_2800/s2749_minimum_operations_to_make_the_integer_zero)| Medium | Bit_Manipulation, Brainteaser | 132 | 91.67
 | 2748 |[Number of Beautiful Pairs](src/main/kotlin/g2701_2800/s2748_number_of_beautiful_pairs)| Easy | Array, Math, Number_Theory | 227 | 100.00
 | 2747 |[Count Zero Request Servers](src/main/kotlin/g2701_2800/s2747_count_zero_request_servers)| Medium | Array, Hash_Table, Sorting, Sliding_Window | 991 | 100.00
