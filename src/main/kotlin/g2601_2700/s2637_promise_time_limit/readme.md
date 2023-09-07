@@ -3,7 +3,7 @@
 
 ## 2637\. Promise Time Limit
 
-Easy
+Medium
 
 Given an asynchronous function `fn` and a time `t` in milliseconds, return a new **time limited** version of the input function. `fn` takes arguments provided to the **time limited **function.
 
@@ -108,7 +108,7 @@ function timeLimit(fn: Fn, t: number): Fn {
         const fns = fn(...args)
         const timeLimitPromise = new Promise((_, reject) => {
             setTimeout(() => {
-                reject('Time Limit Exceeded')
+                reject(new Error('Time Limit Exceeded'))
             }, t)
         })
 
