@@ -72,8 +72,16 @@ The query result format is in the following example.
 
 ```sql
 # Write your MySQL query statement below
-select e1.employee_id, case when e2.department_id is null then e1.department_id else e2.department_id end as department_id
-from employee e1
-left join (select * from employee where primary_flag = 'Y')e2 on e1.employee_id = e2.employee_id
-group by e1.employee_id, department_id
+WITH cte AS (
+    SELECT DISTINCT employee_id, department_id,
+           COUNT(employee_id) OVER (PARTITION BY employee_id) AS n
+    FROM Employee
+)
+SELECT employee_id, department_id
+FROM cte
+WHERE n = 1
+UNION
+SELECT employee_id, department_id
+FROM Employee
+WHERE primary_flag = 'Y';
 ```

@@ -92,19 +92,17 @@ function memoize(fn: Fn): Fn {
                 } else {
                     currentCache = currentCache.get(arg)
                 }
+            } else if (isEnd) {
+                break
             } else {
-                if (isEnd) {
-                    break
-                } else {
-                    const newSubCache = new Map()
+                const newSubCache = new Map()
 
-                    currentCache.set(arg, newSubCache)
-                    currentCache = newSubCache
-                }
+                currentCache.set(arg, newSubCache)
+                currentCache = newSubCache
             }
         }
 
-        let value = fn.apply(null, args)
+        let value = fn(...args)
 
         currentCache.set(args[args.length - 1], value)
         return value
