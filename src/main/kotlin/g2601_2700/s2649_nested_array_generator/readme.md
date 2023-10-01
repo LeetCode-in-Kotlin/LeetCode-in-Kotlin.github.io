@@ -47,14 +47,9 @@ A **multi-dimensional array** is a recursive data structure that contains both i
 type MultidimensionalArray = (MultidimensionalArray | number)[]
 
 function* inorderTraversal(arr: MultidimensionalArray): Generator<number, void, unknown> {
-    if (!Array.isArray(arr)) {
-        yield arr
-        return
-    }
-
-    for (let value of arr) {
-        yield* inorderTraversal(value as MultidimensionalArray)
-    }
+    for (const item of arr)
+        if (Array.isArray(item)) yield* inorderTraversal(item)
+        else yield item
 }
 
 /*

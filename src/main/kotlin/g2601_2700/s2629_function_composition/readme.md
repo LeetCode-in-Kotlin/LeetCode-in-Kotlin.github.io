@@ -67,14 +67,11 @@ Evaluating from right to left ...
 type F = (x: number) => number
 
 function compose(functions: F[]): F {
-    const n = functions.length
-
     return function (x) {
-        for (let i = n - 1; i >= 0; i--) {
-            const fn = functions[i]
-            x = fn(x)
+        if (functions.length == 0) return x
+        for (let ind = functions.length - 1; ind >= 0; ind--) {
+            x = functions[ind](x)
         }
-
         return x
     }
 }
