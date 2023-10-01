@@ -31,9 +31,7 @@ Given a positive integer `millis`, write an asynchronous function that sleeps fo
 
 ```typescript
 async function sleep(millis: number): Promise<void> {
-    return new Promise<void>((resolve, reject) => {
-        setTimeout(resolve, millis)
-    })
+    await new Promise((resolve) => setTimeout(resolve, millis))
 }
 
 /*

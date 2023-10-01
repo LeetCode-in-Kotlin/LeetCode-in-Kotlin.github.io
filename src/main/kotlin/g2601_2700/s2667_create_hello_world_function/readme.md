@@ -40,11 +40,7 @@ Any arguments could be passed to the function but it should still always return 
 ## Solution
 
 ```typescript
-function createHelloWorld() {
-    return function (...args): string {
-        return 'Hello World'
-    }
-}
+const createHelloWorld = () => () => "Hello World";
 
 /*
  * const f = createHelloWorld();

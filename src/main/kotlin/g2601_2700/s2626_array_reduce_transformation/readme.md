@@ -73,7 +73,6 @@ function reduce(nums: number[], fn: Fn, init: number): number {
     nums.forEach((num) => {
         accumulator = fn(accumulator, num)
     })
-
     return accumulator
 }
 
