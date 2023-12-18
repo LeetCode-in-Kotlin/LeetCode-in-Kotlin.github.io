@@ -53,7 +53,7 @@ class Solution {
         return target.size - longestIncreasingSubsequence(list)
     }
 
-    private fun longestIncreasingSubsequence(list: MutableList<Int?>): Int {
+    private fun longestIncreasingSubsequence(list: List<Int?>): Int {
         val n = list.size
         var l = 0
         val arr = IntArray(n)
