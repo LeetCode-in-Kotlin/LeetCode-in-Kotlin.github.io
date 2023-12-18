@@ -1816,7 +1816,32 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
-| 2824 |[Count Pairs Whose Sum is Less than Target](src/main/kotlin/g2801_2900/s2824_count_pairs_whose_sum_is_less_than_target)| Easy | Array, Sorting | s | s
+| 2856 |[Minimum Array Length After Pair Removals](src/main/kotlin/g2801_2900/s2856_minimum_array_length_after_pair_removals)| Medium | Array, Hash_Table, Greedy, Binary_Search, Two_Pointers, Counting | 647 | 100.00
+| 2855 |[Minimum Right Shifts to Sort the Array](src/main/kotlin/g2801_2900/s2855_minimum_right_shifts_to_sort_the_array)| Easy | Array | 169 | 75.00
+| 2851 |[String Transformation](src/main/kotlin/g2801_2900/s2851_string_transformation)| Hard | String, Dynamic_Programming, Math, String_Matching | 377 | 100.00
+| 2850 |[Minimum Moves to Spread Stones Over Grid](src/main/kotlin/g2801_2900/s2850_minimum_moves_to_spread_stones_over_grid)| Medium | Array, Dynamic_Programming, Breadth_First_Search, Matrix | 133 | 100.00
+| 2849 |[Determine if a Cell Is Reachable at a Given Time](src/main/kotlin/g2801_2900/s2849_determine_if_a_cell_is_reachable_at_a_given_time)| Medium | Math | 138 | 80.95
+| 2848 |[Points That Intersect With Cars](src/main/kotlin/g2801_2900/s2848_points_that_intersect_with_cars)| Easy | Hash_Table, Math, Prefix_Sum | 190 | 100.00
+| 2846 |[Minimum Edge Weight Equilibrium Queries in a Tree](src/main/kotlin/g2801_2900/s2846_minimum_edge_weight_equilibrium_queries_in_a_tree)| Hard | Array, Tree, Graph, Strongly_Connected_Component | 982 | 100.00
+| 2845 |[Count of Interesting Subarrays](src/main/kotlin/g2801_2900/s2845_count_of_interesting_subarrays)| Medium | Array, Hash_Table, Prefix_Sum | 703 | 100.00
+| 2844 |[Minimum Operations to Make a Special Number](src/main/kotlin/g2801_2900/s2844_minimum_operations_to_make_a_special_number)| Medium | String, Math, Greedy, Enumeration | 162 | 60.00
+| 2843 |[Count Symmetric Integers](src/main/kotlin/g2801_2900/s2843_count_symmetric_integers)| Easy | Math, Enumeration | 203 | 88.24
+| 2842 |[Count K-Subsequences of a String With Maximum Beauty](src/main/kotlin/g2801_2900/s2842_count_k_subsequences_of_a_string_with_maximum_beauty)| Hard | String, Hash_Table, Math, Greedy, Combinatorics | 217 | 100.00
+| 2841 |[Maximum Sum of Almost Unique Subarray](src/main/kotlin/g2801_2900/s2841_maximum_sum_of_almost_unique_subarray)| Medium | Array, Hash_Table, Sliding_Window | 387 | 100.00
+| 2840 |[Check if Strings Can be Made Equal With Operations II](src/main/kotlin/g2801_2900/s2840_check_if_strings_can_be_made_equal_with_operations_ii)| Medium | String, Hash_Table, Sorting | 225 | 100.00
+| 2839 |[Check if Strings Can be Made Equal With Operations I](src/main/kotlin/g2801_2900/s2839_check_if_strings_can_be_made_equal_with_operations_i)| Easy | String | 154 | 100.00
+| 2836 |[Maximize Value of Function in a Ball Passing Game](src/main/kotlin/g2801_2900/s2836_maximize_value_of_function_in_a_ball_passing_game)| Hard | Array, Dynamic_Programming, Bit_Manipulation | 933 | 100.00
+| 2835 |[Minimum Operations to Form Subsequence With Target Sum](src/main/kotlin/g2801_2900/s2835_minimum_operations_to_form_subsequence_with_target_sum)| Hard | Array, Greedy, Bit_Manipulation | 183 | 100.00
+| 2834 |[Find the Minimum Possible Sum of a Beautiful Array](src/main/kotlin/g2801_2900/s2834_find_the_minimum_possible_sum_of_a_beautiful_array)| Medium | Math, Greedy | 130 | 100.00
+| 2833 |[Furthest Point From Origin](src/main/kotlin/g2801_2900/s2833_furthest_point_from_origin)| Easy | Array, Counting | 160 | 81.25
+| 2831 |[Find the Longest Equal Subarray](src/main/kotlin/g2801_2900/s2831_find_the_longest_equal_subarray)| Medium | Array, Hash_Table, Binary_Search, Sliding_Window | 663 | 100.00
+| 2830 |[Maximize the Profit as the Salesman](src/main/kotlin/g2801_2900/s2830_maximize_the_profit_as_the_salesman)| Medium | Array, Dynamic_Programming, Sorting, Binary_Search | 776 | 100.00
+| 2829 |[Determine the Minimum Sum of a k-avoiding Array](src/main/kotlin/g2801_2900/s2829_determine_the_minimum_sum_of_a_k_avoiding_array)| Medium | Math, Greedy | 162 | 75.00
+| 2828 |[Check if a String Is an Acronym of Words](src/main/kotlin/g2801_2900/s2828_check_if_a_string_is_an_acronym_of_words)| Easy | Array, String | 180 | 90.14
+| 2827 |[Number of Beautiful Integers in the Range](src/main/kotlin/g2801_2900/s2827_number_of_beautiful_integers_in_the_range)| Hard | Dynamic_Programming, Math | 169 | 100.00
+| 2826 |[Sorting Three Groups](src/main/kotlin/g2801_2900/s2826_sorting_three_groups)| Medium | Array, Dynamic_Programming | 250 | 100.00
+| 2825 |[Make String a Subsequence Using Cyclic Increments](src/main/kotlin/g2801_2900/s2825_make_string_a_subsequence_using_cyclic_increments)| Medium | String, Two_Pointers | 227 | 83.33
+| 2824 |[Count Pairs Whose Sum is Less than Target](src/main/kotlin/g2801_2900/s2824_count_pairs_whose_sum_is_less_than_target)| Easy | Array, Sorting, Two_Pointers | 168 | 90.62
 | 2818 |[Apply Operations to Maximize Score](src/main/kotlin/g2801_2900/s2818_apply_operations_to_maximize_score)| Hard | Array, Math, Greedy, Stack, Monotonic_Stack, Number_Theory | 727 | 100.00
 | 2817 |[Minimum Absolute Difference Between Elements With Constraint](src/main/kotlin/g2801_2900/s2817_minimum_absolute_difference_between_elements_with_constraint)| Medium | Array, Binary_Search, Ordered_Set | 759 | 100.00
 | 2816 |[Double a Number Represented as a Linked List](src/main/kotlin/g2801_2900/s2816_double_a_number_represented_as_a_linked_list)| Medium | Math, Stack, Linked_List | 393 | 100.00
