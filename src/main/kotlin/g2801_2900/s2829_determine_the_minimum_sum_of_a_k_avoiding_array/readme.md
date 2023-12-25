@@ -34,6 +34,7 @@ Return _the **minimum** possible sum of a k-avoiding array of length_ `n`.
 ## Solution
 
 ```kotlin
+@Suppress("NAME_SHADOWING")
 class Solution {
     fun minimumSum(n: Int, k: Int): Int {
         var k = k

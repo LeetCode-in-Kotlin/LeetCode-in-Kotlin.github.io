@@ -48,6 +48,7 @@ Now nums is sorted; therefore the answer is 2.
 ## Solution
 
 ```kotlin
+@Suppress("kotlin:S6510")
 class Solution {
     fun minimumRightShifts(nums: List<Int>): Int {
         var i = 1

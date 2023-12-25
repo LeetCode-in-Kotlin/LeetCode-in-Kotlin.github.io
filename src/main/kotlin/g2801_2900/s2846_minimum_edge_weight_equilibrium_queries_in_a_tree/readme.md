@@ -64,6 +64,7 @@ In the fourth query, we change the weights of edges [0,7], [0,3] and [1,3] to 6.
 import kotlin.math.ln
 import kotlin.math.max
 
+@Suppress("kotlin:S107")
 class Solution {
     private class Node(var v: Int, var w: Int)
 

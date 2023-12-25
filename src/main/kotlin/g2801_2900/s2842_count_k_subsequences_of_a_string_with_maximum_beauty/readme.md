@@ -73,6 +73,7 @@ There are 2 k-subsequences that have the maximum beauty, 5. Hence, the answer is
 ## Solution
 
 ```kotlin
+@Suppress("NAME_SHADOWING")
 class Solution {
     fun countKSubsequencesWithMaxBeauty(s: String, k: Int): Int {
         var k = k
