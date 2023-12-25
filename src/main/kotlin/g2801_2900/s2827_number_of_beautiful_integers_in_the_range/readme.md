@@ -54,6 +54,7 @@ Return _the number of beautiful integers in the range_ `[low, high]`.
 ```kotlin
 import kotlin.math.max
 
+@Suppress("kotlin:S107")
 class Solution {
     private lateinit var dp: Array<Array<Array<Array<IntArray>>>>
     private var maxLength = 0
