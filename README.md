@@ -1816,6 +1816,35 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 2949 |[Count Beautiful Substrings II](src/main/kotlin/g2901_3000/s2949_count_beautiful_substrings_ii)| Hard | String, Hash_Table, Math, Prefix_Sum, Number_Theory | 299 | 100.00
+| 2948 |[Make Lexicographically Smallest Array by Swapping Elements](src/main/kotlin/g2901_3000/s2948_make_lexicographically_smallest_array_by_swapping_elements)| Medium | Array, Sorting, Union_Find | 2141 | 6.45
+| 2947 |[Count Beautiful Substrings I](src/main/kotlin/g2901_3000/s2947_count_beautiful_substrings_i)| Medium | String, Prefix_Sum, Enumeration | 291 | 59.52
+| 2946 |[Matrix Similarity After Cyclic Shifts](src/main/kotlin/g2901_3000/s2946_matrix_similarity_after_cyclic_shifts)| Easy | Array, Math, Matrix, Simulation | 210 | 75.00
+| 2945 |[Find Maximum Non-decreasing Array Length](src/main/kotlin/g2901_3000/s2945_find_maximum_non_decreasing_array_length)| Hard | Array, Dynamic_Programming, Binary_Search, Stack, Monotonic_Stack, Queue, Monotonic_Queue | 636 | 87.50
+| 2929 |[Distribute Candies Among Children II](src/main/kotlin/g2901_3000/s2929_distribute_candies_among_children_ii)| Medium | Math, Enumeration, Combinatorics | 193 | 18.18
+| 2928 |[Distribute Candies Among Children I](src/main/kotlin/g2901_3000/s2928_distribute_candies_among_children_i)| Easy | Math, Enumeration, Combinatorics | 282 | 6.38
+| 2926 |[Maximum Balanced Subsequence Sum](src/main/kotlin/g2901_3000/s2926_maximum_balanced_subsequence_sum)| Hard | Array, Dynamic_Programming, Binary_Search, Segment_Tree, Binary_Indexed_Tree | 1067 | 12.50
+| 2925 |[Maximum Score After Applying Operations on a Tree](src/main/kotlin/g2901_3000/s2925_maximum_score_after_applying_operations_on_a_tree)| Medium | Dynamic_Programming, Depth_First_Search, Tree | 1274 | 6.67
+| 2924 |[Find Champion II](src/main/kotlin/g2901_3000/s2924_find_champion_ii)| Medium | Graph | 724 | 6.98
+| 2923 |[Find Champion I](src/main/kotlin/g2901_3000/s2923_find_champion_i)| Easy | Array, Matrix | 591 | 5.63
+| 2920 |[Maximum Points After Collecting Coins From All Nodes](src/main/kotlin/g2901_3000/s2920_maximum_points_after_collecting_coins_from_all_nodes)| Hard | Array, Dynamic_Programming, Depth_First_Search, Tree, Bit_Manipulation | 2255 | 25.00
+| 2919 |[Minimum Increment Operations to Make Array Beautiful](src/main/kotlin/g2901_3000/s2919_minimum_increment_operations_to_make_array_beautiful)| Medium | Array, Dynamic_Programming | 520 | 62.50
+| 2918 |[Minimum Equal Sum of Two Arrays After Replacing Zeros](src/main/kotlin/g2901_3000/s2918_minimum_equal_sum_of_two_arrays_after_replacing_zeros)| Medium | Array, Greedy | 1410 | 7.69
+| 2917 |[Find the K-or of an Array](src/main/kotlin/g2901_3000/s2917_find_the_k_or_of_an_array)| Easy | Array, Bit_Manipulation | 191 | 76.47
+| 2916 |[Subarrays Distinct Element Sum of Squares II](src/main/kotlin/g2901_3000/s2916_subarrays_distinct_element_sum_of_squares_ii)| Hard | Array, Dynamic_Programming, Segment_Tree, Binary_Indexed_Tree | 467 | 100.00
+| 2915 |[Length of the Longest Subsequence That Sums to Target](src/main/kotlin/g2901_3000/s2915_length_of_the_longest_subsequence_that_sums_to_target)| Medium | Array, Dynamic_Programming | 552 | 66.67
+| 2914 |[Minimum Number of Changes to Make Binary String Beautiful](src/main/kotlin/g2901_3000/s2914_minimum_number_of_changes_to_make_binary_string_beautiful)| Medium | String | 180 | 100.00
+| 2913 |[Subarrays Distinct Element Sum of Squares I](src/main/kotlin/g2901_3000/s2913_subarrays_distinct_element_sum_of_squares_i)| Easy | Array, Hash_Table | 184 | 95.74
+| 2911 |[Minimum Changes to Make K Semi-palindromes](src/main/kotlin/g2901_3000/s2911_minimum_changes_to_make_k_semi_palindromes)| Hard | String, Dynamic_Programming, Two_Pointers | 216 | 100.00
+| 2910 |[Minimum Number of Groups to Create a Valid Assignment](src/main/kotlin/g2901_3000/s2910_minimum_number_of_groups_to_create_a_valid_assignment)| Medium | Array, Hash_Table, Greedy | 745 | 75.00
+| 2909 |[Minimum Sum of Mountain Triplets II](src/main/kotlin/g2901_3000/s2909_minimum_sum_of_mountain_triplets_ii)| Medium | Array | 463 | 100.00
+| 2908 |[Minimum Sum of Mountain Triplets I](src/main/kotlin/g2901_3000/s2908_minimum_sum_of_mountain_triplets_i)| Easy | Array | 174 | 73.33
+| 2906 |[Construct Product Matrix](src/main/kotlin/g2901_3000/s2906_construct_product_matrix)| Medium | Array, Matrix, Prefix_Sum | 1016 | 100.00
+| 2905 |[Find Indices With Index and Value Difference II](src/main/kotlin/g2901_3000/s2905_find_indices_with_index_and_value_difference_ii)| Medium | Array | 485 | 50.00
+| 2904 |[Shortest and Lexicographically Smallest Beautiful String](src/main/kotlin/g2901_3000/s2904_shortest_and_lexicographically_smallest_beautiful_string)| Medium | String, Sliding_Window | 169 | 66.67
+| 2903 |[Find Indices With Index and Value Difference I](src/main/kotlin/g2901_3000/s2903_find_indices_with_index_and_value_difference_i)| Easy | Array | 192 | 100.00
+| 2902 |[Count of Sub-Multisets With Bounded Sum](src/main/kotlin/g2901_3000/s2902_count_of_sub_multisets_with_bounded_sum)| Hard | Array, Hash_Table, Dynamic_Programming, Sliding_Window | 2416 | 100.00
+| 2901 |[Longest Unequal Adjacent Groups Subsequence II](src/main/kotlin/g2901_3000/s2901_longest_unequal_adjacent_groups_subsequence_ii)| Medium | Array, String, Dynamic_Programming | 305 | 100.00
 | 2900 |[Longest Unequal Adjacent Groups Subsequence I](src/main/kotlin/g2801_2900/s2900_longest_unequal_adjacent_groups_subsequence_i)| Medium | Array, String, Dynamic_Programming, Greedy | 294 | 100.00
 | 2899 |[Last Visited Integers](src/main/kotlin/g2801_2900/s2899_last_visited_integers)| Easy | Array, String, Simulation | 209 | 72.73
 | 2897 |[Apply Operations on Array to Maximize Sum of Squares](src/main/kotlin/g2801_2900/s2897_apply_operations_on_array_to_maximize_sum_of_squares)| Hard | Array, Hash_Table, Greedy, Bit_Manipulation | 572 | 100.00
