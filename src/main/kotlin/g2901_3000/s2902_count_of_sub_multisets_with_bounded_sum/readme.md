@@ -52,66 +52,77 @@ A **sub-multiset** is an **unordered** collection of elements of the array in wh
 ## Solution
 
 ```kotlin
-class Solution {
-    private var map: HashMap<Int, Int>? = null
-    private lateinit var dp: Array<IntArray>
+import kotlin.math.min
 
-    private fun solve(al: List<Int>, l: Int, r: Int, index: Int, sum: Int): Int {
-        if (sum > r) {
-            return 0
-        }
-        var ans: Long = 0
-        if (index >= al.size) {
-            return ans.toInt()
-        }
-        if (dp[index][sum] != -1) {
-            return dp[index][sum]
-        }
-        val cur = al[index]
-        val count = map!![cur]!!
-        for (i in 0..count) {
-            val curSum = sum + cur * i
-            if (curSum > r) {
-                break
-            }
-            ans += solve(al, l, r, index + 1, curSum)
-            if (i != 0 && curSum >= l) {
-                ans += 1
-            }
-            ans %= MOD
-        }
-        dp[index][sum] = ans.toInt()
-        return ans.toInt()
-    }
+@Suppress("NAME_SHADOWING")
+class Solution {
+    private val mod = 1000000007
+    private val intMap = IntMap()
 
     fun countSubMultisets(nums: List<Int>, l: Int, r: Int): Int {
-        map = HashMap()
-        val al: MutableList<Int> = ArrayList()
-        for (cur in nums) {
-            val count = map!!.getOrDefault(cur, 0) + 1
-            map!![cur] = count
-            if (count == 1) {
-                al.add(cur)
+        intMap.clear()
+        intMap.add(0)
+        var total = 0
+        for (num in nums) {
+            intMap.add(num)
+            total += num
+        }
+        if (total < l) {
+            return 0
+        }
+        val r = min(r, total)
+        val cnt = IntArray(r + 1)
+        cnt[0] = intMap.map[0]
+        var sum = 0
+        for (i in 1 until intMap.size) {
+            val value = intMap.vals[i]
+            val count = intMap.map[value]
+            if (count > 0) {
+                sum = min(r, sum + value * count)
+                update(cnt, value, count, sum)
             }
         }
-        val n = al.size
-        dp = Array(n) { IntArray(r + 1) }
-        for (i in dp.indices) {
-            for (j in dp[0].indices) {
-                dp[i][j] = -1
-            }
+        var res = 0
+        for (i in l..r) {
+            res = (res + cnt[i]) % mod
         }
-        al.sort()
-        var ans = solve(al, l, r, 0, 0)
-        if (l == 0) {
-            ans += 1
-        }
-        ans %= MOD
-        return ans
+        return res
     }
 
-    companion object {
-        private const val MOD = 1e9.toInt() + 7
+    private fun update(cnt: IntArray, n: Int, count: Int, sum: Int) {
+        if (count == 1) {
+            for (i in sum downTo n) {
+                cnt[i] = (cnt[i] + cnt[i - n]) % mod
+            }
+        } else {
+            for (i in n..sum) {
+                cnt[i] = (cnt[i] + cnt[i - n]) % mod
+            }
+            val max = (count + 1) * n
+            for (i in sum downTo max) {
+                cnt[i] = (cnt[i] - cnt[i - max] + mod) % mod
+            }
+        }
+    }
+
+    private class IntMap {
+        private val max = 20001
+        val map = IntArray(max)
+        val vals = IntArray(max)
+        var size = 0
+
+        fun add(v: Int) {
+            if (map[v]++ == 0) {
+                vals[size++] = v
+            }
+        }
+
+        fun clear() {
+            for (i in 0 until size) {
+                map[vals[i]] = 0
+            }
+            size = 0
+        }
     }
 }
 ```

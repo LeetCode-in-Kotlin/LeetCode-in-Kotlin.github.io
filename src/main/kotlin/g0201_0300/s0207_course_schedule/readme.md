@@ -40,25 +40,22 @@ Return `true` if you can finish all courses. Otherwise, return `false`.
 ```kotlin
 class Solution {
     fun canFinish(numCourses: Int, prerequisites: Array<IntArray>): Boolean {
-        val adj: Array<ArrayList<Int>?> = arrayOfNulls<ArrayList<Int>>(numCourses)
-        for (i in 0 until numCourses) {
-            adj[i] = ArrayList()
-        }
+        val adj: Array<ArrayList<Int>> = Array(numCourses) { ArrayList() }
         for (pre in prerequisites) {
-            adj[pre[1]]?.add(pre[0])
+            adj[pre[1]].add(pre[0])
         }
         val colors = IntArray(numCourses)
         for (i in 0 until numCourses) {
-            if (colors[i] == WHITE && !adj[i]?.isEmpty()!! && hasCycle(adj, i, colors)) {
+            if (colors[i] == WHITE && adj[i].isNotEmpty() && hasCycle(adj, i, colors)) {
                 return false
             }
         }
         return true
     }
 
-    private fun hasCycle(adj: Array<ArrayList<Int>?>, node: Int, colors: IntArray): Boolean {
+    private fun hasCycle(adj: Array<ArrayList<Int>>, node: Int, colors: IntArray): Boolean {
         colors[node] = GRAY
-        for (nei in adj[node]!!) {
+        for (nei in adj[node]) {
             if (colors[nei] == GRAY) {
                 return true
             }
