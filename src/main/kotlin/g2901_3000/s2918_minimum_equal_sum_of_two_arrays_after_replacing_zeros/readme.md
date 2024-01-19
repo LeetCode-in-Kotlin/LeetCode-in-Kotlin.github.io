@@ -41,10 +41,8 @@ class Solution {
     fun minSum(nums1: IntArray, nums2: IntArray): Long {
         val sum1 = nums1.fold(0L) { sum, element -> sum + element }
         val zeroCount1 = nums1.count { it == 0 }
-
         val sum2 = nums2.fold(0L) { sum, element -> sum + element }
         val zeroCount2 = nums2.count { it == 0 }
-
         if (
             (zeroCount1 == 0 && sum1 < sum2 + zeroCount2) ||
             (zeroCount2 == 0 && sum2 < sum1 + zeroCount1)
