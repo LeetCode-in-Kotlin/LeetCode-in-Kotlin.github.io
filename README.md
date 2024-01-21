@@ -1968,6 +1968,7 @@
 | 2808 |[Minimum Seconds to Equalize a Circular Array](src/main/kotlin/g2801_2900/s2808_minimum_seconds_to_equalize_a_circular_array)| Medium | Array, Hash_Table, Greedy | 847 | 50.00
 | 2807 |[Insert Greatest Common Divisors in Linked List](src/main/kotlin/g2801_2900/s2807_insert_greatest_common_divisors_in_linked_list)| Medium | Array, Math, Linked_List | 225 | 67.65
 | 2806 |[Account Balance After Rounded Purchase](src/main/kotlin/g2801_2900/s2806_account_balance_after_rounded_purchase)| Easy | Math | 108 | 100.00
+| 2801 |[Count Stepping Numbers in Range](src/main/kotlin/g2801_2900/s2801_count_stepping_numbers_in_range)| Hard | String, Dynamic_Programming | 288 | 100.00
 | 2800 |[Shortest String That Contains Three Strings](src/main/kotlin/g2701_2800/s2800_shortest_string_that_contains_three_strings)| Medium | String, Greedy, Enumeration | 259 | 100.00
 | 2799 |[Count Complete Subarrays in an Array](src/main/kotlin/g2701_2800/s2799_count_complete_subarrays_in_an_array)| Medium | Array, Hash_Table, Sliding_Window | 206 | 96.97
 | 2798 |[Number of Employees Who Met the Target](src/main/kotlin/g2701_2800/s2798_number_of_employees_who_met_the_target)| Easy | Array, Enumeration | 153 | 92.50
