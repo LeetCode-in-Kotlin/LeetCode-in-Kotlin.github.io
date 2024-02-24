@@ -41,7 +41,7 @@ As we cannot use any three side lengths to form a triangle of non-zero area, we 
 ```kotlin
 class Solution {
     fun largestPerimeter(nums: IntArray): Int {
-        nums.sort()
+        nums.sortDescending()
         for (i in nums.size - 1 downTo 2) {
             if (nums[i] < nums[i - 1] + nums[i - 2]) {
                 return nums[i] + nums[i - 1] + nums[i - 2]
