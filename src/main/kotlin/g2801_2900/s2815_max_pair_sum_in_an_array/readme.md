@@ -60,7 +60,7 @@ class Solution {
                 continue
             }
             val sum = value.poll() + value.poll()
-            maxSum = max(maxSum.toDouble(), sum.toDouble()).toInt()
+            maxSum = max(maxSum, sum)
         }
         return maxSum
     }
