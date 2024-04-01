@@ -29,7 +29,6 @@ Given a string `s`, return _the_ _lexicographically smallest_ _subsequence_ _of_
 ## Solution
 
 ```kotlin
-import java.util.Arrays
 import java.util.Deque
 import java.util.LinkedList
 
@@ -39,7 +38,7 @@ class Solution {
         val stk: Deque<Char> = LinkedList()
         val freq = IntArray(26)
         val exist = BooleanArray(26)
-        Arrays.fill(exist, false)
+        exist.fill(false)
         for (ch in s.toCharArray()) {
             freq[ch.code - 'a'.code]++
         }

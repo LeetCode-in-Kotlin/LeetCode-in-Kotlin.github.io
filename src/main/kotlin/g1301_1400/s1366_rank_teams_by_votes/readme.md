@@ -55,8 +55,6 @@ As most of the voters ranked C second, team C is the second team and team B is t
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     internal class Node(var c: Char) {
         var count = IntArray(26)
@@ -72,9 +70,8 @@ class Solution {
                 nodes[vote[i].code - 'A'.code]!!.count[i]++
             }
         }
-        Arrays.sort(
-            nodes
-        ) { o1: Node?, o2: Node? ->
+
+        nodes.sortWith sort@{ o1: Node?, o2: Node? ->
             for (i in 0..25) {
                 if (o1!!.count[i] != o2!!.count[i]) {
                     return@sort o2.count[i] - o1.count[i]

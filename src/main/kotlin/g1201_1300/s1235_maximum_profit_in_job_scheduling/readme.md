@@ -48,8 +48,6 @@ If you choose a job that ends at time `X` you will be able to start another job 
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun jobScheduling(startTime: IntArray, endTime: IntArray, profit: IntArray): Int {
         val n = startTime.size
@@ -59,7 +57,7 @@ class Solution {
             time[i][1] = endTime[i]
             time[i][2] = profit[i]
         }
-        Arrays.sort(time, { a: IntArray, b: IntArray -> a[1].compareTo(b[1]) })
+        time.sortWith { a: IntArray, b: IntArray -> a[1].compareTo(b[1]) }
         val maxP = Array(n) { IntArray(2) }
         var lastPos = -1
         var currProfit: Int

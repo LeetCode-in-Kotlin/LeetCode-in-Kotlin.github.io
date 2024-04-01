@@ -44,8 +44,6 @@ Return _the largest possible height of your billboard installation_. If you cann
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun tallestBillboard(rods: IntArray): Int {
         var maxDiff = 0
@@ -53,7 +51,7 @@ class Solution {
             maxDiff += rod
         }
         val dp = IntArray(maxDiff + 1)
-        Arrays.fill(dp, -1)
+        dp.fill(-1)
         dp[0] = 0
         for (l in rods) {
             val dpOld = IntArray(maxDiff + 1)

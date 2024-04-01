@@ -51,7 +51,6 @@ The edges 2, 3, 4, and 5 are only part of some MSTs, therefore they are consider
 ## Solution
 
 ```kotlin
-import java.util.Arrays
 import java.util.LinkedList
 
 class Solution {
@@ -73,7 +72,7 @@ class Solution {
             mst[i] = LinkedList()
         }
         val mstSet = BooleanArray(edges.size)
-        Arrays.sort(edges) { a: IntArray, b: IntArray ->
+        edges.sortWith { a: IntArray, b: IntArray ->
             Integer.compare(
                 a[2], b[2]
             )

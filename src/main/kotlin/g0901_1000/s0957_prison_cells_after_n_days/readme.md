@@ -57,8 +57,6 @@ Day 7: [0, 0, 1, 1, 0, 0, 0, 0]
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 @Suppress("NAME_SHADOWING")
 class Solution {
     fun prisonAfterNDays(cells: IntArray, n: Int): IntArray {
@@ -74,7 +72,7 @@ class Solution {
             day++
             n--
             val next = getNextDay(prev)
-            if (Arrays.equals(next, first)) {
+            if (next.contentEquals(first)) {
                 period = day - 1
                 n %= period
             }
