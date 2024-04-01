@@ -50,7 +50,6 @@ This is the same example as the first but k = 3. We can select engineer 1, engin
 ## Solution
 
 ```kotlin
-import java.util.Arrays
 import java.util.PriorityQueue
 
 class Solution {
@@ -60,7 +59,7 @@ class Solution {
             engineers[i][0] = speed[i]
             engineers[i][1] = efficiency[i]
         }
-        Arrays.sort(engineers) { engineer1: IntArray, engineer2: IntArray -> engineer2[1] - engineer1[1] }
+        engineers.sortWith { engineer1: IntArray, engineer2: IntArray -> engineer2[1] - engineer1[1] }
         var speedSum: Long = 0
         var maximumPerformance: Long = 0
         val minHeap = PriorityQueue<Int>()

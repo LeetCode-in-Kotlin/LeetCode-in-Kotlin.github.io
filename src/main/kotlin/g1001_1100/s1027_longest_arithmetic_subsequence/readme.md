@@ -38,8 +38,6 @@ Given an array `nums` of integers, return _the length of the longest arithmetic 
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun longestArithSeqLength(nums: IntArray): Int {
         val max = maxElement(nums)
@@ -48,7 +46,7 @@ class Solution {
         val n = nums.size
         val dp = Array(n) { IntArray(2 * diff + 2) }
         for (d in dp) {
-            Arrays.fill(d, 1)
+            d.fill(1)
         }
         var ans = 0
         for (i in 0 until n) {

@@ -44,12 +44,11 @@ Attend the third event on day 3.
 ## Solution
 
 ```kotlin
-import java.util.Arrays
 import java.util.PriorityQueue
 
 class Solution {
     fun maxEvents(events: Array<IntArray>): Int {
-        Arrays.sort(events) { a: IntArray, b: IntArray -> a[0] - b[0] }
+        events.sortWith { a: IntArray, b: IntArray -> a[0] - b[0] }
         var ans = 0
         var i = 0
         val pq = PriorityQueue<Int>()

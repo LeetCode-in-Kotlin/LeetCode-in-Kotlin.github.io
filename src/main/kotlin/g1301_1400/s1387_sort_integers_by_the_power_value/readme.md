@@ -56,8 +56,6 @@ The fourth number in the sorted array is 7.
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     private lateinit var cacheMap: MutableMap<Int, Int>
 
@@ -69,7 +67,7 @@ class Solution {
             arr[i][0] = lo + i
             arr[i][1] = getStepCount(lo + i)
         }
-        Arrays.sort(arr) { a: IntArray, b: IntArray -> a[1].compareTo(b[1]) }
+        arr.sortWith { a: IntArray, b: IntArray -> a[1].compareTo(b[1]) }
         return arr[k - 1][0]
     }
 

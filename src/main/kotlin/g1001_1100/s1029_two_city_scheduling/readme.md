@@ -49,11 +49,9 @@ The total minimum cost is 10 + 30 + 50 + 20 = 110 to have half the people interv
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun twoCitySchedCost(costs: Array<IntArray>): Int {
-        Arrays.sort(costs) { a: IntArray, b: IntArray ->
+        costs.sortWith { a: IntArray, b: IntArray ->
             a[0] - a[1] - (b[0] - b[1])
         }
         var cost = 0

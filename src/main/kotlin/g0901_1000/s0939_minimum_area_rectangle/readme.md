@@ -35,7 +35,6 @@ Return _the minimum area of a rectangle formed from these points, with sides par
 ## Solution
 
 ```kotlin
-import java.util.Arrays
 import kotlin.math.abs
 
 class Solution {
@@ -48,9 +47,7 @@ class Solution {
             map.putIfAbsent(p[0], HashSet())
             map.getValue(p[0]).add(p[1])
         }
-        Arrays.sort(
-            points
-        ) { a: IntArray, b: IntArray ->
+        points.sortWith { a: IntArray, b: IntArray ->
             if (a[0] == b[0]) Integer.compare(
                 a[1],
                 b[1]
