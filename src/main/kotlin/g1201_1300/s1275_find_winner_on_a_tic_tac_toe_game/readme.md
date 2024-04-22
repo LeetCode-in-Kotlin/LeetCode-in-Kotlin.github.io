@@ -78,7 +78,7 @@ class Solution {
     private fun wins(board: Array<Array<String?>>): String {
         for (i in 0..2) {
             if (board[i][0] == null) {
-                break
+                continue
             }
             val str = board[i][0]
             if (str == board[i][1] && str == board[i][2]) {
@@ -87,7 +87,7 @@ class Solution {
         }
         for (j in 0..2) {
             if (board[0][j] == null) {
-                break
+                continue
             }
             val str = board[0][j]
             if (str == board[1][j] && str == board[2][j]) {
