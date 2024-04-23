@@ -48,8 +48,6 @@ For the second query, there is a path (0 -> 1 -> 2) of two edges with distances 
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     private class Dsu(n: Int) {
         private val parent: IntArray
@@ -77,12 +75,12 @@ class Solution {
     }
 
     fun distanceLimitedPathsExist(n: Int, edgeList: Array<IntArray>, queries: Array<IntArray>): BooleanArray {
-        Arrays.sort(edgeList) { o1: IntArray, o2: IntArray -> Integer.compare(o1[2], o2[2]) }
+        edgeList.sortWith { o1: IntArray, o2: IntArray -> Integer.compare(o1[2], o2[2]) }
         val data = Array(queries.size) { IntArray(4) }
         for (i in queries.indices) {
             data[i] = intArrayOf(queries[i][0], queries[i][1], queries[i][2], i)
         }
-        Arrays.sort(data) { o1: IntArray, o2: IntArray -> Integer.compare(o1[2], o2[2]) }
+        data.sortWith { o1: IntArray, o2: IntArray -> Integer.compare(o1[2], o2[2]) }
         val d = Dsu(n)
         var j = 0
         val ans = BooleanArray(queries.size)

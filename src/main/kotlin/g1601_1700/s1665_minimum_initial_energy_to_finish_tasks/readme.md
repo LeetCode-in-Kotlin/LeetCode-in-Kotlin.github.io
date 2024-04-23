@@ -84,11 +84,9 @@ Starting with 27 energy, we finish the tasks in the following order:
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun minimumEffort(tasks: Array<IntArray>): Int {
-        Arrays.sort(tasks) { a: IntArray, b: IntArray -> a[1] - a[0] - b[1] + b[0] }
+        tasks.sortWith { a: IntArray, b: IntArray -> a[1] - a[0] - b[1] + b[0] }
         var prev = 0
         for (item in tasks) {
             prev = Math.max(prev + item[0], item[1])

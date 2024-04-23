@@ -62,8 +62,6 @@ The rank of matrix[1][1] is 3 because matrix[1][1] > matrix[0][1], matrix[1][1] 
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun matrixRankTransform(matrix: Array<IntArray>): Array<IntArray> {
         val rowCount = matrix.size
@@ -108,7 +106,7 @@ class Solution {
         } else {
             val rowCount = matrix.size
             val ufind = IntArray(rowCount + matrix[0].size)
-            Arrays.fill(ufind, -1)
+            ufind.fill(-1)
             for (nIdx in startIdx until endIdx) {
                 val r = nums[nIdx].toInt() shr 16 and 0xFFFF
                 val c = nums[nIdx].toInt() and 0xFFFF

@@ -64,16 +64,13 @@ The maximum height of stacked cuboids is 6 \* 17 = 102.
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun maxHeight(cuboids: Array<IntArray>): Int {
         for (a in cuboids) {
             a.sort()
         }
-        Arrays.sort(
-            cuboids
-        ) { a: IntArray, b: IntArray ->
+
+        cuboids.sortWith sort@{ a: IntArray, b: IntArray ->
             if (a[0] != b[0]) {
                 return@sort a[0] - b[0]
             } else if (a[1] != b[1]) {

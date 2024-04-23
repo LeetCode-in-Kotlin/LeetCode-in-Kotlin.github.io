@@ -57,11 +57,9 @@ Return _the maximum number of edges you can remove, or return_ `-1` _if it's imp
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun maxNumEdgesToRemove(n: Int, edges: Array<IntArray>): Int {
-        Arrays.sort(edges) { a: IntArray, b: IntArray -> b[0] - a[0] }
+        edges.sortWith { a: IntArray, b: IntArray -> b[0] - a[0] }
         val alice = IntArray(n + 1)
         val rankAlice = IntArray(n + 1)
         val bob = IntArray(n + 1)
