@@ -1816,6 +1816,37 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3108 |[Minimum Cost Walk in Weighted Graph](src/main/kotlin/g3101_3200/s3108_minimum_cost_walk_in_weighted_graph)| Hard | Array, Bit_Manipulation, Graph, Union_Find | 791 | 100.00
+| 3107 |[Minimum Operations to Make Median of Array Equal to K](src/main/kotlin/g3101_3200/s3107_minimum_operations_to_make_median_of_array_equal_to_k)| Medium | Array, Sorting, Greedy | 554 | 100.00
+| 3106 |[Lexicographically Smallest String After Operations With Constraint](src/main/kotlin/g3101_3200/s3106_lexicographically_smallest_string_after_operations_with_constraint)| Medium | String, Greedy | 162 | 74.19
+| 3105 |[Longest Strictly Increasing or Strictly Decreasing Subarray](src/main/kotlin/g3101_3200/s3105_longest_strictly_increasing_or_strictly_decreasing_subarray)| Easy | Array | 159 | 94.00
+| 3102 |[Minimize Manhattan Distances](src/main/kotlin/g3101_3200/s3102_minimize_manhattan_distances)| Hard | Array, Math | 701 | 95.83
+| 3101 |[Count Alternating Subarrays](src/main/kotlin/g3101_3200/s3101_count_alternating_subarrays)| Medium | Array, Math | 499 | 97.78
+| 3100 |[Water Bottles II](src/main/kotlin/g3001_3100/s3100_water_bottles_ii)| Medium | Math, Simulation | 137 | 70.49
+| 3099 |[Harshad Number](src/main/kotlin/g3001_3100/s3099_harshad_number)| Easy | Math | 119 | 82.67
+| 3098 |[Find the Sum of Subsequence Powers](src/main/kotlin/g3001_3100/s3098_find_the_sum_of_subsequence_powers)| Hard | Array, Dynamic_Programming, Sorting | 294 | 77.78
+| 3097 |[Shortest Subarray With OR at Least K II](src/main/kotlin/g3001_3100/s3097_shortest_subarray_with_or_at_least_k_ii)| Medium | Array, Bit_Manipulation, Sliding_Window | 489 | 93.33
+| 3096 |[Minimum Levels to Gain More Points](src/main/kotlin/g3001_3100/s3096_minimum_levels_to_gain_more_points)| Medium | Array, Prefix_Sum | 850 | 100.00
+| 3095 |[Shortest Subarray With OR at Least K I](src/main/kotlin/g3001_3100/s3095_shortest_subarray_with_or_at_least_k_i)| Easy | Array, Bit_Manipulation, Sliding_Window | 161 | 95.65
+| 3093 |[Longest Common Suffix Queries](src/main/kotlin/g3001_3100/s3093_longest_common_suffix_queries)| Hard | Array, String, Trie | 860 | 89.29
+| 3092 |[Most Frequent IDs](src/main/kotlin/g3001_3100/s3092_most_frequent_ids)| Medium | Array, Hash_Table, Heap_Priority_Queue, Ordered_Set | 758 | 100.00
+| 3091 |[Apply Operations to Make Sum of Array Greater Than or Equal to k](src/main/kotlin/g3001_3100/s3091_apply_operations_to_make_sum_of_array_greater_than_or_equal_to_k)| Medium | Math, Greedy, Enumeration | 134 | 73.21
+| 3090 |[Maximum Length Substring With Two Occurrences](src/main/kotlin/g3001_3100/s3090_maximum_length_substring_with_two_occurrences)| Easy | String, Hash_Table, Sliding_Window | 157 | 90.24
+| 3086 |[Minimum Moves to Pick K Ones](src/main/kotlin/g3001_3100/s3086_minimum_moves_to_pick_k_ones)| Hard | Array, Greedy, Prefix_Sum, Sliding_Window | 368 | 100.00
+| 3085 |[Minimum Deletions to Make String K-Special](src/main/kotlin/g3001_3100/s3085_minimum_deletions_to_make_string_k_special)| Medium | String, Hash_Table, Sorting, Greedy, Counting | 221 | 93.33
+| 3084 |[Count Substrings Starting and Ending with Given Character](src/main/kotlin/g3001_3100/s3084_count_substrings_starting_and_ending_with_given_character)| Medium | String, Math, Counting | 177 | 98.55
+| 3083 |[Existence of a Substring in a String and Its Reverse](src/main/kotlin/g3001_3100/s3083_existence_of_a_substring_in_a_string_and_its_reverse)| Easy | String, Hash_Table | 168 | 79.49
+| 3082 |[Find the Sum of the Power of All Subsequences](src/main/kotlin/g3001_3100/s3082_find_the_sum_of_the_power_of_all_subsequences)| Hard | Array, Dynamic_Programming | 176 | 90.00
+| 3081 |[Replace Question Marks in String to Minimize Its Value](src/main/kotlin/g3001_3100/s3081_replace_question_marks_in_string_to_minimize_its_value)| Medium | String, Hash_Table, Sorting, Greedy, Heap_Priority_Queue, Counting | 249 | 100.00
+| 3080 |[Mark Elements on Array by Performing Queries](src/main/kotlin/g3001_3100/s3080_mark_elements_on_array_by_performing_queries)| Medium | Array, Hash_Table, Sorting, Heap_Priority_Queue, Simulation | 937 | 97.78
+| 3079 |[Find the Sum of Encrypted Integers](src/main/kotlin/g3001_3100/s3079_find_the_sum_of_encrypted_integers)| Easy | Array, Math | 172 | 80.60
+| 3077 |[Maximum Strength of K Disjoint Subarrays](src/main/kotlin/g3001_3100/s3077_maximum_strength_of_k_disjoint_subarrays)| Hard | Array, Dynamic_Programming, Prefix_Sum | 351 | 75.00
+| 3076 |[Shortest Uncommon Substring in an Array](src/main/kotlin/g3001_3100/s3076_shortest_uncommon_substring_in_an_array)| Medium | Array, String, Hash_Table, Trie | 256 | 100.00
+| 3075 |[Maximize Happiness of Selected Children](src/main/kotlin/g3001_3100/s3075_maximize_happiness_of_selected_children)| Medium | Array, Sorting, Greedy | 608 | 93.24
+| 3074 |[Apple Redistribution into Boxes](src/main/kotlin/g3001_3100/s3074_apple_redistribution_into_boxes)| Easy | Array, Sorting, Greedy | 168 | 97.37
+| 3072 |[Distribute Elements Into Two Arrays II](src/main/kotlin/g3001_3100/s3072_distribute_elements_into_two_arrays_ii)| Hard | Array, Simulation, Segment_Tree, Binary_Indexed_Tree | 890 | 100.00
+| 3071 |[Minimum Operations to Write the Letter Y on a Grid](src/main/kotlin/g3001_3100/s3071_minimum_operations_to_write_the_letter_y_on_a_grid)| Medium | Array, Hash_Table, Matrix, Counting | 268 | 91.11
+| 3070 |[Count Submatrices with Top-Left Element and Sum Less Than k](src/main/kotlin/g3001_3100/s3070_count_submatrices_with_top_left_element_and_sum_less_than_k)| Medium | Array, Matrix, Prefix_Sum | 773 | 85.71
 | 3069 |[Distribute Elements Into Two Arrays I](src/main/kotlin/g3001_3100/s3069_distribute_elements_into_two_arrays_i)| Easy | Array, Simulation | 207 | 96.92
 | 3068 |[Find the Maximum Sum of Node Values](src/main/kotlin/g3001_3100/s3068_find_the_maximum_sum_of_node_values)| Hard | Array, Dynamic_Programming, Sorting, Greedy, Tree, Bit_Manipulation | 531 | 66.67
 | 3067 |[Count Pairs of Connectable Servers in a Weighted Tree Network](src/main/kotlin/g3001_3100/s3067_count_pairs_of_connectable_servers_in_a_weighted_tree_network)| Medium | Array, Depth_First_Search, Tree | 578 | 83.33

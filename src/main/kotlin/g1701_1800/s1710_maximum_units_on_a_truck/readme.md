@@ -43,13 +43,11 @@ Return _the **maximum** total number of **units** that can be put on the truck._
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 @Suppress("NAME_SHADOWING")
 class Solution {
     fun maximumUnits(boxTypes: Array<IntArray>, truckSize: Int): Int {
         var truckSize = truckSize
-        Arrays.sort(boxTypes) { b1: IntArray, b2: IntArray -> Integer.compare(b2[1], b1[1]) }
+        boxTypes.sortWith { b1: IntArray, b2: IntArray -> Integer.compare(b2[1], b1[1]) }
         var maxUnits = 0
         var i = 0
         while (truckSize > 0 && i < boxTypes.size) {
