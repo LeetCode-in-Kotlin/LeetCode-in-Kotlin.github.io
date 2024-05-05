@@ -44,11 +44,9 @@ Return _the number of **weak** characters_.
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun numberOfWeakCharacters(properties: Array<IntArray>): Int {
-        Arrays.sort(properties) { a: IntArray, b: IntArray -> if (a[0] == b[0]) b[1] - a[1] else a[0] - b[0] }
+        properties.sortWith { a: IntArray, b: IntArray -> if (a[0] == b[0]) b[1] - a[1] else a[0] - b[0] }
         var max = properties[properties.size - 1][1]
         var count = 0
         for (i in properties.size - 2 downTo 0) {

@@ -50,11 +50,9 @@ It covers 2 white tiles, so we return 2.
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun maximumWhiteTiles(tiles: Array<IntArray>, carpetLength: Int): Int {
-        Arrays.sort(tiles, { x: IntArray, y: IntArray -> x[0].compareTo(y[0]) })
+        tiles.sortWith { x: IntArray, y: IntArray -> x[0].compareTo(y[0]) }
         var currentCover = Math.min(tiles[0][1] - tiles[0][0] + 1, carpetLength)
         var maxCover = currentCover
         var head = 1

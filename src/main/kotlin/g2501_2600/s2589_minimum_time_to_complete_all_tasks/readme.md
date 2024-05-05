@@ -45,13 +45,11 @@ The computer will be on for a total of 4 seconds.
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun findMinimumTime(tasks: Array<IntArray>): Int {
         var res = 0
         val arr = BooleanArray(2001)
-        Arrays.sort(tasks) { a: IntArray, b: IntArray ->
+        tasks.sortWith { a: IntArray, b: IntArray ->
             a[1] - b[1]
         }
         for (task in tasks) {

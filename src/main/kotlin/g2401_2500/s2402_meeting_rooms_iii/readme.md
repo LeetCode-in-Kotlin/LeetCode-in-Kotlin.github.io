@@ -76,13 +76,11 @@ Room 0 held 1 meeting while rooms 1 and 2 each held 2 meetings, so we return 1.
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun mostBooked(n: Int, meetings: Array<IntArray>): Int {
         val counts = IntArray(n)
         val endTimes = LongArray(n)
-        Arrays.sort(meetings) { a: IntArray, b: IntArray -> Integer.compare(a[0], b[0]) }
+        meetings.sortWith { a: IntArray, b: IntArray -> Integer.compare(a[0], b[0]) }
         for (meeting in meetings) {
             val id = findRoomId(endTimes, meeting[0])
             counts[id]++

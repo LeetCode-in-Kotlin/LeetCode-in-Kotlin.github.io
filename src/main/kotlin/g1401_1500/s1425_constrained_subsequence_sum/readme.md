@@ -41,23 +41,21 @@ A _subsequence_ of an array is obtained by deleting some number of elements (can
 ## Solution
 
 ```kotlin
-import java.util.LinkedList
-
 class Solution {
     fun constrainedSubsetSum(nums: IntArray, k: Int): Int {
         val n = nums.size
         var res = Int.MIN_VALUE
-        val mono = LinkedList<IntArray>()
+        val mono = ArrayList<IntArray>()
         for (i in 0 until n) {
             var take = nums[i]
-            while (mono.isNotEmpty() && i - mono.first[0] > k) {
+            while (mono.isNotEmpty() && i - mono.first()[0] > k) {
                 mono.removeFirst()
             }
             if (mono.isNotEmpty()) {
-                val mx = Math.max(0, mono.first[1])
+                val mx = Math.max(0, mono.first()[1])
                 take += mx
             }
-            while (mono.isNotEmpty() && take > mono.last[1]) {
+            while (mono.isNotEmpty() && take > mono.last()[1]) {
                 mono.removeLast()
             }
             mono.add(intArrayOf(i, take))

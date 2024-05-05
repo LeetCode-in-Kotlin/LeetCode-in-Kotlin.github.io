@@ -50,14 +50,13 @@ We earn 9 + 5 + 6 = 20 dollars in total.
 ## Solution
 
 ```kotlin
-import java.util.Arrays
 import java.util.PriorityQueue
 
 @Suppress("UNUSED_PARAMETER")
 class Solution {
     fun maxTaxiEarnings(n: Int, rides: Array<IntArray>): Long {
         // Sort based on start time
-        Arrays.sort(rides) { a: IntArray, b: IntArray ->
+        rides.sortWith { a: IntArray, b: IntArray ->
             a[0] - b[0]
         }
         var max: Long = 0

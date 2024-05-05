@@ -57,11 +57,9 @@ The 2<sup>nd</sup> largest integer in nums is "0".
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun kthLargestNumber(nums: Array<String>, k: Int): String {
-        Arrays.sort(nums) { n1: String, n2: String -> compareStringInt(n2, n1) }
+        nums.sortWith { n1: String, n2: String -> compareStringInt(n2, n1) }
         return nums[k - 1]
     }
 
@@ -69,7 +67,7 @@ class Solution {
         if (n1.length != n2.length) {
             return if (n1.length < n2.length) -1 else 1
         }
-        for (i in 0 until n1.length) {
+        for (i in n1.indices) {
             val n1Digit = n1[i].code - '0'.code
             val n2Digit = n2[i].code - '0'.code
             if (n1Digit > n2Digit) {

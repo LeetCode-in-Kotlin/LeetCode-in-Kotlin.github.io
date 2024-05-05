@@ -69,8 +69,6 @@ Therefore, we return [1, 3].
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun countRectangles(rectangles: Array<IntArray>, points: Array<IntArray>): IntArray {
         val n = rectangles.size
@@ -80,7 +78,7 @@ class Solution {
         for (i in 0 until q) {
             es[n + i] = intArrayOf(points[i][0], points[i][1], i)
         }
-        Arrays.sort(es) { x: IntArray?, y: IntArray? -> if (x!![0] != y!![0]) -(x[0] - y[0]) else x.size - y.size }
+        es.sortWith { x: IntArray?, y: IntArray? -> if (x!![0] != y!![0]) -(x[0] - y[0]) else x.size - y.size }
         val ct = IntArray(101)
         val ans = IntArray(q)
         for (e in es) {

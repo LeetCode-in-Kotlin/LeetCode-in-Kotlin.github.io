@@ -53,11 +53,9 @@ Return _the matrix after sorting it._
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun sortTheStudents(score: Array<IntArray>, k: Int): Array<IntArray> {
-        Arrays.sort(score) { o1: IntArray, o2: IntArray -> o2[k] - o1[k] }
+        score.sortWith { o1: IntArray, o2: IntArray -> o2[k] - o1[k] }
         return score
     }
 }

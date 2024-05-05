@@ -54,7 +54,6 @@ Therefore, we return the max score, which is 12.
 ## Solution
 
 ```kotlin
-import java.util.Arrays
 import java.util.PriorityQueue
 
 class Solution {
@@ -66,9 +65,8 @@ class Solution {
         for (i in 0 until n) {
             nums[i] = PairInfo(nums1[i], nums2[i])
         }
-        Arrays.sort(
-            nums
-        ) { a: PairInfo?, b: PairInfo? ->
+
+        nums.sortWith sort@{ a: PairInfo?, b: PairInfo? ->
             if (a!!.val2 == b!!.val2) {
                 return@sort a.val1 - b.val1
             }

@@ -53,17 +53,15 @@ For queries[1]: Only server with id 3 gets no request in the duration [2,4].
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun countServers(n: Int, logs: Array<IntArray>, x: Int, qs: IntArray): IntArray {
         val m = qs.size
         val valIdx = Array(m) { IntArray(2) }
         for (i in 0 until m) valIdx[i] = intArrayOf(qs[i], i)
-        Arrays.sort(valIdx) { a: IntArray, b: IntArray ->
+        valIdx.sortWith { a: IntArray, b: IntArray ->
             a[0] - b[0]
         }
-        Arrays.sort(logs) { a: IntArray, b: IntArray ->
+        logs.sortWith { a: IntArray, b: IntArray ->
             a[1] - b[1]
         }
         var l = 0
