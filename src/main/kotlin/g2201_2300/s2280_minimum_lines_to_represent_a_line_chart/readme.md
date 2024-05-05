@@ -53,14 +53,12 @@ It can be shown that it is not possible to represent the line chart using less t
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun minimumLines(stockPrices: Array<IntArray>): Int {
         if (stockPrices.size == 1) {
             return 0
         }
-        Arrays.sort(stockPrices) { a: IntArray, b: IntArray -> a[0] - b[0] }
+        stockPrices.sortWith { a: IntArray, b: IntArray -> a[0] - b[0] }
         // multiply with 1.0 to make it double and multiply with 100 for making it big so that
         // difference won't come out to be very less and after division it become 0.
         // failing for one of the case without multiply 100

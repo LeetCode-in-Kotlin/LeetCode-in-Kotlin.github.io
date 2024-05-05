@@ -78,12 +78,10 @@ Thus, people 0, 1, 2, 3, and 4 know the secret after all the meetings.
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 @Suppress("NAME_SHADOWING")
 class Solution {
     fun findAllPeople(n: Int, meetings: Array<IntArray>, firstPerson: Int): List<Int> {
-        Arrays.sort(meetings) { a: IntArray, b: IntArray -> a[2] - b[2] }
+        meetings.sortWith { a: IntArray, b: IntArray -> a[2] - b[2] }
         val uf = UF(n)
         // base
         uf.union(0, firstPerson)

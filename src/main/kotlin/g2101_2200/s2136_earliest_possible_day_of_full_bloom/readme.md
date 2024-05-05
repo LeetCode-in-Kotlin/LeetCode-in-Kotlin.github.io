@@ -75,7 +75,6 @@ Thus, on day 2, all the seeds are blooming.
 ## Solution
 
 ```kotlin
-import java.util.Arrays
 import java.util.Collections
 
 class Solution {
@@ -88,7 +87,7 @@ class Solution {
         for (i in 0 until n) {
             arr[i] = Seed(plantTime[i], growTime[i])
         }
-        Arrays.sort(arr, Collections.reverseOrder())
+        arr.sortWith(Collections.reverseOrder())
         var ans = arr[0]!!.plantTime + arr[0]!!.growTime
         var lastPlantDay = arr[0]!!.plantTime
         for (i in 1 until n) {

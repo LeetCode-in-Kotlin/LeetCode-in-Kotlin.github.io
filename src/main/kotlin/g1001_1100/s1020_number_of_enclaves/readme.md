@@ -42,37 +42,44 @@ Return _the number of land cells in_ `grid` _for which we cannot walk off the bo
 
 ```kotlin
 class Solution {
-    fun numEnclaves(grid: Array<IntArray>): Int {
-        val visited = Array(grid.size) {
-            BooleanArray(
-                grid[0].size
-            )
+    private fun walk(a: Array<IntArray>, visited: Array<BooleanArray>, x: Int, y: Int) {
+        if (x >= a.size || x < 0 || y >= a[0].size || y < 0) {
+            return
         }
-        for (i in grid.indices) {
-            for (j in grid[0].indices) {
-                if (grid[i][j] == 1 && (i == 0 || j == 0 || i == grid.size - 1 || j == grid[0].size - 1)) {
-                    move(grid, i, j, visited)
+        if (visited[x][y]) {
+            return
+        }
+        if (a[x][y] == 0) {
+            return
+        }
+        visited[x][y] = true
+        walk(a, visited, x - 1, y)
+        walk(a, visited, x, y - 1)
+        walk(a, visited, x, y + 1)
+        walk(a, visited, x + 1, y)
+    }
+
+    fun numEnclaves(a: Array<IntArray>): Int {
+        val n = a.size
+        val m = a[0].size
+        val visited = Array(n) { BooleanArray(m) }
+        for (i in 0 until n) {
+            walk(a, visited, i, 0)
+            walk(a, visited, i, m - 1)
+        }
+        for (j in 0 until m) {
+            walk(a, visited, 0, j)
+            walk(a, visited, n - 1, j)
+        }
+        var unreachables = 0
+        for (i in 0 until n) {
+            for (j in 0 until m) {
+                if (a[i][j] == 1 && !visited[i][j]) {
+                    ++unreachables
                 }
             }
         }
-        var count = 0
-        for (i in 1 until visited.size - 1) {
-            for (j in 1 until visited[0].size - 1) {
-                if (!visited[i][j] && grid[i][j] == 1) count++
-            }
-        }
-        return count
-    }
-
-    companion object {
-        fun move(g: Array<IntArray>, i: Int, j: Int, b: Array<BooleanArray>) {
-            if (i < 0 || j < 0 || i == g.size || j == g[0].size || g[i][j] == 0 || b[i][j]) return
-            b[i][j] = true
-            move(g, i + 1, j, b)
-            move(g, i - 1, j, b)
-            move(g, i, j - 1, b)
-            move(g, i, j + 1, b)
-        }
+        return unreachables
     }
 }
 ```

@@ -38,8 +38,6 @@ Note that `digit_sum(x)` denotes the sum of the digits of `x`.
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     private lateinit var dp: Array<Array<Array<IntArray>>>
     private fun countStrings(i: Int, tight1: Boolean, tight2: Boolean, sum: Int, num1: String, num2: String): Int {
@@ -77,7 +75,7 @@ class Solution {
         for (dim1 in dp) {
             for (dim2 in dim1) {
                 for (dim3 in dim2) {
-                    Arrays.fill(dim3, -1)
+                    dim3.fill(-1)
                 }
             }
         }

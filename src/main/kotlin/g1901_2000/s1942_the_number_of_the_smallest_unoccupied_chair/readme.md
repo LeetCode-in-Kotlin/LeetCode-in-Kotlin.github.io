@@ -69,7 +69,6 @@ Since friend 0 sat on chair 2, we return 2.
 ## Solution
 
 ```kotlin
-import java.util.Arrays
 import java.util.PriorityQueue
 
 class Solution {
@@ -81,9 +80,8 @@ class Solution {
             all[2 * i] = Person(i, times[i][0], false, true)
             all[2 * i + 1] = Person(i, times[i][1], true, false)
         }
-        Arrays.sort(
-            all
-        ) { a: Person?, b: Person? ->
+
+        all.sortWith { a: Person?, b: Person? ->
             val i = if (a!!.leave) -1 else 1
             val j = if (b!!.leave) -1 else 1
             if (a.time == b.time) i - j else a.time - b.time

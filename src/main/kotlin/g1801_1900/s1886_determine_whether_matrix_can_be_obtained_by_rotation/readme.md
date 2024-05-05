@@ -47,12 +47,10 @@ Given two `n x n` binary matrices `mat` and `target`, return `true` _if it is po
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
-    fun findRotation(mat: Array<IntArray>, target: Array<IntArray?>?): Boolean {
+    fun findRotation(mat: Array<IntArray>, target: Array<IntArray>): Boolean {
         for (i in 0..3) {
-            if (Arrays.deepEquals(mat, target)) {
+            if (mat.contentDeepEquals(target)) {
                 return true
             }
             rotate(mat)

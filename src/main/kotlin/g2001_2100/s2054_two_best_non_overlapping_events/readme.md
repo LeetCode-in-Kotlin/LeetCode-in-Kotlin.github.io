@@ -51,11 +51,9 @@ Note that the start time and end time is **inclusive**: that is, you cannot atte
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 class Solution {
     fun maxTwoEvents(events: Array<IntArray>): Int {
-        Arrays.sort(events) { a: IntArray, b: IntArray -> a[0] - b[0] }
+        events.sortWith { a: IntArray, b: IntArray -> a[0] - b[0] }
         val max = IntArray(events.size)
         for (i in events.indices.reversed()) {
             if (i == events.size - 1) {
