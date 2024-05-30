@@ -51,18 +51,12 @@ Return _the **maximum sum** of values that you can receive by attending events._
 ## Solution
 
 ```kotlin
-import java.util.Arrays
-
 @Suppress("NAME_SHADOWING")
 class Solution {
     fun maxValue(events: Array<IntArray>, k: Int): Int {
         if (k == 1) {
-            val value = Arrays.stream(events).max({ a: IntArray, b: IntArray -> a[2].compareTo(b[2]) })
-            return if (value.isPresent) {
-                value.get()[2]
-            } else {
-                throw NullPointerException()
-            }
+            val value = events.maxByOrNull { it[2] }
+            return value?.get(2) ?: throw NullPointerException()
         }
         val n = events.size
         events.sortWith { a: IntArray, b: IntArray -> a[0].compareTo(b[0]) }
