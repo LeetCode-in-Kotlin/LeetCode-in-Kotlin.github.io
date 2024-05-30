@@ -37,7 +37,6 @@ Given the `root` of a binary tree, return _the bottom-up level order traversal o
 ```kotlin
 import com_github_leetcode.TreeNode
 import java.util.Collections
-import kotlin.collections.ArrayList
 
 /*
  * Example:

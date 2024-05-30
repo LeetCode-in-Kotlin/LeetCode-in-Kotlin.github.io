@@ -46,7 +46,6 @@ Return _the_ `k` _pairs_ <code>(u<sub>1</sub>, v<sub>1</sub>), (u<sub>2</sub>, v
 
 ```kotlin
 import java.util.PriorityQueue
-import kotlin.collections.ArrayList
 
 class Solution {
     private class Node(index: Int, num1: Int, num2: Int) {
