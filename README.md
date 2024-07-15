@@ -2,7 +2,6 @@
 [![](https://img.shields.io/github/forks/javadev/LeetCode-in-Kotlin?label=Fork%20me%20on%20GitHub%20&style=flat-square)](https://github.com/javadev/LeetCode-in-Kotlin/fork)
 > ["For coding interview preparation, LeetCode is one of the best online resource providing a rich library of more than 300 real coding interview questions for you to practice from using one of the 7 supported languages - C, C++, Java, Python, C#, JavaScript, Ruby."](https://www.quora.com/How-effective-is-Leetcode-for-preparing-for-technical-interviews)
 
-* [SQL I](#sql-i)
 * [Level 1](#level-1)
 * [Level 2](#level-2)
 * [Udemy](#udemy)
@@ -16,91 +15,7 @@
 * [Programming Skills I](#programming-skills-i)
 * [Programming Skills II](#programming-skills-ii)
 * [Graph Theory I](#graph-theory-i)
-
-### SQL I
-
-#### Day 1 Select
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0595 |[Big Countries](src/main/kotlin/g0501_0600/s0595_big_countries)| Easy | Database | 417 | 56.09
-| 1757 |[Recyclable and Low Fat Products](src/main/kotlin/g1701_1800/s1757_recyclable_and_low_fat_products)| Easy | Database | 1237 | 34.20
-| 0584 |[Find Customer Referee](src/main/kotlin/g0501_0600/s0584_find_customer_referee)| Easy | Database | 779 | 43.48
-| 0183 |[Customers Who Never Order](src/main/kotlin/g0101_0200/s0183_customers_who_never_order)| Easy | Database | 712 | 33.67
-
-#### Day 2 Select and Order
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 1873 |[Calculate Special Bonus](src/main/kotlin/g1801_1900/s1873_calculate_special_bonus)| Easy | Database | 1321 | 33.12
-| 0627 |[Swap Salary](src/main/kotlin/g0601_0700/s0627_swap_salary)| Easy | Database | 400 | 51.04
-| 0196 |[Delete Duplicate Emails](src/main/kotlin/g0101_0200/s0196_delete_duplicate_emails)| Easy | Database | 593 | 94.17
-
-#### Day 3 String Processing Functions
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 1667 |[Fix Names in a Table](src/main/kotlin/g1601_1700/s1667_fix_names_in_a_table)| Easy | Database | 1196 | 61.40
-| 1484 |[Group Sold Products By The Date](src/main/kotlin/g1401_1500/s1484_group_sold_products_by_the_date)| Easy | LeetCode_Curated_SQL_70, Database | 899 | 40.76
-| 1527 |[Patients With a Condition](src/main/kotlin/g1501_1600/s1527_patients_with_a_condition)| Easy | Database | 708 | 48.23
-
-#### Day 4 Union and Select
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 1965 |[Employees With Missing Information](src/main/kotlin/g1901_2000/s1965_employees_with_missing_information)| Easy | Database | 949 | 88.66
-| 1795 |[Rearrange Products Table](src/main/kotlin/g1701_1800/s1795_rearrange_products_table)| Easy | Database | 1027 | 67.57
-| 0608 |[Tree Node](src/main/kotlin/g0601_0700/s0608_tree_node)| Medium | LeetCode_Curated_SQL_70, Database | 794 | 48.38
-| 0176 |[Second Highest Salary](src/main/kotlin/g0101_0200/s0176_second_highest_salary)| Medium | Database | 219 | 92.54
-
-#### Day 5 Union
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0175 |[Combine Two Tables](src/main/kotlin/g0101_0200/s0175_combine_two_tables)| Easy | Database | 473 | 54.97
-| 1581 |[Customer Who Visited but Did Not Make Any Transactions](src/main/kotlin/g1501_1600/s1581_customer_who_visited_but_did_not_make_any_transactions)| Easy | Database | 2771 | 54.68
-| 1148 |[Article Views I](src/main/kotlin/g1101_1200/s1148_article_views_i)| Easy | LeetCode_Curated_SQL_70, Database | 806 | 54.41
-
-#### Day 6 Union
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0197 |[Rising Temperature](src/main/kotlin/g0101_0200/s0197_rising_temperature)| Easy | Database | 394 | 94.15
-| 0607 |[Sales Person](src/main/kotlin/g0601_0700/s0607_sales_person)| Easy | LeetCode_Curated_SQL_70, Database | 2142 | 44.56
-
-#### Day 7 Function
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 1141 |[User Activity for the Past 30 Days I](src/main/kotlin/g1101_1200/s1141_user_activity_for_the_past_30_days_i)| Easy | LeetCode_Curated_SQL_70, Database | 790 | 87.11
-| 1693 |[Daily Leads and Partners](src/main/kotlin/g1601_1700/s1693_daily_leads_and_partners)| Easy | Database | 1115 | 52.84
-| 1729 |[Find Followers Count](src/main/kotlin/g1701_1800/s1729_find_followers_count)| Easy | Database | 1228 | 38.04
-
-#### Day 8 Function
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0586 |[Customer Placing the Largest Number of Orders](src/main/kotlin/g0501_0600/s0586_customer_placing_the_largest_number_of_orders)| Easy | LeetCode_Curated_SQL_70, Database | 768 | 44.85
-| 0511 |[Game Play Analysis I](src/main/kotlin/g0501_0600/s0511_game_play_analysis_i)| Easy | LeetCode_Curated_SQL_70, Database | 790 | 45.04
-| 1890 |[The Latest Login in 2020](src/main/kotlin/g1801_1900/s1890_the_latest_login_in_2020)| Easy | Database | 1280 | 43.62
-| 1741 |[Find Total Time Spent by Each Employee](src/main/kotlin/g1701_1800/s1741_find_total_time_spent_by_each_employee)| Easy | Database | 1101 | 51.40
-
-#### Day 9 Control of Flow
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 1393 |[Capital Gain/Loss](src/main/kotlin/g1301_1400/s1393_capital_gainloss)| Medium | LeetCode_Curated_SQL_70, Database | 990 | 47.36
-| 1407 |[Top Travellers](src/main/kotlin/g1401_1500/s1407_top_travellers)| Easy | LeetCode_Curated_SQL_70, Database | 1394 | 98.43
-| 1158 |[Market Analysis I](src/main/kotlin/g1101_1200/s1158_market_analysis_i)| Medium | Database | 2470 | 44.76
-
-#### Day 10 Where
-
-| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
-|-|-|-|-|-|-
-| 0182 |[Duplicate Emails](src/main/kotlin/g0101_0200/s0182_duplicate_emails)| Easy | Database | 396 | 68.40
-| 1050 |[Actors and Directors Who Cooperated At Least Three Times](src/main/kotlin/g1001_1100/s1050_actors_and_directors_who_cooperated_at_least_three_times)| Easy | LeetCode_Curated_SQL_70, Database | 629 | 81.02
-| 1587 |[Bank Account Summary II](src/main/kotlin/g1501_1600/s1587_bank_account_summary_ii)| Easy | Database | 1582 | 52.96
-| 1084 |[Sales Analysis III](src/main/kotlin/g1001_1100/s1084_sales_analysis_iii)| Easy | LeetCode_Curated_SQL_70, Database | 1881 | 79.36
+* [SQL I](#sql-i)
 
 ### Level 1
 
@@ -1812,10 +1727,119 @@
 | 0886 |[Possible Bipartition](src/main/kotlin/g0801_0900/s0886_possible_bipartition)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Union_Find | 397 | 100.00
 | 0785 |[Is Graph Bipartite?](src/main/kotlin/g0701_0800/s0785_is_graph_bipartite)| Medium | Depth_First_Search, Breadth_First_Search, Graph, Union_Find | 215 | 82.35
 
+### SQL I
+
+#### Day 1 Select
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0595 |[Big Countries](src/main/kotlin/g0501_0600/s0595_big_countries)| Easy | Database | 417 | 56.09
+| 1757 |[Recyclable and Low Fat Products](src/main/kotlin/g1701_1800/s1757_recyclable_and_low_fat_products)| Easy | Database | 1237 | 34.20
+| 0584 |[Find Customer Referee](src/main/kotlin/g0501_0600/s0584_find_customer_referee)| Easy | Database | 779 | 43.48
+| 0183 |[Customers Who Never Order](src/main/kotlin/g0101_0200/s0183_customers_who_never_order)| Easy | Database | 712 | 33.67
+
+#### Day 2 Select and Order
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 1873 |[Calculate Special Bonus](src/main/kotlin/g1801_1900/s1873_calculate_special_bonus)| Easy | Database | 1321 | 33.12
+| 0627 |[Swap Salary](src/main/kotlin/g0601_0700/s0627_swap_salary)| Easy | Database | 400 | 51.04
+| 0196 |[Delete Duplicate Emails](src/main/kotlin/g0101_0200/s0196_delete_duplicate_emails)| Easy | Database | 593 | 94.17
+
+#### Day 3 String Processing Functions
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 1667 |[Fix Names in a Table](src/main/kotlin/g1601_1700/s1667_fix_names_in_a_table)| Easy | Database | 1196 | 61.40
+| 1484 |[Group Sold Products By The Date](src/main/kotlin/g1401_1500/s1484_group_sold_products_by_the_date)| Easy | LeetCode_Curated_SQL_70, Database | 899 | 40.76
+| 1527 |[Patients With a Condition](src/main/kotlin/g1501_1600/s1527_patients_with_a_condition)| Easy | Database | 708 | 48.23
+
+#### Day 4 Union and Select
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 1965 |[Employees With Missing Information](src/main/kotlin/g1901_2000/s1965_employees_with_missing_information)| Easy | Database | 949 | 88.66
+| 1795 |[Rearrange Products Table](src/main/kotlin/g1701_1800/s1795_rearrange_products_table)| Easy | Database | 1027 | 67.57
+| 0608 |[Tree Node](src/main/kotlin/g0601_0700/s0608_tree_node)| Medium | LeetCode_Curated_SQL_70, Database | 794 | 48.38
+| 0176 |[Second Highest Salary](src/main/kotlin/g0101_0200/s0176_second_highest_salary)| Medium | Database | 219 | 92.54
+
+#### Day 5 Union
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0175 |[Combine Two Tables](src/main/kotlin/g0101_0200/s0175_combine_two_tables)| Easy | Database | 473 | 54.97
+| 1581 |[Customer Who Visited but Did Not Make Any Transactions](src/main/kotlin/g1501_1600/s1581_customer_who_visited_but_did_not_make_any_transactions)| Easy | Database | 2771 | 54.68
+| 1148 |[Article Views I](src/main/kotlin/g1101_1200/s1148_article_views_i)| Easy | LeetCode_Curated_SQL_70, Database | 806 | 54.41
+
+#### Day 6 Union
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0197 |[Rising Temperature](src/main/kotlin/g0101_0200/s0197_rising_temperature)| Easy | Database | 394 | 94.15
+| 0607 |[Sales Person](src/main/kotlin/g0601_0700/s0607_sales_person)| Easy | LeetCode_Curated_SQL_70, Database | 2142 | 44.56
+
+#### Day 7 Function
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 1141 |[User Activity for the Past 30 Days I](src/main/kotlin/g1101_1200/s1141_user_activity_for_the_past_30_days_i)| Easy | LeetCode_Curated_SQL_70, Database | 790 | 87.11
+| 1693 |[Daily Leads and Partners](src/main/kotlin/g1601_1700/s1693_daily_leads_and_partners)| Easy | Database | 1115 | 52.84
+| 1729 |[Find Followers Count](src/main/kotlin/g1701_1800/s1729_find_followers_count)| Easy | Database | 1228 | 38.04
+
+#### Day 8 Function
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0586 |[Customer Placing the Largest Number of Orders](src/main/kotlin/g0501_0600/s0586_customer_placing_the_largest_number_of_orders)| Easy | LeetCode_Curated_SQL_70, Database | 768 | 44.85
+| 0511 |[Game Play Analysis I](src/main/kotlin/g0501_0600/s0511_game_play_analysis_i)| Easy | LeetCode_Curated_SQL_70, Database | 790 | 45.04
+| 1890 |[The Latest Login in 2020](src/main/kotlin/g1801_1900/s1890_the_latest_login_in_2020)| Easy | Database | 1280 | 43.62
+| 1741 |[Find Total Time Spent by Each Employee](src/main/kotlin/g1701_1800/s1741_find_total_time_spent_by_each_employee)| Easy | Database | 1101 | 51.40
+
+#### Day 9 Control of Flow
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 1393 |[Capital Gain/Loss](src/main/kotlin/g1301_1400/s1393_capital_gainloss)| Medium | LeetCode_Curated_SQL_70, Database | 990 | 47.36
+| 1407 |[Top Travellers](src/main/kotlin/g1401_1500/s1407_top_travellers)| Easy | LeetCode_Curated_SQL_70, Database | 1394 | 98.43
+| 1158 |[Market Analysis I](src/main/kotlin/g1101_1200/s1158_market_analysis_i)| Medium | Database | 2470 | 44.76
+
+#### Day 10 Where
+
+| <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
+|-|-|-|-|-|-
+| 0182 |[Duplicate Emails](src/main/kotlin/g0101_0200/s0182_duplicate_emails)| Easy | Database | 396 | 68.40
+| 1050 |[Actors and Directors Who Cooperated At Least Three Times](src/main/kotlin/g1001_1100/s1050_actors_and_directors_who_cooperated_at_least_three_times)| Easy | LeetCode_Curated_SQL_70, Database | 629 | 81.02
+| 1587 |[Bank Account Summary II](src/main/kotlin/g1501_1600/s1587_bank_account_summary_ii)| Easy | Database | 1582 | 52.96
+| 1084 |[Sales Analysis III](src/main/kotlin/g1001_1100/s1084_sales_analysis_iii)| Easy | LeetCode_Curated_SQL_70, Database | 1881 | 79.36
+
 ## Algorithms
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3213 |[Construct String with Minimum Cost](src/main/kotlin/g3201_3300/s3213_construct_string_with_minimum_cost)| Hard | Array, String, Dynamic_Programming, Suffix_Array | 1176 | 46.67
+| 3212 |[Count Submatrices With Equal Frequency of X and Y](src/main/kotlin/g3201_3300/s3212_count_submatrices_with_equal_frequency_of_x_and_y)| Medium | Array, Matrix, Prefix_Sum | 1009 | 78.95
+| 3211 |[Generate Binary Strings Without Adjacent Zeros](src/main/kotlin/g3201_3300/s3211_generate_binary_strings_without_adjacent_zeros)| Medium | String, Bit_Manipulation, Recursion | 237 | 38.18
+| 3210 |[Find the Encrypted String](src/main/kotlin/g3201_3300/s3210_find_the_encrypted_string)| Easy | String | 170 | 62.69
+| 3209 |[Number of Subarrays With AND Value of K](src/main/kotlin/g3201_3300/s3209_number_of_subarrays_with_and_value_of_k)| Hard | Array, Binary_Search, Bit_Manipulation, Segment_Tree | 530 | 100.00
+| 3208 |[Alternating Groups II](src/main/kotlin/g3201_3300/s3208_alternating_groups_ii)| Medium | Array, Sliding_Window | 449 | 97.62
+| 3207 |[Maximum Points After Enemy Battles](src/main/kotlin/g3201_3300/s3207_maximum_points_after_enemy_battles)| Medium | Array, Greedy | 470 | 100.00
+| 3206 |[Alternating Groups I](src/main/kotlin/g3201_3300/s3206_alternating_groups_i)| Easy | Array, Sliding_Window | 167 | 88.14
+| 3203 |[Find Minimum Diameter After Merging Two Trees](src/main/kotlin/g3201_3300/s3203_find_minimum_diameter_after_merging_two_trees)| Hard | Depth_First_Search, Breadth_First_Search, Tree, Graph | 1156 | 100.00
+| 3202 |[Find the Maximum Length of Valid Subsequence II](src/main/kotlin/g3201_3300/s3202_find_the_maximum_length_of_valid_subsequence_ii)| Medium | Array, Dynamic_Programming | 255 | 97.30
+| 3201 |[Find the Maximum Length of Valid Subsequence I](src/main/kotlin/g3201_3300/s3201_find_the_maximum_length_of_valid_subsequence_i)| Medium | Array, Dynamic_Programming | 512 | 89.36
+| 3200 |[Maximum Height of a Triangle](src/main/kotlin/g3101_3200/s3200_maximum_height_of_a_triangle)| Easy | Array, Enumeration | 136 | 81.36
+| 3197 |[Find the Minimum Area to Cover All Ones II](src/main/kotlin/g3101_3200/s3197_find_the_minimum_area_to_cover_all_ones_ii)| Hard | Array, Matrix, Enumeration | 216 | 100.00
+| 3196 |[Maximize Total Cost of Alternating Subarrays](src/main/kotlin/g3101_3200/s3196_maximize_total_cost_of_alternating_subarrays)| Medium | Array, Dynamic_Programming | 496 | 73.81
+| 3195 |[Find the Minimum Area to Cover All Ones I](src/main/kotlin/g3101_3200/s3195_find_the_minimum_area_to_cover_all_ones_i)| Medium | Array, Matrix | 1068 | 73.91
+| 3194 |[Minimum Average of Smallest and Largest Elements](src/main/kotlin/g3101_3200/s3194_minimum_average_of_smallest_and_largest_elements)| Easy | Array, Sorting, Two_Pointers | 192 | 94.25
+| 3193 |[Count the Number of Inversions](src/main/kotlin/g3101_3200/s3193_count_the_number_of_inversions)| Hard | Array, Dynamic_Programming | 243 | 94.74
+| 3192 |[Minimum Operations to Make Binary Array Elements Equal to One II](src/main/kotlin/g3101_3200/s3192_minimum_operations_to_make_binary_array_elements_equal_to_one_ii)| Medium | Array, Dynamic_Programming, Greedy | 684 | 64.29
+| 3191 |[Minimum Operations to Make Binary Array Elements Equal to One I](src/main/kotlin/g3101_3200/s3191_minimum_operations_to_make_binary_array_elements_equal_to_one_i)| Medium | Array, Bit_Manipulation, Prefix_Sum, Sliding_Window, Queue | 653 | 57.35
+| 3190 |[Find Minimum Operations to Make All Elements Divisible by Three](src/main/kotlin/g3101_3200/s3190_find_minimum_operations_to_make_all_elements_divisible_by_three)| Easy | Array, Math | 153 | 87.95
+| 3187 |[Peaks in Array](src/main/kotlin/g3101_3200/s3187_peaks_in_array)| Hard | Array, Segment_Tree, Binary_Indexed_Tree | 1339 | 80.00
+| 3186 |[Maximum Total Damage With Spell Casting](src/main/kotlin/g3101_3200/s3186_maximum_total_damage_with_spell_casting)| Medium | Array, Hash_Table, Dynamic_Programming, Sorting, Binary_Search, Two_Pointers, Counting | 1106 | 92.73
+| 3185 |[Count Pairs That Form a Complete Day II](src/main/kotlin/g3101_3200/s3185_count_pairs_that_form_a_complete_day_ii)| Medium | Array, Hash_Table, Counting | 578 | 78.33
+| 3184 |[Count Pairs That Form a Complete Day I](src/main/kotlin/g3101_3200/s3184_count_pairs_that_form_a_complete_day_i)| Easy | Array, Hash_Table, Counting | 171 | 68.42
 | 3181 |[Maximum Total Reward Using Operations II](src/main/kotlin/g3101_3200/s3181_maximum_total_reward_using_operations_ii)| Hard | Array, Dynamic_Programming, Bit_Manipulation | 376 | 100.00
 | 3180 |[Maximum Total Reward Using Operations I](src/main/kotlin/g3101_3200/s3180_maximum_total_reward_using_operations_i)| Medium | Array, Dynamic_Programming | 183 | 100.00
 | 3179 |[Find the N-th Value After K Seconds](src/main/kotlin/g3101_3200/s3179_find_the_n_th_value_after_k_seconds)| Medium | Array, Math, Simulation, Prefix_Sum, Combinatorics | 175 | 100.00
