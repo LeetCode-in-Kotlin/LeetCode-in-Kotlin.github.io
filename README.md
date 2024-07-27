@@ -1816,6 +1816,19 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3229 |[Minimum Operations to Make Array Equal to Target](src/main/kotlin/g3201_3300/s3229_minimum_operations_to_make_array_equal_to_target)| Hard | Array, Dynamic_Programming, Greedy, Stack, Monotonic_Stack | 636 | 57.14
+| 3228 |[Maximum Number of Operations to Move Ones to the End](src/main/kotlin/g3201_3300/s3228_maximum_number_of_operations_to_move_ones_to_the_end)| Medium | String, Greedy, Counting | 232 | 44.00
+| 3227 |[Vowels Game in a String](src/main/kotlin/g3201_3300/s3227_vowels_game_in_a_string)| Medium | String, Math, Game_Theory, Brainteaser | 234 | 90.32
+| 3226 |[Number of Bit Changes to Make Two Integers Equal](src/main/kotlin/g3201_3300/s3226_number_of_bit_changes_to_make_two_integers_equal)| Easy | Bit_Manipulation | 136 | 61.90
+| 3225 |[Maximum Score From Grid Operations](src/main/kotlin/g3201_3300/s3225_maximum_score_from_grid_operations)| Hard | Array, Dynamic_Programming, Matrix, Prefix_Sum | 371 | 100.00
+| 3224 |[Minimum Array Changes to Make Differences Equal](src/main/kotlin/g3201_3300/s3224_minimum_array_changes_to_make_differences_equal)| Medium | Array, Hash_Table, Prefix_Sum | 665 | 84.62
+| 3223 |[Minimum Length of String After Operations](src/main/kotlin/g3201_3300/s3223_minimum_length_of_string_after_operations)| Medium | String, Hash_Table, Counting | 316 | 60.00
+| 3222 |[Find the Winning Player in Coin Game](src/main/kotlin/g3201_3300/s3222_find_the_winning_player_in_coin_game)| Easy | Math, Simulation, Game_Theory | 140 | 86.44
+| 3220 |[Odd and Even Transactions](src/main/kotlin/g3201_3300/s3220_odd_and_even_transactions)| Medium | Database | 248 | 85.85
+| 3219 |[Minimum Cost for Cutting Cake II](src/main/kotlin/g3201_3300/s3219_minimum_cost_for_cutting_cake_ii)| Hard | Array, Sorting, Greedy | 776 | 100.00
+| 3218 |[Minimum Cost for Cutting Cake I](src/main/kotlin/g3201_3300/s3218_minimum_cost_for_cutting_cake_i)| Medium | Array, Dynamic_Programming, Sorting, Greedy | 175 | 78.05
+| 3217 |[Delete Nodes From Linked List Present in Array](src/main/kotlin/g3201_3300/s3217_delete_nodes_from_linked_list_present_in_array)| Medium | Array, Hash_Table, Linked_List | 872 | 98.31
+| 3216 |[Lexicographically Smallest String After a Swap](src/main/kotlin/g3201_3300/s3216_lexicographically_smallest_string_after_a_swap)| Easy | String, Greedy | 157 | 95.16
 | 3213 |[Construct String with Minimum Cost](src/main/kotlin/g3201_3300/s3213_construct_string_with_minimum_cost)| Hard | Array, String, Dynamic_Programming, Suffix_Array | 1176 | 46.67
 | 3212 |[Count Submatrices With Equal Frequency of X and Y](src/main/kotlin/g3201_3300/s3212_count_submatrices_with_equal_frequency_of_x_and_y)| Medium | Array, Matrix, Prefix_Sum | 1009 | 78.95
 | 3211 |[Generate Binary Strings Without Adjacent Zeros](src/main/kotlin/g3201_3300/s3211_generate_binary_strings_without_adjacent_zeros)| Medium | String, Bit_Manipulation, Recursion | 237 | 38.18
