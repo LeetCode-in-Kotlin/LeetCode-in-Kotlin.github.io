@@ -1816,6 +1816,18 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3251 |[Find the Count of Monotonic Pairs II](src/main/kotlin/g3201_3300/s3251_find_the_count_of_monotonic_pairs_ii)| Hard | Array, Dynamic_Programming, Math, Prefix_Sum, Combinatorics | 291 | 100.00
+| 3250 |[Find the Count of Monotonic Pairs I](src/main/kotlin/g3201_3300/s3250_find_the_count_of_monotonic_pairs_i)| Hard | Array, Dynamic_Programming, Math, Prefix_Sum, Combinatorics | 241 | 100.00
+| 3249 |[Count the Number of Good Nodes](src/main/kotlin/g3201_3300/s3249_count_the_number_of_good_nodes)| Medium | Depth_First_Search, Tree | 1190 | 100.00
+| 3248 |[Snake in Matrix](src/main/kotlin/g3201_3300/s3248_snake_in_matrix)| Easy | Array, String, Simulation | 174 | 90.91
+| 3245 |[Alternating Groups III](src/main/kotlin/g3201_3300/s3245_alternating_groups_iii)| Hard | Array, Binary_Indexed_Tree | 1072 | 100.00
+| 3244 |[Shortest Distance After Road Addition Queries II](src/main/kotlin/g3201_3300/s3244_shortest_distance_after_road_addition_queries_ii)| Hard | Array, Greedy, Graph, Ordered_Set | 794 | 92.31
+| 3243 |[Shortest Distance After Road Addition Queries I](src/main/kotlin/g3201_3300/s3243_shortest_distance_after_road_addition_queries_i)| Medium | Array, Breadth_First_Search, Graph | 313 | 97.06
+| 3242 |[Design Neighbor Sum Service](src/main/kotlin/g3201_3300/s3242_design_neighbor_sum_service)| Easy | Array, Hash_Table, Matrix, Design, Simulation | 333 | 75.00
+| 3241 |[Time Taken to Mark All Nodes](src/main/kotlin/g3201_3300/s3241_time_taken_to_mark_all_nodes)| Hard | Dynamic_Programming, Depth_First_Search, Tree, Graph | 1228 | 100.00
+| 3240 |[Minimum Number of Flips to Make Binary Grid Palindromic II](src/main/kotlin/g3201_3300/s3240_minimum_number_of_flips_to_make_binary_grid_palindromic_ii)| Medium | Array, Matrix, Two_Pointers | 805 | 100.00
+| 3239 |[Minimum Number of Flips to Make Binary Grid Palindromic I](src/main/kotlin/g3201_3300/s3239_minimum_number_of_flips_to_make_binary_grid_palindromic_i)| Medium | Array, Matrix, Two_Pointers | 856 | 87.50
+| 3238 |[Find the Number of Winning Players](src/main/kotlin/g3201_3300/s3238_find_the_number_of_winning_players)| Easy | Array, Hash_Table, Counting | 207 | 90.38
 | 3235 |[Check if the Rectangle Corner Is Reachable](src/main/kotlin/g3201_3300/s3235_check_if_the_rectangle_corner_is_reachable)| Hard | Array, Math, Depth_First_Search, Breadth_First_Search, Union_Find, Geometry | 612 | 66.67
 | 3234 |[Count the Number of Substrings With Dominant Ones](src/main/kotlin/g3201_3300/s3234_count_the_number_of_substrings_with_dominant_ones)| Medium | String, Sliding_Window, Enumeration | 356 | 100.00
 | 3233 |[Find the Count of Numbers Which Are Not Special](src/main/kotlin/g3201_3300/s3233_find_the_count_of_numbers_which_are_not_special)| Medium | Array, Math, Number_Theory | 215 | 76.19
