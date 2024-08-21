@@ -1816,6 +1816,14 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3261 |[Count Substrings That Satisfy K-Constraint II](src/main/kotlin/g3201_3300/s3261_count_substrings_that_satisfy_k_constraint_ii)| Hard | Array, String, Binary_Search, Prefix_Sum, Sliding_Window | 1005 | 100.00
+| 3260 |[Find the Largest Palindrome Divisible by K](src/main/kotlin/g3201_3300/s3260_find_the_largest_palindrome_divisible_by_k)| Hard | String, Dynamic_Programming, Math, Greedy, Number_Theory | 211 | 100.00
+| 3259 |[Maximum Energy Boost From Two Drinks](src/main/kotlin/g3201_3300/s3259_maximum_energy_boost_from_two_drinks)| Medium | Array, Dynamic_Programming | 811 | 96.88
+| 3258 |[Count Substrings That Satisfy K-Constraint I](src/main/kotlin/g3201_3300/s3258_count_substrings_that_satisfy_k_constraint_i)| Easy | String, Sliding_Window | 155 | 92.86
+| 3257 |[Maximum Value Sum by Placing Three Rooks II](src/main/kotlin/g3201_3300/s3257_maximum_value_sum_by_placing_three_rooks_ii)| Hard | Array, Dynamic_Programming, Matrix, Enumeration | 770 | 100.00
+| 3256 |[Maximum Value Sum by Placing Three Rooks I](src/main/kotlin/g3201_3300/s3256_maximum_value_sum_by_placing_three_rooks_i)| Hard | Array, Dynamic_Programming, Matrix, Enumeration | 279 | 100.00
+| 3255 |[Find the Power of K-Size Subarrays II](src/main/kotlin/g3201_3300/s3255_find_the_power_of_k_size_subarrays_ii)| Medium | Array, Sliding_Window | 892 | 89.36
+| 3254 |[Find the Power of K-Size Subarrays I](src/main/kotlin/g3201_3300/s3254_find_the_power_of_k_size_subarrays_i)| Medium | Array, Sliding_Window | 245 | 92.59
 | 3251 |[Find the Count of Monotonic Pairs II](src/main/kotlin/g3201_3300/s3251_find_the_count_of_monotonic_pairs_ii)| Hard | Array, Dynamic_Programming, Math, Prefix_Sum, Combinatorics | 291 | 100.00
 | 3250 |[Find the Count of Monotonic Pairs I](src/main/kotlin/g3201_3300/s3250_find_the_count_of_monotonic_pairs_i)| Hard | Array, Dynamic_Programming, Math, Prefix_Sum, Combinatorics | 241 | 100.00
 | 3249 |[Count the Number of Good Nodes](src/main/kotlin/g3201_3300/s3249_count_the_number_of_good_nodes)| Medium | Depth_First_Search, Tree | 1190 | 100.00
@@ -4186,7 +4194,7 @@
 | 0228 |[Summary Ranges](src/main/kotlin/g0201_0300/s0228_summary_ranges)| Easy | Array | 169 | 91.89
 | 0227 |[Basic Calculator II](src/main/kotlin/g0201_0300/s0227_basic_calculator_ii)| Medium | String, Math, Stack, Level_2_Day_18_Stack | 383 | 62.50
 | 0226 |[Invert Binary Tree](src/main/kotlin/g0201_0300/s0226_invert_binary_tree)| Easy | Top_100_Liked_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Data_Structure_I_Day_12_Tree, Level_2_Day_6_Tree, Udemy_Tree_Stack_Queue, Big_O_Time_O(n)_Space_O(n) | 233 | 54.90
-| 0225 |[Implement Stack using Queues](src/main/kotlin/g0201_0300/s0225_implement_stack_using_queues)| Easy | Stack, Design, Queue | 248 | 73.44
+| 0225 |[Implement Stack using Queues](src/main/kotlin/g0201_0300/s0225_implement_stack_using_queues)| Easy | Stack, Design, Queue | 147 | 88.57
 | 0224 |[Basic Calculator](src/main/kotlin/g0201_0300/s0224_basic_calculator)| Hard | String, Math, Stack, Recursion | 294 | 93.33
 | 0223 |[Rectangle Area](src/main/kotlin/g0201_0300/s0223_rectangle_area)| Medium | Math, Geometry | 291 | 66.67
 | 0222 |[Count Complete Tree Nodes](src/main/kotlin/g0201_0300/s0222_count_complete_tree_nodes)| |||
