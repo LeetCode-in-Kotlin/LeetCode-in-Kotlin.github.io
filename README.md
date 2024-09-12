@@ -1816,6 +1816,10 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3283 |[Maximum Number of Moves to Kill All Pawns](src/main/kotlin/g3201_3300/s3283_maximum_number_of_moves_to_kill_all_pawns)| Hard | Array, Math, Breadth_First_Search, Bit_Manipulation, Bitmask, Game_Theory | 638 | 100.00
+| 3282 |[Reach End of Array With Max Score](src/main/kotlin/g3201_3300/s3282_reach_end_of_array_with_max_score)| Medium | Array, Greedy | 789 | 90.91
+| 3281 |[Maximize Score of Numbers in Ranges](src/main/kotlin/g3201_3300/s3281_maximize_score_of_numbers_in_ranges)| Medium | Array, Sorting, Greedy, Binary_Search | 710 | 88.24
+| 3280 |[Convert Date to Binary](src/main/kotlin/g3201_3300/s3280_convert_date_to_binary)| Easy | String, Math | 174 | 79.31
 | 3277 |[Maximum XOR Score Subarray Queries](src/main/kotlin/g3201_3300/s3277_maximum_xor_score_subarray_queries)| Hard | Array, Dynamic_Programming | 1269 | 100.00
 | 3276 |[Select Cells in Grid With Maximum Score](src/main/kotlin/g3201_3300/s3276_select_cells_in_grid_with_maximum_score)| Hard | Array, Dynamic_Programming, Matrix, Bit_Manipulation, Bitmask | 213 | 92.31
 | 3275 |[K-th Nearest Obstacle Queries](src/main/kotlin/g3201_3300/s3275_k_th_nearest_obstacle_queries)| Medium | Array, Heap_Priority_Queue | 1277 | 100.00
