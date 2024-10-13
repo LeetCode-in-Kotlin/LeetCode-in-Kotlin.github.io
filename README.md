@@ -1816,6 +1816,10 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3312 |[Sorted GCD Pair Queries](src/main/kotlin/g3301_3400/s3312_sorted_gcd_pair_queries)| Hard | Array, Hash_Table, Math, Binary_Search, Prefix_Sum, Counting, Number_Theory, Combinatorics | 734 | 100.00
+| 3311 |[Construct 2D Grid Matching Graph Layout](src/main/kotlin/g3301_3400/s3311_construct_2d_grid_matching_graph_layout)| Hard | Array, Hash_Table, Matrix, Graph | 1423 | 100.00
+| 3310 |[Remove Methods From Project](src/main/kotlin/g3301_3400/s3310_remove_methods_from_project)| Medium | Depth_First_Search, Breadth_First_Search, Graph | 1465 | 100.00
+| 3309 |[Maximum Possible Number by Binary Concatenation](src/main/kotlin/g3301_3400/s3309_maximum_possible_number_by_binary_concatenation)| Medium | Array, Bit_Manipulation, Enumeration | 182 | 73.47
 | 3307 |[Find the K-th Character in String Game II](src/main/kotlin/g3301_3400/s3307_find_the_k_th_character_in_string_game_ii)| Hard | Math, Bit_Manipulation, Recursion | 189 | 50.00
 | 3306 |[Count of Substrings Containing Every Vowel and K Consonants II](src/main/kotlin/g3301_3400/s3306_count_of_substrings_containing_every_vowel_and_k_consonants_ii)| Medium | String, Hash_Table, Sliding_Window | 651 | 100.00
 | 3305 |[Count of Substrings Containing Every Vowel and K Consonants I](src/main/kotlin/g3301_3400/s3305_count_of_substrings_containing_every_vowel_and_k_consonants_i)| Medium | String, Hash_Table, Sliding_Window | 153 | 100.00
