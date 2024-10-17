@@ -1816,6 +1816,14 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3321 |[Find X-Sum of All K-Long Subarrays II](src/main/kotlin/g3301_3400/s3321_find_x_sum_of_all_k_long_subarrays_ii)| Hard | Array, Hash_Table, Heap_Priority_Queue, Sliding_Window | 1660 | 100.00
+| 3320 |[Count The Number of Winning Sequences](src/main/kotlin/g3301_3400/s3320_count_the_number_of_winning_sequences)| Hard | String, Dynamic_Programming | 335 | 100.00
+| 3319 |[K-th Largest Perfect Subtree Size in Binary Tree](src/main/kotlin/g3301_3400/s3319_k_th_largest_perfect_subtree_size_in_binary_tree)| Medium | Sorting, Depth_First_Search, Tree, Binary_Tree | 332 | 45.45
+| 3318 |[Find X-Sum of All K-Long Subarrays I](src/main/kotlin/g3301_3400/s3318_find_x_sum_of_all_k_long_subarrays_i)| Easy | Array, Hash_Table, Heap_Priority_Queue, Sliding_Window | 262 | 86.21
+| 3317 |[Find the Number of Possible Ways for an Event](src/main/kotlin/g3301_3400/s3317_find_the_number_of_possible_ways_for_an_event)| Hard | Dynamic_Programming, Math, Combinatorics | 166 | 100.00
+| 3316 |[Find Maximum Removals From Source String](src/main/kotlin/g3301_3400/s3316_find_maximum_removals_from_source_string)| Medium | Array, String, Hash_Table, Dynamic_Programming, Two_Pointers | 220 | 100.00
+| 3315 |[Construct the Minimum Bitwise Array II](src/main/kotlin/g3301_3400/s3315_construct_the_minimum_bitwise_array_ii)| Medium | Array, Bit_Manipulation | 231 | 77.27
+| 3314 |[Construct the Minimum Bitwise Array I](src/main/kotlin/g3301_3400/s3314_construct_the_minimum_bitwise_array_i)| Easy | Array, Bit_Manipulation | 226 | 57.14
 | 3312 |[Sorted GCD Pair Queries](src/main/kotlin/g3301_3400/s3312_sorted_gcd_pair_queries)| Hard | Array, Hash_Table, Math, Binary_Search, Prefix_Sum, Counting, Number_Theory, Combinatorics | 734 | 100.00
 | 3311 |[Construct 2D Grid Matching Graph Layout](src/main/kotlin/g3301_3400/s3311_construct_2d_grid_matching_graph_layout)| Hard | Array, Hash_Table, Matrix, Graph | 1423 | 100.00
 | 3310 |[Remove Methods From Project](src/main/kotlin/g3301_3400/s3310_remove_methods_from_project)| Medium | Depth_First_Search, Breadth_First_Search, Graph | 1465 | 100.00
