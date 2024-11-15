@@ -216,7 +216,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0003 |[Longest Substring Without Repeating Characters](src/main/kotlin/g0001_0100/s0003_longest_substring_without_repeating_characters)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window, Big_O_Time_O(n)_Space_O(1) | 201 | 87.28
+| 0003 |[Longest Substring Without Repeating Characters](src/main/kotlin/g0001_0100/s0003_longest_substring_without_repeating_characters)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window, Big_O_Time_O(n)_Space_O(1), AI_can_be_used_to_solve_the_task | 201 | 87.28
 | 0567 |[Permutation in String](src/main/kotlin/g0501_0600/s0567_permutation_in_string)| Medium | Top_100_Liked_Questions, String, Hash_Table, Two_Pointers, Sliding_Window | 169 | 100.00
 
 #### Day 7 Breadth First Search Depth First Search
@@ -1445,7 +1445,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0003 |[Longest Substring Without Repeating Characters](src/main/kotlin/g0001_0100/s0003_longest_substring_without_repeating_characters)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window, Big_O_Time_O(n)_Space_O(1) | 201 | 87.28
+| 0003 |[Longest Substring Without Repeating Characters](src/main/kotlin/g0001_0100/s0003_longest_substring_without_repeating_characters)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window, Big_O_Time_O(n)_Space_O(1), AI_can_be_used_to_solve_the_task | 201 | 87.28
 | 0016 |[3Sum Closest](src/main/kotlin/g0001_0100/s0016_3sum_closest)| Medium | Array, Sorting, Two_Pointers | 163 | 100.00
 | 0076 |[Minimum Window Substring](src/main/kotlin/g0001_0100/s0076_minimum_window_substring)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window, Big_O_Time_O(s.length())_Space_O(1) | 191 | 96.38
 
@@ -1513,7 +1513,7 @@
 | 0344 |[Reverse String](src/main/kotlin/g0301_0400/s0344_reverse_string)| Easy | String, Two_Pointers, Recursion | 445 | 69.75
 | 0014 |[Longest Common Prefix](src/main/kotlin/g0001_0100/s0014_longest_common_prefix)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, String | 154 | 89.70
 | 0187 |[Repeated DNA Sequences](src/main/kotlin/g0101_0200/s0187_repeated_dna_sequences)| Medium | String, Hash_Table, Bit_Manipulation, Sliding_Window, Hash_Function, Rolling_Hash | 319 | 79.03
-| 0003 |[Longest Substring Without Repeating Characters](src/main/kotlin/g0001_0100/s0003_longest_substring_without_repeating_characters)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window, Big_O_Time_O(n)_Space_O(1) | 201 | 87.28
+| 0003 |[Longest Substring Without Repeating Characters](src/main/kotlin/g0001_0100/s0003_longest_substring_without_repeating_characters)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window, Big_O_Time_O(n)_Space_O(1), AI_can_be_used_to_solve_the_task | 201 | 87.28
 | 0020 |[Valid Parentheses](src/main/kotlin/g0001_0100/s0020_valid_parentheses)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, String, Stack, Big_O_Time_O(n)_Space_O(n) | 137 | 88.76
 | 0005 |[Longest Palindromic Substring](src/main/kotlin/g0001_0100/s0005_longest_palindromic_substring)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 162 | 99.00
 | 0394 |[Decode String](src/main/kotlin/g0301_0400/s0394_decode_string)| Medium | Top_100_Liked_Questions, String, Stack, Recursion, Big_O_Time_O(n)_Space_O(n) | 224 | 64.86
@@ -1816,13 +1816,25 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3352 |[Count K-Reducible Numbers Less Than N](src/main/kotlin/g3301_3400/s3352_count_k_reducible_numbers_less_than_n)| Hard | String, Dynamic_Programming, Math, Combinatorics | 170 | 100.00
+| 3351 |[Sum of Good Subsequences](src/main/kotlin/g3301_3400/s3351_sum_of_good_subsequences)| Hard | Array, Hash_Table, Dynamic_Programming | 16 | 100.00
+| 3350 |[Adjacent Increasing Subarrays Detection II](src/main/kotlin/g3301_3400/s3350_adjacent_increasing_subarrays_detection_ii)| Medium | Array, Binary_Search | 947 | 48.57
+| 3349 |[Adjacent Increasing Subarrays Detection I](src/main/kotlin/g3301_3400/s3349_adjacent_increasing_subarrays_detection_i)| Easy | Array | 179 | 97.92
+| 3348 |[Smallest Divisible Digit Product II](src/main/kotlin/g3301_3400/s3348_smallest_divisible_digit_product_ii)| Hard | String, Math, Greedy, Backtracking, Number_Theory | 46 | 100.00
+| 3347 |[Maximum Frequency of an Element After Performing Operations II](src/main/kotlin/g3301_3400/s3347_maximum_frequency_of_an_element_after_performing_operations_ii)| Hard | Array, Sorting, Binary_Search, Prefix_Sum, Sliding_Window | 48 | 100.00
+| 3346 |[Maximum Frequency of an Element After Performing Operations I](src/main/kotlin/g3301_3400/s3346_maximum_frequency_of_an_element_after_performing_operations_i)| Medium | Array, Sorting, Binary_Search, Prefix_Sum, Sliding_Window | 12 | 100.00
+| 3345 |[Smallest Divisible Digit Product I](src/main/kotlin/g3301_3400/s3345_smallest_divisible_digit_product_i)| Easy | Math, Enumeration | 1 | 100.00
+| 3343 |[Count Number of Balanced Permutations](src/main/kotlin/g3301_3400/s3343_count_number_of_balanced_permutations)| Hard | String, Dynamic_Programming, Math, Combinatorics | 66 | 100.00
+| 3342 |[Find Minimum Time to Reach Last Room II](src/main/kotlin/g3301_3400/s3342_find_minimum_time_to_reach_last_room_ii)| Medium | Array, Matrix, Heap_Priority_Queue, Graph, Shortest_Path | 122 | 100.00
+| 3341 |[Find Minimum Time to Reach Last Room I](src/main/kotlin/g3301_3400/s3341_find_minimum_time_to_reach_last_room_i)| Medium | Array, Matrix, Heap_Priority_Queue, Graph, Shortest_Path | 257 | 42.10
+| 3340 |[Check Balanced String](src/main/kotlin/g3301_3400/s3340_check_balanced_string)| Easy | String | 1 | 100.00
 | 3337 |[Total Characters in String After Transformations II](src/main/kotlin/g3301_3400/s3337_total_characters_in_string_after_transformations_ii)| Hard | String, Hash_Table, Dynamic_Programming, Math, Counting | 320 | 100.00
 | 3336 |[Find the Number of Subsequences With Equal GCD](src/main/kotlin/g3301_3400/s3336_find_the_number_of_subsequences_with_equal_gcd)| Hard | Array, Dynamic_Programming, Math, Number_Theory | 324 | 100.00
 | 3335 |[Total Characters in String After Transformations I](src/main/kotlin/g3301_3400/s3335_total_characters_in_string_after_transformations_i)| Medium | String, Hash_Table, Dynamic_Programming, Math, Counting | 58 | 80.00
 | 3334 |[Find the Maximum Factor Score of Array](src/main/kotlin/g3301_3400/s3334_find_the_maximum_factor_score_of_array)| Medium | Array, Math, Number_Theory | 4 | 95.83
 | 3333 |[Find the Original Typed String II](src/main/kotlin/g3301_3400/s3333_find_the_original_typed_string_ii)| Hard | String, Dynamic_Programming, Prefix_Sum | 490 | 100.00
 | 3332 |[Maximum Points Tourist Can Earn](src/main/kotlin/g3301_3400/s3332_maximum_points_tourist_can_earn)| Medium | Array, Dynamic_Programming, Matrix | 216 | 100.00
-| 3331 |[Find Subtree Sizes After Changes](src/main/kotlin/g3301_3400/s3331_find_subtree_sizes_after_changes)| Medium | Array, String, Hash_Table, Tree, Depth_First_Search | 139 | 95.24
+| 3331 |[Find Subtree Sizes After Changes](src/main/kotlin/g3301_3400/s3331_find_subtree_sizes_after_changes)| Medium | Array, String, Hash_Table, Depth_First_Search, Tree | 139 | 95.24
 | 3330 |[Find the Original Typed String I](src/main/kotlin/g3301_3400/s3330_find_the_original_typed_string_i)| Easy | String | 142 | 88.24
 | 3327 |[Check if DFS Strings Are Palindromes](src/main/kotlin/g3301_3400/s3327_check_if_dfs_strings_are_palindromes)| Hard | Array, String, Hash_Table, Depth_First_Search, Tree, Hash_Function | 165 | 100.00
 | 3326 |[Minimum Division Operations to Make Array Non Decreasing](src/main/kotlin/g3301_3400/s3326_minimum_division_operations_to_make_array_non_decreasing)| Medium | Array, Math, Greedy, Number_Theory | 24 | 94.12
@@ -1949,7 +1961,7 @@
 | 3170 |[Lexicographically Minimum String After Removing Stars](src/main/kotlin/g3101_3200/s3170_lexicographically_minimum_string_after_removing_stars)| Medium | String, Hash_Table, Greedy, Stack, Heap_Priority_Queue | 316 | 100.00
 | 3169 |[Count Days Without Meetings](src/main/kotlin/g3101_3200/s3169_count_days_without_meetings)| Medium | Array, Sorting | 733 | 97.59
 | 3168 |[Minimum Number of Chairs in a Waiting Room](src/main/kotlin/g3101_3200/s3168_minimum_number_of_chairs_in_a_waiting_room)| Easy | String, Simulation | 148 | 86.52
-| 3165 |[Maximum Sum of Subsequence With Non-adjacent Elements](src/main/kotlin/g3101_3200/s3165_maximum_sum_of_subsequence_with_non_adjacent_elements)| Hard | Array, Dynamic_Programming, Divide_and_Conquer, Segment_Tree | 1301 | 22.22
+| 3165 |[Maximum Sum of Subsequence With Non-adjacent Elements](src/main/kotlin/g3101_3200/s3165_maximum_sum_of_subsequence_with_non_adjacent_elements)| Hard | Array, Dynamic_Programming, Divide_and_Conquer, Segment_Tree | 109 | 100.00
 | 3164 |[Find the Number of Good Pairs II](src/main/kotlin/g3101_3200/s3164_find_the_number_of_good_pairs_ii)| Medium | Array, Hash_Table | 1175 | 90.00
 | 3163 |[String Compression III](src/main/kotlin/g3101_3200/s3163_string_compression_iii)| Medium | String | 331 | 66.13
 | 3162 |[Find the Number of Good Pairs I](src/main/kotlin/g3101_3200/s3162_find_the_number_of_good_pairs_i)| Easy | Array, Hash_Table | 182 | 54.41
@@ -2071,7 +2083,7 @@
 | 3005 |[Count Elements With Maximum Frequency](src/main/kotlin/g3001_3100/s3005_count_elements_with_maximum_frequency)| Easy | Array, Hash_Table, Counting | 168 | 80.00
 | 3003 |[Maximize the Number of Partitions After Operations](src/main/kotlin/g3001_3100/s3003_maximize_the_number_of_partitions_after_operations)| Hard | String, Dynamic_Programming, Bit_Manipulation, Bitmask | 147 | 100.00
 | 3002 |[Maximum Size of a Set After Removals](src/main/kotlin/g3001_3100/s3002_maximum_size_of_a_set_after_removals)| Medium | Array, Hash_Table, Greedy | 467 | 100.00
-| 3001 |[Minimum Moves to Capture The Queen](src/main/kotlin/g3001_3100/s3001_minimum_moves_to_capture_the_queen)| Medium | Array, Enumeration | 128 | 94.59
+| 3001 |[Minimum Moves to Capture The Queen](src/main/kotlin/g3001_3100/s3001_minimum_moves_to_capture_the_queen)| Medium | Array, Enumeration | 1 | 100.00
 | 3000 |[Maximum Area of Longest Diagonal Rectangle](src/main/kotlin/g2901_3000/s3000_maximum_area_of_longest_diagonal_rectangle)| Easy | Array | 167 | 94.44
 | 2999 |[Count the Number of Powerful Integers](src/main/kotlin/g2901_3000/s2999_count_the_number_of_powerful_integers)| Hard | String, Dynamic_Programming, Math | 163 | 100.00
 | 2998 |[Minimum Number of Operations to Make X and Y Equal](src/main/kotlin/g2901_3000/s2998_minimum_number_of_operations_to_make_x_and_y_equal)| Medium | Dynamic_Programming, Breadth_First_Search, Memoization | 149 | 100.00
@@ -4467,8 +4479,8 @@
 | 0007 |[Reverse Integer](src/main/kotlin/g0001_0100/s0007_reverse_integer)| Medium | Top_Interview_Questions, Math, Udemy_Integers | 149 | 77.89
 | 0006 |[Zigzag Conversion](src/main/kotlin/g0001_0100/s0006_zigzag_conversion)| Medium | String | 200 | 97.79
 | 0005 |[Longest Palindromic Substring](src/main/kotlin/g0001_0100/s0005_longest_palindromic_substring)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming, Data_Structure_II_Day_9_String, Algorithm_II_Day_14_Dynamic_Programming, Dynamic_Programming_I_Day_17, Udemy_Strings, Big_O_Time_O(n)_Space_O(n) | 162 | 99.00
-| 0004 |[Median of Two Sorted Arrays](src/main/kotlin/g0001_0100/s0004_median_of_two_sorted_arrays)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Array, Binary_Search, Divide_and_Conquer, Big_O_Time_O(log(min(N,M)))_Space_O(1) | 293 | 75.96
-| 0003 |[Longest Substring Without Repeating Characters](src/main/kotlin/g0001_0100/s0003_longest_substring_without_repeating_characters)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window, Algorithm_I_Day_6_Sliding_Window, Level_2_Day_14_Sliding_Window/Two_Pointer, Udemy_Strings, Big_O_Time_O(n)_Space_O(1) | 201 | 87.28
+| 0004 |[Median of Two Sorted Arrays](src/main/kotlin/g0001_0100/s0004_median_of_two_sorted_arrays)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Array, Binary_Search, Divide_and_Conquer, Big_O_Time_O(log(min(N,M)))_Space_O(1), AI_can_be_used_to_solve_the_task | 293 | 75.96
+| 0003 |[Longest Substring Without Repeating Characters](src/main/kotlin/g0001_0100/s0003_longest_substring_without_repeating_characters)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window, Algorithm_I_Day_6_Sliding_Window, Level_2_Day_14_Sliding_Window/Two_Pointer, Udemy_Strings, Big_O_Time_O(n)_Space_O(1), AI_can_be_used_to_solve_the_task | 201 | 87.28
 | 0002 |[Add Two Numbers](src/main/kotlin/g0001_0100/s0002_add_two_numbers)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Math, Linked_List, Recursion, Data_Structure_II_Day_10_Linked_List, Programming_Skills_II_Day_15, Big_O_Time_O(max(N,M))_Space_O(max(N,M)), AI_can_be_used_to_solve_the_task | 203 | 96.13
 | 0001 |[Two Sum](src/main/kotlin/g0001_0100/s0001_two_sum)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Data_Structure_I_Day_2_Array, Level_1_Day_13_Hashmap, Udemy_Arrays, Big_O_Time_O(n)_Space_O(n), AI_can_be_used_to_solve_the_task | 202 | 91.18
 
