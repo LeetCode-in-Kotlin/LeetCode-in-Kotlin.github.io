@@ -61,18 +61,16 @@ import kotlin.math.abs
 class Solution {
     fun minMovesToCaptureTheQueen(a: Int, b: Int, c: Int, d: Int, e: Int, f: Int): Int {
         if (a == e || b == f) {
-            if (a == c && (d > b && d < f || d > f && d < b)) {
+            if (a == e && a == c && (d - b) * (d - f) < 0) {
                 return 2
             }
-            if (b == d && (c > a && c < e || c > e && c < a)) {
+            if (b == f && b == d && (c - a) * (c - e) < 0) {
                 return 2
             }
             return 1
-        } else if (abs(c - e) == abs(d - f)) {
-            if (abs(a - c) == abs(b - d) &&
-                abs(e - a) == abs(f - b) &&
-                (a > e && a < c || a > c && a < e)
-            ) {
+        }
+        if (abs(c - e) == abs(d - f)) {
+            if (abs(c - a) == abs(d - b) && (b - f) * (b - d) < 0) {
                 return 2
             }
             return 1
