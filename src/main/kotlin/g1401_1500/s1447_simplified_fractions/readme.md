@@ -60,7 +60,9 @@ class Solution {
         }
         return if (a == b || a % b == 0 || b == 1) {
             b
-        } else checkGCD(a % b, b)
+        } else {
+            checkGCD(a % b, b)
+        }
     }
 }
 ```

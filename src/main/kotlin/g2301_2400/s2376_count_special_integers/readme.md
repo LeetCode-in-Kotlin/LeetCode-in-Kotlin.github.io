@@ -45,6 +45,7 @@ Some of the integers that are not special are: 22, 114, and 131.
 @Suppress("NAME_SHADOWING")
 class Solution {
     private lateinit var cntMap: IntArray
+
     // number n as an array, splitted by each digit
     private lateinit var digits: IntArray
 
@@ -88,7 +89,9 @@ class Solution {
     private fun count(i: Int, max: Int): Int {
         return if (i == 0) {
             max
-        } else (max - i) * count(i - 1, max)
+        } else {
+            (max - i) * count(i - 1, max)
+        }
     }
 
     private fun countUnbounded(len: Int): Int {

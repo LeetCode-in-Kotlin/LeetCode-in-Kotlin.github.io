@@ -55,7 +55,7 @@ class Solution {
                 } else {
                     key.compareTo(key1, ignoreCase = true)
                 }
-            }
+            },
         )
         sortedset.addAll(map.entries)
         val result: MutableList<String> = ArrayList()

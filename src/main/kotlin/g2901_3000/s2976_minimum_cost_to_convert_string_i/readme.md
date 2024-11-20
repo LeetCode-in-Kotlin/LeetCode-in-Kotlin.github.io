@@ -65,7 +65,7 @@ class Solution {
         desiredText: String,
         fromLetters: CharArray,
         toLetters: CharArray,
-        transformationCost: IntArray
+        transformationCost: IntArray,
     ): Long {
         val alphabetSize = 26
         val transformationMatrix = Array(alphabetSize) { IntArray(alphabetSize) }
@@ -94,7 +94,7 @@ class Solution {
                             (
                                 transformationMatrix[row][k] +
                                     transformationMatrix[k][col]
-                                )
+                                ),
                         )
                     }
                 }

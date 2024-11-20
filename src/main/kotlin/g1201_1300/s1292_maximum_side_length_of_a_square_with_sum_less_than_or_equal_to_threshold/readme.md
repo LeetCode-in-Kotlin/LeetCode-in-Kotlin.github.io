@@ -85,7 +85,7 @@ class Solution {
                                 prefix[i][j - length] -
                                 prefix[i - length][j]
                             ) +
-                            prefix[i - length][j - length]
+                            prefix[i - length][j - length],
                     )
                 }
             }

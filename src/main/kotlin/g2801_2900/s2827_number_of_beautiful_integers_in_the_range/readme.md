@@ -85,7 +85,7 @@ class Solution {
         even: Int,
         num: Int,
         rem: Int,
-        k: Int
+        k: Int,
     ): Int {
         if (i == maxLength) {
             return if (num % k == 0 && odd == even) 1 else 0
@@ -127,7 +127,7 @@ class Solution {
                     newEven,
                     num * 10 + j,
                     (num * 10 + j) % k,
-                    k
+                    k,
                 )
         }
         dp[mode][i][odd][even][rem] = res

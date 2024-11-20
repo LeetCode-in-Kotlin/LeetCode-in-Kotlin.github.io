@@ -86,7 +86,6 @@ class Solution {
             // move a word's length each time
             var j = i
             while (j + window <= s.length) {
-
                 // get the subStr
                 val subStr = s.substring(j, j + window)
                 val map: MutableMap<String, Int> = HashMap()

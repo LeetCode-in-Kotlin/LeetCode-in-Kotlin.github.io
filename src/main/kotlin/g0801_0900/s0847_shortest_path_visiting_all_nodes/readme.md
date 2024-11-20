@@ -55,7 +55,7 @@ class Solution {
         var steps = 0
         val visited = Array(graph.size) {
             BooleanArray(
-                target + 1
+                target + 1,
             )
         }
         while (q.isNotEmpty()) {

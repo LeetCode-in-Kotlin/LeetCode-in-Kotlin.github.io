@@ -34,7 +34,9 @@ class Solution {
     fun countOdds(low: Int, high: Int): Int {
         return if (low % 2 != 0 || high % 2 != 0) {
             (high - low) / 2 + 1
-        } else (high - low) / 2
+        } else {
+            (high - low) / 2
+        }
     }
 }
 ```

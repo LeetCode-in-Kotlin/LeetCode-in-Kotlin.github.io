@@ -44,7 +44,7 @@ class Solution {
             ch.sort()
             val temp = String(ch)
             hm.computeIfAbsent(
-                temp
+                temp,
             ) { _: String? -> ArrayList() }
             hm.getValue(temp).add(s)
         }

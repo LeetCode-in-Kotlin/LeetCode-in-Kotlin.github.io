@@ -84,7 +84,9 @@ class Fancy {
     fun getIndex(idx: Int): Int {
         return if (idx >= size) {
             -1
-        } else ((mult * values[idx] + add) % MOD).toInt()
+        } else {
+            ((mult * values[idx] + add) % MOD).toInt()
+        }
     }
 
     private fun multiplicativeInverse(x: Int): Int {

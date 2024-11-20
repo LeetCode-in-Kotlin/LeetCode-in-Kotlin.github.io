@@ -57,7 +57,9 @@ class Solution {
         }
         return if (n < 0) {
             1.0 / res
-        } else res
+        } else {
+            res
+        }
     }
 }
 ```

@@ -42,7 +42,9 @@ class Solution {
         }
         return if (arr[start] < arr[i]) {
             0
-        } else (1 + right[start] + calculateRight(i, start + right[start] + 1, right, arr, len)) % MOD
+        } else {
+            (1 + right[start] + calculateRight(i, start + right[start] + 1, right, arr, len)) % MOD
+        }
     }
 
     private fun calculateLeft(i: Int, start: Int, left: IntArray, arr: IntArray, len: Int): Int {
@@ -51,7 +53,9 @@ class Solution {
         }
         return if (arr[start] <= arr[i]) {
             0
-        } else (1 + left[start] + calculateLeft(i, start - left[start] - 1, left, arr, len)) % MOD
+        } else {
+            (1 + left[start] + calculateLeft(i, start - left[start] - 1, left, arr, len)) % MOD
+        }
     }
 
     fun sumSubarrayMins(arr: IntArray): Int {

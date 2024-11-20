@@ -54,7 +54,7 @@ class Solution {
         val n = s.length
         val indices = queries.withIndex().groupBy(
             keySelector = { it.value[0] xor it.value[1] },
-            valueTransform = { it.index }
+            valueTransform = { it.index },
         ).toMutableMap()
         val res = Array(queries.size) { IntArray(2) { -1 } }
         fun helper(value: Int, left: Int, right: Int) {

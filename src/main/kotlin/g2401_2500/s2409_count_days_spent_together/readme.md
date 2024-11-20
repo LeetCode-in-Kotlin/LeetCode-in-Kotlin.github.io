@@ -45,7 +45,7 @@ class Solution {
         arriveAlice: String,
         leaveAlice: String,
         arriveBob: String,
-        leaveBob: String
+        leaveBob: String,
     ): Int {
         if (leaveAlice < arriveBob || leaveBob < arriveAlice) {
             return 0

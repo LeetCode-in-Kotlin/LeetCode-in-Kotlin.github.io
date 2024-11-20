@@ -43,7 +43,7 @@ class Solution {
         remainingMoves: Int,
         currRow: Int,
         currCol: Int,
-        cache: Array<Array<IntArray>>
+        cache: Array<Array<IntArray>>,
     ): Int {
         if (currRow < 0 || currRow == m || currCol < 0 || currCol == n) {
             return 1
@@ -68,7 +68,7 @@ class Solution {
         val cache = Array(m) {
             Array(n) {
                 IntArray(
-                    maxMoves + 1
+                    maxMoves + 1,
                 )
             }
         }

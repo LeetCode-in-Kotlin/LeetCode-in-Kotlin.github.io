@@ -53,7 +53,9 @@ class Solution {
         if (diceLeft == 0) {
             return if (targetLeft == 0) {
                 1
-            } else 0
+            } else {
+                0
+            }
         }
         if (memo[diceLeft][targetLeft] == -1) {
             var res = 0

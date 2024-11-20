@@ -78,7 +78,7 @@ class Solution {
         budget: Int,
         composition: List<List<Int>>,
         stock: List<Int>,
-        cost: List<Int>
+        cost: List<Int>,
     ): Int {
         var ans = 0
         var max = 0
@@ -111,7 +111,7 @@ class Solution {
         budget: Int,
         composition: List<List<Int>>,
         stock: List<Int>,
-        cost: List<Int>
+        cost: List<Int>,
     ): Boolean {
         var paiSa = 0L
         for (i in 0 until n) {

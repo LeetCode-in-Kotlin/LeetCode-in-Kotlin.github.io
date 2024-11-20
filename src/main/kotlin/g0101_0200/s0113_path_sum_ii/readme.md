@@ -74,7 +74,7 @@ class Solution {
         al: ArrayList<Int>,
         sum: Int,
         targetSum: Int,
-        root: TreeNode?
+        root: TreeNode?,
     ) {
         var sum = sum
         if (root == null) {

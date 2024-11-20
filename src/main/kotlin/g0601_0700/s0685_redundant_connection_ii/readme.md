@@ -85,7 +85,9 @@ class Solution {
     private fun find(x: Int): Int {
         return if (par[x] == x) {
             x
-        } else find(par[x])
+        } else {
+            find(par[x])
+        }
     }
 }
 ```

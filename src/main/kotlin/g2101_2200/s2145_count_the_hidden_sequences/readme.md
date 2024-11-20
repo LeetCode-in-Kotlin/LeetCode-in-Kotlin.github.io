@@ -95,7 +95,9 @@ class Solution {
         val high = upper - max
         return if (low > high) {
             0
-        } else high - low + 1
+        } else {
+            high - low + 1
+        }
     }
 }
 ```

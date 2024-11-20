@@ -67,7 +67,7 @@ class Solution {
         path: IntArray,
         vis: BooleanArray,
         dfsvis: BooleanArray,
-        edges: IntArray
+        edges: IntArray,
     ): Int {
         vis[node] = true
         dfsvis[node] = true

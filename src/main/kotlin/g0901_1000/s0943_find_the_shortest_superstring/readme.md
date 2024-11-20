@@ -49,7 +49,7 @@ class Solution {
         state: Int,
         startWord: String,
         map: MutableMap<String?, String?>,
-        l: Int
+        l: Int,
     ): String? {
         val key = "$startWord|$state"
         if (state == 0) {
@@ -90,7 +90,9 @@ class Solution {
                 if (word[i] == result[j]) {
                     i++
                     j++
-                } else break
+                } else {
+                    break
+                }
             }
             if (i == l) {
                 found = k

@@ -105,7 +105,9 @@ class Solution {
         }
         return if (countAlice != 1 || countBob != 1) {
             -1
-        } else remove
+        } else {
+            remove
+        }
     }
 
     fun union(x: Int, y: Int, arr: IntArray, rank: IntArray): Boolean {

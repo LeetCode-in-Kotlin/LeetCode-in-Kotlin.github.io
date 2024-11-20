@@ -68,7 +68,7 @@ class Solution {
         candies: IntArray,
         keys: Array<IntArray>,
         containedBoxes: Array<IntArray>,
-        initialBoxes: IntArray
+        initialBoxes: IntArray,
     ): Int {
         var collectedCandies = 0
         val boxes: Queue<Int> = LinkedList()

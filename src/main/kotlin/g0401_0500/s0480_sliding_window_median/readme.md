@@ -51,7 +51,11 @@ class Solution {
         }
         val comparator = Comparator { a: Int?, b: Int? ->
             if (nums[a!!] != nums[b!!]
-            ) Integer.compare(nums[a], nums[b]) else Integer.compare(a, b)
+            ) {
+                Integer.compare(nums[a], nums[b])
+            } else {
+                Integer.compare(a, b)
+            }
         }
         val smallNums = TreeSet(comparator.reversed())
         val largeNums = TreeSet(comparator)
@@ -92,7 +96,9 @@ class Solution {
     private fun getMedian(smallNums: TreeSet<Int?>, largeNums: TreeSet<Int?>, nums: IntArray): Double {
         return if (smallNums.size == largeNums.size) {
             (nums[smallNums.first()!!].toDouble() + nums[largeNums.first()!!]) / 2
-        } else nums[smallNums.first()!!].toDouble()
+        } else {
+            nums[smallNums.first()!!].toDouble()
+        }
     }
 }
 ```

@@ -65,8 +65,9 @@ class Solution {
         var max = 0
         for (i in edges.indices) {
             a[edges[i]] += i.toLong()
-            if (a[edges[i]] > a[max]) max = edges[i]
-            else if (a[edges[i]] == a[max] && edges[i] < max) max = edges[i]
+            if (a[edges[i]] > a[max]) {
+                max = edges[i]
+            } else if (a[edges[i]] == a[max] && edges[i] < max) max = edges[i]
         }
         return max
     }

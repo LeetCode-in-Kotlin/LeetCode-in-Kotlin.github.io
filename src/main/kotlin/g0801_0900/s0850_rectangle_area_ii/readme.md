@@ -81,9 +81,9 @@ class Solution {
                     rectangle[0].coerceAtLeast(cur[0]),
                     rectangle[1],
                     rectangle[2].coerceAtMost(cur[2]),
-                    cur[1]
+                    cur[1],
                 ),
-                memo
+                memo,
             )
         }
         if (rectangle[3] > cur[3]) {
@@ -93,9 +93,9 @@ class Solution {
                     rectangle[0].coerceAtLeast(cur[0]),
                     cur[3],
                     rectangle[2].coerceAtMost(cur[2]),
-                    rectangle[3]
+                    rectangle[3],
                 ),
-                memo
+                memo,
             )
         }
     }

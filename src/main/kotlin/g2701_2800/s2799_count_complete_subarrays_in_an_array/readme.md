@@ -68,7 +68,9 @@ class Solution {
                 }
                 last = if (map[nums[i]] > 0) {
                     possLast
-                } else break
+                } else {
+                    break
+                }
             }
         }
         return ans

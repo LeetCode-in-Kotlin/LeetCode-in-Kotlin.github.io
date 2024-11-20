@@ -75,7 +75,9 @@ class Solution(n: Int, blacklist: IntArray) {
         val `val`: Int = Random.nextInt(upperLimit)
         return if (map.containsKey(`val`)) {
             map[`val`]!!
-        } else `val`
+        } else {
+            `val`
+        }
     }
 }
 

@@ -43,7 +43,9 @@ class Solution {
         }
         return if (set.isEmpty()) {
             s.length
-        } else s.length - set.cardinality() + 1
+        } else {
+            s.length - set.cardinality() + 1
+        }
     }
 }
 ```

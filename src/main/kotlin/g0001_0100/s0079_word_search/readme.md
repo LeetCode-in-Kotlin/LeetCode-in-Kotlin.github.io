@@ -53,7 +53,7 @@ class Solution {
         word: String,
         index: Int,
         x: Int,
-        y: Int
+        y: Int,
     ): Boolean {
         if (index == word.length) {
             return true
@@ -82,7 +82,7 @@ class Solution {
     fun exist(board: Array<CharArray>, word: String): Boolean {
         val visited = Array(board.size) {
             BooleanArray(
-                board[0].size
+                board[0].size,
             )
         }
         for (i in board.indices) {

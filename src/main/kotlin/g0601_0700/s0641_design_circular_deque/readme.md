@@ -115,13 +115,17 @@ class MyCircularDeque(k: Int) {
     fun getFront(): Int {
         return if (size == 0) {
             -1
-        } else data[(front - 1 + data.size) % data.size]
+        } else {
+            data[(front - 1 + data.size) % data.size]
+        }
     }
 
     fun getRear(): Int {
         return if (size == 0) {
             -1
-        } else data[(rear + 1) % data.size]
+        } else {
+            data[(rear + 1) % data.size]
+        }
     }
 
     fun isEmpty(): Boolean {

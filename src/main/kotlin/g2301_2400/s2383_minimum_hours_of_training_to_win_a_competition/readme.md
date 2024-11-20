@@ -69,7 +69,7 @@ class Solution {
         initialEnergy: Int,
         initialExperience: Int,
         energy: IntArray,
-        experience: IntArray
+        experience: IntArray,
     ): Int {
         var totalEnergy = 0
         for (e in energy) {

@@ -48,7 +48,7 @@ class Solution {
         nums: IntArray,
         finalResult: MutableList<List<Int>>,
         currResult: MutableList<Int>,
-        used: BooleanArray
+        used: BooleanArray,
     ) {
         if (currResult.size == nums.size) {
             finalResult.add(ArrayList(currResult))

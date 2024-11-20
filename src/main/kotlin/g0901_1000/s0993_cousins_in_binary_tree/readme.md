@@ -94,8 +94,10 @@ class Solution {
         }
         return if (root.left == null || root.right == null) {
             false
-        } else root.left!!.`val` == x && root.right!!.`val` == y ||
-            root.right!!.`val` == x && root.left!!.`val` == y
+        } else {
+            root.left!!.`val` == x && root.right!!.`val` == y ||
+                root.right!!.`val` == x && root.left!!.`val` == y
+        }
     }
 }
 ```

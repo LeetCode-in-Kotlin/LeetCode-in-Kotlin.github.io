@@ -74,7 +74,8 @@ class Solution {
         val mstSet = BooleanArray(edges.size)
         edges.sortWith { a: IntArray, b: IntArray ->
             Integer.compare(
-                a[2], b[2]
+                a[2],
+                b[2],
             )
         }
         buildMST(n, edges, mstSet, mst, g)
@@ -120,7 +121,7 @@ class Solution {
         p: Int,
         mst: Array<MutableList<Int>?>,
         g: Array<Array<IntArray>>,
-        ind: MutableSet<Int>
+        ind: MutableSet<Int>,
     ): Boolean {
         if (f == t) {
             return true
@@ -141,7 +142,7 @@ class Solution {
         edges: Array<IntArray>,
         mste: BooleanArray,
         mstg: Array<MutableList<Int>?>,
-        g: Array<Array<IntArray>>
+        g: Array<Array<IntArray>>,
     ) {
         val ds = DisjointSet(n)
         for (ints in edges) {

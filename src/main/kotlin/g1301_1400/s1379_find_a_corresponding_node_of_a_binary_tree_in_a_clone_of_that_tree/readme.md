@@ -65,7 +65,7 @@ class Solution {
     fun getTargetCopy(
         original: TreeNode?,
         cloned: TreeNode?,
-        target: TreeNode
+        target: TreeNode,
     ): TreeNode? {
         if (original == null) {
             return null
@@ -76,7 +76,9 @@ class Solution {
         val left = getTargetCopy(original.left, cloned!!.left, target)
         return if (left != null && left.`val` == target.`val`) {
             left
-        } else getTargetCopy(original.right, cloned.right, target)
+        } else {
+            getTargetCopy(original.right, cloned.right, target)
+        }
     }
 }
 ```

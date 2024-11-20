@@ -79,7 +79,7 @@ class Codec {
             return null
         }
         val root = TreeNode(
-            data.substring(offset, offset + 3).toInt(16) - BASE_OFFSET
+            data.substring(offset, offset + 3).toInt(16) - BASE_OFFSET,
         )
         offset += 3
         root.left = deserialize(data)

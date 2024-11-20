@@ -103,7 +103,7 @@ class Solution {
         bob: Int,
         amount: IntArray,
         seen: BooleanArray,
-        height: Int
+        height: Int,
     ): IntArray {
         var res = Int.MIN_VALUE
         seen[node] = true

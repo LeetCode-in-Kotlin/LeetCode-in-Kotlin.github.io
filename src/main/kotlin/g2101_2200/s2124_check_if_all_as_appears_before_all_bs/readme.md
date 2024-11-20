@@ -68,7 +68,9 @@ class Solution {
         }
         return if (aEndIndex == -1 || bStartIndex == -1) {
             true
-        } else bStartIndex > aEndIndex
+        } else {
+            bStartIndex > aEndIndex
+        }
     }
 }
 ```

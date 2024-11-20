@@ -68,9 +68,11 @@ class Solution {
         }
         return if (root == null || subRoot == null) {
             false
-        } else isSubtreeFound(root, subRoot) ||
-            isSubtree(root.left, subRoot) ||
-            isSubtree(root.right, subRoot)
+        } else {
+            isSubtreeFound(root, subRoot) ||
+                isSubtree(root.left, subRoot) ||
+                isSubtree(root.right, subRoot)
+        }
     }
 }
 ```

@@ -84,7 +84,7 @@ class Solution {
         val secs = targetSeconds % 60
         return Math.min(
             cost(mins, secs, startAt, moveCost, pushCost),
-            cost(mins - 1, secs + 60, startAt, moveCost, pushCost)
+            cost(mins - 1, secs + 60, startAt, moveCost, pushCost),
         )
     }
 
