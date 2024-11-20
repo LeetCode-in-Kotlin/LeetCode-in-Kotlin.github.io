@@ -46,7 +46,7 @@ Find the maximum profit you can achieve. You may complete **at most two transact
 class Solution {
     fun maxProfit(prices: IntArray): Int {
         val n = prices.size
-        if (n <2) {
+        if (n < 2) {
             return 0
         }
         val a = IntArray(n) { 0 }

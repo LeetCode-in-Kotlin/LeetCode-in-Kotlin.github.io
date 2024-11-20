@@ -45,7 +45,9 @@ class Solution {
         }
         return if (count == 0) {
             0
-        } else sum / count
+        } else {
+            sum / count
+        }
     }
 }
 ```

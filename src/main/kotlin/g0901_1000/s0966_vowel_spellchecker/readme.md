@@ -75,7 +75,9 @@ class Solution {
         word = removeVowels(word)
         return if (vowelErrors!!.containsKey(word)) {
             vowelErrors!![word]
-        } else ""
+        } else {
+            ""
+        }
     }
 
     fun spellchecker(wordlist: Array<String>, queries: Array<String>): Array<String?> {

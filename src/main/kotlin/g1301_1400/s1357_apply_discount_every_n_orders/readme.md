@@ -96,7 +96,9 @@ class Cashier(private val nthCustomer: Int, discount: Int, products: IntArray, p
         // discount customer
         return if (customerCountTrack % nthCustomer == 0) {
             sum - sum * discountPercent
-        } else sum
+        } else {
+            sum
+        }
     }
 }
 /*

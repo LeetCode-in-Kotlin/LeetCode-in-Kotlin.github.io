@@ -71,7 +71,9 @@ class Solution {
         }
         return if (targetSum == root.`val` && root.left == null && root.right == null) {
             true
-        } else hasPathSum(root.left, targetSum - root.`val`) || hasPathSum(root.right, targetSum - root.`val`)
+        } else {
+            hasPathSum(root.left, targetSum - root.`val`) || hasPathSum(root.right, targetSum - root.`val`)
+        }
     }
 }
 ```

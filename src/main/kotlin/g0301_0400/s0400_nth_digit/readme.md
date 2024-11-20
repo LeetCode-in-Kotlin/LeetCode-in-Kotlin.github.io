@@ -31,10 +31,10 @@ Given an integer `n`, return the <code>n<sup>th</sup></code> digit of the infini
 @Suppress("NAME_SHADOWING")
 class Solution {
     /*
-    * 1. find the length of the number where the nth digit is from
-    * 2. find the actual number where the nth digit is from
-    * 3. find the nth digit and return
-    */
+     * 1. find the length of the number where the nth digit is from
+     * 2. find the actual number where the nth digit is from
+     * 3. find the nth digit and return
+     */
     fun findNthDigit(n: Int): Int {
         var n = n
         var len = 1

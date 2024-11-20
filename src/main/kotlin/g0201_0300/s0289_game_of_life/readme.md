@@ -50,8 +50,14 @@ The next state is created by applying the above rules simultaneously to every ce
 class Solution {
     companion object {
         var dim: Array<IntArray> = arrayOf(
-            intArrayOf(1, 0), intArrayOf(0, 1), intArrayOf(-1, 0), intArrayOf(0, -1),
-            intArrayOf(1, 1), intArrayOf(1, -1), intArrayOf(-1, 1), intArrayOf(-1, -1)
+            intArrayOf(1, 0),
+            intArrayOf(0, 1),
+            intArrayOf(-1, 0),
+            intArrayOf(0, -1),
+            intArrayOf(1, 1),
+            intArrayOf(1, -1),
+            intArrayOf(-1, 1),
+            intArrayOf(-1, -1),
         )
     }
 

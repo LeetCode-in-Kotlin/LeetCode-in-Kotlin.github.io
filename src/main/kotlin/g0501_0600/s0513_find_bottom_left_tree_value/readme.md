@@ -76,7 +76,9 @@ class Solution {
         val a = func(root, 0)
         return if (a != null && a.size > 0) {
             a[0]
-        } else -1
+        } else {
+            -1
+        }
     }
 }
 ```

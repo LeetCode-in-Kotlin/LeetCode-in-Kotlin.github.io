@@ -62,7 +62,8 @@ class Solution {
         val min = PriorityQueue<Long>()
         val max = PriorityQueue { a: Long?, b: Long? ->
             java.lang.Long.compare(
-                b!!, a!!
+                b!!,
+                a!!,
             )
         }
         for (i in 0 until weights.size - 1) {

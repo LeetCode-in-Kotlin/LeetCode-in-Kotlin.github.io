@@ -80,7 +80,9 @@ class Solution {
         return if (leftChildState == 0 || rightChildState == 0) {
             // gets covered by the children
             1
-        } else -1
+        } else {
+            -1
+        }
         // needs a camera
     }
 }

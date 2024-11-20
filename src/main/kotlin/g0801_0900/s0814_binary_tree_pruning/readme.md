@@ -68,7 +68,9 @@ class Solution {
         root.right = pruneTree(root.right)
         return if (root.left == null && root.right == null && root.`val` == 0) {
             null
-        } else root
+        } else {
+            root
+        }
     }
 }
 ```

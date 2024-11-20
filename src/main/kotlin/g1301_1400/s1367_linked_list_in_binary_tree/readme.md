@@ -72,11 +72,13 @@ class Solution {
     fun isSubPath(head: ListNode?, root: TreeNode?): Boolean {
         return if (root == null) {
             false
-        } else (
-            doesRootHaveList(head, root) ||
-                isSubPath(head, root.left) ||
-                isSubPath(head, root.right)
-            )
+        } else {
+            (
+                doesRootHaveList(head, root) ||
+                    isSubPath(head, root.left) ||
+                    isSubPath(head, root.right)
+                )
+        }
     }
 
     private fun doesRootHaveList(head: ListNode?, root: TreeNode?): Boolean {
@@ -85,13 +87,15 @@ class Solution {
         }
         return if (root == null) {
             false
-        } else (
-            head.`val` == root.`val` &&
-                (
-                    doesRootHaveList(head.next, root.left) ||
-                        doesRootHaveList(head.next, root.right)
-                    )
-            )
+        } else {
+            (
+                head.`val` == root.`val` &&
+                    (
+                        doesRootHaveList(head.next, root.left) ||
+                            doesRootHaveList(head.next, root.right)
+                        )
+                )
+        }
     }
 }
 ```

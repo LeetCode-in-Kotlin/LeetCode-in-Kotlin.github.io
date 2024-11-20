@@ -71,7 +71,9 @@ class Solution {
     private fun countNodes(root: TreeNode?): Int {
         return if (root == null) {
             0
-        } else countNodes(root.left) + countNodes(root.right) + 1
+        } else {
+            countNodes(root.left) + countNodes(root.right) + 1
+        }
     }
 }
 ```

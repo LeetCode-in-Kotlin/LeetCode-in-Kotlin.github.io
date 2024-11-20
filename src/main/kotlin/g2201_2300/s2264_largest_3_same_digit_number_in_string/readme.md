@@ -66,7 +66,9 @@ class Solution {
         }
         return if (c == 0) {
             ""
-        } else maxi
+        } else {
+            maxi
+        }
     }
 }
 ```

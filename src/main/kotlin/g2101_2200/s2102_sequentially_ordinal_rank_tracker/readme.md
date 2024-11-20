@@ -80,7 +80,7 @@ class SORTracker {
                 } else {
                     a.name.compareTo(b.name)
                 }
-            }
+            },
         )
         tSet2 = TreeSet(
             Comparator { a: Location?, b: Location? ->
@@ -89,7 +89,7 @@ class SORTracker {
                 } else {
                     a.name.compareTo(b.name)
                 }
-            }
+            },
         )
     }
 

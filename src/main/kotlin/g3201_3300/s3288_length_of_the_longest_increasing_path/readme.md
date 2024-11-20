@@ -69,7 +69,7 @@ class Solution {
                 } else {
                     a[0] - b[0]
                 }
-            }
+            },
         )
         lower.sortWith(
             Comparator { a: IntArray, b: IntArray ->
@@ -78,7 +78,7 @@ class Solution {
                 } else {
                     a[0] - b[0]
                 }
-            }
+            },
         )
         return longestIncreasingLength(upper) + longestIncreasingLength(lower) + 1
     }

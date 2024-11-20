@@ -71,7 +71,7 @@ class Solution {
             paintingToTemplate,
             paintingCountForTemplate,
             templateToIndex,
-            templateCounter
+            templateCounter,
         )
         extracted(m, totalPaintings, paintingToTemplate, templateEdgeCount)
         for (i in 0 until totalTemplates) {
@@ -97,7 +97,7 @@ class Solution {
         m: Int,
         totalPaintings: Int,
         paintingToTemplate: IntArray,
-        templateEdgeCount: Array<LongArray>
+        templateEdgeCount: Array<LongArray>,
     ) {
         for (i in 0 until totalPaintings) {
             if (paintingToTemplate[i] == -1) {
@@ -121,7 +121,7 @@ class Solution {
         paintingToTemplate: IntArray,
         paintingCountForTemplate: LongArray,
         templateToIndex: MutableMap<Int, Int>,
-        templateCounter: Int
+        templateCounter: Int,
     ) {
         var templateCounter = templateCounter
         for (i in 0 until totalPaintings) {

@@ -70,7 +70,7 @@ class Solution {
             maxOfThreeNums(
                 largestArea(a, start, minInd),
                 a[minInd] * (limit - start),
-                largestArea(a, minInd + 1, limit)
+                largestArea(a, minInd + 1, limit),
             )
         }
     }

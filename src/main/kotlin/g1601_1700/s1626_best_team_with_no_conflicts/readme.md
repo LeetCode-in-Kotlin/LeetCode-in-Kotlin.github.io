@@ -48,7 +48,7 @@ Given two lists, `scores` and `ages`, where each `scores[i]` and `ages[i]` repre
 class Solution {
     private class Player(
         val age: Int,
-        val score: Int
+        val score: Int,
     ) : Comparable<Player> {
         override fun compareTo(other: Player) =
             if (age == other.age) {
@@ -64,8 +64,8 @@ class Solution {
             playerList.add(
                 Player(
                     age = ages[it],
-                    score = scores[it]
-                )
+                    score = scores[it],
+                ),
             )
         }
 

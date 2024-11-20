@@ -49,7 +49,7 @@ class Solution(nums: IntArray) {
         map = HashMap()
         for (i in nums.indices) {
             map.computeIfAbsent(
-                nums[i]
+                nums[i],
             ) { ArrayList() }.add(i)
         }
     }

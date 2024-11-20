@@ -102,7 +102,7 @@ class Solution {
             intArrayOf(0, 1),
             intArrayOf(1, -1),
             intArrayOf(1, 0),
-            intArrayOf(1, 1)
+            intArrayOf(1, 1),
         )
     }
 }

@@ -56,7 +56,9 @@ class Solution {
         }
         return if (min + k >= max - k) {
             0
-        } else max - k - (min + k)
+        } else {
+            max - k - (min + k)
+        }
     }
 }
 ```

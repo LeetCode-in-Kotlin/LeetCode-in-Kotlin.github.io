@@ -78,7 +78,9 @@ class Solution {
             }
             return if (nums[i] == target) {
                 0
-            } else nums[i]
+            } else {
+                nums[i]
+            }
         }
         var sum = nums[i]
         for (k in graph[i]) {
@@ -96,7 +98,9 @@ class Solution {
         }
         return if (sum == target) {
             0
-        } else sum
+        } else {
+            sum
+        }
     }
 }
 ```

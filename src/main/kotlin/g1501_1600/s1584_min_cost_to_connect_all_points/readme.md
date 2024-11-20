@@ -72,7 +72,7 @@ class Solution {
         points: Array<IntArray>,
         mst: BooleanArray,
         pq: PriorityQueue<Pair>,
-        dist: IntArray
+        dist: IntArray,
     ) {
         if (!containsFalse(mst)) {
             return

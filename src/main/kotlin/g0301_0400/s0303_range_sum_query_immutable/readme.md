@@ -49,7 +49,9 @@ class NumArray(nums: IntArray) {
     fun sumRange(i: Int, j: Int): Int {
         return if (i == 0) {
             sums[j]
-        } else sums[j] - sums[i - 1]
+        } else {
+            sums[j] - sums[i - 1]
+        }
     }
 }
 

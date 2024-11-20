@@ -49,7 +49,9 @@ class Solution {
     fun isSymmetric(root: TreeNode?): Boolean {
         return if (root == null) {
             true
-        } else helper(root.left, root.right)
+        } else {
+            helper(root.left, root.right)
+        }
     }
 
     private fun helper(leftNode: TreeNode?, rightNode: TreeNode?): Boolean {
@@ -58,7 +60,9 @@ class Solution {
         }
         return if (leftNode.`val` != rightNode.`val`) {
             false
-        } else helper(leftNode.left, rightNode.right) && helper(leftNode.right, rightNode.left)
+        } else {
+            helper(leftNode.left, rightNode.right) && helper(leftNode.right, rightNode.left)
+        }
     }
 }
 ```

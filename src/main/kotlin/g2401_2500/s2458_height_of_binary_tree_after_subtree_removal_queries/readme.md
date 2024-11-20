@@ -91,7 +91,7 @@ class Solution {
         root: TreeNode?,
         level: Int,
         map: MutableMap<Int, IntArray>,
-        levels: MutableMap<Int, IntArray>
+        levels: MutableMap<Int, IntArray>,
     ): Int {
         if (root == null) {
             return 0

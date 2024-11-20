@@ -99,7 +99,9 @@ class Solution {
         }
         return if (b % a == 0) {
             a
-        } else gcd(b % a, a)
+        } else {
+            gcd(b % a, a)
+        }
     }
 
     private fun recursivelyCheck(list: ArrayList<Int>) {

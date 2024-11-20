@@ -48,7 +48,7 @@ class Solution {
         dp = Array(n + 1) {
             Array(n + 1) {
                 IntArray(
-                    n + 1
+                    n + 1,
                 )
             }
         }

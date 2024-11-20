@@ -60,7 +60,9 @@ class Solution {
         }
         return if (cnt < 100) {
             3
-        } else 4
+        } else {
+            4
+        }
     }
 
     fun getLengthOfOptimalCompression(s: String, k: Int): Int {

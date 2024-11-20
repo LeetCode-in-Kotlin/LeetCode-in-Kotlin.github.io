@@ -76,7 +76,7 @@ class Solution {
                                 dp1Idx,
                                 commaPos,
                                 sc.size - 2,
-                                dp2Idx
+                                dp2Idx,
                             )
                         }
                     }
@@ -102,7 +102,7 @@ class Solution {
         dp1Idx: Int,
         start2Idx: Int,
         last2Idx: Int,
-        dp2Idx: Int
+        dp2Idx: Int,
     ) {
         sb.setLength(0)
         sb.append('(')

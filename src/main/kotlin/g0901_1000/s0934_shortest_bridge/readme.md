@@ -51,7 +51,7 @@ class Solution {
         var flag = false
         val visited = Array(grid.size) {
             BooleanArray(
-                grid[0].size
+                grid[0].size,
             )
         }
         var i = 0

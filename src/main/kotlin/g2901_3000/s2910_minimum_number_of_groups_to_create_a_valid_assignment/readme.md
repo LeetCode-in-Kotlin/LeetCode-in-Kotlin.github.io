@@ -91,7 +91,8 @@ class Solution {
         for (num in nums) {
             count.merge(num, 1) { a: Int?, b: Int? ->
                 Integer.sum(
-                    a!!, b!!
+                    a!!,
+                    b!!,
                 )
             }
         }
@@ -103,7 +104,8 @@ class Solution {
         for (c in count.values) {
             countFreq.merge(c, 1) { a: Int?, b: Int? ->
                 Integer.sum(
-                    a!!, b!!
+                    a!!,
+                    b!!,
                 )
             }
         }

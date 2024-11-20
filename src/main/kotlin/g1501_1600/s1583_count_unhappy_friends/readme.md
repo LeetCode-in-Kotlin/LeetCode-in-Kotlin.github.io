@@ -96,7 +96,7 @@ class Solution {
         self: Int,
         assignedFriend: Int,
         preferences: Array<IntArray>,
-        assignedPairs: Map<Int, Int>
+        assignedPairs: Map<Int, Int>,
     ): Boolean {
         val preference = preferences[self]
         val assignedFriendPreferenceIndex = findIndex(preference, assignedFriend)
