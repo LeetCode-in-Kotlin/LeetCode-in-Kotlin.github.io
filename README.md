@@ -1816,6 +1816,18 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3389 |[Minimum Operations to Make Character Frequencies Equal](src/main/kotlin/g3301_3400/s3389_minimum_operations_to_make_character_frequencies_equal)| Hard | String, Hash_Table, Dynamic_Programming, Counting, Enumeration | 9 | 78.95
+| 3388 |[Count Beautiful Splits in an Array](src/main/kotlin/g3301_3400/s3388_count_beautiful_splits_in_an_array)| Medium | Array, Dynamic_Programming | 155 | 100.00
+| 3387 |[Maximize Amount After Two Days of Conversions](src/main/kotlin/g3301_3400/s3387_maximize_amount_after_two_days_of_conversions)| Medium | Array, String, Depth_First_Search, Breadth_First_Search, Graph | 13 | 88.46
+| 3386 |[Button with Longest Push Time](src/main/kotlin/g3301_3400/s3386_button_with_longest_push_time)| Easy | Array | 1 | 100.00
+| 3382 |[Maximum Area Rectangle With Point Constraints II](src/main/kotlin/g3301_3400/s3382_maximum_area_rectangle_with_point_constraints_ii)| Hard | Array, Math, Sorting, Geometry, Segment_Tree, Binary_Indexed_Tree | 518 | 100.00
+| 3381 |[Maximum Subarray Sum With Length Divisible by K](src/main/kotlin/g3301_3400/s3381_maximum_subarray_sum_with_length_divisible_by_k)| Medium | Array, Hash_Table, Prefix_Sum | 6 | 100.00
+| 3380 |[Maximum Area Rectangle With Point Constraints I](src/main/kotlin/g3301_3400/s3380_maximum_area_rectangle_with_point_constraints_i)| Medium | Array, Math, Sorting, Enumeration, Geometry, Segment_Tree, Binary_Indexed_Tree | 10 | 94.74
+| 3379 |[Transformed Array](src/main/kotlin/g3301_3400/s3379_transformed_array)| Easy | Array, Simulation | 206 | 84.38
+| 3378 |[Count Connected Components in LCM Graph](src/main/kotlin/g3301_3400/s3378_count_connected_components_in_lcm_graph)| Hard | Array, Hash_Table, Math, Union_Find, Number_Theory | 58 | 100.00
+| 3377 |[Digit Operations to Make Two Integers Equal](src/main/kotlin/g3301_3400/s3377_digit_operations_to_make_two_integers_equal)| Medium | Math, Heap_Priority_Queue, Graph, Shortest_Path, Number_Theory | 215 | 100.00
+| 3376 |[Minimum Time to Break Locks I](src/main/kotlin/g3301_3400/s3376_minimum_time_to_break_locks_i)| Medium | Array, Dynamic_Programming, Bit_Manipulation, Backtracking, Bitmask | 202 | 100.00
+| 3375 |[Minimum Operations to Make Array Values Equal to K](src/main/kotlin/g3301_3400/s3375_minimum_operations_to_make_array_values_equal_to_k)| Easy | Array, Hash_Table | 191 | 100.00
 | 3373 |[Maximize the Number of Target Nodes After Connecting Trees II](src/main/kotlin/g3301_3400/s3373_maximize_the_number_of_target_nodes_after_connecting_trees_ii)| Hard | Depth_First_Search, Breadth_First_Search, Tree | 26 | 98.75
 | 3372 |[Maximize the Number of Target Nodes After Connecting Trees I](src/main/kotlin/g3301_3400/s3372_maximize_the_number_of_target_nodes_after_connecting_trees_i)| Medium | Depth_First_Search, Breadth_First_Search, Tree | 50 | 99.49
 | 3371 |[Identify the Largest Outlier in an Array](src/main/kotlin/g3301_3400/s3371_identify_the_largest_outlier_in_an_array)| Medium | Array, Hash_Table, Counting, Enumeration | 5 | 100.00
