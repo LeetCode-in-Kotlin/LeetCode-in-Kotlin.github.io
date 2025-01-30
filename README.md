@@ -2133,6 +2133,7 @@
 | 3377 |[Digit Operations to Make Two Integers Equal](src/main/kotlin/g3301_3400/s3377_digit_operations_to_make_two_integers_equal)| Medium | Math, Heap_Priority_Queue, Graph, Shortest_Path, Number_Theory | 215 | 100.00
 | 3376 |[Minimum Time to Break Locks I](src/main/kotlin/g3301_3400/s3376_minimum_time_to_break_locks_i)| Medium | Array, Dynamic_Programming, Bit_Manipulation, Backtracking, Bitmask | 202 | 100.00
 | 3375 |[Minimum Operations to Make Array Values Equal to K](src/main/kotlin/g3301_3400/s3375_minimum_operations_to_make_array_values_equal_to_k)| Easy | Array, Hash_Table | 191 | 100.00
+| 3374 |[First Letter Capitalization II](src/main/kotlin/g3301_3400/s3374_first_letter_capitalization_ii)| Hard | Database | 261 | 84.21
 | 3373 |[Maximize the Number of Target Nodes After Connecting Trees II](src/main/kotlin/g3301_3400/s3373_maximize_the_number_of_target_nodes_after_connecting_trees_ii)| Hard | Depth_First_Search, Breadth_First_Search, Tree | 26 | 98.75
 | 3372 |[Maximize the Number of Target Nodes After Connecting Trees I](src/main/kotlin/g3301_3400/s3372_maximize_the_number_of_target_nodes_after_connecting_trees_i)| Medium | Depth_First_Search, Breadth_First_Search, Tree | 50 | 99.49
 | 3371 |[Identify the Largest Outlier in an Array](src/main/kotlin/g3301_3400/s3371_identify_the_largest_outlier_in_an_array)| Medium | Array, Hash_Table, Counting, Enumeration | 5 | 100.00
