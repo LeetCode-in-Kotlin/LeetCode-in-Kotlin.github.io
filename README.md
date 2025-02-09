@@ -429,7 +429,7 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0222 |[Count Complete Tree Nodes](src/main/kotlin/g0201_0300/s0222_count_complete_tree_nodes)| |||
+| 0222 |[Count Complete Tree Nodes](src/main/kotlin/g0201_0300/s0222_count_complete_tree_nodes)| Easy | Depth_First_Search, Tree, Binary_Search, Binary_Tree | 0 | 100.00
 | 1712 |[Ways to Split Array Into Three Subarrays](src/main/kotlin/g1701_1800/s1712_ways_to_split_array_into_three_subarrays)| Medium | Array, Binary_Search, Two_Pointers, Prefix_Sum | 486 | 100.00
 
 #### Day 11
@@ -1596,10 +1596,10 @@
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0209 |[Minimum Size Subarray Sum](src/main/kotlin/g0201_0300/s0209_minimum_size_subarray_sum)| Medium | Array, Binary_Search, Prefix_Sum, Sliding_Window | 315 | 96.73
 | 0003 |[Longest Substring Without Repeating Characters](src/main/kotlin/g0001_0100/s0003_longest_substring_without_repeating_characters)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window, Big_O_Time_O(n)_Space_O(1), AI_can_be_used_to_solve_the_task | 201 | 87.28
 | 0030 |[Substring with Concatenation of All Words](src/main/kotlin/g0001_0100/s0030_substring_with_concatenation_of_all_words)| Hard | String, Hash_Table, Sliding_Window | 182 | 100.00
 | 0076 |[Minimum Window Substring](src/main/kotlin/g0001_0100/s0076_minimum_window_substring)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window, Big_O_Time_O(s.length())_Space_O(1) | 191 | 96.38
-| 0209 |[Minimum Size Subarray Sum](src/main/kotlin/g0201_0300/s0209_minimum_size_subarray_sum)| Medium | Array, Binary_Search, Prefix_Sum, Sliding_Window | 315 | 96.73
 
 #### Top Interview 150 Matrix
 
@@ -1676,7 +1676,7 @@
 | 0129 |[Sum Root to Leaf Numbers](src/main/kotlin/g0101_0200/s0129_sum_root_to_leaf_numbers)| Medium | Depth_First_Search, Tree, Binary_Tree | 237 | 52.50
 | 0124 |[Binary Tree Maximum Path Sum](src/main/kotlin/g0101_0200/s0124_binary_tree_maximum_path_sum)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(N) | 331 | 74.42
 | 0173 |[Binary Search Tree Iterator](src/main/kotlin/g0101_0200/s0173_binary_search_tree_iterator)| Medium | Tree, Binary_Tree, Stack, Design, Binary_Search_Tree, Iterator | 563 | 46.91
-| 0222 |[Count Complete Tree Nodes](src/main/kotlin/g0201_0300/s0222_count_complete_tree_nodes)| |||
+| 0222 |[Count Complete Tree Nodes](src/main/kotlin/g0201_0300/s0222_count_complete_tree_nodes)| Easy | Depth_First_Search, Tree, Binary_Search, Binary_Tree | 0 | 100.00
 | 0236 |[Lowest Common Ancestor of a Binary Tree](src/main/kotlin/g0201_0300/s0236_lowest_common_ancestor_of_a_binary_tree)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(n)_Space_O(n) | 386 | 45.21
 
 #### Top Interview 150 Binary Tree BFS
@@ -4612,7 +4612,7 @@
 | 0225 |[Implement Stack using Queues](src/main/kotlin/g0201_0300/s0225_implement_stack_using_queues)| Easy | Stack, Design, Queue | 147 | 88.57
 | 0224 |[Basic Calculator](src/main/kotlin/g0201_0300/s0224_basic_calculator)| Hard | String, Math, Stack, Recursion, Top_Interview_150_Stack | 294 | 93.33
 | 0223 |[Rectangle Area](src/main/kotlin/g0201_0300/s0223_rectangle_area)| Medium | Math, Geometry | 291 | 66.67
-| 0222 |[Count Complete Tree Nodes](src/main/kotlin/g0201_0300/s0222_count_complete_tree_nodes)| |||
+| 0222 |[Count Complete Tree Nodes](src/main/kotlin/g0201_0300/s0222_count_complete_tree_nodes)| Easy | Depth_First_Search, Tree, Binary_Search, Binary_Tree, Binary_Search_II_Day_10, Top_Interview_150_Binary_Tree_General | 0 | 100.00
 | 0221 |[Maximal Square](src/main/kotlin/g0201_0300/s0221_maximal_square)| Medium | Array, Dynamic_Programming, Matrix, Dynamic_Programming_I_Day_16, Top_Interview_150_Multidimensional_DP, Big_O_Time_O(m\*n)_Space_O(m\*n) | 614 | 44.00
 | 0220 |[Contains Duplicate III](src/main/kotlin/g0201_0300/s0220_contains_duplicate_iii)| Hard | Array, Sorting, Sliding_Window, Ordered_Set, Bucket_Sort | 921 | 72.22
 | 0219 |[Contains Duplicate II](src/main/kotlin/g0201_0300/s0219_contains_duplicate_ii)| Easy | Array, Hash_Table, Sliding_Window, Top_Interview_150_Hashmap | 813 | 80.46
