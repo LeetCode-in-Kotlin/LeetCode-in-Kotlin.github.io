@@ -2084,6 +2084,10 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3449 |[Maximize the Minimum Game Score](src/main/kotlin/g3401_3500/s3449_maximize_the_minimum_game_score)| Hard | Array, Greedy, Binary_Search | 123 | 100.00
+| 3448 |[Count Substrings Divisible By Last Digit](src/main/kotlin/g3401_3500/s3448_count_substrings_divisible_by_last_digit)| Hard | String, Dynamic_Programming | 28 | 77.78
+| 3447 |[Assign Elements to Groups with Constraints](src/main/kotlin/g3401_3500/s3447_assign_elements_to_groups_with_constraints)| Medium | Array, Hash_Table | 24 | 100.00
+| 3446 |[Sort Matrix by Diagonals](src/main/kotlin/g3401_3500/s3446_sort_matrix_by_diagonals)| Medium | Array, Sorting, Matrix | 12 | 93.75
 | 3445 |[Maximum Difference Between Even and Odd Frequency II](src/main/kotlin/g3401_3500/s3445_maximum_difference_between_even_and_odd_frequency_ii)| Hard | String, Prefix_Sum, Sliding_Window, Enumeration | 84 | 83.33
 | 3444 |[Minimum Increments for Target Multiples in an Array](src/main/kotlin/g3401_3500/s3444_minimum_increments_for_target_multiples_in_an_array)| Hard | Array, Dynamic_Programming, Math, Bit_Manipulation, Bitmask, Number_Theory | 34 | 100.00
 | 3443 |[Maximum Manhattan Distance After K Changes](src/main/kotlin/g3401_3500/s3443_maximum_manhattan_distance_after_k_changes)| Medium | String, Hash_Table, Math, Counting | 52 | 100.00
@@ -2243,7 +2247,7 @@
 | 3250 |[Find the Count of Monotonic Pairs I](src/main/kotlin/g3201_3300/s3250_find_the_count_of_monotonic_pairs_i)| Hard | Array, Dynamic_Programming, Math, Prefix_Sum, Combinatorics | 241 | 100.00
 | 3249 |[Count the Number of Good Nodes](src/main/kotlin/g3201_3300/s3249_count_the_number_of_good_nodes)| Medium | Depth_First_Search, Tree | 1190 | 100.00
 | 3248 |[Snake in Matrix](src/main/kotlin/g3201_3300/s3248_snake_in_matrix)| Easy | Array, String, Simulation | 174 | 90.91
-| 3245 |[Alternating Groups III](src/main/kotlin/g3201_3300/s3245_alternating_groups_iii)| Hard | Array, Binary_Indexed_Tree | 1072 | 100.00
+| 3245 |[Alternating Groups III](src/main/kotlin/g3201_3300/s3245_alternating_groups_iii)| Hard | Array, Binary_Indexed_Tree | 188 | 100.00
 | 3244 |[Shortest Distance After Road Addition Queries II](src/main/kotlin/g3201_3300/s3244_shortest_distance_after_road_addition_queries_ii)| Hard | Array, Greedy, Graph, Ordered_Set | 794 | 92.31
 | 3243 |[Shortest Distance After Road Addition Queries I](src/main/kotlin/g3201_3300/s3243_shortest_distance_after_road_addition_queries_i)| Medium | Array, Breadth_First_Search, Graph | 313 | 97.06
 | 3242 |[Design Neighbor Sum Service](src/main/kotlin/g3201_3300/s3242_design_neighbor_sum_service)| Easy | Array, Hash_Table, Matrix, Design, Simulation | 333 | 75.00
