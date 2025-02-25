@@ -2088,6 +2088,10 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3464 |[Maximize the Distance Between Points on a Square](src/main/kotlin/g3401_3500/s3464_maximize_the_distance_between_points_on_a_square)| Hard | Array, Greedy, Binary_Search | 18 | 98.51
+| 3463 |[Check If Digits Are Equal in String After Operations II](src/main/kotlin/g3401_3500/s3463_check_if_digits_are_equal_in_string_after_operations_ii)| Hard | String, Math, Number_Theory, Combinatorics | 38 | 100.00
+| 3462 |[Maximum Sum With at Most K Elements](src/main/kotlin/g3401_3500/s3462_maximum_sum_with_at_most_k_elements)| Medium | Array, Sorting, Greedy, Matrix, Heap_(Priority_Queue) | 139 | 100.00
+| 3461 |[Check If Digits Are Equal in String After Operations I](src/main/kotlin/g3401_3500/s3461_check_if_digits_are_equal_in_string_after_operations_i)| Easy | String, Math, Simulation, Number_Theory, Combinatorics | 3 | 100.00
 | 3459 |[Length of Longest V-Shaped Diagonal Segment](src/main/kotlin/g3401_3500/s3459_length_of_longest_v_shaped_diagonal_segment)| Hard | Array, Dynamic_Programming, Matrix, Memoization | 287 | 100.00
 | 3458 |[Select K Disjoint Special Substrings](src/main/kotlin/g3401_3500/s3458_select_k_disjoint_special_substrings)| Medium | String, Hash_Table, Dynamic_Programming, Sorting, Greedy | 24 | 100.00
 | 3457 |[Eat Pizzas!](src/main/kotlin/g3401_3500/s3457_eat_pizzas)| Medium | Array, Sorting, Greedy | 101 | 90.91
@@ -2109,7 +2113,7 @@
 | 3440 |[Reschedule Meetings for Maximum Free Time II](src/main/kotlin/g3401_3500/s3440_reschedule_meetings_for_maximum_free_time_ii)| Medium | Array, Greedy, Enumeration | 8 | 100.00
 | 3439 |[Reschedule Meetings for Maximum Free Time I](src/main/kotlin/g3401_3500/s3439_reschedule_meetings_for_maximum_free_time_i)| Medium | Array, Greedy, Sliding_Window | 5 | 80.00
 | 3438 |[Find Valid Pair of Adjacent Digits in String](src/main/kotlin/g3401_3500/s3438_find_valid_pair_of_adjacent_digits_in_string)| Easy | String, Hash_Table, Counting | 2 | 93.18
-| 3436 |[Find Valid Emails](src/main/kotlin/g3401_3500/s3436_find_valid_emails)| Easy || 451 | 70.84
+| 3436 |[Find Valid Emails](src/main/kotlin/g3401_3500/s3436_find_valid_emails)| Easy | Database | 451 | 70.84
 | 3435 |[Frequencies of Shortest Supersequences](src/main/kotlin/g3401_3500/s3435_frequencies_of_shortest_supersequences)| Hard | Array, String, Bit_Manipulation, Graph, Enumeration, Topological_Sort | 35 | 100.00
 | 3434 |[Maximum Frequency After Subarray Operation](src/main/kotlin/g3401_3500/s3434_maximum_frequency_after_subarray_operation)| Medium | Array, Hash_Table, Dynamic_Programming, Greedy, Prefix_Sum | 51 | 100.00
 | 3433 |[Count Mentions Per User](src/main/kotlin/g3401_3500/s3433_count_mentions_per_user)| Medium | Array, Math, Sorting, Simulation | 52 | 100.00
