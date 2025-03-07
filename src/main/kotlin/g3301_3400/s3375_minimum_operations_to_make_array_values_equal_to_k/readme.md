@@ -59,13 +59,13 @@ The operations can be performed using valid integers in the order 7, 5, 3, and 1
 ```kotlin
 class Solution {
     fun minOperations(nums: IntArray, k: Int): Int {
-        val s: MutableSet<Int?> = HashSet<Int?>()
+        val s: MutableSet<Int> = HashSet<Int>()
         for (i in nums) {
             s.add(i)
         }
         var res = 0
         for (i in s) {
-            if (i!! > k) {
+            if (i > k) {
                 res++
             } else if (i < k) {
                 return -1
