@@ -87,7 +87,7 @@ At timestamp 12, `"HERE"` is mentioned. Because `id0` is still offline, they wil
 class Solution {
     fun countMentions(numberOfUsers: Int, events: List<List<String>>): IntArray {
         val ans = IntArray(numberOfUsers)
-        val l: MutableList<Int?> = ArrayList<Int?>()
+        val l: MutableList<Int> = ArrayList<Int>()
         var c = 0
         for (i in events.indices) {
             val s = events[i][0]
@@ -112,7 +112,7 @@ class Solution {
                 val id = events[i][2].toInt()
                 val a = events[i][1].toInt() + 60
                 for (j in l.indices) {
-                    if (l[j]!! >= a - 60 && l[j]!! < a) {
+                    if (l[j] >= a - 60 && l[j] < a) {
                         ans[id]--
                     }
                 }

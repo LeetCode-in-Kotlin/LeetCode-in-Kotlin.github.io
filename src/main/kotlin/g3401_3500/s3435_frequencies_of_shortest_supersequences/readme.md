@@ -65,7 +65,7 @@ class Solution {
     private val charToIdx = IntArray(26)
     private val used = BooleanArray(26)
 
-    fun supersequences(words: Array<String>): MutableList<MutableList<Int?>?> {
+    fun supersequences(words: Array<String>): List<List<Int>> {
         charToIdx.fill(-1)
         for (w in words) {
             used[w[0].code - 'a'.code] = true
@@ -91,7 +91,7 @@ class Solution {
         }
         // Try all supersets of forcedMask; keep those that kill all cycles
         var best = 9999
-        val goodSets: MutableList<Int?> = ArrayList<Int?>()
+        val goodSets: MutableList<Int> = ArrayList<Int>()
         for (s in 0..<(1 shl m)) {
             if ((s and forcedMask) != forcedMask) {
                 continue
@@ -106,16 +106,16 @@ class Solution {
             }
         }
         // Build distinct freq arrays from these sets
-        val seen: MutableSet<String?> = HashSet<String?>()
-        val ans: MutableList<MutableList<Int?>?> = ArrayList<MutableList<Int?>?>()
+        val seen: MutableSet<String> = HashSet<String>()
+        val ans: MutableList<MutableList<Int>> = ArrayList<MutableList<Int>>()
         for (s in goodSets) {
             val freq = IntArray(26)
             for (i in 0..<m) {
-                freq[idxToChar[i].code - 'a'.code] = if ((s!! and (1 shl i)) != 0) 2 else 1
+                freq[idxToChar[i].code - 'a'.code] = if ((s and (1 shl i)) != 0) 2 else 1
             }
             val key = freq.contentToString()
             if (seen.add(key)) {
-                val tmp: MutableList<Int?> = ArrayList<Int?>()
+                val tmp: MutableList<Int> = ArrayList<Int>()
                 for (f in freq) {
                     tmp.add(f)
                 }
