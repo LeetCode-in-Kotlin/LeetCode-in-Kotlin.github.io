@@ -2088,6 +2088,7 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3482 |[Analyze Organization Hierarchy](src/main/kotlin/g3401_3500/s3482_analyze_organization_hierarchy)| Hard | Database | 712 | 100.00
 | 3480 |[Maximize Subarrays After Removing One Conflicting Pair](src/main/kotlin/g3401_3500/s3480_maximize_subarrays_after_removing_one_conflicting_pair)| Hard | Array, Prefix_Sum, Enumeration, Segment_Tree | 48 | 100.00
 | 3479 |[Fruits Into Baskets III](src/main/kotlin/g3401_3500/s3479_fruits_into_baskets_iii)| Medium | Array, Binary_Search, Ordered_Set, Segment_Tree | 53 | 92.86
 | 3478 |[Choose K Elements With Maximum Sum](src/main/kotlin/g3401_3500/s3478_choose_k_elements_with_maximum_sum)| Medium | Array, Sorting, Heap_Priority_Queue | 151 | 100.00
