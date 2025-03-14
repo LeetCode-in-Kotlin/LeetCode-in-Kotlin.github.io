@@ -87,9 +87,9 @@ class Solution {
     private fun solve(
         currCurrency: String,
         value: Double,
-        targetCurrency: String?,
+        targetCurrency: String,
         day: Int,
-        used: MutableSet<String?>,
+        used: MutableSet<String>,
     ) {
         if (currCurrency == targetCurrency) {
             res = max(res, value)
@@ -109,7 +109,7 @@ class Solution {
             }
         }
         if (day == 1) {
-            solve(currCurrency, value, targetCurrency, day + 1, HashSet<String?>())
+            solve(currCurrency, value, targetCurrency, day + 1, HashSet<String>())
         }
     }
 
@@ -151,7 +151,7 @@ class Solution {
             map2[c2]!!.add(Pair(c1, 1.0 / rates2[i]))
         }
         res = 1.0
-        solve(initialCurrency, 1.0, initialCurrency, 1, HashSet<String?>())
+        solve(initialCurrency, 1.0, initialCurrency, 1, HashSet<String>())
         return res
     }
 }

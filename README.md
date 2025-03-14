@@ -2091,7 +2091,7 @@
 | 3482 |[Analyze Organization Hierarchy](src/main/kotlin/g3401_3500/s3482_analyze_organization_hierarchy)| Hard | Database | 712 | 100.00
 | 3480 |[Maximize Subarrays After Removing One Conflicting Pair](src/main/kotlin/g3401_3500/s3480_maximize_subarrays_after_removing_one_conflicting_pair)| Hard | Array, Prefix_Sum, Enumeration, Segment_Tree | 48 | 100.00
 | 3479 |[Fruits Into Baskets III](src/main/kotlin/g3401_3500/s3479_fruits_into_baskets_iii)| Medium | Array, Binary_Search, Ordered_Set, Segment_Tree | 53 | 92.86
-| 3478 |[Choose K Elements With Maximum Sum](src/main/kotlin/g3401_3500/s3478_choose_k_elements_with_maximum_sum)| Medium | Array, Sorting, Heap_Priority_Queue | 151 | 100.00
+| 3478 |[Choose K Elements With Maximum Sum](src/main/kotlin/g3401_3500/s3478_choose_k_elements_with_maximum_sum)| Medium | Array, Sorting, Heap_Priority_Queue | 171 | 95.45
 | 3477 |[Fruits Into Baskets II](src/main/kotlin/g3401_3500/s3477_fruits_into_baskets_ii)| Easy | Array, Binary_Search, Simulation, Segment_Tree | 3 | 100.00
 | 3475 |[DNA Pattern Recognition](src/main/kotlin/g3401_3500/s3475_dna_pattern_recognition)| Medium | Database | 362 | 83.49
 | 3474 |[Lexicographically Smallest Generated String](src/main/kotlin/g3401_3500/s3474_lexicographically_smallest_generated_string)| Hard | String, Greedy, String_Matching | 30 | 100.00
@@ -2124,7 +2124,7 @@
 | 3444 |[Minimum Increments for Target Multiples in an Array](src/main/kotlin/g3401_3500/s3444_minimum_increments_for_target_multiples_in_an_array)| Hard | Array, Dynamic_Programming, Math, Bit_Manipulation, Bitmask, Number_Theory | 34 | 100.00
 | 3443 |[Maximum Manhattan Distance After K Changes](src/main/kotlin/g3401_3500/s3443_maximum_manhattan_distance_after_k_changes)| Medium | String, Hash_Table, Math, Counting | 52 | 100.00
 | 3442 |[Maximum Difference Between Even and Odd Frequency I](src/main/kotlin/g3401_3500/s3442_maximum_difference_between_even_and_odd_frequency_i)| Easy | String, Hash_Table, Counting | 1 | 100.00
-| 3441 |[Minimum Cost Good Caption](src/main/kotlin/g3401_3500/s3441_minimum_cost_good_caption)| Hard | String, Dynamic_Programming | 78 | 100.00
+| 3441 |[Minimum Cost Good Caption](src/main/kotlin/g3401_3500/s3441_minimum_cost_good_caption)| Hard | String, Dynamic_Programming | 48 | 83.33
 | 3440 |[Reschedule Meetings for Maximum Free Time II](src/main/kotlin/g3401_3500/s3440_reschedule_meetings_for_maximum_free_time_ii)| Medium | Array, Greedy, Enumeration | 8 | 100.00
 | 3439 |[Reschedule Meetings for Maximum Free Time I](src/main/kotlin/g3401_3500/s3439_reschedule_meetings_for_maximum_free_time_i)| Medium | Array, Greedy, Sliding_Window | 5 | 80.00
 | 3438 |[Find Valid Pair of Adjacent Digits in String](src/main/kotlin/g3401_3500/s3438_find_valid_pair_of_adjacent_digits_in_string)| Easy | String, Hash_Table, Counting | 2 | 93.18
@@ -2138,7 +2138,7 @@
 | 3428 |[Maximum and Minimum Sums of at Most Size K Subsequences](src/main/kotlin/g3401_3500/s3428_maximum_and_minimum_sums_of_at_most_size_k_subsequences)| Medium | Array, Dynamic_Programming, Math, Sorting, Combinatorics | 167 | 77.78
 | 3427 |[Sum of Variable Length Subarrays](src/main/kotlin/g3401_3500/s3427_sum_of_variable_length_subarrays)| Easy | Array, Prefix_Sum | 0 | 100.00
 | 3426 |[Manhattan Distances of All Arrangements of Pieces](src/main/kotlin/g3401_3500/s3426_manhattan_distances_of_all_arrangements_of_pieces)| Hard | Math, Combinatorics | 21 | 100.00
-| 3425 |[Longest Special Path](src/main/kotlin/g3401_3500/s3425_longest_special_path)| Hard | Array, Hash_Table, Depth_First_Search, Tree, Sliding_Window | 106 | 100.00
+| 3425 |[Longest Special Path](src/main/kotlin/g3401_3500/s3425_longest_special_path)| Hard | Array, Hash_Table, Depth_First_Search, Tree, Sliding_Window | 59 | 100.00
 | 3424 |[Minimum Cost to Make Arrays Identical](src/main/kotlin/g3401_3500/s3424_minimum_cost_to_make_arrays_identical)| Medium | Array, Sorting, Greedy | 38 | 100.00
 | 3423 |[Maximum Difference Between Adjacent Elements in a Circular Array](src/main/kotlin/g3401_3500/s3423_maximum_difference_between_adjacent_elements_in_a_circular_array)| Easy | Array | 2 | 100.00
 | 3421 |[Find Students Who Improved](src/main/kotlin/g3401_3500/s3421_find_students_who_improved)| Medium | Database | 466 | 74.56
@@ -2168,7 +2168,7 @@
 | 3392 |[Count Subarrays of Length Three With a Condition](src/main/kotlin/g3301_3400/s3392_count_subarrays_of_length_three_with_a_condition)| Easy | Array | 3 | 100.00
 | 3389 |[Minimum Operations to Make Character Frequencies Equal](src/main/kotlin/g3301_3400/s3389_minimum_operations_to_make_character_frequencies_equal)| Hard | String, Hash_Table, Dynamic_Programming, Counting, Enumeration | 9 | 78.95
 | 3388 |[Count Beautiful Splits in an Array](src/main/kotlin/g3301_3400/s3388_count_beautiful_splits_in_an_array)| Medium | Array, Dynamic_Programming | 155 | 100.00
-| 3387 |[Maximize Amount After Two Days of Conversions](src/main/kotlin/g3301_3400/s3387_maximize_amount_after_two_days_of_conversions)| Medium | Array, String, Depth_First_Search, Breadth_First_Search, Graph | 13 | 88.46
+| 3387 |[Maximize Amount After Two Days of Conversions](src/main/kotlin/g3301_3400/s3387_maximize_amount_after_two_days_of_conversions)| Medium | Array, String, Depth_First_Search, Breadth_First_Search, Graph | 10 | 93.75
 | 3386 |[Button with Longest Push Time](src/main/kotlin/g3301_3400/s3386_button_with_longest_push_time)| Easy | Array | 1 | 100.00
 | 3382 |[Maximum Area Rectangle With Point Constraints II](src/main/kotlin/g3301_3400/s3382_maximum_area_rectangle_with_point_constraints_ii)| Hard | Array, Math, Sorting, Geometry, Segment_Tree, Binary_Indexed_Tree | 518 | 100.00
 | 3381 |[Maximum Subarray Sum With Length Divisible by K](src/main/kotlin/g3301_3400/s3381_maximum_subarray_sum_with_length_divisible_by_k)| Medium | Array, Hash_Table, Prefix_Sum | 6 | 100.00
@@ -2185,10 +2185,10 @@
 | 3370 |[Smallest Number With All Set Bits](src/main/kotlin/g3301_3400/s3370_smallest_number_with_all_set_bits)| Easy | Math, Bit_Manipulation | 0 | 100.00
 | 3367 |[Maximize Sum of Weights after Edge Removals](src/main/kotlin/g3301_3400/s3367_maximize_sum_of_weights_after_edge_removals)| Hard | Dynamic_Programming, Depth_First_Search, Tree | 113 | 100.00
 | 3366 |[Minimum Array Sum](src/main/kotlin/g3301_3400/s3366_minimum_array_sum)| Medium | Array, Dynamic_Programming | 15 | 100.00
-| 3365 |[Rearrange K Substrings to Form Target String](src/main/kotlin/g3301_3400/s3365_rearrange_k_substrings_to_form_target_string)| Medium | String, Hash_Table, Sorting | 457 | 100.00
+| 3365 |[Rearrange K Substrings to Form Target String](src/main/kotlin/g3301_3400/s3365_rearrange_k_substrings_to_form_target_string)| Medium | String, Hash_Table, Sorting | 464 | 100.00
 | 3364 |[Minimum Positive Sum Subarray](src/main/kotlin/g3301_3400/s3364_minimum_positive_sum_subarray)| Easy | Array, Prefix_Sum, Sliding_Window | 3 | 98.15
 | 3363 |[Find the Maximum Number of Fruits Collected](src/main/kotlin/g3301_3400/s3363_find_the_maximum_number_of_fruits_collected)| Hard | Array, Dynamic_Programming, Matrix | 39 | 88.89
-| 3362 |[Zero Array Transformation III](src/main/kotlin/g3301_3400/s3362_zero_array_transformation_iii)| Medium | Array, Sorting, Greedy, Heap_Priority_Queue, Prefix_Sum | 195 | 81.82
+| 3362 |[Zero Array Transformation III](src/main/kotlin/g3301_3400/s3362_zero_array_transformation_iii)| Medium | Array, Sorting, Greedy, Heap_Priority_Queue, Prefix_Sum | 142 | 100.00
 | 3361 |[Shift Distance Between Two Strings](src/main/kotlin/g3301_3400/s3361_shift_distance_between_two_strings)| Medium | Array, String, Prefix_Sum | 350 | 82.50
 | 3360 |[Stone Removal Game](src/main/kotlin/g3301_3400/s3360_stone_removal_game)| Easy | Math, Simulation | 0 | 100.00
 | 3357 |[Minimize the Maximum Adjacent Element Difference](src/main/kotlin/g3301_3400/s3357_minimize_the_maximum_adjacent_element_difference)| Hard | Array, Greedy, Binary_Search | 13 | 100.00
@@ -2220,7 +2220,7 @@
 | 3325 |[Count Substrings With K-Frequency Characters I](src/main/kotlin/g3301_3400/s3325_count_substrings_with_k_frequency_characters_i)| Medium | String, Hash_Table, Sliding_Window | 3 | 88.00
 | 3324 |[Find the Sequence of Strings Appeared on the Screen](src/main/kotlin/g3301_3400/s3324_find_the_sequence_of_strings_appeared_on_the_screen)| Medium | String, Simulation | 8 | 100.00
 | 3321 |[Find X-Sum of All K-Long Subarrays II](src/main/kotlin/g3301_3400/s3321_find_x_sum_of_all_k_long_subarrays_ii)| Hard | Array, Hash_Table, Heap_Priority_Queue, Sliding_Window | 1660 | 100.00
-| 3320 |[Count The Number of Winning Sequences](src/main/kotlin/g3301_3400/s3320_count_the_number_of_winning_sequences)| Hard | String, Dynamic_Programming | 335 | 100.00
+| 3320 |[Count The Number of Winning Sequences](src/main/kotlin/g3301_3400/s3320_count_the_number_of_winning_sequences)| Hard | String, Dynamic_Programming | 56 | 100.00
 | 3319 |[K-th Largest Perfect Subtree Size in Binary Tree](src/main/kotlin/g3301_3400/s3319_k_th_largest_perfect_subtree_size_in_binary_tree)| Medium | Sorting, Depth_First_Search, Tree, Binary_Tree | 332 | 45.45
 | 3318 |[Find X-Sum of All K-Long Subarrays I](src/main/kotlin/g3301_3400/s3318_find_x_sum_of_all_k_long_subarrays_i)| Easy | Array, Hash_Table, Heap_Priority_Queue, Sliding_Window | 262 | 86.21
 | 3317 |[Find the Number of Possible Ways for an Event](src/main/kotlin/g3301_3400/s3317_find_the_number_of_possible_ways_for_an_event)| Hard | Dynamic_Programming, Math, Combinatorics | 166 | 100.00
@@ -3384,7 +3384,7 @@
 | 1829 |[Maximum XOR for Each Query](src/main/kotlin/g1801_1900/s1829_maximum_xor_for_each_query)| Medium | Array, Bit_Manipulation, Prefix_Sum | 680 | 100.00
 | 1828 |[Queries on Number of Points Inside a Circle](src/main/kotlin/g1801_1900/s1828_queries_on_number_of_points_inside_a_circle)| Medium | Array, Math, Geometry | 284 | 100.00
 | 1827 |[Minimum Operations to Make the Array Increasing](src/main/kotlin/g1801_1900/s1827_minimum_operations_to_make_the_array_increasing)| Easy | Array, Greedy | 208 | 100.00
-| 1825 |[Finding MK Average](src/main/kotlin/g1801_1900/s1825_finding_mk_average)| Hard | Design, Heap_Priority_Queue, Ordered_Set, Queue | 1101 | 100.00
+| 1825 |[Finding MK Average](src/main/kotlin/g1801_1900/s1825_finding_mk_average)| Hard | Design, Heap_Priority_Queue, Ordered_Set, Queue | 69 | 100.00
 | 1824 |[Minimum Sideway Jumps](src/main/kotlin/g1801_1900/s1824_minimum_sideway_jumps)| Medium | Array, Dynamic_Programming, Greedy | 726 | 100.00
 | 1823 |[Find the Winner of the Circular Game](src/main/kotlin/g1801_1900/s1823_find_the_winner_of_the_circular_game)| Medium | Array, Math, Simulation, Recursion, Queue, Data_Structure_II_Day_14_Stack_Queue | 119 | 87.50
 | 1822 |[Sign of the Product of an Array](src/main/kotlin/g1801_1900/s1822_sign_of_the_product_of_an_array)| Easy | Array, Math, Programming_Skills_I_Day_4_Loop | 170 | 92.51
@@ -4018,7 +4018,7 @@
 | 1002 |[Find Common Characters](src/main/kotlin/g1001_1100/s1002_find_common_characters)| Easy | Array, String, Hash_Table | 181 | 100.00
 | 1001 |[Grid Illumination](src/main/kotlin/g1001_1100/s1001_grid_illumination)| Hard | Array, Hash_Table | 801 | 100.00
 | 1000 |[Minimum Cost to Merge Stones](src/main/kotlin/g0901_1000/s1000_minimum_cost_to_merge_stones)| Hard | Array, Dynamic_Programming | 152 | 75.00
-| 0999 |[Available Captures for Rook](src/main/kotlin/g0901_1000/s0999_available_captures_for_rook)| Easy | Array, Matrix, Simulation | 143 | 80.00
+| 0999 |[Available Captures for Rook](src/main/kotlin/g0901_1000/s0999_available_captures_for_rook)| Easy | Array, Matrix, Simulation | 0 | 100.00
 | 0998 |[Maximum Binary Tree II](src/main/kotlin/g0901_1000/s0998_maximum_binary_tree_ii)| Medium | Tree, Binary_Tree | 157 | 100.00
 | 0997 |[Find the Town Judge](src/main/kotlin/g0901_1000/s0997_find_the_town_judge)| Easy | Array, Hash_Table, Graph, Data_Structure_II_Day_19_Graph, Graph_Theory_I_Day_13_Graph_Theory | 475 | 58.62
 | 0996 |[Number of Squareful Arrays](src/main/kotlin/g0901_1000/s0996_number_of_squareful_arrays)| Hard | Array, Dynamic_Programming, Math, Bit_Manipulation, Backtracking, Bitmask | 139 | 100.00

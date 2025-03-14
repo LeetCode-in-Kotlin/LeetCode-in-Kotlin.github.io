@@ -63,19 +63,19 @@ class Solution {
     fun isPossibleToRearrange(s: String, t: String, k: Int): Boolean {
         val size = s.length
         val div = size / k
-        val map: MutableMap<String?, Int?> = HashMap<String?, Int?>()
+        val map: MutableMap<String, Int> = HashMap<String, Int>()
         run {
             var i = 0
             while (i < size) {
                 val sub = s.substring(i, i + div)
-                map.put(sub, map.getOrDefault(sub, 0)!! + 1)
+                map.put(sub, map.getOrDefault(sub, 0) + 1)
                 i += div
             }
         }
         var i = 0
         while (i < size) {
             val sub = t.substring(i, i + div)
-            if (map.getOrDefault(sub, 0)!! > 0) {
+            if (map.getOrDefault(sub, 0) > 0) {
                 map.put(sub, map[sub]!! - 1)
             } else {
                 return false

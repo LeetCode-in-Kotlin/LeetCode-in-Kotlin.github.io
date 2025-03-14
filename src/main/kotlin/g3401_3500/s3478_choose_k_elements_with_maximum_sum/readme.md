@@ -56,7 +56,7 @@ class Solution {
         val ans = LongArray(n)
         val ps = Array<Point>(n) { i -> Point(nums1[i], nums2[i], i) }
         ps.sortWith { p1: Point, p2: Point -> p1.x.compareTo(p2.x) }
-        val pq = PriorityQueue<Int?>()
+        val pq = PriorityQueue<Int>()
         var s: Long = 0
         var i = 0
         while (i < n) {
