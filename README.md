@@ -2088,6 +2088,14 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3490 |[Count Beautiful Numbers](src/main/kotlin/g3401_3500/s3490_count_beautiful_numbers)| Hard | Dynamic_Programming | 246 | 100.00
+| 3489 |[Zero Array Transformation IV](src/main/kotlin/g3401_3500/s3489_zero_array_transformation_iv)| Medium | Array, Dynamic_Programming | 104 | 100.00
+| 3488 |[Closest Equal Element Queries](src/main/kotlin/g3401_3500/s3488_closest_equal_element_queries)| Medium | Array, Hash_Table, Binary_Search | 93 | 100.00
+| 3487 |[Maximum Unique Subarray Sum After Deletion](src/main/kotlin/g3401_3500/s3487_maximum_unique_subarray_sum_after_deletion)| Easy | Array, Hash_Table, Greedy | 4 | 100.00
+| 3486 |[Longest Special Path II](src/main/kotlin/g3401_3500/s3486_longest_special_path_ii)| Hard | Array, Hash_Table, Depth_First_Search, Tree, Prefix_Sum | 255 | 100.00
+| 3485 |[Longest Common Prefix of K Strings After Removal](src/main/kotlin/g3401_3500/s3485_longest_common_prefix_of_k_strings_after_removal)| Hard | Array, String, Trie | 251 | 100.00
+| 3484 |[Design Spreadsheet](src/main/kotlin/g3401_3500/s3484_design_spreadsheet)| Medium | Array, String, Hash_Table, Matrix, Design | 176 | 100.00
+| 3483 |[Unique 3-Digit Even Numbers](src/main/kotlin/g3401_3500/s3483_unique_3_digit_even_numbers)| Easy | Array, Hash_Table, Recursion, Enumeration | 6 | 100.00
 | 3482 |[Analyze Organization Hierarchy](src/main/kotlin/g3401_3500/s3482_analyze_organization_hierarchy)| Hard | Database | 712 | 100.00
 | 3480 |[Maximize Subarrays After Removing One Conflicting Pair](src/main/kotlin/g3401_3500/s3480_maximize_subarrays_after_removing_one_conflicting_pair)| Hard | Array, Prefix_Sum, Enumeration, Segment_Tree | 48 | 100.00
 | 3479 |[Fruits Into Baskets III](src/main/kotlin/g3401_3500/s3479_fruits_into_baskets_iii)| Medium | Array, Binary_Search, Ordered_Set, Segment_Tree | 53 | 92.86
@@ -2215,7 +2223,7 @@
 | 3332 |[Maximum Points Tourist Can Earn](src/main/kotlin/g3301_3400/s3332_maximum_points_tourist_can_earn)| Medium | Array, Dynamic_Programming, Matrix | 216 | 100.00
 | 3331 |[Find Subtree Sizes After Changes](src/main/kotlin/g3301_3400/s3331_find_subtree_sizes_after_changes)| Medium | Array, String, Hash_Table, Depth_First_Search, Tree | 139 | 95.24
 | 3330 |[Find the Original Typed String I](src/main/kotlin/g3301_3400/s3330_find_the_original_typed_string_i)| Easy | String | 142 | 88.24
-| 3327 |[Check if DFS Strings Are Palindromes](src/main/kotlin/g3301_3400/s3327_check_if_dfs_strings_are_palindromes)| Hard | Array, String, Hash_Table, Depth_First_Search, Tree, Hash_Function | 165 | 100.00
+| 3327 |[Check if DFS Strings Are Palindromes](src/main/kotlin/g3301_3400/s3327_check_if_dfs_strings_are_palindromes)| Hard | Array, String, Hash_Table, Depth_First_Search, Tree, Hash_Function | 86 | 100.00
 | 3326 |[Minimum Division Operations to Make Array Non Decreasing](src/main/kotlin/g3301_3400/s3326_minimum_division_operations_to_make_array_non_decreasing)| Medium | Array, Math, Greedy, Number_Theory | 24 | 94.12
 | 3325 |[Count Substrings With K-Frequency Characters I](src/main/kotlin/g3301_3400/s3325_count_substrings_with_k_frequency_characters_i)| Medium | String, Hash_Table, Sliding_Window | 3 | 88.00
 | 3324 |[Find the Sequence of Strings Appeared on the Screen](src/main/kotlin/g3301_3400/s3324_find_the_sequence_of_strings_appeared_on_the_screen)| Medium | String, Simulation | 8 | 100.00
@@ -2279,7 +2287,7 @@
 | 3250 |[Find the Count of Monotonic Pairs I](src/main/kotlin/g3201_3300/s3250_find_the_count_of_monotonic_pairs_i)| Hard | Array, Dynamic_Programming, Math, Prefix_Sum, Combinatorics | 241 | 100.00
 | 3249 |[Count the Number of Good Nodes](src/main/kotlin/g3201_3300/s3249_count_the_number_of_good_nodes)| Medium | Depth_First_Search, Tree | 1190 | 100.00
 | 3248 |[Snake in Matrix](src/main/kotlin/g3201_3300/s3248_snake_in_matrix)| Easy | Array, String, Simulation | 174 | 90.91
-| 3245 |[Alternating Groups III](src/main/kotlin/g3201_3300/s3245_alternating_groups_iii)| Hard | Array, Binary_Indexed_Tree | 188 | 100.00
+| 3245 |[Alternating Groups III](src/main/kotlin/g3201_3300/s3245_alternating_groups_iii)| Hard | Array, Binary_Indexed_Tree | 70 | 100.00
 | 3244 |[Shortest Distance After Road Addition Queries II](src/main/kotlin/g3201_3300/s3244_shortest_distance_after_road_addition_queries_ii)| Hard | Array, Greedy, Graph, Ordered_Set | 794 | 92.31
 | 3243 |[Shortest Distance After Road Addition Queries I](src/main/kotlin/g3201_3300/s3243_shortest_distance_after_road_addition_queries_i)| Medium | Array, Breadth_First_Search, Graph | 313 | 97.06
 | 3242 |[Design Neighbor Sum Service](src/main/kotlin/g3201_3300/s3242_design_neighbor_sum_service)| Easy | Array, Hash_Table, Matrix, Design, Simulation | 333 | 75.00
@@ -2344,7 +2352,7 @@
 | 3164 |[Find the Number of Good Pairs II](src/main/kotlin/g3101_3200/s3164_find_the_number_of_good_pairs_ii)| Medium | Array, Hash_Table | 1175 | 90.00
 | 3163 |[String Compression III](src/main/kotlin/g3101_3200/s3163_string_compression_iii)| Medium | String | 331 | 66.13
 | 3162 |[Find the Number of Good Pairs I](src/main/kotlin/g3101_3200/s3162_find_the_number_of_good_pairs_i)| Easy | Array, Hash_Table | 182 | 54.41
-| 3161 |[Block Placement Queries](src/main/kotlin/g3101_3200/s3161_block_placement_queries)| Hard | Array, Binary_Search, Segment_Tree, Binary_Indexed_Tree | 1701 | 100.00
+| 3161 |[Block Placement Queries](src/main/kotlin/g3101_3200/s3161_block_placement_queries)| Hard | Array, Binary_Search, Segment_Tree, Binary_Indexed_Tree | 100 | 100.00
 | 3160 |[Find the Number of Distinct Colors Among the Balls](src/main/kotlin/g3101_3200/s3160_find_the_number_of_distinct_colors_among_the_balls)| Medium | Array, Hash_Table, Simulation | 1055 | 58.82
 | 3159 |[Find Occurrences of an Element in an Array](src/main/kotlin/g3101_3200/s3159_find_occurrences_of_an_element_in_an_array)| Medium | Array, Hash_Table | 810 | 98.28
 | 3158 |[Find the XOR of Numbers Which Appear Twice](src/main/kotlin/g3101_3200/s3158_find_the_xor_of_numbers_which_appear_twice)| Easy | Array, Hash_Table, Bit_Manipulation | 166 | 92.21
