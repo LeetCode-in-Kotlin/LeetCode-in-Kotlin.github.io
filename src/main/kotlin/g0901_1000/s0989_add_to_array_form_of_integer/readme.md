@@ -47,9 +47,9 @@ Given `num`, the **array-form** of an integer, and an integer `k`, return _the *
 ```kotlin
 @Suppress("NAME_SHADOWING")
 class Solution {
-    fun addToArrayForm(num: IntArray, k: Int): List<Int?> {
+    fun addToArrayForm(num: IntArray, k: Int): List<Int> {
         var k = k
-        val result = ArrayList<Int?>()
+        val result = ArrayList<Int>()
         var carry = 0
         for (i in num.indices.reversed()) {
             val temp = num[i] + k % 10 + carry

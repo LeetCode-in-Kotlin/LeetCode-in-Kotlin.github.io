@@ -39,7 +39,7 @@ You must write an algorithm with `O(log n)` runtime complexity.
 ## Solution
 
 ```kotlin
-class Solution constructor() {
+class Solution {
     fun searchRange(nums: IntArray, target: Int): IntArray {
         val ans = IntArray(2)
         ans[0] = helper(nums, target, false)

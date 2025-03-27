@@ -44,7 +44,7 @@ Return _the **sum** of all the unique elements of_ `nums`.
 class Solution {
     fun sumOfUnique(nums: IntArray): Int {
         val map: MutableMap<Int, Int> = HashMap()
-        var sum: Int = 0
+        var sum = 0
         for (num: Int in nums) {
             map.put(num, map.getOrDefault(num, 0) + 1)
         }

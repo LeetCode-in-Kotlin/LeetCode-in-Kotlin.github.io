@@ -46,14 +46,14 @@ Implement the NumMatrix class:
 
 ```kotlin
 class NumMatrix(matrix: Array<IntArray>) {
-    private val M = matrix.size
-    private val N = if (M > 0) matrix[0].size else 0
+    private val m = matrix.size
+    private val n = if (m > 0) matrix[0].size else 0
 
-    var array = Array<IntArray> (M + 1) { IntArray(N + 1) }
+    var array = Array<IntArray> (m + 1) { IntArray(n + 1) }
 
     init {
-        for (i in 1..M) {
-            for (j in 1..N) {
+        for (i in 1..m) {
+            for (j in 1..n) {
                 array[i][j] = matrix[i - 1][j - 1] + array[i][j - 1] + array[i - 1][j] - array[i - 1][j - 1]
             }
         }

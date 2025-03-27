@@ -50,7 +50,7 @@ Return _the **length** of the **longest possible word chain** with words chosen 
 ```kotlin
 class Solution {
     fun longestStrChain(words: Array<String>): Int {
-        val lenStr = arrayOfNulls<MutableList<String>?>(20)
+        val lenStr = arrayOfNulls<MutableList<String>>(20)
         for (word in words) {
             val len = word.length
             if (lenStr[len] == null) {

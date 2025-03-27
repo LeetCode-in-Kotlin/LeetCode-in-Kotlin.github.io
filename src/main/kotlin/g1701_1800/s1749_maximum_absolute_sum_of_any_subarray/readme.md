@@ -40,9 +40,9 @@ Note that `abs(x)` is defined as follows:
 ```kotlin
 class Solution {
     fun maxAbsoluteSum(nums: IntArray): Int {
-        var min: Int = 0
-        var max: Int = 0
-        var s: Int = 0
+        var min = 0
+        var max = 0
+        var s = 0
         for (num: Int in nums) {
             s += num
             min = Math.min(min, s)

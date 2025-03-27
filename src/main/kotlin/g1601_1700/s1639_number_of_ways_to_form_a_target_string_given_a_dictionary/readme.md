@@ -68,7 +68,7 @@ Return _the number of ways to form `target` from `words`_. Since the answer may 
 class Solution {
     fun numWays(words: Array<String>, target: String): Int {
         val counts = precompute(words)
-        val memo = Array(target.length) { arrayOfNulls<Int?>(words[0].length) }
+        val memo = Array(target.length) { arrayOfNulls<Int>(words[0].length) }
         return solve(memo, counts, words, target, 0, 0)
     }
 

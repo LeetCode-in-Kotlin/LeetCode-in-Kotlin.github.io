@@ -118,7 +118,7 @@ class Solution {
                             ) *
                             nums[cur]
                         ) %
-                        mod
+                        MOD
                     )
             }
             dq.add(i)
@@ -132,7 +132,7 @@ class Solution {
                         getSum(nums, forward, prefix, backward, suffix, prev, cur, n) *
                         nums[cur]
                     ) %
-                    mod
+                    MOD
                 )
         }
         return res.toInt()
@@ -148,35 +148,35 @@ class Solution {
         cur: Int,
         next: Int,
     ): Long {
-        val sum = (cur - prev) * nums[cur].toLong() % mod * (next - cur) % mod
+        val sum = (cur - prev) * nums[cur].toLong() % MOD * (next - cur) % MOD
         val preSum = getPresum(backward, suffix, prev + 1, cur - 1, next - cur)
         val postSum = getPostsum(forward, prefix, cur + 1, next - 1, cur - prev)
-        return (sum + preSum + postSum) % mod
+        return (sum + preSum + postSum) % MOD
     }
 
     private fun getPresum(backward: LongArray, suffix: LongArray, from: Int, to: Int, m: Int): Long {
         val n = backward.size
         val cnt = to - from + 1L
         return (
-            (suffix[from] - suffix[to + 1] - cnt * (if (to + 1 == n) 0 else backward[to + 1]) % mod) %
-                mod
+            (suffix[from] - suffix[to + 1] - cnt * (if (to + 1 == n) 0 else backward[to + 1]) % MOD) %
+                MOD
                 * m %
-                mod
+                MOD
             )
     }
 
     private fun getPostsum(forward: LongArray, prefix: LongArray, from: Int, to: Int, m: Int): Long {
         val cnt = to - from + 1L
         return (
-            (prefix[to + 1] - prefix[from] - cnt * (if (0 == from) 0 else forward[from - 1]) % mod) %
-                mod
+            (prefix[to + 1] - prefix[from] - cnt * (if (0 == from) 0 else forward[from - 1]) % MOD) %
+                MOD
                 * m %
-                mod
+                MOD
             )
     }
 
     companion object {
-        private const val mod = 1e9.toInt() + 7
+        private const val MOD = 1e9.toInt() + 7
     }
 }
 ```

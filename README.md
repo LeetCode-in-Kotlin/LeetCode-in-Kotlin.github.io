@@ -2088,6 +2088,10 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3495 |[Minimum Operations to Make Array Elements Zero](src/main/kotlin/g3401_3500/s3495_minimum_operations_to_make_array_elements_zero)| Hard | Array, Math, Bit_Manipulation | 12 | 100.00
+| 3494 |[Find the Minimum Amount of Time to Brew Potions](src/main/kotlin/g3401_3500/s3494_find_the_minimum_amount_of_time_to_brew_potions)| Medium | Array, Simulation, Prefix_Sum | 70 | 100.00
+| 3493 |[Properties Graph](src/main/kotlin/g3401_3500/s3493_properties_graph)| Medium | Array, Hash_Table, Depth_First_Search, Breadth_First_Search, Graph, Union_Find | 45 | 100.00
+| 3492 |[Maximum Containers on a Ship](src/main/kotlin/g3401_3500/s3492_maximum_containers_on_a_ship)| Easy | Math | 0 | 100.00
 | 3490 |[Count Beautiful Numbers](src/main/kotlin/g3401_3500/s3490_count_beautiful_numbers)| Hard | Dynamic_Programming | 246 | 100.00
 | 3489 |[Zero Array Transformation IV](src/main/kotlin/g3401_3500/s3489_zero_array_transformation_iv)| Medium | Array, Dynamic_Programming | 104 | 100.00
 | 3488 |[Closest Equal Element Queries](src/main/kotlin/g3401_3500/s3488_closest_equal_element_queries)| Medium | Array, Hash_Table, Binary_Search | 93 | 100.00
@@ -2259,7 +2263,7 @@
 | 3287 |[Find the Maximum Sequence Value of Array](src/main/kotlin/g3201_3300/s3287_find_the_maximum_sequence_value_of_array)| Hard | Array, Dynamic_Programming, Bit_Manipulation | 2893 | 33.33
 | 3286 |[Find a Safe Walk Through a Grid](src/main/kotlin/g3201_3300/s3286_find_a_safe_walk_through_a_grid)| Medium | Array, Breadth_First_Search, Matrix, Heap_Priority_Queue, Graph, Shortest_Path | 357 | 48.28
 | 3285 |[Find Indices of Stable Mountains](src/main/kotlin/g3201_3300/s3285_find_indices_of_stable_mountains)| Easy | Array | 195 | 92.68
-| 3283 |[Maximum Number of Moves to Kill All Pawns](src/main/kotlin/g3201_3300/s3283_maximum_number_of_moves_to_kill_all_pawns)| Hard | Array, Math, Breadth_First_Search, Bit_Manipulation, Bitmask, Game_Theory | 638 | 100.00
+| 3283 |[Maximum Number of Moves to Kill All Pawns](src/main/kotlin/g3201_3300/s3283_maximum_number_of_moves_to_kill_all_pawns)| Hard | Array, Math, Breadth_First_Search, Bit_Manipulation, Bitmask, Game_Theory | 147 | 100.00
 | 3282 |[Reach End of Array With Max Score](src/main/kotlin/g3201_3300/s3282_reach_end_of_array_with_max_score)| Medium | Array, Greedy | 789 | 90.91
 | 3281 |[Maximize Score of Numbers in Ranges](src/main/kotlin/g3201_3300/s3281_maximize_score_of_numbers_in_ranges)| Medium | Array, Sorting, Greedy, Binary_Search | 710 | 88.24
 | 3280 |[Convert Date to Binary](src/main/kotlin/g3201_3300/s3280_convert_date_to_binary)| Easy | String, Math | 174 | 79.31
@@ -3087,7 +3091,7 @@
 | 2217 |[Find Palindrome With Fixed Length](src/main/kotlin/g2201_2300/s2217_find_palindrome_with_fixed_length)| Medium | Array, Math | 541 | 100.00
 | 2216 |[Minimum Deletions to Make Array Beautiful](src/main/kotlin/g2201_2300/s2216_minimum_deletions_to_make_array_beautiful)| Medium | Array, Greedy, Stack | 567 | 66.67
 | 2215 |[Find the Difference of Two Arrays](src/main/kotlin/g2201_2300/s2215_find_the_difference_of_two_arrays)| Easy | Array, Hash_Table | 352 | 98.63
-| 2213 |[Longest Substring of One Repeating Character](src/main/kotlin/g2201_2300/s2213_longest_substring_of_one_repeating_character)| Hard | Array, String, Ordered_Set, Segment_Tree | 879 | 100.00
+| 2213 |[Longest Substring of One Repeating Character](src/main/kotlin/g2201_2300/s2213_longest_substring_of_one_repeating_character)| Hard | Array, String, Ordered_Set, Segment_Tree | 73 | 100.00
 | 2212 |[Maximum Points in an Archery Competition](src/main/kotlin/g2201_2300/s2212_maximum_points_in_an_archery_competition)| Medium | Array, Bit_Manipulation, Recursion, Enumeration | 210 | 100.00
 | 2211 |[Count Collisions on a Road](src/main/kotlin/g2201_2300/s2211_count_collisions_on_a_road)| Medium | String, Stack | 325 | 100.00
 | 2210 |[Count Hills and Valleys in an Array](src/main/kotlin/g2201_2300/s2210_count_hills_and_valleys_in_an_array)| Easy | Array | 153 | 80.00

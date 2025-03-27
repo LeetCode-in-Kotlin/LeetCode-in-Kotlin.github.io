@@ -44,7 +44,7 @@ Return _the array_ `answer`.
 class Solution {
     fun leftRightDifference(nums: IntArray): IntArray {
         val n = nums.size
-        val ans: IntArray = IntArray(n)
+        val ans = IntArray(n)
         var rightSum = nums.sum()
         var leftSum = 0
 
