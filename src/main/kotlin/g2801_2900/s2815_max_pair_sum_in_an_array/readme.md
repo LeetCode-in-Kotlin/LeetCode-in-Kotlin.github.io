@@ -40,7 +40,6 @@ It can be shown that there are no other pairs with equal maximum digits, so the 
 
 ```kotlin
 import java.util.PriorityQueue
-import kotlin.collections.HashMap
 import kotlin.math.max
 
 @Suppress("NAME_SHADOWING")
