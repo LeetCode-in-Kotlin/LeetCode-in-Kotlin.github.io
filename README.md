@@ -2150,7 +2150,7 @@
 | 3439 |[Reschedule Meetings for Maximum Free Time I](src/main/kotlin/g3401_3500/s3439_reschedule_meetings_for_maximum_free_time_i)| Medium | Array, Greedy, Sliding_Window | 5 | 80.00
 | 3438 |[Find Valid Pair of Adjacent Digits in String](src/main/kotlin/g3401_3500/s3438_find_valid_pair_of_adjacent_digits_in_string)| Easy | String, Hash_Table, Counting | 2 | 93.18
 | 3436 |[Find Valid Emails](src/main/kotlin/g3401_3500/s3436_find_valid_emails)| Easy | Database | 451 | 70.84
-| 3435 |[Frequencies of Shortest Supersequences](src/main/kotlin/g3401_3500/s3435_frequencies_of_shortest_supersequences)| Hard | Array, String, Bit_Manipulation, Graph, Enumeration, Topological_Sort | 35 | 100.00
+| 3435 |[Frequencies of Shortest Supersequences](src/main/kotlin/g3401_3500/s3435_frequencies_of_shortest_supersequences)| Hard | Array, String, Bit_Manipulation, Graph, Enumeration, Topological_Sort | 275 | 100.00
 | 3434 |[Maximum Frequency After Subarray Operation](src/main/kotlin/g3401_3500/s3434_maximum_frequency_after_subarray_operation)| Medium | Array, Hash_Table, Dynamic_Programming, Greedy, Prefix_Sum | 51 | 100.00
 | 3433 |[Count Mentions Per User](src/main/kotlin/g3401_3500/s3433_count_mentions_per_user)| Medium | Array, Math, Sorting, Simulation | 52 | 100.00
 | 3432 |[Count Partitions with Even Sum Difference](src/main/kotlin/g3401_3500/s3432_count_partitions_with_even_sum_difference)| Easy | Array, Math, Prefix_Sum | 2 | 100.00
@@ -3539,7 +3539,7 @@
 | 1663 |[Smallest String With A Given Numeric Value](src/main/kotlin/g1601_1700/s1663_smallest_string_with_a_given_numeric_value)| Medium | String, Greedy | 202 | 100.00
 | 1662 |[Check If Two String Arrays are Equivalent](src/main/kotlin/g1601_1700/s1662_check_if_two_string_arrays_are_equivalent)| Easy | Array, String | 144 | 86.84
 | 1661 |[Average Time of Process per Machine](src/main/kotlin/g1601_1700/s1661_average_time_of_process_per_machine)| Easy | Database | 429 | 71.35
-| 1659 |[Maximize Grid Happiness](src/main/kotlin/g1601_1700/s1659_maximize_grid_happiness)| Hard | Dynamic_Programming, Bit_Manipulation, Bitmask, Memoization | 181 | 100.00
+| 1659 |[Maximize Grid Happiness](src/main/kotlin/g1601_1700/s1659_maximize_grid_happiness)| Hard | Dynamic_Programming, Bit_Manipulation, Bitmask, Memoization | 44 | 100.00
 | 1658 |[Minimum Operations to Reduce X to Zero](src/main/kotlin/g1601_1700/s1658_minimum_operations_to_reduce_x_to_zero)| Medium | Array, Hash_Table, Binary_Search, Prefix_Sum, Sliding_Window | 532 | 50.00
 | 1657 |[Determine if Two Strings Are Close](src/main/kotlin/g1601_1700/s1657_determine_if_two_strings_are_close)| Medium | String, Hash_Table, Sorting | 287 | 100.00
 | 1656 |[Design an Ordered Stream](src/main/kotlin/g1601_1700/s1656_design_an_ordered_stream)| Easy | Array, Hash_Table, Design, Data_Stream | 487 | 91.67
