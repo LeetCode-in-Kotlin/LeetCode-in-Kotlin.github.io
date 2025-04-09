@@ -2088,6 +2088,10 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3510 |[Minimum Pair Removal to Sort Array II](src/main/kotlin/g3501_3600/s3510_minimum_pair_removal_to_sort_array_ii)| Hard | Array, Hash_Table, Heap_Priority_Queue, Simulation, Linked_List, Ordered_Set, Doubly_Linked_List | 219 | 100.00
+| 3509 |[Maximum Product of Subsequences With an Alternating Sum Equal to K](src/main/kotlin/g3501_3600/s3509_maximum_product_of_subsequences_with_an_alternating_sum_equal_to_k)| Hard | Array, Hash_Table, Dynamic_Programming | 99 | 96.30
+| 3508 |[Implement Router](src/main/kotlin/g3501_3600/s3508_implement_router)| Medium | Array, Hash_Table, Binary_Search, Design, Ordered_Set, Queue | 202 | 100.00
+| 3507 |[Minimum Pair Removal to Sort Array I](src/main/kotlin/g3501_3600/s3507_minimum_pair_removal_to_sort_array_i)| Easy | Array, Hash_Table, Heap_Priority_Queue, Simulation, Linked_List, Ordered_Set, Doubly_Linked_List | 2 | 100.00
 | 3505 |[Minimum Operations to Make Elements Within K Subarrays Equal](src/main/kotlin/g3501_3600/s3505_minimum_operations_to_make_elements_within_k_subarrays_equal)| Hard | Array, Hash_Table, Dynamic_Programming, Math, Heap_Priority_Queue, Sliding_Window | 537 | 100.00
 | 3504 |[Longest Palindrome After Substring Concatenation II](src/main/kotlin/g3501_3600/s3504_longest_palindrome_after_substring_concatenation_ii)| Hard | String, Dynamic_Programming, Two_Pointers | 59 | 100.00
 | 3503 |[Longest Palindrome After Substring Concatenation I](src/main/kotlin/g3501_3600/s3503_longest_palindrome_after_substring_concatenation_i)| Medium | String, Dynamic_Programming, Two_Pointers, Enumeration | 42 | 83.33
