@@ -123,7 +123,6 @@ class Solution {
             val bb = if (pq2.isNotEmpty()) pq2.poll() else 0
             result[i] = max(0, (a.toLong() * b * c))
             result[i] = max(result[i], max(0, (a.toLong() * aa * bb)))
-                .toLong()
             pq = PriorityQueue { x: Int, y: Int -> y - x }
             pq.add(a)
             pq.add(b)

@@ -2088,6 +2088,11 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3525 |[Find X Value of Array II](src/main/kotlin/g3501_3600/s3525_find_x_value_of_array_ii)| Hard | Array, Math, Segment_Tree | 237 | 50.00
+| 3524 |[Find X Value of Array I](src/main/kotlin/g3501_3600/s3524_find_x_value_of_array_i)| Medium | Array, Dynamic_Programming, Math | 12 | 100.00
+| 3523 |[Make Array Non-decreasing](src/main/kotlin/g3501_3600/s3523_make_array_non_decreasing)| Medium | Array, Greedy, Stack, Monotonic_Stack | 4 | 75.00
+| 3522 |[Calculate Score After Performing Instructions](src/main/kotlin/g3501_3600/s3522_calculate_score_after_performing_instructions)| Medium | Array, String, Hash_Table, Simulation | 3 | 100.00
+| 3521 |[Find Product Recommendation Pairs](src/main/kotlin/g3501_3600/s3521_find_product_recommendation_pairs)| Medium | Database | 611 | 70.71
 | 3519 |[Count Numbers with Non-Decreasing Digits](src/main/kotlin/g3501_3600/s3519_count_numbers_with_non_decreasing_digits)| Hard | String, Dynamic_Programming, Math | 31 | 100.00
 | 3518 |[Smallest Palindromic Rearrangement II](src/main/kotlin/g3501_3600/s3518_smallest_palindromic_rearrangement_ii)| Hard | String, Hash_Table, Math, Counting, Combinatorics | 27 | 100.00
 | 3517 |[Smallest Palindromic Rearrangement I](src/main/kotlin/g3501_3600/s3517_smallest_palindromic_rearrangement_i)| Medium | String, Sorting, Counting_Sort | 49 | 100.00
