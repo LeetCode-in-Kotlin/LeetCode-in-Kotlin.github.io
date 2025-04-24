@@ -59,9 +59,8 @@ Cinema table:
 
 ```sql
 # Write your MySQL query statement below
-select id, movie, description, rating from Cinema
-WHERE mod(id,2) = 1
-and
-description not LIKE '%boring%'
-order by rating DESC;
+SELECT id, movie, description, rating
+FROM Cinema
+WHERE description != 'boring' AND id % 2 != 0
+ORDER BY rating DESC;
 ```

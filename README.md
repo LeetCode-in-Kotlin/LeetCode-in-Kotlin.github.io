@@ -470,7 +470,7 @@
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0709 |[To Lower Case](src/main/kotlin/g0701_0800/s0709_to_lower_case)| Easy | String | 142 | 98.68
-| 1309 |[Decrypt String from Alphabet to Integer Mapping](src/main/kotlin/g1301_1400/s1309_decrypt_string_from_alphabet_to_integer_mapping)| Easy | String | 129 | 95.45
+| 1309 |[Decrypt String from Alphabet to Integer Mapping](src/main/kotlin/g1301_1400/s1309_decrypt_string_from_alphabet_to_integer_mapping)| Easy | String | 0 | 100.00
 | 0953 |[Verifying an Alien Dictionary](src/main/kotlin/g0901_1000/s0953_verifying_an_alien_dictionary)| Easy | Array, String, Hash_Table | 137 | 100.00
 
 #### Day 10 Linked List and Tree
@@ -3768,7 +3768,7 @@
 | 1395 |[Count Number of Teams](src/main/kotlin/g1301_1400/s1395_count_number_of_teams)| Medium | Array, Dynamic_Programming, Binary_Indexed_Tree | 192 | 100.00
 | 1394 |[Find Lucky Integer in an Array](src/main/kotlin/g1301_1400/s1394_find_lucky_integer_in_an_array)| Easy | Array, Hash_Table, Counting | 161 | 100.00
 | 1393 |[Capital Gain/Loss](src/main/kotlin/g1301_1400/s1393_capital_gainloss)| Medium | LeetCode_Curated_SQL_70, Database, SQL_I_Day_9_Control_of_Flow | 990 | 47.36
-| 1392 |[Longest Happy Prefix](src/main/kotlin/g1301_1400/s1392_longest_happy_prefix)| Hard | String, Hash_Function, String_Matching, Rolling_Hash | 291 | 50.00
+| 1392 |[Longest Happy Prefix](src/main/kotlin/g1301_1400/s1392_longest_happy_prefix)| Hard | String, Hash_Function, String_Matching, Rolling_Hash | 7 | 100.00
 | 1391 |[Check if There is a Valid Path in a Grid](src/main/kotlin/g1301_1400/s1391_check_if_there_is_a_valid_path_in_a_grid)| Medium | Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find | 636 | 100.00
 | 1390 |[Four Divisors](src/main/kotlin/g1301_1400/s1390_four_divisors)| Medium | Array, Math | 255 | 100.00
 | 1389 |[Create Target Array in the Given Order](src/main/kotlin/g1301_1400/s1389_create_target_array_in_the_given_order)| Easy | Array, Simulation | 155 | 91.67
@@ -3844,7 +3844,7 @@
 | 1312 |[Minimum Insertion Steps to Make a String Palindrome](src/main/kotlin/g1301_1400/s1312_minimum_insertion_steps_to_make_a_string_palindrome)| Hard | String, Dynamic_Programming | 186 | 67.70
 | 1311 |[Get Watched Videos by Your Friends](src/main/kotlin/g1301_1400/s1311_get_watched_videos_by_your_friends)| Medium | Array, Hash_Table, Sorting, Breadth_First_Search | 372 | 100.00
 | 1310 |[XOR Queries of a Subarray](src/main/kotlin/g1301_1400/s1310_xor_queries_of_a_subarray)| Medium | Array, Bit_Manipulation, Prefix_Sum | 382 | 100.00
-| 1309 |[Decrypt String from Alphabet to Integer Mapping](src/main/kotlin/g1301_1400/s1309_decrypt_string_from_alphabet_to_integer_mapping)| Easy | String, Programming_Skills_I_Day_9_String | 129 | 95.45
+| 1309 |[Decrypt String from Alphabet to Integer Mapping](src/main/kotlin/g1301_1400/s1309_decrypt_string_from_alphabet_to_integer_mapping)| Easy | String, Programming_Skills_I_Day_9_String | 0 | 100.00
 | 1307 |[Verbal Arithmetic Puzzle](src/main/kotlin/g1301_1400/s1307_verbal_arithmetic_puzzle)| Hard | Array, String, Math, Backtracking | 164 | 100.00
 | 1306 |[Jump Game III](src/main/kotlin/g1301_1400/s1306_jump_game_iii)| Medium | Array, Depth_First_Search, Breadth_First_Search, Graph_Theory_I_Day_11_Breadth_First_Search, Udemy_Arrays | 291 | 100.00
 | 1305 |[All Elements in Two Binary Search Trees](src/main/kotlin/g1301_1400/s1305_all_elements_in_two_binary_search_trees)| Medium | Sorting, Depth_First_Search, Tree, Binary_Tree, Binary_Search_Tree | 531 | 100.00
@@ -4401,7 +4401,7 @@
 | 0623 |[Add One Row to Tree](src/main/kotlin/g0601_0700/s0623_add_one_row_to_tree)| Medium | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree | 202 | 100.00
 | 0622 |[Design Circular Queue](src/main/kotlin/g0601_0700/s0622_design_circular_queue)| Medium | Array, Design, Linked_List, Queue, Programming_Skills_II_Day_20 | 234 | 92.68
 | 0621 |[Task Scheduler](src/main/kotlin/g0601_0700/s0621_task_scheduler)| Medium | Array, Hash_Table, Sorting, Greedy, Heap_Priority_Queue, Counting, Level_2_Day_5_Greedy | 266 | 98.36
-| 0620 |[Not Boring Movies](src/main/kotlin/g0601_0700/s0620_not_boring_movies)| Easy | Database | 305 | 59.80
+| 0620 |[Not Boring Movies](src/main/kotlin/g0601_0700/s0620_not_boring_movies)| Easy | Database | 259 | 64.69
 | 0619 |[Biggest Single Number](src/main/kotlin/g0601_0700/s0619_biggest_single_number)| Easy | Database | 656 | 90.69
 | 0617 |[Merge Two Binary Trees](src/main/kotlin/g0601_0700/s0617_merge_two_binary_trees)| Easy | Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Algorithm_I_Day_8_Breadth_First_Search_Depth_First_Search | 243 | 72.83
 | 0611 |[Valid Triangle Number](src/main/kotlin/g0601_0700/s0611_valid_triangle_number)| Medium | Array, Sorting, Greedy, Binary_Search, Two_Pointers, Binary_Search_II_Day_1 | 203 | 100.00
