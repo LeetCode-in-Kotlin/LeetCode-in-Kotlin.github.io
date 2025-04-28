@@ -2088,6 +2088,14 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3534 |[Path Existence Queries in a Graph II](src/main/kotlin/g3501_3600/s3534_path_existence_queries_in_a_graph_ii)| Hard | Array, Sorting, Greedy, Binary_Search, Graph | 152 | 100.00
+| 3533 |[Concatenated Divisibility](src/main/kotlin/g3501_3600/s3533_concatenated_divisibility)| Hard | Array, Dynamic_Programming, Bit_Manipulation, Bitmask | 20 | 100.00
+| 3532 |[Path Existence Queries in a Graph I](src/main/kotlin/g3501_3600/s3532_path_existence_queries_in_a_graph_i)| Medium | Array, Binary_Search, Graph, Union_Find | 5 | 90.91
+| 3531 |[Count Covered Buildings](src/main/kotlin/g3501_3600/s3531_count_covered_buildings)| Medium | Array, Hash_Table, Sorting | 34 | 100.00
+| 3530 |[Maximum Profit from Valid Topological Order in DAG](src/main/kotlin/g3501_3600/s3530_maximum_profit_from_valid_topological_order_in_dag)| Hard | Array, Dynamic_Programming, Bit_Manipulation, Graph, Bitmask, Topological_Sort | 833 | 100.00
+| 3529 |[Count Cells in Overlapping Horizontal and Vertical Substrings](src/main/kotlin/g3501_3600/s3529_count_cells_in_overlapping_horizontal_and_vertical_substrings)| Medium | Array, String, Matrix, Hash_Function, String_Matching, Rolling_Hash | 51 | 100.00
+| 3528 |[Unit Conversion I](src/main/kotlin/g3501_3600/s3528_unit_conversion_i)| Medium | Depth_First_Search, Breadth_First_Search, Graph | 3 | 100.00
+| 3527 |[Find the Most Common Response](src/main/kotlin/g3501_3600/s3527_find_the_most_common_response)| Medium | Array, String, Hash_Table, Counting | 73 | 100.00
 | 3525 |[Find X Value of Array II](src/main/kotlin/g3501_3600/s3525_find_x_value_of_array_ii)| Hard | Array, Math, Segment_Tree | 237 | 50.00
 | 3524 |[Find X Value of Array I](src/main/kotlin/g3501_3600/s3524_find_x_value_of_array_i)| Medium | Array, Dynamic_Programming, Math | 12 | 100.00
 | 3523 |[Make Array Non-decreasing](src/main/kotlin/g3501_3600/s3523_make_array_non_decreasing)| Medium | Array, Greedy, Stack, Monotonic_Stack | 4 | 75.00
