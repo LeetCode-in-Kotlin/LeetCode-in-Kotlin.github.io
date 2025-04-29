@@ -2105,11 +2105,11 @@
 | 3518 |[Smallest Palindromic Rearrangement II](src/main/kotlin/g3501_3600/s3518_smallest_palindromic_rearrangement_ii)| Hard | String, Hash_Table, Math, Counting, Combinatorics | 27 | 100.00
 | 3517 |[Smallest Palindromic Rearrangement I](src/main/kotlin/g3501_3600/s3517_smallest_palindromic_rearrangement_i)| Medium | String, Sorting, Counting_Sort | 49 | 100.00
 | 3516 |[Find Closest Person](src/main/kotlin/g3501_3600/s3516_find_closest_person)| Easy | Math | 1 | 100.00
-| 3515 |[Shortest Path in a Weighted Tree](src/main/kotlin/g3501_3600/s3515_shortest_path_in_a_weighted_tree)| Hard | Array, Depth_First_Search, Tree, Segment_Tree, Binary_Indexed_Tree | 65 | 100.00
+| 3515 |[Shortest Path in a Weighted Tree](src/main/kotlin/g3501_3600/s3515_shortest_path_in_a_weighted_tree)| Hard | Array, Depth_First_Search, Tree, Segment_Tree, Binary_Indexed_Tree | 45 | 100.00
 | 3514 |[Number of Unique XOR Triplets II](src/main/kotlin/g3501_3600/s3514_number_of_unique_xor_triplets_ii)| Medium | Array, Math, Bit_Manipulation, Enumeration | 778 | 100.00
 | 3513 |[Number of Unique XOR Triplets I](src/main/kotlin/g3501_3600/s3513_number_of_unique_xor_triplets_i)| Medium | Array, Math, Bit_Manipulation | 1 | 100.00
 | 3512 |[Minimum Operations to Make Array Sum Divisible by K](src/main/kotlin/g3501_3600/s3512_minimum_operations_to_make_array_sum_divisible_by_k)| Easy | Array, Math | 1 | 100.00
-| 3510 |[Minimum Pair Removal to Sort Array II](src/main/kotlin/g3501_3600/s3510_minimum_pair_removal_to_sort_array_ii)| Hard | Array, Hash_Table, Heap_Priority_Queue, Simulation, Linked_List, Ordered_Set, Doubly_Linked_List | 219 | 100.00
+| 3510 |[Minimum Pair Removal to Sort Array II](src/main/kotlin/g3501_3600/s3510_minimum_pair_removal_to_sort_array_ii)| Hard | Array, Hash_Table, Heap_Priority_Queue, Simulation, Linked_List, Ordered_Set, Doubly_Linked_List | 172 | 100.00
 | 3509 |[Maximum Product of Subsequences With an Alternating Sum Equal to K](src/main/kotlin/g3501_3600/s3509_maximum_product_of_subsequences_with_an_alternating_sum_equal_to_k)| Hard | Array, Hash_Table, Dynamic_Programming | 99 | 96.30
 | 3508 |[Implement Router](src/main/kotlin/g3501_3600/s3508_implement_router)| Medium | Array, Hash_Table, Binary_Search, Design, Ordered_Set, Queue | 202 | 100.00
 | 3507 |[Minimum Pair Removal to Sort Array I](src/main/kotlin/g3501_3600/s3507_minimum_pair_removal_to_sort_array_i)| Easy | Array, Hash_Table, Heap_Priority_Queue, Simulation, Linked_List, Ordered_Set, Doubly_Linked_List | 2 | 100.00
