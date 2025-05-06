@@ -43,15 +43,16 @@ There are 2 steps to sort the array in non-decreasing order. Therefore, we retur
 ```kotlin
 class Solution {
     fun minimumReplacement(nums: IntArray): Long {
-        var limit = nums[nums.size - 1]
+        val n = nums.size
+        var prev = nums[n - 1]
         var ans: Long = 0
-        for (i in nums.size - 2 downTo 0) {
-            var replacements = nums[i] / limit - 1
-            if (nums[i] % limit != 0) {
-                replacements++
+        for (i in n - 2 downTo 0) {
+            var noOfTime = nums[i] / prev
+            if (nums[i] % prev != 0) {
+                noOfTime++
+                prev = nums[i] / noOfTime
             }
-            ans += replacements.toLong()
-            limit = nums[i] / (replacements + 1)
+            ans += (noOfTime - 1).toLong()
         }
         return ans
     }

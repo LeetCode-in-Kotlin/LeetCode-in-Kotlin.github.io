@@ -44,44 +44,25 @@ The optimal choice is choosing each element as a subarray. The output is `(-10) 
 ## Solution
 
 ```kotlin
-import kotlin.math.max
-
 class Solution {
     fun maxSum(nums: IntArray, k: Int, m: Int): Int {
         val n = nums.size
-        // Calculate prefix sums
-        val prefixSum = IntArray(n + 1)
-        for (i in 0..<n) {
-            prefixSum[i + 1] = prefixSum[i] + nums[i]
+        val dp = Array(k + 1) { IntArray(n + 1) { Int.MIN_VALUE } }
+        val ps = IntArray(n + 1)
+        for (i in nums.indices) {
+            ps[i + 1] = ps[i] + nums[i]
         }
-        // using elements from nums[0...i-1]
-        val dp = Array<IntArray>(n + 1) { IntArray(k + 1) }
-        // Initialize dp array
-        for (j in 1..k) {
-            for (i in 0..n) {
-                dp[i][j] = Int.Companion.MIN_VALUE / 2
+        for (j in 0..n) {
+            dp[0][j] = 0
+        }
+        for (i in 1..k) {
+            var best = Int.MIN_VALUE
+            for (j in (i * m)..n) {
+                best = maxOf(best, dp[i - 1][j - m] - ps[j - m])
+                dp[i][j] = maxOf(dp[i][j - 1], ps[j] + best)
             }
         }
-        // Fill dp array
-        for (j in 1..k) {
-            val maxPrev = IntArray(n + 1)
-            for (i in 0..<n + 1) {
-                maxPrev[i] =
-                    if (i == 0) {
-                        dp[0][j - 1] - prefixSum[0]
-                    } else {
-                        max(maxPrev[i - 1], dp[i][j - 1] - prefixSum[i])
-                    }
-            }
-            for (i in m..n) {
-                // Option 1: Don't include the current element in any new subarray
-                dp[i][j] = dp[i - 1][j]
-                // Option 2: Form a new subarray ending at position i
-                // Find the best starting position for the subarray
-                dp[i][j] = max(dp[i][j], prefixSum[i] + maxPrev[i - m])
-            }
-        }
-        return dp[n][k]
+        return dp[k][n]
     }
 }
 ```
