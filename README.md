@@ -2088,6 +2088,10 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3553 |[Minimum Weighted Subgraph With the Required Paths II](src/main/kotlin/g3501_3600/s3553_minimum_weighted_subgraph_with_the_required_paths_ii)| Hard | Array, Depth_First_Search, Tree | 142 | 100.00
+| 3552 |[Grid Teleportation Traversal](src/main/kotlin/g3501_3600/s3552_grid_teleportation_traversal)| Medium | Array, Hash_Table, Breadth_First_Search, Matrix | 147 | 100.00
+| 3551 |[Minimum Swaps to Sort by Digit Sum](src/main/kotlin/g3501_3600/s3551_minimum_swaps_to_sort_by_digit_sum)| Medium | Array, Hash_Table, Sorting | 481 | 83.33
+| 3550 |[Smallest Index With Digit Sum Equal to Index](src/main/kotlin/g3501_3600/s3550_smallest_index_with_digit_sum_equal_to_index)| Easy | Array, Math | 1 | 100.00
 | 3548 |[Equal Sum Grid Partition II](src/main/kotlin/g3501_3600/s3548_equal_sum_grid_partition_ii)| Hard | Array, Hash_Table, Matrix, Prefix_Sum, Enumeration | 61 | 100.00
 | 3547 |[Maximum Sum of Edge Values in a Graph](src/main/kotlin/g3501_3600/s3547_maximum_sum_of_edge_values_in_a_graph)| Hard | Sorting, Depth_First_Search, Greedy, Graph | 61 | 100.00
 | 3546 |[Equal Sum Grid Partition I](src/main/kotlin/g3501_3600/s3546_equal_sum_grid_partition_i)| Medium | Array, Matrix, Prefix_Sum, Enumeration | 7 | 82.61
@@ -2265,7 +2269,7 @@
 | 3342 |[Find Minimum Time to Reach Last Room II](src/main/kotlin/g3301_3400/s3342_find_minimum_time_to_reach_last_room_ii)| Medium | Array, Matrix, Heap_Priority_Queue, Graph, Shortest_Path | 122 | 100.00
 | 3341 |[Find Minimum Time to Reach Last Room I](src/main/kotlin/g3301_3400/s3341_find_minimum_time_to_reach_last_room_i)| Medium | Array, Matrix, Heap_Priority_Queue, Graph, Shortest_Path | 257 | 42.10
 | 3340 |[Check Balanced String](src/main/kotlin/g3301_3400/s3340_check_balanced_string)| Easy | String | 1 | 100.00
-| 3337 |[Total Characters in String After Transformations II](src/main/kotlin/g3301_3400/s3337_total_characters_in_string_after_transformations_ii)| Hard | String, Hash_Table, Dynamic_Programming, Math, Counting | 320 | 100.00
+| 3337 |[Total Characters in String After Transformations II](src/main/kotlin/g3301_3400/s3337_total_characters_in_string_after_transformations_ii)| Hard | String, Hash_Table, Dynamic_Programming, Math, Counting | 302 | 100.00
 | 3336 |[Find the Number of Subsequences With Equal GCD](src/main/kotlin/g3301_3400/s3336_find_the_number_of_subsequences_with_equal_gcd)| Hard | Array, Dynamic_Programming, Math, Number_Theory | 324 | 100.00
 | 3335 |[Total Characters in String After Transformations I](src/main/kotlin/g3301_3400/s3335_total_characters_in_string_after_transformations_i)| Medium | String, Hash_Table, Dynamic_Programming, Math, Counting | 58 | 80.00
 | 3334 |[Find the Maximum Factor Score of Array](src/main/kotlin/g3301_3400/s3334_find_the_maximum_factor_score_of_array)| Medium | Array, Math, Number_Theory | 4 | 95.83
