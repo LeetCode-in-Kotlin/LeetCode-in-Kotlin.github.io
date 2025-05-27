@@ -2088,6 +2088,7 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3564 |[Seasonal Sales Analysis](src/main/kotlin/g3501_3600/s3564_seasonal_sales_analysis)| Medium | Database | 505 | 100.00
 | 3563 |[Lexicographically Smallest String After Adjacent Removals](src/main/kotlin/g3501_3600/s3563_lexicographically_smallest_string_after_adjacent_removals)| Hard | String, Dynamic_Programming | 186 | 100.00
 | 3562 |[Maximum Profit from Trading Stocks with Discounts](src/main/kotlin/g3501_3600/s3562_maximum_profit_from_trading_stocks_with_discounts)| Hard | Array, Dynamic_Programming, Depth_First_Search, Tree | 40 | 100.00
 | 3561 |[Resulting String After Adjacent Removals](src/main/kotlin/g3501_3600/s3561_resulting_string_after_adjacent_removals)| Medium | String, Stack, Simulation | 43 | 100.00
