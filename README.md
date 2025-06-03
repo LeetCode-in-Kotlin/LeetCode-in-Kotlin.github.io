@@ -2088,6 +2088,10 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3569 |[Maximize Count of Distinct Primes After Split](src/main/kotlin/g3501_3600/s3569_maximize_count_of_distinct_primes_after_split)| Hard | Array, Math, Segment_Tree, Number_Theory | 441 | 100.00
+| 3568 |[Minimum Moves to Clean the Classroom](src/main/kotlin/g3501_3600/s3568_minimum_moves_to_clean_the_classroom)| Medium | Array, Hash_Table, Breadth_First_Search, Matrix, Bit_Manipulation | 149 | 100.00
+| 3567 |[Minimum Absolute Difference in Sliding Submatrix](src/main/kotlin/g3501_3600/s3567_minimum_absolute_difference_in_sliding_submatrix)| Medium | Array, Sorting, Matrix | 18 | 100.00
+| 3566 |[Partition Array into Two Equal Product Subsets](src/main/kotlin/g3501_3600/s3566_partition_array_into_two_equal_product_subsets)| Medium | Array, Bit_Manipulation, Recursion, Enumeration | 1 | 100.00
 | 3564 |[Seasonal Sales Analysis](src/main/kotlin/g3501_3600/s3564_seasonal_sales_analysis)| Medium | Database | 505 | 100.00
 | 3563 |[Lexicographically Smallest String After Adjacent Removals](src/main/kotlin/g3501_3600/s3563_lexicographically_smallest_string_after_adjacent_removals)| Hard | String, Dynamic_Programming | 186 | 100.00
 | 3562 |[Maximum Profit from Trading Stocks with Discounts](src/main/kotlin/g3501_3600/s3562_maximum_profit_from_trading_stocks_with_discounts)| Hard | Array, Dynamic_Programming, Depth_First_Search, Tree | 40 | 100.00
