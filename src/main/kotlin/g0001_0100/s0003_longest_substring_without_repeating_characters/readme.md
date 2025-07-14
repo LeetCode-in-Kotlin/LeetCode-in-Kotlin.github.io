@@ -47,27 +47,26 @@ Given a string `s`, find the length of the **longest substring** without repeati
 ```kotlin
 class Solution {
     fun lengthOfLongestSubstring(s: String): Int {
-        var i = 0
-        var j = 0
-        var longest = 0
-        // 1. if string empty, return 0
-        if (s.isEmpty()) {
-            return 0
-        }
-        while (j < s.length) {
-            // 2. if the char at index j already seen, update the longest if needs
-            if (i != j && s.substring(i, j).indexOf(s[j]) > -1) {
-                longest = Math.max(j - i, longest)
-                i++
+        val lastIndices = IntArray(256) { -1 }
+        var maxLen = 0
+        var curLen = 0
+        var start = 0
+        for (i in s.indices) {
+            val cur = s[i]
+            if (lastIndices[cur.code] < start) {
+                lastIndices[cur.code] = i
+                curLen++
             } else {
-                // 3. j out of bound already, update longest
-                if (++j == s.length) {
-                    longest = Math.max(s.length - i, longest)
-                    break
-                }
+                val lastIndex = lastIndices[cur.code]
+                start = lastIndex + 1
+                curLen = i - start + 1
+                lastIndices[cur.code] = i
+            }
+            if (curLen > maxLen) {
+                maxLen = curLen
             }
         }
-        return longest
+        return maxLen
     }
 }
 ```

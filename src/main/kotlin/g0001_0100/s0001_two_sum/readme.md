@@ -45,7 +45,7 @@ You can return the answer in any order.
 ```kotlin
 class Solution {
     fun twoSum(numbers: IntArray, target: Int): IntArray {
-        val indexMap: MutableMap<Int, Int> = HashMap()
+        val indexMap = HashMap<Int, Int>()
         for (i in numbers.indices) {
             val requiredNum = target - numbers[i]
             if (indexMap.containsKey(requiredNum)) {
