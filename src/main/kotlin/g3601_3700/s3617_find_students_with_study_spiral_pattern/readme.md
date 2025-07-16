@@ -115,7 +115,6 @@ The result table is ordered by cycle\_length in descending order, then by total\
 
 ```sql
 # Write your MySQL query statement below
--- WITH studentstudysummary AS (
 WITH studentstudysummary AS (
     SELECT
         student_id,

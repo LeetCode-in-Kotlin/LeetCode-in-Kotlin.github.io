@@ -111,7 +111,6 @@ Output table is ordered by recovery\_time in ascending order, and then by patien
 
 ```sql
 # Write your MySQL query statement below
--- SELECT 
 SELECT 
     p.patient_id,
     p.patient_name,
