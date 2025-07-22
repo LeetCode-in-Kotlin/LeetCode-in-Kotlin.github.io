@@ -2088,6 +2088,14 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
+| 3625 |[Count Number of Trapezoids II](src/main/kotlin/g3601_3700/s3625_count_number_of_trapezoids_ii)| Hard | Array, Hash_Table, Math, Geometry, Weekly_Contest_459 | 377 | 100.00
+| 3624 |[Number of Integers With Popcount-Depth Equal to K II](src/main/kotlin/g3601_3700/s3624_number_of_integers_with_popcount_depth_equal_to_k_ii)| Hard | Array, Segment_Tree, Weekly_Contest_459 | 38 | 100.00
+| 3623 |[Count Number of Trapezoids I](src/main/kotlin/g3601_3700/s3623_count_number_of_trapezoids_i)| Medium | Array, Hash_Table, Math, Geometry, Weekly_Contest_459 | 58 | 68.00
+| 3622 |[Check Divisibility by Digit Sum and Product](src/main/kotlin/g3601_3700/s3622_check_divisibility_by_digit_sum_and_product)| Easy | Math, Weekly_Contest_459 | 0 | 100.00
+| 3621 |[Number of Integers With Popcount-Depth Equal to K I](src/main/kotlin/g3601_3700/s3621_number_of_integers_with_popcount_depth_equal_to_k_i)| Hard | Dynamic_Programming, Math, Combinatorics, Biweekly_Contest_161 | 2 | 100.00
+| 3620 |[Network Recovery Pathways](src/main/kotlin/g3601_3700/s3620_network_recovery_pathways)| Hard | Array, Dynamic_Programming, Binary_Search, Heap_Priority_Queue, Graph, Topological_Sort, Shortest_Path, Biweekly_Contest_161 | 212 | 66.67
+| 3619 |[Count Islands With Total Value Divisible by K](src/main/kotlin/g3601_3700/s3619_count_islands_with_total_value_divisible_by_k)| Medium | Array, Depth_First_Search, Breadth_First_Search, Matrix, Union_Find, Biweekly_Contest_161 | 14 | 100.00
+| 3618 |[Split Array by Prime Indices](src/main/kotlin/g3601_3700/s3618_split_array_by_prime_indices)| Medium | Array, Math, Number_Theory, Biweekly_Contest_161 | 6 | 100.00
 | 3617 |[Find Students with Study Spiral Pattern](src/main/kotlin/g3601_3700/s3617_find_students_with_study_spiral_pattern)| Hard | Database | 553 | 100.00
 | 3615 |[Longest Palindromic Path in Graph](src/main/kotlin/g3601_3700/s3615_longest_palindromic_path_in_graph)| Hard | String, Dynamic_Programming, Bit_Manipulation, Graph | 635 | 100.00
 | 3614 |[Process String with Special Operations II](src/main/kotlin/g3601_3700/s3614_process_string_with_special_operations_ii)| Hard | String, Simulation | 37 | 100.00
