@@ -111,7 +111,7 @@ class Solution {
                 q.offer(i)
             }
         }
-        while (!q.isEmpty()) {
+        while (q.isNotEmpty()) {
             val u = q.poll()
             ts.add(u)
             for (v in g[u]) {
