@@ -68,7 +68,7 @@ The given node will always be the first node with `val = 1`. You must return the
 ## Solution
 
 ```kotlin
-import com_github_leetcode.neighbors.Node
+import com_github_leetcode.Node
 
 /*
  * Definition for a Node.
@@ -89,11 +89,10 @@ class Solution {
         }
         val newNode = Node(node.`val`)
         processedNodes[node] = newNode
-        newNode.neighbors = ArrayList()
         for (neighbor in node.neighbors) {
-            val clonedNeighbor: Node? = cloneGraph(neighbor, processedNodes)
+            val clonedNeighbor = cloneGraph(neighbor, processedNodes)
             if (clonedNeighbor != null) {
-                newNode.neighbors.add(clonedNeighbor)
+                (newNode.neighbors as ArrayList).add(clonedNeighbor)
             }
         }
         return newNode
