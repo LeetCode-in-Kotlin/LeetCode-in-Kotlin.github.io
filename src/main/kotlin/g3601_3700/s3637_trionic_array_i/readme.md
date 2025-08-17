@@ -49,27 +49,24 @@ There is no way to pick `p` and `q` to form the required three segments.
 ```kotlin
 class Solution {
     fun isTrionic(nums: IntArray): Boolean {
-        var p = 0
-        var q = 0
+        var i = 1
         val n = nums.size
-        for (i in 1..<n - 1) {
-            if (nums[i - 1] == nums[i]) {
-                return false
-            }
-            if (nums[i - 1] < nums[i] && nums[i] > nums[i + 1]) {
-                if (p != 0) {
-                    return false
-                }
-                p = i
-            }
-            if (nums[i - 1] > nums[i] && nums[i] < nums[i + 1]) {
-                if (p == 0 || q != 0) {
-                    return false
-                }
-                q = i
-            }
+        while (i < n && nums[i] > nums[i - 1]) {
+            i++
         }
-        return q > 0
+        if (i == n || i == 1) {
+            return false
+        }
+        while (i < n && nums[i] < nums[i - 1]) {
+            i++
+        }
+        if (i == n) {
+            return false
+        }
+        while (i < n && nums[i] > nums[i - 1]) {
+            i++
+        }
+        return i == n
     }
 }
 ```

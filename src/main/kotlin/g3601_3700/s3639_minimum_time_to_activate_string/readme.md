@@ -74,34 +74,33 @@ Even after all replacements, it is impossible to obtain `k = 4` valid substrings
 ## Solution
 
 ```kotlin
-import java.util.TreeSet
-
 class Solution {
     fun minTime(s: String, order: IntArray, k: Int): Int {
         val n = s.length
-        // Use a TreeSet to maintain a sorted list of indices
-        val pos = TreeSet<Int?>()
-        pos.add(-1)
-        pos.add(n)
-        // Iterate through the order of removal
-        var localK = k
-        for (t in order.indices) {
+        var total = n * (n + 1L) / 2
+        if (total < k) {
+            return -1
+        }
+        val prev = IntArray(n + 1)
+        val next = IntArray(n + 1)
+        for (i in 0..<n) {
+            prev[i] = i - 1
+            next[i] = i + 1
+        }
+        for (t in n - 1 downTo 0) {
             val i = order[t]
-            // Find the elements in the sorted set that bracket the current index 'i'
-            // 'r' is the smallest element >= i
-            val r = pos.ceiling(i)
-            // 'l' is the largest element <= i
-            val l = pos.floor(i)
-            // The 'cost' to remove an item is the product of the distances to its neighbors
-            localK -= ((i - l!!).toLong() * (r!! - i)).toInt()
-            pos.add(i)
-            // If the total cost is exhausted, return the current time 't'
-            if (localK <= 0) {
+            val left = prev[i]
+            val right = next[i]
+            total -= (i - left).toLong() * (right - i)
+            if (total < k) {
                 return t
             }
+            if (left >= 0) {
+                next[left] = right
+            }
+            prev[right] = left
         }
-        // If all items are removed and k is not exhausted, return -1
-        return -1
+        return 0
     }
 }
 ```
