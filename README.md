@@ -2088,7 +2088,7 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|--------
-| 3661 |[Maximum Walls Destroyed by Robots](src/main/kotlin/g3601_3700/s3661_maximum_walls_destroyed_by_robots)| Hard | Weekly_Contest_464 | 146 | 100.00
+| 3661 |[Maximum Walls Destroyed by Robots](src/main/kotlin/g3601_3700/s3661_maximum_walls_destroyed_by_robots)| Hard | Weekly_Contest_464 | 147 | 100.00
 | 3660 |[Jump Game IX](src/main/kotlin/g3601_3700/s3660_jump_game_ix)| Medium | Weekly_Contest_464 | 5 | 100.00
 | 3659 |[Partition Array Into K-Distinct Groups](src/main/kotlin/g3601_3700/s3659_partition_array_into_k_distinct_groups)| Medium | Weekly_Contest_464 | 6 | 100.00
 | 3658 |[GCD of Odd and Even Sums](src/main/kotlin/g3601_3700/s3658_gcd_of_odd_and_even_sums)| Easy | Weekly_Contest_464 | 0 | 100.00
