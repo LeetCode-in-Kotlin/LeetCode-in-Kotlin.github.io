@@ -2128,7 +2128,7 @@
 | 3648 |[Minimum Sensors to Cover Grid](src/main/kotlin/g3601_3700/s3648_minimum_sensors_to_cover_grid)| Medium | Math, Biweekly_Contest_163 | 0 | 100.00
 | 3646 |[Next Special Palindrome Number](src/main/kotlin/g3601_3700/s3646_next_special_palindrome_number)| Hard | Backtracking, Weekly_Contest_462 | 34 | 100.00
 | 3645 |[Maximum Total from Optimal Activation Order](src/main/kotlin/g3601_3700/s3645_maximum_total_from_optimal_activation_order)| Medium | Array, Sorting, Greedy, Two_Pointers, Heap_Priority_Queue, Weekly_Contest_462 | 77 | 100.00
-| 3644 |[Maximum K to Sort a Permutation](src/main/kotlin/g3601_3700/s3644_maximum_k_to_sort_a_permutation)| Medium | Weekly_Contest_462 | 4 | 100.00
+| 3644 |[Maximum K to Sort a Permutation](src/main/kotlin/g3601_3700/s3644_maximum_k_to_sort_a_permutation)| Medium | Array, Bit_Manipulation, Weekly_Contest_462 | 2 | 100.00
 | 3643 |[Flip Square Submatrix Vertically](src/main/kotlin/g3601_3700/s3643_flip_square_submatrix_vertically)| Easy | Array, Matrix, Two_Pointers, Weekly_Contest_462 | 1 | 100.00
 | 3642 |[Find Books with Polarized Opinions](src/main/kotlin/g3601_3700/s3642_find_books_with_polarized_opinions)| Easy | Database | 490 | 100.00
 | 3640 |[Trionic Array II](src/main/kotlin/g3601_3700/s3640_trionic_array_ii)| Hard | Array, Dynamic_Programming, Weekly_Contest_461 | 7 | 100.00
