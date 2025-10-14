@@ -2088,11 +2088,19 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|---------
+| 3715 |[Sum of Perfect Square Ancestors](src/main/kotlin/g3701_3800/s3715_sum_of_perfect_square_ancestors)| Hard | Array, Hash_Table, Math, Depth_First_Search, Tree, Counting, Number_Theory, Weekly_Contest_471 | 148 | 100.00
+| 3714 |[Longest Balanced Substring II](src/main/kotlin/g3701_3800/s3714_longest_balanced_substring_ii)| Medium | String, Hash_Table, Prefix_Sum, Weekly_Contest_471 | 194 | 100.00
+| 3713 |[Longest Balanced Substring I](src/main/kotlin/g3701_3800/s3713_longest_balanced_substring_i)| Medium | String, Hash_Table, Counting, Enumeration, Weekly_Contest_471 | 35 | 100.00
+| 3712 |[Sum of Elements With Frequency Divisible by K](src/main/kotlin/g3701_3800/s3712_sum_of_elements_with_frequency_divisible_by_k)| Easy | Array, Hash_Table, Counting, Weekly_Contest_471 | 2 | 95.65
+| 3710 |[Maximum Partition Factor](src/main/kotlin/g3701_3800/s3710_maximum_partition_factor)| Hard | Array, Depth_First_Search, Breadth_First_Search, Binary_Search, Graph, Union_Find, Biweekly_Contest_167 | 55 | 100.00
+| 3709 |[Design Exam Scores Tracker](src/main/kotlin/g3701_3800/s3709_design_exam_scores_tracker)| Medium | Array, Binary_Search, Design, Prefix_Sum, Biweekly_Contest_167 | 126 | 78.95
+| 3708 |[Longest Fibonacci Subarray](src/main/kotlin/g3701_3800/s3708_longest_fibonacci_subarray)| Medium | Array, Biweekly_Contest_167 | 3 | 100.00
+| 3707 |[Equal Score Substrings](src/main/kotlin/g3701_3800/s3707_equal_score_substrings)| Easy | String, Prefix_Sum, Biweekly_Contest_167 | 2 | 66.67
 | 3705 |[Find Golden Hour Customers](src/main/kotlin/g3701_3800/s3705_find_golden_hour_customers)| Medium | Database | 281 | 71.26
-| 3704 |[Count No-Zero Pairs That Sum to N](src/main/kotlin/g3701_3800/s3704_count_no_zero_pairs_that_sum_to_n)| Hard | Weekly_Contest_470 | 11 | 100.00
-| 3703 |[Remove K-Balanced Substrings](src/main/kotlin/g3701_3800/s3703_remove_k_balanced_substrings)| Medium | Weekly_Contest_470 | 58 | 100.00
-| 3702 |[Longest Subsequence With Non-Zero Bitwise XOR](src/main/kotlin/g3701_3800/s3702_longest_subsequence_with_non_zero_bitwise_xor)| Medium | Weekly_Contest_470 | 2 | 100.00
-| 3701 |[Compute Alternating Sum](src/main/kotlin/g3701_3800/s3701_compute_alternating_sum)| Easy | Weekly_Contest_470 | 1 | 100.00
+| 3704 |[Count No-Zero Pairs That Sum to N](src/main/kotlin/g3701_3800/s3704_count_no_zero_pairs_that_sum_to_n)| Hard | Dynamic_Programming, Math, Weekly_Contest_470 | 11 | 100.00
+| 3703 |[Remove K-Balanced Substrings](src/main/kotlin/g3701_3800/s3703_remove_k_balanced_substrings)| Medium | String, Stack, Simulation, Weekly_Contest_470 | 58 | 100.00
+| 3702 |[Longest Subsequence With Non-Zero Bitwise XOR](src/main/kotlin/g3701_3800/s3702_longest_subsequence_with_non_zero_bitwise_xor)| Medium | Array, Bit_Manipulation, Weekly_Contest_470 | 2 | 100.00
+| 3701 |[Compute Alternating Sum](src/main/kotlin/g3701_3800/s3701_compute_alternating_sum)| Easy | Array, Simulation, Weekly_Contest_470 | 1 | 100.00
 | 3700 |[Number of ZigZag Arrays II](src/main/kotlin/g3601_3700/s3700_number_of_zigzag_arrays_ii)| Hard | Dynamic_Programming, Math, Weekly_Contest_469 | 175 | 100.00
 | 3699 |[Number of ZigZag Arrays I](src/main/kotlin/g3601_3700/s3699_number_of_zigzag_arrays_i)| Hard | Dynamic_Programming, Prefix_Sum, Weekly_Contest_469 | 227 | 78.57
 | 3698 |[Split Array With Minimum Difference](src/main/kotlin/g3601_3700/s3698_split_array_with_minimum_difference)| Medium | Array, Prefix_Sum, Weekly_Contest_469 | 3 | 100.00
