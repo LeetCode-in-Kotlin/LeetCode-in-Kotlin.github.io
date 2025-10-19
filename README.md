@@ -2088,6 +2088,7 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|---------
+| 3716 |[Find Churn Risk Customers](src/main/kotlin/g3701_3800/s3716_find_churn_risk_customers)| Medium | Database | 256 | 96.87
 | 3715 |[Sum of Perfect Square Ancestors](src/main/kotlin/g3701_3800/s3715_sum_of_perfect_square_ancestors)| Hard | Array, Hash_Table, Math, Depth_First_Search, Tree, Counting, Number_Theory, Weekly_Contest_471 | 148 | 100.00
 | 3714 |[Longest Balanced Substring II](src/main/kotlin/g3701_3800/s3714_longest_balanced_substring_ii)| Medium | String, Hash_Table, Prefix_Sum, Weekly_Contest_471 | 194 | 100.00
 | 3713 |[Longest Balanced Substring I](src/main/kotlin/g3701_3800/s3713_longest_balanced_substring_i)| Medium | String, Hash_Table, Counting, Enumeration, Weekly_Contest_471 | 35 | 100.00
@@ -2867,7 +2868,7 @@
 | 2730 |[Find the Longest Semi-Repetitive Substring](src/main/kotlin/g2701_2800/s2730_find_the_longest_semi_repetitive_substring)| Medium | String, Sliding_Window | 251 | 84.62
 | 2729 |[Check if The Number is Fascinating](src/main/kotlin/g2701_2800/s2729_check_if_the_number_is_fascinating)| Easy | Hash_Table, Math | 131 | 100.00
 | 2727 |[Is Object Empty](src/main/kotlin/g2701_2800/s2727_is_object_empty)| Easy || 49 | 98.24
-| 2726 |[Calculator with Method Chaining](src/main/kotlin/g2701_2800/s2726_calculator_with_method_chaining)| Easy || 43 | 99.15
+| 2726 |[Calculator with Method Chaining](src/main/kotlin/g2701_2800/s2726_calculator_with_method_chaining)| Easy || 39 | 99.67
 | 2725 |[Interval Cancellation](src/main/kotlin/g2701_2800/s2725_interval_cancellation)| Easy || 51 | 98.87
 | 2724 |[Sort By](src/main/kotlin/g2701_2800/s2724_sort_by)| Easy || 132 | 96.70
 | 2723 |[Add Two Promises](src/main/kotlin/g2701_2800/s2723_add_two_promises)| Easy || 56 | 97.63
@@ -2886,7 +2887,7 @@
 | 2708 |[Maximum Strength of a Group](src/main/kotlin/g2701_2800/s2708_maximum_strength_of_a_group)| Medium | Array, Sorting, Greedy, Backtracking | 183 | 100.00
 | 2707 |[Extra Characters in a String](src/main/kotlin/g2701_2800/s2707_extra_characters_in_a_string)| Medium | Array, String, Hash_Table, Dynamic_Programming, Trie | 276 | 85.71
 | 2706 |[Buy Two Chocolates](src/main/kotlin/g2701_2800/s2706_buy_two_chocolates)| Easy | Array, Sorting | 187 | 96.43
-| 2705 |[Compact Object](src/main/kotlin/g2701_2800/s2705_compact_object)| Medium || 78 | 99.38
+| 2705 |[Compact Object](src/main/kotlin/g2701_2800/s2705_compact_object)| Medium || 80 | 88.30
 | 2704 |[To Be Or Not To Be](src/main/kotlin/g2701_2800/s2704_to_be_or_not_to_be)| Easy || 49 | 97.88
 | 2703 |[Return Length of Arguments Passed](src/main/kotlin/g2701_2800/s2703_return_length_of_arguments_passed)| Easy || 47 | 98.59
 | 2699 |[Modify Graph Edge Weights](src/main/kotlin/g2601_2700/s2699_modify_graph_edge_weights)| Hard | Heap_Priority_Queue, Graph, Shortest_Path | 1592 | 40.00
@@ -2894,7 +2895,7 @@
 | 2697 |[Lexicographically Smallest Palindrome](src/main/kotlin/g2601_2700/s2697_lexicographically_smallest_palindrome)| Easy | String, Two_Pointers | 267 | 100.00
 | 2696 |[Minimum String Length After Removing Substrings](src/main/kotlin/g2601_2700/s2696_minimum_string_length_after_removing_substrings)| Easy | String, Stack, Simulation | 185 | 100.00
 | 2695 |[Array Wrapper](src/main/kotlin/g2601_2700/s2695_array_wrapper)| Easy || 40 | 100.00
-| 2694 |[Event Emitter](src/main/kotlin/g2601_2700/s2694_event_emitter)| Medium || 45 | 99.58
+| 2694 |[Event Emitter](src/main/kotlin/g2601_2700/s2694_event_emitter)| Medium || 50 | 90.72
 | 2693 |[Call Function with Custom Context](src/main/kotlin/g2601_2700/s2693_call_function_with_custom_context)| Medium | Array, Dynamic_Programming, Matrix | 51 | 97.92
 | 2685 |[Count the Number of Complete Components](src/main/kotlin/g2601_2700/s2685_count_the_number_of_complete_components)| Medium | Array, Dynamic_Programming, Depth_First_Search, Breadth_First_Search, Matrix, Graph | 436 | 100.00
 | 2684 |[Maximum Number of Moves in a Grid](src/main/kotlin/g2601_2700/s2684_maximum_number_of_moves_in_a_grid)| Medium | Array, Dynamic_Programming, Matrix | 509 | 100.00
