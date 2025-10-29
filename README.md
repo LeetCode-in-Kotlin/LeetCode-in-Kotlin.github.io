@@ -2088,6 +2088,18 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|---------
+| 3729 |[Count Distinct Subarrays Divisible by K in Sorted Array](src/main/kotlin/g3701_3800/s3729_count_distinct_subarrays_divisible_by_k_in_sorted_array)| Hard | Array, Hash_Table, Prefix_Sum, Weekly_Contest_473 | 61 | 100.00
+| 3728 |[Stable Subarrays With Equal Boundary and Interior Sum](src/main/kotlin/g3701_3800/s3728_stable_subarrays_with_equal_boundary_and_interior_sum)| Medium | Array, Hash_Table, Prefix_Sum, Weekly_Contest_473 | 109 | 100.00
+| 3727 |[Maximum Alternating Sum of Squares](src/main/kotlin/g3701_3800/s3727_maximum_alternating_sum_of_squares)| Medium | Array, Sorting, Greedy, Weekly_Contest_473 | 9 | 100.00
+| 3726 |[Remove Zeros in Decimal Representation](src/main/kotlin/g3701_3800/s3726_remove_zeros_in_decimal_representation)| Easy | Math, Simulation, Weekly_Contest_473 | 2 | 73.91
+| 3725 |[Count Ways to Choose Coprime Integers from Rows](src/main/kotlin/g3701_3800/s3725_count_ways_to_choose_coprime_integers_from_rows)| Hard | Array, Dynamic_Programming, Math, Matrix, Number_Theory, Combinatorics, Biweekly_Contest_168 | 29 | 100.00
+| 3724 |[Minimum Operations to Transform Array](src/main/kotlin/g3701_3800/s3724_minimum_operations_to_transform_array)| Medium | Array, Greedy, Biweekly_Contest_168 | 10 | 83.33
+| 3723 |[Maximize Sum of Squares of Digits](src/main/kotlin/g3701_3800/s3723_maximize_sum_of_squares_of_digits)| Medium | Math, Greedy, Biweekly_Contest_168 | 16 | 94.44
+| 3722 |[Lexicographically Smallest String After Reverse](src/main/kotlin/g3701_3800/s3722_lexicographically_smallest_string_after_reverse)| Medium | Binary_Search, Two_Pointers, Enumeration, Biweekly_Contest_168 | 8 | 100.00
+| 3721 |[Longest Balanced Subarray II](src/main/kotlin/g3701_3800/s3721_longest_balanced_subarray_ii)| Hard | Array, Hash_Table, Prefix_Sum, Divide_and_Conquer, Segment_Tree, Weekly_Contest_472 | 217 | 100.00
+| 3720 |[Lexicographically Smallest Permutation Greater Than Target](src/main/kotlin/g3701_3800/s3720_lexicographically_smallest_permutation_greater_than_target)| Medium | String, Hash_Table, Greedy, Counting, Enumeration, Weekly_Contest_472 | 2 | 96.02
+| 3719 |[Longest Balanced Subarray I](src/main/kotlin/g3701_3800/s3719_longest_balanced_subarray_i)| Medium | Array, Hash_Table, Prefix_Sum, Divide_and_Conquer, Segment_Tree, Weekly_Contest_472 | 10 | 100.00
+| 3718 |[Smallest Missing Multiple of K](src/main/kotlin/g3701_3800/s3718_smallest_missing_multiple_of_k)| Easy | Array, Hash_Table, Weekly_Contest_472 | 0 | 100.00
 | 3716 |[Find Churn Risk Customers](src/main/kotlin/g3701_3800/s3716_find_churn_risk_customers)| Medium | Database | 256 | 96.87
 | 3715 |[Sum of Perfect Square Ancestors](src/main/kotlin/g3701_3800/s3715_sum_of_perfect_square_ancestors)| Hard | Array, Hash_Table, Math, Depth_First_Search, Tree, Counting, Number_Theory, Weekly_Contest_471 | 148 | 100.00
 | 3714 |[Longest Balanced Substring II](src/main/kotlin/g3701_3800/s3714_longest_balanced_substring_ii)| Medium | String, Hash_Table, Prefix_Sum, Weekly_Contest_471 | 194 | 100.00
