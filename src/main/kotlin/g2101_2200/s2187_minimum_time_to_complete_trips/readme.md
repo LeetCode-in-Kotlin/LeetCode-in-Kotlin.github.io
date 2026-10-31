@@ -54,9 +54,7 @@ So the minimum time needed to complete 1 trip is 2.
 
 ```kotlin
 class Solution {
-    fun minimumTime(time: IntArray, totalTrips: Int): Long {
-        return bs(0, Long.MAX_VALUE, time, totalTrips.toLong())
-    }
+    fun minimumTime(time: IntArray, totalTrips: Int): Long = bs(0, Long.MAX_VALUE, time, totalTrips.toLong())
 
     private fun bs(left: Long, right: Long, time: IntArray, totalTrips: Long): Long {
         if (left > right) {

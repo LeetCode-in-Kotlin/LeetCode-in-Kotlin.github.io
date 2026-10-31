@@ -87,8 +87,6 @@ class Solution {
         return ct - 1
     }
 
-    fun maxHeightOfTriangle(red: Int, blue: Int): Int {
-        return max(count(red, blue), count(blue, red))
-    }
+    fun maxHeightOfTriangle(red: Int, blue: Int): Int = max(count(red, blue), count(blue, red))
 }
 ```

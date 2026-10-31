@@ -76,8 +76,6 @@ class Solution {
         return n + count(k - bits, bit + (if (p % x == 0L) 1 else 0), x)
     }
 
-    fun findMaximumNumber(k: Long, x: Int): Long {
-        return count(k, 0, x) - 1
-    }
+    fun findMaximumNumber(k: Long, x: Int): Long = count(k, 0, x) - 1
 }
 ```

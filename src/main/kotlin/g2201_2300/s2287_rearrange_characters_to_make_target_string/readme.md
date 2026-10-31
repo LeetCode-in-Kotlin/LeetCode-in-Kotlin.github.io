@@ -61,9 +61,8 @@ We can make at most one copy of "aaaaa", so we return 1.
 
 ```kotlin
 class Solution {
-    fun rearrangeCharacters(s: String, target: String): Int {
-        return getMaxCopies(target, getCharCount(s), getCharCount(target))
-    }
+    fun rearrangeCharacters(s: String, target: String): Int =
+        getMaxCopies(target, getCharCount(s), getCharCount(target))
 
     private fun getCharCount(str: String): IntArray {
         val charToCount = IntArray(26)

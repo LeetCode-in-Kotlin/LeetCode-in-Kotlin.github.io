@@ -62,9 +62,7 @@ class Solution {
         )
     }
 
-    private fun combine(a: CharArray, b: CharArray, c: CharArray): CharArray {
-        return combine(combine(a, b), c)
-    }
+    private fun combine(a: CharArray, b: CharArray, c: CharArray): CharArray = combine(combine(a, b), c)
 
     private fun combine(a: CharArray, b: CharArray): CharArray {
         var insertIndex = a.size
@@ -99,7 +97,11 @@ class Solution {
             return res
         } else {
             for (i in res.indices) {
-                if (res[i] > test[i]) return test else if (res[i] < test[i]) return res
+                if (res[i] > test[i]) {
+                    return test
+                } else if (res[i] < test[i]) {
+                    return res
+                }
             }
         }
         return res

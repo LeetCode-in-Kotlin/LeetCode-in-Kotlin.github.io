@@ -33,9 +33,7 @@ Given a string `s` and an integer `k`, return _the length of the longest substri
 
 ```kotlin
 class Solution {
-    fun longestSubstring(s: String, k: Int): Int {
-        return helper(s, k, 0, s.length)
-    }
+    fun longestSubstring(s: String, k: Int): Int = helper(s, k, 0, s.length)
 
     private fun helper(s: String, k: Int, start: Int, end: Int): Int {
         if (end - start < k) {

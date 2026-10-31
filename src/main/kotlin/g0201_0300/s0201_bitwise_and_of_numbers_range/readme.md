@@ -33,9 +33,8 @@ Given two integers `left` and `right` that represent the range `[left, right]`, 
 
 ```kotlin
 class Solution {
-    fun rangeBitwiseAnd(left: Int, right: Int): Int {
-        return if (left == right) left else right and MASKS[Integer.numberOfLeadingZeros(left xor right)]
-    }
+    fun rangeBitwiseAnd(left: Int, right: Int): Int =
+        if (left == right) left else right and MASKS[Integer.numberOfLeadingZeros(left xor right)]
 
     companion object {
         private val MASKS = intArrayOf(

@@ -47,9 +47,7 @@ So the total probability of A becoming empty first plus half the probability tha
 ```kotlin
 @Suppress("NAME_SHADOWING")
 class Solution {
-    fun soupServings(n: Int): Double {
-        return solve(n)
-    }
+    fun soupServings(n: Int): Double = solve(n)
 
     private fun solve(n: Int): Double {
         var n = n

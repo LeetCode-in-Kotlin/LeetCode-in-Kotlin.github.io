@@ -59,14 +59,8 @@ The test cases are generated so that all the values in the output fit in a **32-
 
 ```kotlin
 class Solution {
-    data class Item(
-        var title: String = "",
-        var total: String = "",
-        var count: Int = 0,
-    ) {
-        fun getT(): String {
-            return if (total == "") "1" else total
-        }
+    data class Item(var title: String = "", var total: String = "", var count: Int = 0) {
+        fun getT(): String = if (total == "") "1" else total
     }
 
     fun countOfAtoms(formula: String): String {
@@ -100,16 +94,20 @@ class Solution {
                     current.count = open
                     multiply = false
                 }
+
                 in 'a'..'z' -> {
                     current.title += it.toString()
                 }
+
                 '(' -> {
                     open++
                 }
+
                 ')' -> {
                     multiply = true
                     open--
                 }
+
                 in '0'..'9' -> {
                     if (multiply) {
                         multiplier += it.toString()

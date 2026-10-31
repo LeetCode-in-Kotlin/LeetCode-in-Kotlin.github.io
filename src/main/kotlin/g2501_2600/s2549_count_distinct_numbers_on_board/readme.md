@@ -51,8 +51,6 @@ After a billion days, the only two distinct numbers on the board are 2 and 3.
 
 ```kotlin
 class Solution {
-    fun distinctIntegers(n: Int): Int {
-        return 1.coerceAtLeast(n - 1)
-    }
+    fun distinctIntegers(n: Int): Int = 1.coerceAtLeast(n - 1)
 }
 ```

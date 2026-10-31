@@ -68,12 +68,10 @@ class Solution {
         return btreeGameWinningMove(root.left, n, x) || btreeGameWinningMove(root.right, n, x)
     }
 
-    private fun countNodes(root: TreeNode?): Int {
-        return if (root == null) {
-            0
-        } else {
-            countNodes(root.left) + countNodes(root.right) + 1
-        }
+    private fun countNodes(root: TreeNode?): Int = if (root == null) {
+        0
+    } else {
+        countNodes(root.left) + countNodes(root.right) + 1
     }
 }
 ```

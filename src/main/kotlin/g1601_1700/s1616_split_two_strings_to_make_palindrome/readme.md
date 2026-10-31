@@ -54,9 +54,7 @@ Then, a<sub>prefix</sub> + b<sub>suffix</sub> = "ula" + "alu" = "ulaalu", which 
 ```kotlin
 @Suppress("NAME_SHADOWING")
 class Solution {
-    fun checkPalindromeFormation(a: String, b: String): Boolean {
-        return check(a, b) || check(b, a)
-    }
+    fun checkPalindromeFormation(a: String, b: String): Boolean = check(a, b) || check(b, a)
 
     private fun check(a: String, b: String): Boolean {
         var i = 0

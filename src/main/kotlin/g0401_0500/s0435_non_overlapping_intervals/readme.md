@@ -43,8 +43,7 @@ Given an array of intervals `intervals` where <code>intervals[i] = [start<sub>i<
 class Solution {
     fun eraseOverlapIntervals(intervals: Array<IntArray>): Int {
         intervals.sortWith { a: IntArray, b: IntArray ->
-            if (a[0] != b[0]
-            ) {
+            if (a[0] != b[0]) {
                 a[0] - b[0]
             } else {
                 a[1] - b[1]

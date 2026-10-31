@@ -47,12 +47,7 @@ Since the answer may be large, return it **modulo** <code>10<sup>9</sup> + 7</co
 
 ```kotlin
 class Solution {
-    fun maximizeSquareArea(
-        m: Int,
-        n: Int,
-        hFences: IntArray,
-        vFences: IntArray,
-    ): Int {
+    fun maximizeSquareArea(m: Int, n: Int, hFences: IntArray, vFences: IntArray): Int {
         val hFencesWithBorder = IntArray(hFences.size + 2)
         System.arraycopy(hFences, 0, hFencesWithBorder, 0, hFences.size)
         hFencesWithBorder[hFences.size] = 1

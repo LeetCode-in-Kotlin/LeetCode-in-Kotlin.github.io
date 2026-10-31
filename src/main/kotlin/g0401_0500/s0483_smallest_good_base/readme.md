@@ -42,9 +42,7 @@ We call `k >= 2` a **good base** of `n`, if all digits of `n` base `k` are `1`'s
 
 ```kotlin
 class Solution {
-    fun smallestGoodBase(n: String): String {
-        return sol1(n)
-    }
+    fun smallestGoodBase(n: String): String = sol1(n)
 
     private fun sol1(n: String): String {
         val x = n.toLong()

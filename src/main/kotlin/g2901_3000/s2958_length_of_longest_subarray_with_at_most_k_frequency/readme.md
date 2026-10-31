@@ -75,8 +75,6 @@ class Solution {
         return max
     }
 
-    private fun count(f: IntArray, n: Int): Int {
-        return f[n]
-    }
+    private fun count(f: IntArray, n: Int): Int = f[n]
 }
 ```

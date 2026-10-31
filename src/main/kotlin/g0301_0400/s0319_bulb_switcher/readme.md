@@ -41,12 +41,10 @@ Return _the number of bulbs that are on after `n` rounds_.
 
 ```kotlin
 class Solution {
-    fun bulbSwitch(n: Int): Int {
-        return if (n < 2) {
-            n
-        } else {
-            Math.sqrt(n.toDouble()).toInt()
-        }
+    fun bulbSwitch(n: Int): Int = if (n < 2) {
+        n
+    } else {
+        Math.sqrt(n.toDouble()).toInt()
     }
 }
 ```

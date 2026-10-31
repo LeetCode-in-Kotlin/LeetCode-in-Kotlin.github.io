@@ -33,12 +33,10 @@ Given an integer `num`, return _three consecutive integers (as a sorted array)_ 
 
 ```kotlin
 class Solution {
-    fun sumOfThree(num: Long): LongArray {
-        return if (num % 3 == 0L) {
-            longArrayOf(num / 3 - 1, num / 3, num / 3 + 1)
-        } else {
-            LongArray(0)
-        }
+    fun sumOfThree(num: Long): LongArray = if (num % 3 == 0L) {
+        longArrayOf(num / 3 - 1, num / 3, num / 3 + 1)
+    } else {
+        LongArray(0)
     }
 }
 ```

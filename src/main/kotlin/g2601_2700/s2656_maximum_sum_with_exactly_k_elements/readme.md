@@ -56,8 +56,6 @@ It can be proven, that 11 is the maximum answer that we can achieve.
 
 ```kotlin
 class Solution {
-    fun maximizeSum(nums: IntArray, k: Int): Int {
-        return k * nums.max() + k * (k - 1) / 2
-    }
+    fun maximizeSum(nums: IntArray, k: Int): Int = k * nums.max() + k * (k - 1) / 2
 }
 ```

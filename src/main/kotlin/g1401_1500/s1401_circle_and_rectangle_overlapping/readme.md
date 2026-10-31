@@ -44,15 +44,7 @@ Return `true` _if the circle and rectangle are overlapped otherwise return_ `fal
 
 ```kotlin
 class Solution {
-    fun checkOverlap(
-        radius: Int,
-        xCenter: Int,
-        yCenter: Int,
-        x1: Int,
-        y1: Int,
-        x2: Int,
-        y2: Int,
-    ): Boolean {
+    fun checkOverlap(radius: Int, xCenter: Int, yCenter: Int, x1: Int, y1: Int, x2: Int, y2: Int): Boolean {
         // Find the closest point to the circle within the rectangle
         val closestX = clamp(xCenter, x1, x2)
         val closestY = clamp(yCenter, y1, y2)
@@ -64,8 +56,6 @@ class Solution {
         return distanceSquared <= radius * radius
     }
 
-    private fun clamp(`val`: Int, min: Int, max: Int): Int {
-        return Math.max(min, Math.min(max, `val`))
-    }
+    private fun clamp(`val`: Int, min: Int, max: Int): Int = Math.max(min, Math.min(max, `val`))
 }
 ```

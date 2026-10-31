@@ -44,9 +44,7 @@ Note that after backspacing an empty text, the text will continue empty.
 
 ```kotlin
 class Solution {
-    fun backspaceCompare(s: String, t: String): Boolean {
-        return cmprStr(s) == cmprStr(t)
-    }
+    fun backspaceCompare(s: String, t: String): Boolean = cmprStr(s) == cmprStr(t)
 
     private fun cmprStr(str: String): String {
         val res = StringBuilder()

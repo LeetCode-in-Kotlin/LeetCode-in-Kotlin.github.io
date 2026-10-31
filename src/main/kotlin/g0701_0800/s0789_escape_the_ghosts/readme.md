@@ -64,8 +64,6 @@ class Solution {
         return true
     }
 
-    private fun getDist(p1: IntArray, p2: IntArray): Int {
-        return abs(p1[0] - p2[0]) + abs(p1[1] - p2[1])
-    }
+    private fun getDist(p1: IntArray, p2: IntArray): Int = abs(p1[0] - p2[0]) + abs(p1[1] - p2[1])
 }
 ```

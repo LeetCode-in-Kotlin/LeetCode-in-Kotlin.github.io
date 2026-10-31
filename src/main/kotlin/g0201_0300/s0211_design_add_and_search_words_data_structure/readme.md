@@ -45,7 +45,7 @@ Implement the `WordDictionary` class:
 
 ```kotlin
 class WordDictionary {
-    class TrieNode() {
+    class TrieNode {
         val children = Array<TrieNode?>(26) { null }
         var isWord = false
     }

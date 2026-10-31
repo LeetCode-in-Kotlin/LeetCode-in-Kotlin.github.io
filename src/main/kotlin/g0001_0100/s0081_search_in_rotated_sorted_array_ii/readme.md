@@ -38,9 +38,7 @@ You must decrease the overall operation steps as much as possible.
 
 ```kotlin
 class Solution {
-    fun search(nums: IntArray, target: Int): Boolean {
-        return binary(nums, 0, nums.size - 1, target)
-    }
+    fun search(nums: IntArray, target: Int): Boolean = binary(nums, 0, nums.size - 1, target)
 
     private fun binary(a: IntArray, i: Int, j: Int, t: Int): Boolean {
         if (i > j) {

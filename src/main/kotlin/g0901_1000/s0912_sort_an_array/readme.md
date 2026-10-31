@@ -34,9 +34,7 @@ You must solve the problem **without using any built-in** functions in `O(nlog(n
 
 ```kotlin
 class Solution {
-    fun sortArray(nums: IntArray): IntArray {
-        return mergeSort(nums, 0, nums.size - 1)
-    }
+    fun sortArray(nums: IntArray): IntArray = mergeSort(nums, 0, nums.size - 1)
 
     private fun mergeSort(arr: IntArray, lo: Int, hi: Int): IntArray {
         if (lo == hi) {

@@ -46,12 +46,10 @@ A **subsequence** of a string `s` is a string that can be obtained after deletin
 
 ```kotlin
 class Solution {
-    fun findLUSlength(a: String, b: String): Int {
-        return if (a == b) {
-            -1
-        } else {
-            a.length.coerceAtLeast(b.length)
-        }
+    fun findLUSlength(a: String, b: String): Int = if (a == b) {
+        -1
+    } else {
+        a.length.coerceAtLeast(b.length)
     }
 }
 ```

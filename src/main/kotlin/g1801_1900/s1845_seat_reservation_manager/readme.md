@@ -63,9 +63,7 @@ class SeatManager(n: Int) {
         smallest = 0
     }
 
-    fun reserve(): Int {
-        return if (seats.isEmpty()) ++smallest else seats.poll()
-    }
+    fun reserve(): Int = if (seats.isEmpty()) ++smallest else seats.poll()
 
     fun unreserve(seatNumber: Int) {
         seats.offer(seatNumber)

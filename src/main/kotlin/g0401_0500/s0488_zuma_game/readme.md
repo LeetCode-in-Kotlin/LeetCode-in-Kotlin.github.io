@@ -54,13 +54,9 @@ Given a string `board`, representing the row of balls on the board, and a string
 
 ```kotlin
 class Solution {
-    fun findMinStep(board: String, hand: String): Int {
-        return dfs(board, hand)
-    }
+    fun findMinStep(board: String, hand: String): Int = dfs(board, hand)
 
-    private fun dfs(board: String, hand: String): Int {
-        return findMinStepDp(board, hand, HashMap())
-    }
+    private fun dfs(board: String, hand: String): Int = findMinStepDp(board, hand, HashMap())
 
     private fun findMinStepDp(board: String, hand: String, dp: MutableMap<String, MutableMap<String, Int?>?>): Int {
         if (board.isEmpty()) {

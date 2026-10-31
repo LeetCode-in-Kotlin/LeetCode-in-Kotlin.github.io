@@ -48,9 +48,7 @@ queries[4]: substring = "abcda", could be changed to "abcba" which is palidrome.
 
 ```kotlin
 class Solution {
-    fun canMakePaliQueries(s: String, queries: Array<IntArray>): List<Boolean> {
-        return canMakeP(s, queries)
-    }
+    fun canMakePaliQueries(s: String, queries: Array<IntArray>): List<Boolean> = canMakeP(s, queries)
 
     private fun canMakeP(s: String, qs: Array<IntArray>): List<Boolean> {
         val n = s.length

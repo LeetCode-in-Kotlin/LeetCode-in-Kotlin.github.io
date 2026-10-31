@@ -30,10 +30,9 @@ The vowels are `'a'`, `'e'`, `'i'`, `'o'`, and `'u'`, and they can appear in bot
 
 ```kotlin
 class Solution {
-    private fun isVowel(c: Char): Boolean {
-        return c == 'a' || c == 'A' || c == 'e' || c == 'E' || c == 'i' || c == 'I' || c == 'o' || c == 'O' ||
+    private fun isVowel(c: Char): Boolean =
+        c == 'a' || c == 'A' || c == 'e' || c == 'E' || c == 'i' || c == 'I' || c == 'o' || c == 'O' ||
             c == 'u' || c == 'U'
-    }
 
     fun reverseVowels(str: String): String {
         var i = 0

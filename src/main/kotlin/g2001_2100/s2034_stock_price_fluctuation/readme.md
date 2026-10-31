@@ -82,9 +82,7 @@ class StockPrice {
         map[timestamp] = price
     }
 
-    fun current(): Int {
-        return map[latestTimestamp]!!
-    }
+    fun current(): Int = map[latestTimestamp]!!
 
     fun maximum(): Int {
         while (true) {

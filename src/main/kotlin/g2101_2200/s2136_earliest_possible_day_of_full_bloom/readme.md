@@ -99,9 +99,7 @@ class Solution {
     }
 
     internal class Seed(var plantTime: Int, var growTime: Int) : Comparable<Seed> {
-        override fun compareTo(other: Seed): Int {
-            return growTime - other.growTime
-        }
+        override fun compareTo(other: Seed): Int = growTime - other.growTime
     }
 }
 ```

@@ -52,9 +52,7 @@ abs(nums[i] - nums[j]) <= valueDiff --> abs(1 - 1) <= 0
 
 ```kotlin
 class Solution {
-    private fun getId(i: Long, w: Long): Long {
-        return if (i < 0) (i + 1) / w - 1 else i / w
-    }
+    private fun getId(i: Long, w: Long): Long = if (i < 0) (i + 1) / w - 1 else i / w
 
     fun containsNearbyAlmostDuplicate(nums: IntArray, k: Int, t: Int): Boolean {
         if (t < 0) {

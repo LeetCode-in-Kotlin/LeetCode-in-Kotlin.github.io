@@ -41,12 +41,10 @@ You must decrease the overall operation steps as much as possible.
 
 ```kotlin
 class Solution {
-    fun findMin(nums: IntArray): Int {
-        return if (nums.isEmpty()) {
-            0
-        } else {
-            find(0, nums.size - 1, nums)
-        }
+    fun findMin(nums: IntArray): Int = if (nums.isEmpty()) {
+        0
+    } else {
+        find(0, nums.size - 1, nums)
     }
 
     private fun find(left: Int, right: Int, nums: IntArray): Int {

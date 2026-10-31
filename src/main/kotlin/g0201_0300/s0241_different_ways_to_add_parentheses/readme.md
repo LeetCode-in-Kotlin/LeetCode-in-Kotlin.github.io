@@ -39,9 +39,7 @@ Given a string `expression` of numbers and operators, return _all possible resul
 
 ```kotlin
 class Solution {
-    fun diffWaysToCompute(expression: String): List<Int> {
-        return diffWayToCompute(expression, hashMapOf())
-    }
+    fun diffWaysToCompute(expression: String): List<Int> = diffWayToCompute(expression, hashMapOf())
 
     private fun diffWayToCompute(expression: String, hashMap: HashMap<String, List<Int>>): List<Int> {
         if (hashMap.containsKey(expression)) {

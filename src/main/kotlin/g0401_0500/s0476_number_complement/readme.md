@@ -37,8 +37,6 @@ Given an integer `num`, return _its complement_.
 
 ```kotlin
 class Solution {
-    fun findComplement(num: Int): Int {
-        return num.inv() and (Integer.highestOneBit(num) shl 1) - 1
-    }
+    fun findComplement(num: Int): Int = num.inv() and (Integer.highestOneBit(num) shl 1) - 1
 }
 ```

@@ -50,9 +50,7 @@ Two ways such that they collide at some point are:
 
 ```kotlin
 class Solution {
-    fun monkeyMove(n: Int): Int {
-        return (((modPow2(n - 2) - 1 shl 2) + 2) % 1000000007).toInt()
-    }
+    fun monkeyMove(n: Int): Int = (((modPow2(n - 2) - 1 shl 2) + 2) % 1000000007).toInt()
 
     private fun modPow2(n: Int): Long {
         if (n == 0) return 1

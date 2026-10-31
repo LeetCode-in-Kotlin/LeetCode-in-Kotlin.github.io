@@ -40,8 +40,7 @@ Given two axis-aligned rectangles `rec1` and `rec2`, return `true` _if they over
 
 ```kotlin
 class Solution {
-    fun isRectangleOverlap(rec1: IntArray, rec2: IntArray): Boolean {
-        return rec1[0] < rec2[2] && rec2[0] < rec1[2] && rec1[1] < rec2[3] && rec2[1] < rec1[3]
-    }
+    fun isRectangleOverlap(rec1: IntArray, rec2: IntArray): Boolean =
+        rec1[0] < rec2[2] && rec2[0] < rec1[2] && rec1[1] < rec2[3] && rec2[1] < rec1[3]
 }
 ```

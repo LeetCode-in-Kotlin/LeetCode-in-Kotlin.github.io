@@ -86,7 +86,9 @@ class Solution {
     }
 
     fun popcountDepth(n: Long, k: Int): Long {
-        if (k == 0) { return 1L }
+        if (k == 0) {
+            return 1L
+        }
         fun countPop(x: Long, c: Int): Long {
             var res = 0L
             var ones = 0
@@ -113,7 +115,9 @@ class Solution {
                 ans += countPop(n, c)
             }
         }
-        if (k == 1) { ans-- }
+        if (k == 1) {
+            ans--
+        }
         return ans
     }
 }

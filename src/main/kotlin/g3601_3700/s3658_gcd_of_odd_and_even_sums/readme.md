@@ -48,8 +48,6 @@ Hence, `GCD(sumOdd, sumEven) = GCD(25, 30) = 5`.
 
 ```kotlin
 class Solution {
-    fun gcdOfOddEvenSums(n: Int): Int {
-        return if (n < 0) -n else n
-    }
+    fun gcdOfOddEvenSums(n: Int): Int = if (n < 0) -n else n
 }
 ```

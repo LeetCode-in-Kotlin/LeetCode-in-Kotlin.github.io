@@ -44,12 +44,10 @@ The **greatest common divisor of an array** is the largest integer that evenly d
 
 ```kotlin
 class Solution {
-    private fun sol(a: Int, b: Int): Int {
-        return if (b == 0) {
-            a
-        } else {
-            sol(b, a % b)
-        }
+    private fun sol(a: Int, b: Int): Int = if (b == 0) {
+        a
+    } else {
+        sol(b, a % b)
     }
 
     fun subarrayGCD(nums: IntArray, k: Int): Int {

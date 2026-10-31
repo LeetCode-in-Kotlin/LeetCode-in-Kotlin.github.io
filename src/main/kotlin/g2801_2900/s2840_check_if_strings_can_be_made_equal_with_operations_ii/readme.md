@@ -42,9 +42,7 @@ Return `true` _if you can make the strings_ `s1` _and_ `s2` _equal, and_`false` 
 
 ```kotlin
 class Solution {
-    fun checkStrings(s1: String, s2: String): Boolean {
-        return check(0, s1, s2) && check(1, s1, s2)
-    }
+    fun checkStrings(s1: String, s2: String): Boolean = check(0, s1, s2) && check(1, s1, s2)
 
     fun check(start: Int, s1: String, s2: String): Boolean {
         val step = 2

@@ -41,8 +41,6 @@ An integer `n` is a power of two, if there exists an integer `x` such that <code
 
 ```kotlin
 class Solution {
-    fun isPowerOfTwo(n: Int): Boolean {
-        return n > 0 && Integer.bitCount(n) == 1
-    }
+    fun isPowerOfTwo(n: Int): Boolean = n > 0 && Integer.bitCount(n) == 1
 }
 ```

@@ -100,9 +100,7 @@ class Solution {
         return false
     }
 
-    private fun getDistance(p1: IntArray, p2: IntArray): Int {
-        return Math.abs(p1[0] - p2[0]) + Math.abs(p1[1] - p2[1])
-    }
+    private fun getDistance(p1: IntArray, p2: IntArray): Int = Math.abs(p1[0] - p2[0]) + Math.abs(p1[1] - p2[1])
 
     class Pair : Comparator<Pair> {
         var dis = 0
@@ -114,9 +112,7 @@ class Solution {
             this.v = v
         }
 
-        override fun compare(p1: Pair, p2: Pair): Int {
-            return p1.dis - p2.dis
-        }
+        override fun compare(p1: Pair, p2: Pair): Int = p1.dis - p2.dis
     }
 }
 ```

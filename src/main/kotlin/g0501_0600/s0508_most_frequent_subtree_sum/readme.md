@@ -57,14 +57,12 @@ class Solution {
         return cache.filter { it.value == max }.map { it.key }.toIntArray()
     }
 
-    private fun treeSum(node: TreeNode?): Int {
-        return if (node == null) {
-            0
-        } else {
-            val sum = node.`val` + treeSum(node.left) + treeSum(node.right)
-            cache[sum] = cache.getOrDefault(sum, 0) + 1
-            sum
-        }
+    private fun treeSum(node: TreeNode?): Int = if (node == null) {
+        0
+    } else {
+        val sum = node.`val` + treeSum(node.left) + treeSum(node.right)
+        cache[sum] = cache.getOrDefault(sum, 0) + 1
+        sum
     }
 }
 ```

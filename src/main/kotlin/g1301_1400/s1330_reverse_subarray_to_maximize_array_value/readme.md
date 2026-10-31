@@ -34,9 +34,7 @@ Find maximum possible value of the final array.
 
 ```kotlin
 class Solution {
-    private fun getAbsoluteDifference(a: Int, b: Int): Int {
-        return Math.abs(a - b)
-    }
+    private fun getAbsoluteDifference(a: Int, b: Int): Int = Math.abs(a - b)
 
     fun maxValueAfterReverse(nums: IntArray): Int {
         val n = nums.size

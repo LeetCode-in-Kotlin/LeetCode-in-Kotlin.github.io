@@ -43,12 +43,10 @@ Given an integer `num`, **reverse** `num` to get `reversed1`, **then reverse** `
 
 ```kotlin
 class Solution {
-    fun isSameAfterReversals(num: Int): Boolean {
-        return if (num == 0) {
-            true
-        } else {
-            num % 10 != 0
-        }
+    fun isSameAfterReversals(num: Int): Boolean = if (num == 0) {
+        true
+    } else {
+        num % 10 != 0
     }
 }
 ```

@@ -29,8 +29,6 @@ A _defanged IP address_ replaces every period `"."` with `"[.]"`.
 
 ```kotlin
 class Solution {
-    fun defangIPaddr(address: String): String {
-        return address.replace(".", "[.]")
-    }
+    fun defangIPaddr(address: String): String = address.replace(".", "[.]")
 }
 ```

@@ -36,12 +36,10 @@ Return _the probability that the_ <code>n<sup>th</sup></code> _person gets his o
 
 ```kotlin
 class Solution {
-    fun nthPersonGetsNthSeat(n: Int): Double {
-        return if (n == 1) {
-            1.0
-        } else {
-            0.5
-        }
+    fun nthPersonGetsNthSeat(n: Int): Double = if (n == 1) {
+        1.0
+    } else {
+        0.5
     }
 }
 ```

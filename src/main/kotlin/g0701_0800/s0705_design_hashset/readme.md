@@ -53,9 +53,7 @@ class MyHashSet {
         arr[key] = false
     }
 
-    operator fun contains(key: Int): Boolean {
-        return arr[key]
-    }
+    operator fun contains(key: Int): Boolean = arr[key]
 }
 
 /*

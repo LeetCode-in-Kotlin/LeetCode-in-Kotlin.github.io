@@ -54,9 +54,8 @@ bank.withdraw(10, 50); // return false, it is invalid because account 10 does no
 
 ```kotlin
 class Bank(private val accounts: LongArray) {
-    private fun validate(account: Int, money: Long, withdraw: Boolean): Boolean {
-        return account < accounts.size && (!withdraw || accounts[account] >= money)
-    }
+    private fun validate(account: Int, money: Long, withdraw: Boolean): Boolean =
+        account < accounts.size && (!withdraw || accounts[account] >= money)
 
     fun transfer(account1: Int, account2: Int, money: Long): Boolean {
         if (validate(account1 - 1, money, true) && validate(account2 - 1, 0, false)) {

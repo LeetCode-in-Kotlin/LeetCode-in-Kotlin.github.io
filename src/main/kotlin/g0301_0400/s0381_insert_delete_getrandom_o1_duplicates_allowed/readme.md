@@ -53,10 +53,10 @@ You must implement the functions of the class such that each function works on *
 
 ```kotlin
 @Suppress("kotlin:S2245")
-class RandomizedCollection() {
+class RandomizedCollection {
     val m2a = HashMap<Int, HashSet<Int>>()
     val a2m = ArrayList<Int>()
-    /** Initialize your data structure here. */
+    /* Initialize your data structure here. */
 
     /** Inserts a value to the collection. Returns true if the collection did not already contain the specified element. */
     fun insert(x: Int): Boolean {

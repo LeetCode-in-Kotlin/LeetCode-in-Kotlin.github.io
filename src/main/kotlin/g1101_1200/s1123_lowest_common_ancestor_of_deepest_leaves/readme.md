@@ -80,12 +80,10 @@ class Solution {
         }
     }
 
-    fun getDep(root: TreeNode?): Int {
-        return if (root == null) {
-            0
-        } else {
-            1 + Math.max(getDep(root.left), getDep(root.right))
-        }
+    fun getDep(root: TreeNode?): Int = if (root == null) {
+        0
+    } else {
+        1 + Math.max(getDep(root.left), getDep(root.right))
     }
 }
 ```

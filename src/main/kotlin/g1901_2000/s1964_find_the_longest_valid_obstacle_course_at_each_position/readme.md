@@ -77,9 +77,7 @@ Return _an array_ `ans` _of length_ `n`, _where_ `ans[i]` _is the length of the 
 ```kotlin
 @Suppress("NAME_SHADOWING")
 class Solution {
-    fun longestObstacleCourseAtEachPosition(obstacles: IntArray): IntArray {
-        return longestIncreasingSubsequence(obstacles)
-    }
+    fun longestObstacleCourseAtEachPosition(obstacles: IntArray): IntArray = longestIncreasingSubsequence(obstacles)
 
     private fun longestIncreasingSubsequence(obstacles: IntArray): IntArray {
         var len = 1

@@ -47,9 +47,7 @@ A **reverse pair** is a pair `(i, j)` where:
 
 ```kotlin
 class Solution {
-    fun reversePairs(nums: IntArray): Int {
-        return mergeSort(nums, 0, nums.size - 1)
-    }
+    fun reversePairs(nums: IntArray): Int = mergeSort(nums, 0, nums.size - 1)
 
     private fun mergeSort(nums: IntArray, start: Int, end: Int): Int {
         if (start >= end) {

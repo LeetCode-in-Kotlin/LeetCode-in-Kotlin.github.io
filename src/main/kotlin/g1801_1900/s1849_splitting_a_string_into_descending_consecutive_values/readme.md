@@ -49,9 +49,7 @@ A **substring** is a contiguous sequence of characters in a string.
 
 ```kotlin
 class Solution {
-    fun splitString(s: String): Boolean {
-        return solve(0, -1, s, 0)
-    }
+    fun splitString(s: String): Boolean = solve(0, -1, s, 0)
 
     private fun solve(i: Int, prev: Long, s: String, k: Int): Boolean {
         if (i == s.length) {

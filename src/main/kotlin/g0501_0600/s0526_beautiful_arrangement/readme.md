@@ -46,9 +46,7 @@ The second beautiful arrangement is [2,1]:
 
 ```kotlin
 class Solution {
-    fun countArrangement(n: Int): Int {
-        return backtrack(n, n, arrayOfNulls(1 shl n + 1), 0)
-    }
+    fun countArrangement(n: Int): Int = backtrack(n, n, arrayOfNulls(1 shl n + 1), 0)
 
     private fun backtrack(n: Int, index: Int, cache: Array<Int?>, cacheindex: Int): Int {
         if (index == 0) {

@@ -94,12 +94,7 @@ class Solution {
         return maxLength
     }
 
-    private fun findBalancedInSegments(
-        s: String,
-        firstChar: Char,
-        secondChar: Char,
-        excludedChar: Char,
-    ): Int {
+    private fun findBalancedInSegments(s: String, firstChar: Char, secondChar: Char, excludedChar: Char): Int {
         var maxLength = 0
         var index = 0
         while (index < s.length) {
@@ -116,7 +111,11 @@ class Solution {
                 maxLength = max(
                     maxLength,
                     findBalancedInRange(
-                        s, segmentStart, segmentEnd, firstChar, secondChar,
+                        s,
+                        segmentStart,
+                        segmentEnd,
+                        firstChar,
+                        secondChar,
                     ),
                 )
             }
@@ -159,7 +158,9 @@ class Solution {
                     diff1++
                     diff2++
                 }
+
                 'b' -> diff1--
+
                 'c' -> diff2--
             }
             val stateKey = encodeState(diff1, diff2)
@@ -173,9 +174,7 @@ class Solution {
     }
 
     /** Encodes two differences into a single long key for HashMap.  */
-    private fun encodeState(diff1: Int, diff2: Int): Long {
-        return (diff1 + OFFSET) * MULTIPLIER + (diff2 + OFFSET)
-    }
+    private fun encodeState(diff1: Int, diff2: Int): Long = (diff1 + OFFSET) * MULTIPLIER + (diff2 + OFFSET)
 
     companion object {
         private val CHARS = charArrayOf('a', 'b', 'c')

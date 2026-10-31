@@ -65,12 +65,7 @@ It can be proven that no smaller answer exists.
 
 ```kotlin
 class Solution {
-    fun minNumberOfHours(
-        initialEnergy: Int,
-        initialExperience: Int,
-        energy: IntArray,
-        experience: IntArray,
-    ): Int {
+    fun minNumberOfHours(initialEnergy: Int, initialExperience: Int, energy: IntArray, experience: IntArray): Int {
         var totalEnergy = 0
         for (e in energy) {
             totalEnergy += e

@@ -57,9 +57,7 @@ You need at least 3 days to eat the 6 oranges.
 
 ```kotlin
 class Solution {
-    fun minDays(n: Int): Int {
-        return eat(n, HashMap())
-    }
+    fun minDays(n: Int): Int = eat(n, HashMap())
 
     private fun eat(n: Int, cache: MutableMap<Int, Int>): Int {
         if (n <= 1) {

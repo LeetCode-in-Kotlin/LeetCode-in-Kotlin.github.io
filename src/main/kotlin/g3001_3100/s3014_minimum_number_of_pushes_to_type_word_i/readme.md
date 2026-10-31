@@ -85,25 +85,23 @@ It can be shown that no other mapping can provide a lower cost.
 
 ```kotlin
 class Solution {
-    fun minimumPushes(word: String): Int {
-        return if (word.length <= 8) {
-            word.length
-        } else {
-            var iteration = 1
-            var len = word.length
-            var count = 0
-            while (len > 0) {
-                if (len >= 8) {
-                    count += 8 * iteration
-                    len -= 8
-                } else {
-                    count += len * iteration
-                    len = 0
-                }
-                iteration++
+    fun minimumPushes(word: String): Int = if (word.length <= 8) {
+        word.length
+    } else {
+        var iteration = 1
+        var len = word.length
+        var count = 0
+        while (len > 0) {
+            if (len >= 8) {
+                count += 8 * iteration
+                len -= 8
+            } else {
+                count += len * iteration
+                len = 0
             }
-            count
+            iteration++
         }
+        count
     }
 }
 ```

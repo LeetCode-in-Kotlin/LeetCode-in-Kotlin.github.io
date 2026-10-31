@@ -38,12 +38,10 @@ You are given a 2D integer array `edges` where each <code>edges[i] = [u<sub>i</s
 
 ```kotlin
 class Solution {
-    fun findCenter(edges: Array<IntArray>): Int {
-        return if (edges[0][0] == edges[1][0] || edges[0][0] == edges[1][1]) {
-            edges[0][0]
-        } else {
-            edges[0][1]
-        }
+    fun findCenter(edges: Array<IntArray>): Int = if (edges[0][0] == edges[1][0] || edges[0][0] == edges[1][1]) {
+        edges[0][0]
+    } else {
+        edges[0][1]
     }
 }
 ```

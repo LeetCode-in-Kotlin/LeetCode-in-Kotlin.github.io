@@ -31,8 +31,6 @@ Given two integers `num1` and `num2`, return _the **sum** of the two integers_.
 
 ```kotlin
 class Solution {
-    fun sum(num1: Int, num2: Int): Int {
-        return num1 + num2
-    }
+    fun sum(num1: Int, num2: Int): Int = num1 + num2
 }
 ```

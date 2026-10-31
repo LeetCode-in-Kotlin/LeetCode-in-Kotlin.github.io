@@ -51,8 +51,6 @@ It can be proven that there is no achievable number larger than 7.
 
 ```kotlin
 class Solution {
-    fun theMaximumAchievableX(num: Int, t: Int): Int {
-        return num + t * 2
-    }
+    fun theMaximumAchievableX(num: Int, t: Int): Int = num + t * 2
 }
 ```

@@ -40,8 +40,6 @@ Return _the number of **colored cells** at the end of_ `n` _minutes_.
 
 ```kotlin
 class Solution {
-    fun coloredCells(n: Int): Long {
-        return Math.pow(n.toDouble(), 2.0).toLong() + Math.pow((n - 1).toDouble(), 2.0).toLong()
-    }
+    fun coloredCells(n: Int): Long = Math.pow(n.toDouble(), 2.0).toLong() + Math.pow((n - 1).toDouble(), 2.0).toLong()
 }
 ```

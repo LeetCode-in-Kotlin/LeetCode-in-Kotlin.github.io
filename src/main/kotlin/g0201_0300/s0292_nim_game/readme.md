@@ -42,8 +42,6 @@ Given `n`, the number of stones in the heap, return `true` _if you can win the g
 
 ```kotlin
 class Solution {
-    fun canWinNim(n: Int): Boolean {
-        return n % 4 != 0
-    }
+    fun canWinNim(n: Int): Boolean = n % 4 != 0
 }
 ```

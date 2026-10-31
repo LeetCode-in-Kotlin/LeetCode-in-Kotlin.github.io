@@ -76,12 +76,10 @@ An array `a` is a **subset** of an array `b` if `a` can be obtained from `b` by 
 
 ```kotlin
 class Solution {
-    fun subsetXORSum(nums: IntArray): Int {
-        return if (nums.isEmpty()) {
-            0
-        } else {
-            subsetXORSum(nums, 0, 0)
-        }
+    fun subsetXORSum(nums: IntArray): Int = if (nums.isEmpty()) {
+        0
+    } else {
+        subsetXORSum(nums, 0, 0)
     }
 
     private fun subsetXORSum(nums: IntArray, currIndex: Int, res: Int): Int {

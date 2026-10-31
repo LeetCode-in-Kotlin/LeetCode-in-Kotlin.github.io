@@ -104,9 +104,8 @@ class UndergroundSystem {
         }
     }
 
-    fun getAverageTime(startStation: String, endStation: String): Double {
-        return averageTimeMap["$startStation->$endStation"]!![0]
-    }
+    fun getAverageTime(startStation: String, endStation: String): Double =
+        averageTimeMap["$startStation->$endStation"]!![0]
 }
 /*
  * Your UndergroundSystem object will be instantiated and called as such:

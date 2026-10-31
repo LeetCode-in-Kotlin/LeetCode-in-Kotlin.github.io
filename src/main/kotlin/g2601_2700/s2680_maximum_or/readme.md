@@ -39,8 +39,9 @@ Note that `a | b` denotes the **bitwise or** between two integers `a` and `b`.
 class Solution {
     fun maximumOr(nums: IntArray, k: Int): Long {
         val suffix = IntArray(nums.size).apply {
-            for (i in nums.lastIndex - 1 downTo 0)
+            for (i in nums.lastIndex - 1 downTo 0) {
                 this[i] = this[i + 1] or nums[i + 1]
+            }
         }
         var prefix = 0L
         var max = 0L

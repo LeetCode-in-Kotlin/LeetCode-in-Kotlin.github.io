@@ -37,9 +37,7 @@ The beautiful numbers in the range are 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.
 
 ```kotlin
 class Solution {
-    fun beautifulNumbers(l: Int, r: Int): Int {
-        return countBeautiful(r) - countBeautiful(l - 1)
-    }
+    fun beautifulNumbers(l: Int, r: Int): Int = countBeautiful(r) - countBeautiful(l - 1)
 
     private fun countBeautiful(x: Int): Int {
         val digits = getCharArray(x)
@@ -52,14 +50,7 @@ class Solution {
         return str.toCharArray()
     }
 
-    private fun solve(
-        i: Int,
-        tight: Int,
-        sum: Int,
-        prod: Int,
-        digits: CharArray,
-        dp: HashMap<String, Int>,
-    ): Int {
+    private fun solve(i: Int, tight: Int, sum: Int, prod: Int, digits: CharArray, dp: HashMap<String, Int>): Int {
         if (i == digits.size) {
             return if (sum > 0 && prod % sum == 0) {
                 1

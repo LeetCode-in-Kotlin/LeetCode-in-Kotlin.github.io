@@ -54,9 +54,7 @@ The repeating portion of a decimal expansion is conventionally denoted within a 
 
 ```kotlin
 class Solution {
-    private fun repeat(a: String): String {
-        return a.repeat(100)
-    }
+    private fun repeat(a: String): String = a.repeat(100)
 
     fun isRationalEqual(s: String, t: String): Boolean {
         val sLeftIndex = s.indexOf("(")

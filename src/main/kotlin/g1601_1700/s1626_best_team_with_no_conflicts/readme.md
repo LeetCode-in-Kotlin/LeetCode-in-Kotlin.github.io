@@ -46,16 +46,12 @@ Given two lists, `scores` and `ages`, where each `scores[i]` and `ages[i]` repre
 
 ```kotlin
 class Solution {
-    private class Player(
-        val age: Int,
-        val score: Int,
-    ) : Comparable<Player> {
-        override fun compareTo(other: Player) =
-            if (age == other.age) {
-                other.score - score
-            } else {
-                other.age - age
-            }
+    private class Player(val age: Int, val score: Int) : Comparable<Player> {
+        override fun compareTo(other: Player) = if (age == other.age) {
+            other.score - score
+        } else {
+            other.age - age
+        }
     }
 
     fun bestTeamScore(scores: IntArray, ages: IntArray): Int {

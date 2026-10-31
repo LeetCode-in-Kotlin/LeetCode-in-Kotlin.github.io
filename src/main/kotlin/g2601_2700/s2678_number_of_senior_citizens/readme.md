@@ -42,7 +42,6 @@ Return _the number of passengers who are **strictly** **more than 60 years old**
 
 ```kotlin
 class Solution {
-    fun countSeniors(details: Array<String>): Int =
-        details.filter { it.substring(11, 13).toInt() > 60 }.size
+    fun countSeniors(details: Array<String>): Int = details.filter { it.substring(11, 13).toInt() > 60 }.size
 }
 ```

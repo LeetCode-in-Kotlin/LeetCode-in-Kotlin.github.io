@@ -40,12 +40,10 @@ Return `True` if the array is **good **otherwise return `False`.
 
 ```kotlin
 class Solution {
-    private fun gcd(a: Int, b: Int): Int {
-        return if (b == 0) {
-            a
-        } else {
-            gcd(b, a % b)
-        }
+    private fun gcd(a: Int, b: Int): Int = if (b == 0) {
+        a
+    } else {
+        gcd(b, a % b)
     }
 
     fun isGoodArray(nums: IntArray): Boolean {

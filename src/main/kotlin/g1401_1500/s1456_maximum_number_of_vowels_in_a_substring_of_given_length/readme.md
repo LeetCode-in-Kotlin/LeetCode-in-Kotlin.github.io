@@ -43,9 +43,7 @@ Given a string `s` and an integer `k`, return _the maximum number of vowel lette
 
 ```kotlin
 class Solution {
-    private fun isVowel(c: Char): Boolean {
-        return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u'
-    }
+    private fun isVowel(c: Char): Boolean = c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u'
 
     fun maxVowels(s: String, k: Int): Int {
         var maxVowelCount = 0

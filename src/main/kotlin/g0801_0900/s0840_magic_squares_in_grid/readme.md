@@ -76,8 +76,6 @@ class Solution {
         return count
     }
 
-    private fun isLegit(num: Int): Boolean {
-        return num in 1..9
-    }
+    private fun isLegit(num: Int): Boolean = num in 1..9
 }
 ```

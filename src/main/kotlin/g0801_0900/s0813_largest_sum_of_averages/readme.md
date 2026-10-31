@@ -41,9 +41,8 @@ That partition would lead to a score of 5 + 2 + 6 = 13, which is worse.
 
 ```kotlin
 class Solution {
-    fun largestSumOfAverages(nums: IntArray, k: Int): Double {
-        return helper(nums, k, 0, Array(k + 1) { arrayOfNulls(nums.size) })
-    }
+    fun largestSumOfAverages(nums: IntArray, k: Int): Double =
+        helper(nums, k, 0, Array(k + 1) { arrayOfNulls(nums.size) })
 
     private fun helper(nums: IntArray, k: Int, idx: Int, memo: Array<Array<Double?>>): Double {
         if (memo[k][idx] != null) {

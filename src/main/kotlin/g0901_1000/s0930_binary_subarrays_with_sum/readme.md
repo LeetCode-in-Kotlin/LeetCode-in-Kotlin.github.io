@@ -41,9 +41,7 @@ A **subarray** is a contiguous part of the array.
 
 ```kotlin
 class Solution {
-    fun numSubarraysWithSum(nums: IntArray, goal: Int): Int {
-        return atmostK(nums, goal) - atmostK(nums, goal - 1)
-    }
+    fun numSubarraysWithSum(nums: IntArray, goal: Int): Int = atmostK(nums, goal) - atmostK(nums, goal - 1)
 
     fun atmostK(arr: IntArray, k: Int): Int {
         var cnt = 0

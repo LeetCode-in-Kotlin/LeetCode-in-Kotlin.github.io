@@ -44,23 +44,21 @@ Return _the number of ways we can draw_ `k` _non-overlapping line segments__._ S
 
 ```kotlin
 class Solution {
-    fun numberOfSets(n: Int, k: Int): Int {
-        return if (n - 1 >= k) {
-            val dp = IntArray(k)
-            val sums = IntArray(k)
-            val mod = (1e9 + 7).toInt()
-            for (diff in 1 until n - k + 1) {
-                dp[0] = (diff + 1) * diff shr 1
-                sums[0] = (sums[0] + dp[0]) % mod
-                for (segments in 2..k) {
-                    dp[segments - 1] = (sums[segments - 2] + dp[segments - 1]) % mod
-                    sums[segments - 1] = (sums[segments - 1] + dp[segments - 1]) % mod
-                }
+    fun numberOfSets(n: Int, k: Int): Int = if (n - 1 >= k) {
+        val dp = IntArray(k)
+        val sums = IntArray(k)
+        val mod = (1e9 + 7).toInt()
+        for (diff in 1 until n - k + 1) {
+            dp[0] = (diff + 1) * diff shr 1
+            sums[0] = (sums[0] + dp[0]) % mod
+            for (segments in 2..k) {
+                dp[segments - 1] = (sums[segments - 2] + dp[segments - 1]) % mod
+                sums[segments - 1] = (sums[segments - 1] + dp[segments - 1]) % mod
             }
-            dp[k - 1]
-        } else {
-            0
         }
+        dp[k - 1]
+    } else {
+        0
     }
 }
 ```

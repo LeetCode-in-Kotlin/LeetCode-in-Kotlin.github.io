@@ -73,7 +73,9 @@ class Solution {
                         parent[parentV] = parentU
                         rank[parentU]++
                     }
+
                     rank[parentU] > rank[parentV] -> parent[parentV] = parentU
+
                     else -> parent[parentU] = parentV
                 }
             }

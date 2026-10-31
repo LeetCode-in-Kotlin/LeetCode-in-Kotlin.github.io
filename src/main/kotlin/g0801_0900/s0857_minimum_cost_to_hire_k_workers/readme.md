@@ -70,9 +70,7 @@ class Solution {
     }
 
     internal class Worker(var wage: Int, var quality: Int) {
-        fun ratio(): Double {
-            return wage.toDouble() / quality
-        }
+        fun ratio(): Double = wage.toDouble() / quality
     }
 }
 ```

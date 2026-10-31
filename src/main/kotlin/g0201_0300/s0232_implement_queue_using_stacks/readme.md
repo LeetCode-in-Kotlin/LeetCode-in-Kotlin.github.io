@@ -53,7 +53,7 @@ Implement the `MyQueue` class:
 import java.util.Deque
 import java.util.LinkedList
 
-class MyQueue() {
+class MyQueue {
     private val deque: Deque<Int> = LinkedList()
 
     fun push(x: Int) {

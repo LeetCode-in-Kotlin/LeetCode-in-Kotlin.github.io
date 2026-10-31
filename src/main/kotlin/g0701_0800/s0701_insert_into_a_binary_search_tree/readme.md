@@ -55,10 +55,7 @@ import com_github_leetcode.TreeNode
  * }
  */
 class Solution {
-    fun insertIntoBST(
-        root: TreeNode?,
-        value: Int,
-    ): TreeNode? {
+    fun insertIntoBST(root: TreeNode?, value: Int): TreeNode? {
         if (root == null) {
             return TreeNode(value)
         }

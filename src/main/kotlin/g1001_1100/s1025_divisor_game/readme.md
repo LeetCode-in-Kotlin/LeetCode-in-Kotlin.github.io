@@ -40,8 +40,6 @@ Return `true` _if and only if Alice wins the game, assuming both players play op
 
 ```kotlin
 class Solution {
-    fun divisorGame(n: Int): Boolean {
-        return n % 2 == 0
-    }
+    fun divisorGame(n: Int): Boolean = n % 2 == 0
 }
 ```

@@ -39,9 +39,7 @@ The final result should be an [irreducible fraction](https://en.wikipedia.org/wi
 
 ```kotlin
 class Solution {
-    private fun gcd(a: Int, b: Int): Int {
-        return if (a % b == 0) b else gcd(b, a % b)
-    }
+    private fun gcd(a: Int, b: Int): Int = if (a % b == 0) b else gcd(b, a % b)
 
     private fun format(a: Int, b: Int): String {
         val gcd = Math.abs(gcd(a, b))

@@ -31,12 +31,10 @@ Given two non-negative integers `low` and `high`. Return the _count of odd numbe
 
 ```kotlin
 class Solution {
-    fun countOdds(low: Int, high: Int): Int {
-        return if (low % 2 != 0 || high % 2 != 0) {
-            (high - low) / 2 + 1
-        } else {
-            (high - low) / 2
-        }
+    fun countOdds(low: Int, high: Int): Int = if (low % 2 != 0 || high % 2 != 0) {
+        (high - low) / 2 + 1
+    } else {
+        (high - low) / 2
     }
 }
 ```

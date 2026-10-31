@@ -107,8 +107,6 @@ class Solution {
         }
     }
 
-    private fun isNotConnected(x: Int, y: Int, g: Array<ArrayList<Int>?>): Boolean {
-        return !g[x]?.contains(y)!!
-    }
+    private fun isNotConnected(x: Int, y: Int, g: Array<ArrayList<Int>?>): Boolean = !g[x]?.contains(y)!!
 }
 ```

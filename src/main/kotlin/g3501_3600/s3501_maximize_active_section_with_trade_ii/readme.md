@@ -168,7 +168,13 @@ class Solution {
             bestIncrease = max(
                 bestIncrease,
                 calculateNewSections(
-                    s, segments, left, right, leftIndex, rightIndex, leftIndex,
+                    s,
+                    segments,
+                    left,
+                    right,
+                    leftIndex,
+                    rightIndex,
+                    leftIndex,
                 ),
             )
             bestIncrease = max(

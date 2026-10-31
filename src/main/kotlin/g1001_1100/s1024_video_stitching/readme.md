@@ -57,8 +57,7 @@ Now we have segments [0,2] + [2,8] + [8,10] which cover the sporting event [0, 1
 class Solution {
     fun videoStitching(clips: Array<IntArray>, time: Int): Int {
         clips.sortWith { a: IntArray, b: IntArray ->
-            if (a[0] == b[0]
-            ) {
+            if (a[0] == b[0]) {
                 a[1] - b[1]
             } else {
                 a[0] - b[0]

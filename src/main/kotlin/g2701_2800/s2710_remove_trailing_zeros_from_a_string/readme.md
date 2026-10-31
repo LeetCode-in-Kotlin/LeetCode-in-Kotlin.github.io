@@ -33,8 +33,6 @@ Given a **positive** integer `num` represented as a string, return _the integer_
 
 ```kotlin
 class Solution {
-    fun removeTrailingZeros(num: String): String {
-        return num.dropLastWhile { it == '0' }
-    }
+    fun removeTrailingZeros(num: String): String = num.dropLastWhile { it == '0' }
 }
 ```

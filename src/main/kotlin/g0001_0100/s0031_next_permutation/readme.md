@@ -48,10 +48,14 @@ The replacement must be **[in place](http://en.wikipedia.org/wiki/In-place_algor
 class Solution {
     fun nextPermutation(nums: IntArray) {
         var i = nums.size - 2
-        while (i >= 0 && nums[i + 1] <= nums[i]) { i-- }
+        while (i >= 0 && nums[i + 1] <= nums[i]) {
+            i--
+        }
         if (i >= 0) {
             var j = nums.size - 1
-            while (j >= i + 1 && nums[i] >= nums[j]) { j-- }
+            while (j >= i + 1 && nums[i] >= nums[j]) {
+                j--
+            }
             nums[i] = nums[j].also { nums[j] = nums[i] }
         }
         var l = i + 1

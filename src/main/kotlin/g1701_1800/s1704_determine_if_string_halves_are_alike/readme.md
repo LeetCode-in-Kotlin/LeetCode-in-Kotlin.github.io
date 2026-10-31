@@ -37,12 +37,10 @@ Return `true` _if_ `a` _and_ `b` _are **alike**_. Otherwise, return `false`.
 
 ```kotlin
 class Solution {
-    fun halvesAreAlike(s: String): Boolean {
-        return if (s.isEmpty()) {
-            false
-        } else {
-            countVowel(0, s.length / 2, s) == countVowel(s.length / 2, s.length, s)
-        }
+    fun halvesAreAlike(s: String): Boolean = if (s.isEmpty()) {
+        false
+    } else {
+        countVowel(0, s.length / 2, s) == countVowel(s.length / 2, s.length, s)
     }
 
     private fun countVowel(start: Int, end: Int, s: String): Int {

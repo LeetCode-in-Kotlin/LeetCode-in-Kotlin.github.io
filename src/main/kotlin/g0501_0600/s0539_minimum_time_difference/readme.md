@@ -28,12 +28,10 @@ Given a list of 24-hour clock time points in **"HH:MM"** format, return _the min
 
 ```kotlin
 class Solution {
-    fun findMinDifference(timePoints: List<String>): Int {
-        return if (timePoints.size < 300) {
-            smallInputSize(timePoints)
-        } else {
-            largeInputSize(timePoints)
-        }
+    fun findMinDifference(timePoints: List<String>): Int = if (timePoints.size < 300) {
+        smallInputSize(timePoints)
+    } else {
+        largeInputSize(timePoints)
     }
 
     private fun largeInputSize(timePoints: List<String>): Int {

@@ -54,9 +54,7 @@ Maximum length is 4.
 ```kotlin
 @Suppress("NAME_SHADOWING")
 class Solution {
-    fun maxLength(arr: List<String>): Int {
-        return find(0, 0, arr)
-    }
+    fun maxLength(arr: List<String>): Int = find(0, 0, arr)
 
     private fun find(index: Int, visChar: Int, arr: List<String>): Int {
         var visChar = visChar

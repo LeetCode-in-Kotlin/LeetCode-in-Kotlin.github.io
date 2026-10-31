@@ -27,8 +27,6 @@ Given an integer `num`, return _a string of its **base 7** representation_.
 
 ```kotlin
 class Solution {
-    fun convertToBase7(num: Int): String {
-        return Integer.toString(num, 7)
-    }
+    fun convertToBase7(num: Int): String = Integer.toString(num, 7)
 }
 ```

@@ -114,8 +114,6 @@ class Solution {
         return idx
     }
 
-    private fun gcd(a: Long, b: Long): Long {
-        return if (b == 0L) a else gcd(b, a % b)
-    }
+    private fun gcd(a: Long, b: Long): Long = if (b == 0L) a else gcd(b, a % b)
 }
 ```

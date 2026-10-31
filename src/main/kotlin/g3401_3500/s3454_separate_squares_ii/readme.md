@@ -198,9 +198,7 @@ class Solution {
             }
         }
 
-        fun query(): Double {
-            return tree[1]
-        }
+        fun query(): Double = tree[1]
     }
 }
 ```

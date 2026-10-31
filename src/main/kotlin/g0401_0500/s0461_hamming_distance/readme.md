@@ -31,8 +31,6 @@ Given two integers `x` and `y`, return _the **Hamming distance** between them_.
 
 ```kotlin
 class Solution {
-    fun hammingDistance(x: Int, y: Int): Int {
-        return Integer.bitCount(x xor y)
-    }
+    fun hammingDistance(x: Int, y: Int): Int = Integer.bitCount(x xor y)
 }
 ```

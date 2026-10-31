@@ -99,7 +99,7 @@ class Solution {
     }
 
     companion object {
-        var MOD = 1e9.toInt() + 7
+        const val MOD = 1e9.toInt() + 7
     }
 }
 ```

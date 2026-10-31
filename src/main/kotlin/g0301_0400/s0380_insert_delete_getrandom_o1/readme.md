@@ -82,9 +82,7 @@ class RandomizedSet {
     }
 
     /* Get a random element from the set. */
-    fun getRandom(): Int {
-        return list[Random.nextInt(list.size)]
-    }
+    fun getRandom(): Int = list[Random.nextInt(list.size)]
 }
 
 /*

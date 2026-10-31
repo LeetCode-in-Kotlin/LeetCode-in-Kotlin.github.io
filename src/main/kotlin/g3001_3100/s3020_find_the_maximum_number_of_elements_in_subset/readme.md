@@ -40,9 +40,7 @@ Return _the **maximum** number of elements in a subset that satisfies these cond
 import kotlin.math.max
 
 class Solution {
-    fun maximumLength(nums: IntArray): Int {
-        return withHashMap(nums)
-    }
+    fun maximumLength(nums: IntArray): Int = withHashMap(nums)
 
     private fun withHashMap(nums: IntArray): Int {
         val map: MutableMap<Int, Int> = HashMap()

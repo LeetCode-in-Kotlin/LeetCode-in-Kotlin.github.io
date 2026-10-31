@@ -52,11 +52,7 @@ You cannot add more items, though only $9 for 2A ,2B and 1C.
 
 ```kotlin
 class Solution {
-    fun shoppingOffers(
-        price: List<Int>,
-        special: List<List<Int>>,
-        needs: List<Int>,
-    ): Int {
+    fun shoppingOffers(price: List<Int>, special: List<List<Int>>, needs: List<Int>): Int {
         val map: MutableMap<List<Int>, Int> = HashMap()
         shoppingOffersUtil(price, special, needs, map)
         return map[needs]!!

@@ -77,7 +77,7 @@ class Solution {
     }
 
     companion object {
-        var MOD = 1000000007
+        var mod = 1000000007
         private fun dfsHelper(locations: IntArray, start: Int, finish: Int, fuel: Int, cache: Array<IntArray>): Int {
             if (cache[start][fuel] != -1) {
                 return cache[start][fuel]
@@ -96,7 +96,7 @@ class Solution {
                     val need = Math.abs(locations[start] - locations[i])
                     if (need <= fuel) {
                         cnt += dfsHelper(locations, i, finish, fuel - need, cache)
-                        cnt %= MOD
+                        cnt %= mod
                     }
                 }
             }

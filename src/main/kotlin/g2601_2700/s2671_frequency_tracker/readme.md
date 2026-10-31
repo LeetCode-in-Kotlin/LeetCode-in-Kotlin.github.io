@@ -62,7 +62,7 @@ Implement the `FrequencyTracker` class.
 ## Solution
 
 ```kotlin
-class FrequencyTracker() {
+class FrequencyTracker {
     private val count = IntArray(100001)
     private val freq = IntArray(100001)
 

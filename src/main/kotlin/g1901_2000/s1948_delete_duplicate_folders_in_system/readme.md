@@ -106,8 +106,8 @@ class Solution {
             subFolders = HashMap()
         }
 
-        fun addSubFolder(foldername: String): Folder {
-            return subFolders.computeIfAbsent(foldername) { f: String -> Folder(f, this) }
+        fun addSubFolder(foldername: String): Folder = subFolders.computeIfAbsent(foldername) { f: String ->
+            Folder(f, this)
         }
 
         fun calculateHash() {

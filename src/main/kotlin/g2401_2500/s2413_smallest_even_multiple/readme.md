@@ -31,8 +31,6 @@ Given a **positive** integer `n`, return _the smallest positive integer that is 
 
 ```kotlin
 class Solution {
-    fun smallestEvenMultiple(n: Int): Int {
-        return if (n % 2 == 0) n else n * 2
-    }
+    fun smallestEvenMultiple(n: Int): Int = if (n % 2 == 0) n else n * 2
 }
 ```

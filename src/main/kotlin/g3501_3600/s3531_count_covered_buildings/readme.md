@@ -98,8 +98,6 @@ class Solution {
         return ans
     }
 
-    fun countCoveredBuildings(n: Int, buildings: Array<IntArray>): Int {
-        return helper(buildings, n)
-    }
+    fun countCoveredBuildings(n: Int, buildings: Array<IntArray>): Int = helper(buildings, n)
 }
 ```

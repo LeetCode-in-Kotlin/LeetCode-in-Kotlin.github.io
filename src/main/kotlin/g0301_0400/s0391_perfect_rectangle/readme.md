@@ -115,9 +115,7 @@ class Solution {
             return x == point.x && y == point.y
         }
 
-        override fun hashCode(): Int {
-            return Objects.hash(x, y)
-        }
+        override fun hashCode(): Int = Objects.hash(x, y)
     }
 }
 ```

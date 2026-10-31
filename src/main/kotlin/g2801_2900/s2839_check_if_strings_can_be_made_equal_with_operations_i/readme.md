@@ -40,9 +40,7 @@ Return `true` _if you can make the strings_ `s1` _and_ `s2` _equal, and_ `false`
 
 ```kotlin
 class Solution {
-    fun canBeEqual(s1: String, s2: String): Boolean {
-        return isOk(s1, s2, 0) && isOk(s1, s2, 1)
-    }
+    fun canBeEqual(s1: String, s2: String): Boolean = isOk(s1, s2, 0) && isOk(s1, s2, 1)
 
     private fun isOk(s1: String, s2: String, i: Int): Boolean {
         val a = s1[i]

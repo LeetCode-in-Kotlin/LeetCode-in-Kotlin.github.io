@@ -44,7 +44,7 @@ Implement the `MinStack` class:
 ## Solution
 
 ```kotlin
-class MinStack() {
+class MinStack {
     private val stack: ArrayDeque<Pair<Int, Int>> = ArrayDeque()
 
     fun push(x: Int) {
@@ -60,17 +60,13 @@ class MinStack() {
         stack.removeLast()
     }
 
-    fun top(): Int {
-        return stack
-            .last()
-            .first
-    }
+    fun top(): Int = stack
+        .last()
+        .first
 
-    fun getMin(): Int {
-        return stack
-            .last()
-            .second
-    }
+    fun getMin(): Int = stack
+        .last()
+        .second
 }
 
 /*
