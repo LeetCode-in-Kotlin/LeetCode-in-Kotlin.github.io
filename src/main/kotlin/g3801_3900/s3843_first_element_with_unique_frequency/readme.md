@@ -1,0 +1,76 @@
+[![](https://img.shields.io/github/stars/javadev/LeetCode-in-Kotlin?label=Stars&style=flat-square)](https://github.com/javadev/LeetCode-in-Kotlin)
+[![](https://img.shields.io/github/forks/javadev/LeetCode-in-Kotlin?label=Fork%20me%20on%20GitHub%20&style=flat-square)](https://github.com/javadev/LeetCode-in-Kotlin/fork)
+
+## 3843\. First Element with Unique Frequency
+
+Medium
+
+You are given an integer array `nums`.
+
+Return an integer denoting the **first** element (scanning from left to right) in `nums` whose **frequency** is **unique**. That is, no other integer appears the same number of times in `nums`. If there is no such element, return -1.
+
+**Example 1:**
+
+**Input:** nums = [20,10,30,30]
+
+**Output:** 30
+
+**Explanation:**
+
+*   20 appears once.
+*   10 appears once.
+*   30 appears twice.
+*   The frequency of 30 is unique because no other integer appears exactly twice.
+
+**Example 2:**
+
+**Input:** nums = [20,20,10,30,30,30]
+
+**Output:** 20
+
+**Explanation:**
+
+*   20 appears twice.
+*   10 appears once.
+*   30 appears 3 times.
+*   The frequency of 20, 10, and 30 are unique. The first element that has unique frequency is 20.
+
+**Example 3:**
+
+**Input:** nums = [10,10,20,20]
+
+**Output:** \-1
+
+**Explanation:**
+
+*   10 appears twice.
+*   20 appears twice.
+*   No element has a unique frequency.
+
+**Constraints:**
+
+*   <code>1 <= nums.length <= 10<sup>5</sup></code>
+*   <code>1 <= nums[i] <= 10<sup>5</sup></code>
+
+## Solution
+
+```kotlin
+class Solution {
+    fun firstUniqueFreq(nums: IntArray): Int {
+        val c1: MutableMap<Int?, Int?> = HashMap<Int?, Int?>()
+        for (a in nums) {
+            c1[a] = c1.getOrDefault(a, 0)!! + 1
+        }
+        val c2: MutableMap<Int?, Int?> = HashMap<Int?, Int?>()
+        for (f in c1.values) {
+            c2[f] = c2.getOrDefault(f, 0)!! + 1
+        }
+        for (a in nums) {
+            if (c2[c1[a]] == 1) {
+                return a
+            }
+        }
+        return -1
+    }
+}
+```
