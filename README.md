@@ -2088,6 +2088,64 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|---------
+| 3968 |[Maximum Manhattan Distance After All Moves](src/main/kotlin/g3901_4000/s3968_maximum_manhattan_distance_after_all_moves)| Medium | String, Math, Counting, Senior, Weekly_Contest_507 | 7 | 99.64
+| 3966 |[Count Good Integers in a Range](src/main/kotlin/g3901_4000/s3966_count_good_integers_in_a_range)| Hard | Dynamic_Programming, Math, Senior_Staff, Biweekly_Contest_185 | 3 | 100.00
+| 3965 |[Finish Time of Tasks I](src/main/kotlin/g3901_4000/s3965_finish_time_of_tasks_i)| Medium | Array, Dynamic_Programming, Depth_First_Search, Tree, Staff, Biweekly_Contest_185 | 9 | 99.36
+| 3964 |[Minimum Lights to Illuminate a Road](src/main/kotlin/g3901_4000/s3964_minimum_lights_to_illuminate_a_road)| Medium | Array, Prefix_Sum, Staff, Biweekly_Contest_185 | 7 | 100.00
+| 3963 |[Create Grid With Exactly One Path](src/main/kotlin/g3901_4000/s3963_create_grid_with_exactly_one_path)| Easy | Mid_Level, Biweekly_Contest_185 | 2 | 92.91
+| 3962 |[Maximum Subarray Sum After at Most K Swaps](src/main/kotlin/g3901_4000/s3962_maximum_subarray_sum_after_at_most_k_swaps)| Hard | Array, Hash_Table, Sorting, Greedy, Heap_Priority_Queue, Ordered_Set, Binary_Indexed_Tree, Senior_Staff, Weekly_Contest_506 | 13 | 98.61
+| 3961 |[Maximize Sum of Device Ratings](src/main/kotlin/g3901_4000/s3961_maximize_sum_of_device_ratings)| Medium | Array, Sorting, Greedy, Matrix, Staff, Weekly_Contest_506 | 6 | 98.67
+| 3960 |[Frequency Balance Subarray](src/main/kotlin/g3901_4000/s3960_frequency_balance_subarray)| Medium | Array, Hash_Table, Counting, Senior, Weekly_Contest_506 | 264 | 98.53
+| 3959 |[Check Good Integer](src/main/kotlin/g3901_4000/s3959_check_good_integer)| Easy | Math, Simulation, Mid_Level, Weekly_Contest_506 | 1 | 92.77
+| 3957 |[Maximum Sum of M Non-Overlapping Subarrays II](src/main/kotlin/g3901_4000/s3957_maximum_sum_of_m_non_overlapping_subarrays_ii)| Hard | Array, Dynamic_Programming, Binary_Search, Prefix_Sum, Sliding_Window, Queue, Monotonic_Queue, Principal, Weekly_Contest_505 | 98 | 93.55
+| 3956 |[Maximum Sum of M Non-Overlapping Subarrays I](src/main/kotlin/g3901_4000/s3956_maximum_sum_of_m_non_overlapping_subarrays_i)| Hard | Array, Dynamic_Programming, Binary_Search, Prefix_Sum, Sliding_Window, Queue, Monotonic_Queue, Senior_Staff, Weekly_Contest_505 | 61 | 91.07
+| 3955 |[Valid Binary Strings With Cost Limit](src/main/kotlin/g3901_4000/s3955_valid_binary_strings_with_cost_limit)| Medium | String, Bit_Manipulation, Backtracking, Enumeration, Senior, Weekly_Contest_505 | 5 | 96.05
+| 3954 |[Sum of Compatible Numbers in Range I](src/main/kotlin/g3901_4000/s3954_sum_of_compatible_numbers_in_range_i)| Easy | Dynamic_Programming, Bit_Manipulation, Enumeration, Mid_Level, Weekly_Contest_505 | 1 | 100.00
+| 3953 |[Maximum Score with Co-Prime Element](src/main/kotlin/g3901_4000/s3953_maximum_score_with_co_prime_element)| Hard | Array, Hash_Table, Math, Enumeration, Number_Theory, Combinatorics, Senior_Staff, Biweekly_Contest_184 | 33 | 100.00
+| 3952 |[Maximum Total Value of Covered Indices](src/main/kotlin/g3901_4000/s3952_maximum_total_value_of_covered_indices)| Medium | Array, String, Dynamic_Programming, Greedy, Staff, Biweekly_Contest_184 | 8 | 93.94
+| 3951 |[Minimum Energy to Maintain Brightness](src/main/kotlin/g3901_4000/s3951_minimum_energy_to_maintain_brightness)| Medium | Array, Sorting, Senior, Biweekly_Contest_184 | 10 | 100.00
+| 3950 |[Exactly One Consecutive Set Bits Pair](src/main/kotlin/g3901_4000/s3950_exactly_one_consecutive_set_bits_pair)| Easy | Bit_Manipulation, Mid_Level, Biweekly_Contest_184 | 1 | 98.26
+| 3948 |[Lexicographically Maximum MEX Array](src/main/kotlin/g3901_4000/s3948_lexicographically_maximum_mex_array)| Hard | Array, Hash_Table, Greedy, Queue, Senior_Staff, Weekly_Contest_504 | 4 | 100.00
+| 3947 |[Maximum Number of Items From Sale II](src/main/kotlin/g3901_4000/s3947_maximum_number_of_items_from_sale_ii)| Medium | Array, Sorting, Greedy, Heap_Priority_Queue, Staff, Weekly_Contest_504 | 20 | 82.93
+| 3946 |[Maximum Number of Items From Sale I](src/main/kotlin/g3901_4000/s3946_maximum_number_of_items_from_sale_i)| Medium | Array, Dynamic_Programming, Greedy, Staff, Weekly_Contest_504 | 13 | 100.00
+| 3945 |[Digit Frequency Score](src/main/kotlin/g3901_4000/s3945_digit_frequency_score)| Easy | Hash_Table, Math, Mid_Level, Weekly_Contest_504 | 1 | 98.46
+| 3943 |[Number of Pairs After Increment](src/main/kotlin/g3901_4000/s3943_number_of_pairs_after_increment)| Hard | Array, Hash_Table, Counting, Divide_and_Conquer, Senior_Staff, Weekly_Contest_503 | 233 | 98.11
+| 3942 |[Minimum Operations to Sort a Permutation](src/main/kotlin/g3901_4000/s3942_minimum_operations_to_sort_a_permutation)| Medium | Array, Staff, Weekly_Contest_503 | 2 | 100.00
+| 3941 |[Password Strength](src/main/kotlin/g3901_4000/s3941_password_strength)| Medium | String, Hash_Table, Senior, Weekly_Contest_503 | 2 | 100.00
+| 3940 |[Limit Occurrences in Sorted Array](src/main/kotlin/g3901_4000/s3940_limit_occurrences_in_sorted_array)| Easy | Array, Two_Pointers, Mid_Level, Weekly_Contest_503 | 1 | 100.00
+| 3939 |[Count Non Adjacent Subsets in a Rooted Tree](src/main/kotlin/g3901_4000/s3939_count_non_adjacent_subsets_in_a_rooted_tree)| Hard | Array, Dynamic_Programming, Depth_First_Search, Tree, Senior_Staff, Biweekly_Contest_183 | 83 | 94.12
+| 3938 |[Maximum Path Intersection Sum in a Grid](src/main/kotlin/g3901_4000/s3938_maximum_path_intersection_sum_in_a_grid)| Medium | Array, Dynamic_Programming, Matrix, Prefix_Sum, Staff, Biweekly_Contest_183 | 9 | 100.00
+| 3937 |[Minimum Operations to Make Array Modulo Alternating I](src/main/kotlin/g3901_4000/s3937_minimum_operations_to_make_array_modulo_alternating_i)| Medium | Array, Enumeration, Senior, Biweekly_Contest_183 | 5 | 98.11
+| 3936 |[Minimum Swaps to Move Zeros to End](src/main/kotlin/g3901_4000/s3936_minimum_swaps_to_move_zeros_to_end)| Easy | Array, Two_Pointers, Mid_Level, Biweekly_Contest_183 | 1 | 99.59
+| 3934 |[Smallest Unique Subarray](src/main/kotlin/g3901_4000/s3934_smallest_unique_subarray)| Hard | Array, Hash_Table, Binary_Search, Hash_Function, Rolling_Hash, Suffix_Array, Senior_Staff, Weekly_Contest_502 | 215 | 100.00
+| 3933 |[Largest Local Values in a Matrix II](src/main/kotlin/g3901_4000/s3933_largest_local_values_in_a_matrix_ii)| Medium | Array, Matrix, Prefix_Sum, Staff, Weekly_Contest_502 | 40 | 100.00
+| 3932 |[Count K-th Roots in a Range](src/main/kotlin/g3901_4000/s3932_count_k_th_roots_in_a_range)| Medium | Math, Binary_Search, Senior, Weekly_Contest_502 | 1 | 100.00
+| 3931 |[Check Adjacent Digit Differences](src/main/kotlin/g3901_4000/s3931_check_adjacent_digit_differences)| Easy | String, Mid_Level, Weekly_Contest_502 | 1 | 100.00
+| 3928 |[Minimum Cost to Buy Apples II](src/main/kotlin/g3901_4000/s3928_minimum_cost_to_buy_apples_ii)| Hard | Array, Heap_Priority_Queue, Shortest_Path, Graph_Theory, Senior_Staff, Weekly_Contest_501 | 694 | 97.40
+| 3927 |[Minimize Array Sum Using Divisible Replacements](src/main/kotlin/g3901_4000/s3927_minimize_array_sum_using_divisible_replacements)| Medium | Array, Hash_Table, Math, Greedy, Number_Theory, Staff, Weekly_Contest_501 | 11 | 96.83
+| 3926 |[Count Valid Word Occurrences](src/main/kotlin/g3901_4000/s3926_count_valid_word_occurrences)| Medium | Array, String, Hash_Table, Counting, Staff, Weekly_Contest_501 | 39 | 98.70
+| 3925 |[Concatenate Array With Reverse](src/main/kotlin/g3901_4000/s3925_concatenate_array_with_reverse)| Easy | Array, Simulation, Mid_Level, Weekly_Contest_501 | 1 | 97.85
+| 3924 |[Minimum Threshold Path With Limited Heavy Edges](src/main/kotlin/g3901_4000/s3924_minimum_threshold_path_with_limited_heavy_edges)| Hard | Breadth_First_Search, Binary_Search, Graph_Theory, Senior_Staff, Biweekly_Contest_182 | 30 | 98.28
+| 3923 |[Minimum Generations to Target Point](src/main/kotlin/g3901_4000/s3923_minimum_generations_to_target_point)| Medium | Array, Hash_Table, Simulation, Staff, Biweekly_Contest_182 | 24 | 100.00
+| 3922 |[Minimum Flips to Make Binary String Coherent](src/main/kotlin/g3901_4000/s3922_minimum_flips_to_make_binary_string_coherent)| Medium | String, Senior, Biweekly_Contest_182 | 4 | 100.00
+| 3921 |[Score Validator](src/main/kotlin/g3901_4000/s3921_score_validator)| Easy | Array, String, Simulation, Mid_Level, Biweekly_Contest_182 | 2 | 91.74
+| 3920 |[Maximize Fixed Points After Deletions](src/main/kotlin/g3901_4000/s3920_maximize_fixed_points_after_deletions)| Hard | Array, Sorting, Binary_Search, Senior_Staff, Weekly_Contest_500 | 19 | 100.00
+| 3919 |[Minimum Cost to Move Between Indices](src/main/kotlin/g3901_4000/s3919_minimum_cost_to_move_between_indices)| Medium | Array, Greedy, Prefix_Sum, Staff, Weekly_Contest_500 | 4 | 100.00
+| 3918 |[Sum of Primes Between Number and Its Reverse](src/main/kotlin/g3901_4000/s3918_sum_of_primes_between_number_and_its_reverse)| Medium | Math, Number_Theory, Senior, Weekly_Contest_500 | 3 | 96.45
+| 3917 |[Count Indices With Opposite Parity](src/main/kotlin/g3901_4000/s3917_count_indices_with_opposite_parity)| Easy | Array, Mid_Level, Weekly_Contest_500 | 1 | 100.00
+| 3915 |[Maximum Sum of Alternating Subsequence With Distance at Least K](src/main/kotlin/g3901_4000/s3915_maximum_sum_of_alternating_subsequence_with_distance_at_least_k)| Hard | Array, Dynamic_Programming, Segment_Tree, Senior_Staff, Weekly_Contest_499 | 113 | 100.00
+| 3914 |[Minimum Operations to Make Array Non Decreasing](src/main/kotlin/g3901_4000/s3914_minimum_operations_to_make_array_non_decreasing)| Medium | Array, Greedy, Staff, Weekly_Contest_499 | 2 | 100.00
+| 3913 |[Sort Vowels by Frequency](src/main/kotlin/g3901_4000/s3913_sort_vowels_by_frequency)| Medium | String, Sorting, Counting, Senior, Weekly_Contest_499 | 9 | 100.00
+| 3912 |[Valid Elements in an Array](src/main/kotlin/g3901_4000/s3912_valid_elements_in_an_array)| Easy | Array, Mid_Level, Weekly_Contest_499 | 1 | 100.00
+| 3911 |[K-th Smallest Remaining Even Integer in Subarray Queries](src/main/kotlin/g3901_4000/s3911_k_th_smallest_remaining_even_integer_in_subarray_queries)| Hard | Array, Binary_Search, Senior_Staff, Biweekly_Contest_181 | 5 | 100.00
+| 3910 |[Count Connected Subgraphs with Even Node Sum](src/main/kotlin/g3901_4000/s3910_count_connected_subgraphs_with_even_node_sum)| Hard | Array, Depth_First_Search, Breadth_First_Search, Bit_Manipulation, Union_Find, Enumeration, Graph_Theory, Senior_Staff, Biweekly_Contest_181 | 2 | 100.00
+| 3909 |[Compare Sums of Bitonic Parts](src/main/kotlin/g3901_4000/s3909_compare_sums_of_bitonic_parts)| Medium | Array, Senior, Biweekly_Contest_181 | 1 | 100.00
+| 3908 |[Valid Digit Number](src/main/kotlin/g3901_4000/s3908_valid_digit_number)| Easy | Math, Mid_Level, Biweekly_Contest_181 | 1 | 98.66
+| 3906 |[Count Good Integers on a Grid Path](src/main/kotlin/g3901_4000/s3906_count_good_integers_on_a_grid_path)| Hard | Dynamic_Programming, Senior_Staff, Weekly_Contest_498 | 7 | 93.94
+| 3905 |[Multi Source Flood Fill](src/main/kotlin/g3901_4000/s3905_multi_source_flood_fill)| Medium | Array, Breadth_First_Search, Matrix, Staff, Weekly_Contest_498 | 33 | 100.00
+| 3904 |[Smallest Stable Index II](src/main/kotlin/g3901_4000/s3904_smallest_stable_index_ii)| Medium | Array, Prefix_Sum, Senior, Weekly_Contest_498 | 3 | 92.71
+| 3903 |[Smallest Stable Index I](src/main/kotlin/g3901_4000/s3903_smallest_stable_index_i)| Easy | Array, Prefix_Sum, Mid_Level, Weekly_Contest_498 | 1 | 99.37
+| 3901 |[Good Subsequence Queries](src/main/kotlin/g3901_4000/s3901_good_subsequence_queries)| Hard | Array, Math, Segment_Tree, Number_Theory, Principal, Weekly_Contest_497 | 20 | 100.00
 | 3900 |[Longest Balanced Substring After One Swap](src/main/kotlin/g3801_3900/s3900_longest_balanced_substring_after_one_swap)| Medium | String, Hash_Table, Prefix_Sum, Staff, Weekly_Contest_497 | 15 | 100.00
 | 3899 |[Angles of a Triangle](src/main/kotlin/g3801_3900/s3899_angles_of_a_triangle)| Medium | Array, Math, Geometry, Senior, Weekly_Contest_497 | 1 | 100.00
 | 3898 |[Find the Degree of Each Vertex](src/main/kotlin/g3801_3900/s3898_find_the_degree_of_each_vertex)| Easy | Array, Matrix, Graph_Theory, Mid_Level, Weekly_Contest_497 | 1 | 100.00
