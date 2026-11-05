@@ -2088,6 +2088,26 @@
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|---------
+| 3992 |[Rearrange String to Avoid Character Pair](src/main/kotlin/g3901_4000/s3992_rearrange_string_to_avoid_character_pair)| Easy | String, Sorting, Two_Pointers, Mid_Level, Biweekly_Contest_187 | 2 | 78.07
+| 3989 |[Maximum Consistent Columns in a Grid](src/main/kotlin/g3901_4000/s3989_maximum_consistent_columns_in_a_grid)| Hard | Array, Dynamic_Programming, Matrix, Senior_Staff, Weekly_Contest_510 | 10 | 94.64
+| 3988 |[Create Grid With Exactly K Paths I](src/main/kotlin/g3901_4000/s3988_create_grid_with_exactly_k_paths_i)| Medium | Array, Math, Matrix, Combinatorics, Staff, Weekly_Contest_510 | 1 | 100.00
+| 3987 |[Minimum Total Cost to Process All Elements](src/main/kotlin/g3901_4000/s3987_minimum_total_cost_to_process_all_elements)| Medium | Array, Math, Simulation, Senior, Weekly_Contest_510 | 2 | 94.04
+| 3986 |[Number of Elapsed Seconds Between Two Times](src/main/kotlin/g3901_4000/s3986_number_of_elapsed_seconds_between_two_times)| Easy | String, Math, Mid_Level, Weekly_Contest_510 | 2 | 72.94
+| 3985 |[Palindromic Subarray Sum](src/main/kotlin/g3901_4000/s3985_palindromic_subarray_sum)| Hard | Array, Binary_Search, Prefix_Sum, Hash_Function, Senior_Staff, Weekly_Contest_509 | 13 | 100.00
+| 3984 |[Divisible Game](src/main/kotlin/g3901_4000/s3984_divisible_game)| Medium | Array, Dynamic_Programming, Math, Enumeration, Number_Theory, Staff, Weekly_Contest_509 | 22 | 93.00
+| 3983 |[Subsequence After One Replacement](src/main/kotlin/g3901_4000/s3983_subsequence_after_one_replacement)| Medium | String, Two_Pointers, Staff, Weekly_Contest_509 | 11 | 98.90
+| 3982 |[Sum of Integers with Maximum Digit Range](src/main/kotlin/g3901_4000/s3982_sum_of_integers_with_maximum_digit_range)| Easy | Array, Math, Mid_Level, Weekly_Contest_509 | 2 | 57.34
+| 3981 |[Count Distinct Ways to Form Target from Two Strings](src/main/kotlin/g3901_4000/s3981_count_distinct_ways_to_form_target_from_two_strings)| Hard | String, Dynamic_Programming, Prefix_Sum, Senior_Staff, Biweekly_Contest_186 | 28 | 100.00
+| 3980 |[Minimum Operations to Transform Binary String](src/main/kotlin/g3901_4000/s3980_minimum_operations_to_transform_binary_string)| Medium | String, Dynamic_Programming, Greedy, Staff, Biweekly_Contest_186 | 10 | 100.00
+| 3979 |[Maximum Valid Pair Sum](src/main/kotlin/g3901_4000/s3979_maximum_valid_pair_sum)| Medium | Array, Enumeration, Senior, Biweekly_Contest_186 | 2 | 59.68
+| 3978 |[Unique Middle Element](src/main/kotlin/g3901_4000/s3978_unique_middle_element)| Easy | Array, Counting, Mid_Level, Biweekly_Contest_186 | 1 | 94.19
+| 3977 |[Minimum Time to Reach Target With Limited Power](src/main/kotlin/g3901_4000/s3977_minimum_time_to_reach_target_with_limited_power)| Hard | Array, Dynamic_Programming, Heap_Priority_Queue, Shortest_Path, Graph_Theory, Senior_Staff, Weekly_Contest_508 | 7 | 98.67
+| 3976 |[Maximum Subarray Sum After Multiplier](src/main/kotlin/g3901_4000/s3976_maximum_subarray_sum_after_multiplier)| Medium | Array, Dynamic_Programming, Staff, Weekly_Contest_508 | 5 | 100.00
+| 3975 |[Filter Occupied Intervals](src/main/kotlin/g3901_4000/s3975_filter_occupied_intervals)| Medium | Array, Sorting, Senior, Weekly_Contest_508 | 63 | 99.08
+| 3974 |[Maximum Total Sum of K Selected Elements](src/main/kotlin/g3901_4000/s3974_maximum_total_sum_of_k_selected_elements)| Medium | Array, Sorting, Greedy, Senior, Weekly_Contest_508 | 18 | 98.38
+| 3971 |[Maximum Total Value](src/main/kotlin/g3901_4000/s3971_maximum_total_value)| Hard | Array, Math, Greedy, Binary_Search, Senior_Staff, Weekly_Contest_507 | 19 | 100.00
+| 3970 |[Shortest Path With At Most K Consecutive Identical Characters](src/main/kotlin/g3901_4000/s3970_shortest_path_with_at_most_k_consecutive_identical_characters)| Medium | String, Heap_Priority_Queue, Shortest_Path, Graph_Theory, Staff, Weekly_Contest_507 | 40 | 97.73
+| 3969 |[Valid Subarrays With Matching Sum Digits I](src/main/kotlin/g3901_4000/s3969_valid_subarrays_with_matching_sum_digits_i)| Medium | Array, Hash_Table, Prefix_Sum, Sliding_Window, Enumeration, Senior, Weekly_Contest_507 | 50 | 98.27
 | 3968 |[Maximum Manhattan Distance After All Moves](src/main/kotlin/g3901_4000/s3968_maximum_manhattan_distance_after_all_moves)| Medium | String, Math, Counting, Senior, Weekly_Contest_507 | 7 | 99.64
 | 3966 |[Count Good Integers in a Range](src/main/kotlin/g3901_4000/s3966_count_good_integers_in_a_range)| Hard | Dynamic_Programming, Math, Senior_Staff, Biweekly_Contest_185 | 3 | 100.00
 | 3965 |[Finish Time of Tasks I](src/main/kotlin/g3901_4000/s3965_finish_time_of_tasks_i)| Medium | Array, Dynamic_Programming, Depth_First_Search, Tree, Staff, Biweekly_Contest_185 | 9 | 99.36
