@@ -2254,6 +2254,7 @@
 | 3801 |[Minimum Cost to Merge Sorted Lists](src/main/kotlin/g3801_3900/s3801_minimum_cost_to_merge_sorted_lists)| Hard | Array, Dynamic_Programming, Binary_Search, Two_Pointers, Bit_Manipulation, Senior_Staff, Weekly_Contest_483 | 251 | 89.19
 | 3800 |[Minimum Cost to Make Two Binary Strings Equal](src/main/kotlin/g3701_3800/s3800_minimum_cost_to_make_two_binary_strings_equal)| Medium | String, Greedy, Staff, Weekly_Contest_483 | 8 | 85.71
 | 3799 |[Word Squares II](src/main/kotlin/g3701_3800/s3799_word_squares_ii)| Medium | Array, String, Sorting, Backtracking, Enumeration, Senior, Weekly_Contest_483 | 5 | 99.15
+| 3798 |[Largest Even Number](src/main/kotlin/g3701_3800/s3798_largest_even_number)| Easy | String, Mid_Level, Weekly_Contest_483 | 0 | 100.00
 | 3797 |[Count Routes to Climb a Rectangular Grid](src/main/kotlin/g3701_3800/s3797_count_routes_to_climb_a_rectangular_grid)| Hard | Array, Dynamic_Programming, Matrix, Prefix_Sum, Senior_Staff, Biweekly_Contest_173 | 89 | 89.19
 | 3796 |[Find Maximum Value in a Constrained Sequence](src/main/kotlin/g3701_3800/s3796_find_maximum_value_in_a_constrained_sequence)| Medium | Array, Greedy, Staff, Biweekly_Contest_173 | 6 | 98.18
 | 3795 |[Minimum Subarray Length With Distinct Sum At Least K](src/main/kotlin/g3701_3800/s3795_minimum_subarray_length_with_distinct_sum_at_least_k)| Medium | Array, Hash_Table, Sliding_Window, Senior, Biweekly_Contest_173 | 88 | 85.14

@@ -74,7 +74,6 @@ One optimal strategy is to:
 ```kotlin
 import kotlin.math.max
 
-
 class Solution {
     fun maximumSum(nums: IntArray, m: Int, l: Int, r: Int): Long {
         val n = nums.size

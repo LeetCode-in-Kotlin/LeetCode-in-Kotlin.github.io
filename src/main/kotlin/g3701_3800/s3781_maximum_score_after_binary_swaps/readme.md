@@ -50,7 +50,6 @@ There are no `'1'` characters in `s`, so no swaps can be performed. The score re
 ```kotlin
 import java.util.PriorityQueue
 
-
 class Solution {
     fun maximumScore(nums: IntArray, s: String): Long {
         var sum: Long = 0

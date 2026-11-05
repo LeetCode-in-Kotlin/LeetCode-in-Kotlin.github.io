@@ -53,7 +53,6 @@ The string already has no `"011"` or `"110"` subsequences, so no flips are neede
 ```kotlin
 import kotlin.math.min
 
-
 class Solution {
     fun minFlips(s: String): Int {
         val n = s.length

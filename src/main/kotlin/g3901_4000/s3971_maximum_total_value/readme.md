@@ -74,7 +74,6 @@ The total value is `4 + 3 = 7`.
 ```kotlin
 import kotlin.math.max
 
-
 class Solution {
     fun maxTotalValue(value: IntArray, decay: IntArray, m: Int): Int {
         if (getCount(value, decay, m, 0) < m) {

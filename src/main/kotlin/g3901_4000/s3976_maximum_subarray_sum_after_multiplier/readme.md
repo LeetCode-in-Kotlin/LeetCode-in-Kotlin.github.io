@@ -53,7 +53,6 @@ Note that the subarray chosen for the operation and the subarray chosen for the 
 ```kotlin
 import kotlin.math.max
 
-
 class Solution {
     fun maxSubarraySum(nums: IntArray, k: Int): Long {
         var max = Long.MIN_VALUE
